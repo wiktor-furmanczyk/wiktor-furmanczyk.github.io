@@ -1,0 +1,115 @@
+---
+---
+
+:root {
+  color-scheme: light dark;
+  --background: #f5f7fb;
+  --surface: #ffffff;
+  --surface-muted: #eaf0f8;
+  --text: #142033;
+  --muted: #59677b;
+  --border: #d6dfeb;
+  --accent: #2563eb;
+  --accent-strong: #1749b4;
+  --focus: #f59e0b;
+  --shadow: 0 18px 45px rgba(24, 39, 75, 0.1);
+  --radius: 18px;
+  --content-width: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #08111f;
+    --surface: #101b2d;
+    --surface-muted: #17243a;
+    --text: #eef4ff;
+    --muted: #aab7ca;
+    --border: #2a3a52;
+    --accent: #7aa7ff;
+    --accent-strong: #a9c5ff;
+    --focus: #fbbf24;
+    --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  background: radial-gradient(circle at 15% 0%, rgba(37, 99, 235, 0.11), transparent 28rem), var(--background);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+a { color: var(--accent); text-underline-offset: 0.2em; }
+a:hover { color: var(--accent-strong); }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 4px; }
+img { display: block; max-width: 100%; height: auto; margin: 2rem auto; border-radius: 14px; box-shadow: var(--shadow); }
+.shell { width: min(calc(100% - 2rem), var(--content-width)); margin-inline: auto; }
+
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.7rem 1rem;
+  color: #07101d;
+  background: var(--focus);
+  border-radius: 8px;
+  transform: translateY(-180%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+.site-header { border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--background) 88%, transparent); backdrop-filter: blur(16px); }
+.header-inner, .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.header-inner { min-height: 4.75rem; }
+.brand { display: inline-flex; align-items: center; gap: 0.75rem; color: var(--text); font-weight: 750; text-decoration: none; }
+.brand-mark { display: grid; width: 2.45rem; aspect-ratio: 1; place-items: center; color: #fff; background: linear-gradient(135deg, #2563eb, #7c3aed); border-radius: 11px; font-size: 0.78rem; letter-spacing: 0.05em; }
+nav { display: flex; gap: 1.25rem; }
+nav a { color: var(--muted); font-weight: 650; text-decoration: none; }
+.page-content { flex: 1; padding-block: clamp(3rem, 7vw, 6.5rem); }
+.page-content > :first-child, .project-page > :first-child { margin-top: 0; }
+h1, h2, h3 { line-height: 1.2; text-wrap: balance; }
+h1 { max-width: 16ch; margin-bottom: 1.25rem; font-size: clamp(2.6rem, 8vw, 5.4rem); letter-spacing: -0.045em; }
+h2 { margin-top: 3.5rem; font-size: clamp(1.65rem, 4vw, 2.3rem); letter-spacing: -0.025em; }
+h3 { margin-top: 2.25rem; }
+p, ul, ol, blockquote { max-width: 48rem; }
+blockquote { margin: 2rem 0; padding: 1.1rem 1.4rem; color: var(--muted); background: var(--surface-muted); border-left: 4px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0; }
+code { padding: 0.15em 0.35em; background: var(--surface-muted); border-radius: 5px; font-size: 0.9em; }
+.project-page { padding: clamp(1.35rem, 4vw, 3rem); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
+.project-page h1 { font-size: clamp(2.25rem, 6vw, 4.2rem); }
+.back-link { display: inline-block; margin-bottom: 2rem; font-weight: 700; text-decoration: none; }
+.project-footer-link { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-weight: 700; }
+
+.media-embed {
+  position: relative;
+  width: 100%;
+  max-width: 60rem;
+  margin-block: 2rem;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+.media-embed iframe, .media-embed video { width: 100%; height: 100%; border: 0; }
+.site-footer { padding-block: 1.5rem; color: var(--muted); border-top: 1px solid var(--border); font-size: 0.92rem; }
+
+@media (max-width: 40rem) {
+  .header-inner, .footer-inner { align-items: flex-start; flex-direction: column; }
+  .header-inner { padding-block: 1rem; }
+  nav { width: 100%; justify-content: space-between; }
+  .footer-inner { gap: 0.5rem; }
+  .project-page { margin-inline: -0.35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
