@@ -1,0 +1,22 @@
+title: Wiktor Furmańczyk
+description: Portfolio, projekty i dokumentacja.
+url: https://wiktor-furmanczyk.github.io
+baseurl: ""
+lang: pl-PL
+author: Wiktor Furmańczyk
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "projects"
+      type: pages
+    values:
+      layout: project
+
+exclude:
+  - README.md
+  - PUBLISHING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
