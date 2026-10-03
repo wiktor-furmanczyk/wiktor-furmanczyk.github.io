@@ -18,22 +18,16 @@ body_class: project-body
     </div>
   </div>
 
-  <div class="phones-showcase" role="img" aria-label="Poglądowa wizualizacja trzech ekranów interfejsu LinguaPilot">
-    <div class="phone phone-left" aria-hidden="true">
-      <div class="phone-speaker"></div><small>9:41</small>
-      <p>Szczegóły</p><strong>5/10</strong><i class="progress-ring"></i>
-      <span class="phone-chip">Szybka sesja</span>
-    </div>
-    <div class="phone phone-center" aria-hidden="true">
-      <div class="phone-speaker"></div><small>9:41</small>
-      <div class="phone-logo">LP</div><b>LinguaPilot</b><em>Małe kroki.<br>Wielkie możliwości.</em>
-      <span>🇬🇧 Angielski</span><span>🇪🇸 Hiszpański</span><span>🇩🇪 Niemiecki</span><span>🇫🇷 Francuski</span>
-    </div>
-    <div class="phone phone-right" aria-hidden="true">
-      <div class="phone-speaker"></div><small>9:41</small>
-      <p>W trakcie</p><div class="flash-card"><b>Journey</b><small>Podróż</small></div>
-      <span class="phone-chip">Nie znam</span>
-    </div>
+  <div class="phones-showcase" role="img" aria-label="Trzy ekrany aplikacji LinguaPilot: tworzenie zestawu, ekran startowy i ćwiczenie z fiszkami">
+    <figure class="phone phone-left" aria-hidden="true">
+      <img src="/assets/projects/lingua-pilot/linguapilot-create-set.jpg" alt="">
+    </figure>
+    <figure class="phone phone-center" aria-hidden="true">
+      <img src="/assets/projects/lingua-pilot/linguapilot-home.jpg" alt="">
+    </figure>
+    <figure class="phone phone-right" aria-hidden="true">
+      <img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="">
+    </figure>
   </div>
 </section>
 
@@ -59,6 +53,21 @@ body_class: project-body
       <div><span aria-hidden="true">▯</span><strong>Krótkie sesje<br>na telefonie</strong></div>
       <div><span aria-hidden="true">◴</span><strong>Przejrzysty przebieg<br>ćwiczeń</strong></div>
       <div><span aria-hidden="true">⌁</span><strong>Wsparcie regularnej<br>nauki</strong></div>
+    </div>
+  </section>
+
+  <section class="app-gallery" aria-labelledby="gallery-title">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">Aplikacja w praktyce</p>
+        <h2 id="gallery-title">Od pomysłu do krótkiej sesji nauki</h2>
+      </div>
+    </div>
+    <div class="app-gallery-grid">
+      <figure><img src="/assets/projects/lingua-pilot/linguapilot-create-set.jpg" alt="Ekran tworzenia zestawu fiszek w LinguaPilot" loading="lazy"><figcaption>Tworzenie zestawu</figcaption></figure>
+      <figure><img src="/assets/projects/lingua-pilot/linguapilot-loading.jpg" alt="Ekran generowania fiszek w LinguaPilot" loading="lazy"><figcaption>Generowanie materiału</figcaption></figure>
+      <figure><img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="Ekran ćwiczenia z fiszką w LinguaPilot" loading="lazy"><figcaption>Ćwiczenie</figcaption></figure>
+      <figure><img src="/assets/projects/lingua-pilot/linguapilot-results.jpg" alt="Ekran wyników sesji w LinguaPilot" loading="lazy"><figcaption>Podsumowanie sesji</figcaption></figure>
     </div>
   </section>
 
