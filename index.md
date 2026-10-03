@@ -52,7 +52,9 @@ body_class: home-page
         <div class="tag-row"><span>Android</span><span>Języki</span></div>
         <a class="card-link" href="/projects/lingua-pilot/">Zobacz projekt <span aria-hidden="true">→</span></a>
       </div>
-      <div class="mini-phone" aria-hidden="true"><span>5/10</span><i></i><i></i><i></i></div>
+      <div class="mini-phone app-preview-phone" aria-hidden="true">
+        <img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="" loading="lazy">
+      </div>
     </article>
 
     <article class="project-card">

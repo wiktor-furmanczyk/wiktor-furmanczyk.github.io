@@ -306,3 +306,222 @@ h3 { margin: 0; font-size: 1.07rem; letter-spacing: -0.025em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
+
+/* 2026 visual refresh: real product imagery and the approved cosmic backdrop. */
+body {
+  background-color: #010713;
+  background-image:
+    linear-gradient(180deg, rgba(1, 7, 19, 0.14) 0%, rgba(1, 7, 19, 0.52) 44rem, #010713 78rem),
+    url("/assets/projects/lingua-pilot/cosmic-portfolio-background.jpg"),
+    radial-gradient(circle at 50% 0%, #06224c 0%, #010713 68%);
+  background-position: top center, top center, top center;
+  background-repeat: no-repeat;
+  background-size: 100% min(100%, 106rem), max(118rem, 100vw) auto, cover;
+  background-attachment: scroll;
+}
+
+body::before {
+  opacity: 0.32;
+  background-image:
+    radial-gradient(circle at 12% 26%, rgba(32, 206, 255, 0.56) 0 1px, transparent 2px),
+    radial-gradient(circle at 78% 14%, rgba(73, 145, 255, 0.5) 0 1px, transparent 2px),
+    linear-gradient(rgba(51, 136, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(51, 136, 255, 0.025) 1px, transparent 1px);
+  background-size: 137px 137px, 191px 191px, 48px 48px, 48px 48px;
+}
+
+.site-header {
+  background: linear-gradient(180deg, rgba(1, 6, 18, 0.9), rgba(1, 7, 19, 0.62));
+}
+
+.header-inner,
+.project-card,
+.content-panel,
+.status-panel,
+.skill-grid > div {
+  backdrop-filter: blur(15px);
+}
+
+.hero {
+  min-height: 610px;
+}
+
+.hero::after {
+  position: absolute;
+  z-index: -1;
+  width: 42rem;
+  height: 23rem;
+  right: -15rem;
+  bottom: 2rem;
+  content: "";
+  background: radial-gradient(ellipse, rgba(0, 166, 255, 0.2), transparent 68%);
+  filter: blur(12px);
+}
+
+.project-card {
+  border-color: rgba(35, 170, 255, 0.52);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 18px 46px rgba(0,0,0,0.34), 0 0 36px rgba(0,112,255,0.06);
+}
+
+.app-preview-phone {
+  padding: 4px;
+  background: #02050d;
+  border-color: #315174;
+}
+
+.app-preview-phone > img,
+.phone > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.app-preview-phone > img {
+  border-radius: 20px 20px 4px 4px;
+}
+
+.product-hero {
+  min-height: 590px;
+  grid-template-columns: 0.78fr 1.22fr;
+}
+
+.phones-showcase {
+  min-height: 470px;
+  isolation: isolate;
+}
+
+.phones-showcase::before {
+  position: absolute;
+  z-index: -1;
+  inset: 8% -5% 2%;
+  content: "";
+  background: radial-gradient(ellipse, rgba(0, 157, 255, 0.24), transparent 68%);
+  filter: blur(16px);
+}
+
+.phone {
+  width: 205px;
+  height: 455px;
+  margin: 0;
+  padding: 5px;
+  background: #02050d;
+  border: 5px solid #2a425e;
+  border-radius: 31px;
+  box-shadow: -18px 28px 42px rgba(0,0,0,0.58), 0 0 26px rgba(0,154,255,0.13);
+}
+
+.phone::after {
+  inset: 5px;
+  border-color: rgba(111, 191, 255, 0.2);
+  border-radius: 23px;
+}
+
+.phone > img {
+  border-radius: 21px;
+}
+
+.phone-left {
+  top: 42px;
+  left: 0;
+  transform: rotate(-8deg);
+}
+
+.phone-center {
+  z-index: 3;
+  top: 0;
+  left: 33%;
+  transform: rotate(1deg);
+}
+
+.phone-right {
+  top: 38px;
+  right: 0;
+  transform: rotate(8deg);
+}
+
+.app-gallery {
+  padding-block: 18px 64px;
+}
+
+.app-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(14px, 2vw, 24px);
+}
+
+.app-gallery-grid figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  padding: 7px;
+  background: linear-gradient(160deg, rgba(17, 52, 102, 0.96), rgba(2, 8, 22, 0.98));
+  border: 1px solid rgba(48, 184, 255, 0.46);
+  border-radius: 26px;
+  box-shadow: 0 22px 45px rgba(0,0,0,0.38), 0 0 30px rgba(0,130,255,0.08);
+  transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
+}
+
+.app-gallery-grid figure:hover {
+  border-color: rgba(55, 222, 255, 0.84);
+  box-shadow: 0 26px 55px rgba(0,0,0,0.44), 0 0 34px rgba(0,174,255,0.15);
+  transform: translateY(-5px);
+}
+
+.app-gallery-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 922 / 2049;
+  object-fit: cover;
+  border-radius: 19px;
+}
+
+.app-gallery-grid figcaption {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 13px 12px;
+  color: #eef8ff;
+  background: rgba(1, 8, 24, 0.82);
+  border: 1px solid rgba(60, 174, 255, 0.34);
+  border-radius: 13px;
+  backdrop-filter: blur(12px);
+  font-size: 0.78rem;
+  font-weight: 750;
+  text-align: center;
+}
+
+@media (max-width: 980px) {
+  .product-hero { grid-template-columns: 0.75fr 1.25fr; }
+  .phone { width: 168px; height: 373px; }
+  .phones-showcase { min-height: 410px; }
+  .app-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  body { background-size: 100% 76rem, auto 54rem, cover; }
+  .hero { min-height: 0; }
+  .product-hero { min-height: 0; }
+  .phones-showcase { min-height: 425px; margin-top: 42px; }
+  .phone { width: 174px; height: 387px; }
+  .phone-left { left: 2%; }
+  .phone-center { left: 50%; transform: translateX(-50%) rotate(1deg); }
+  .phone-right { right: 2%; }
+}
+
+@media (max-width: 480px) {
+  .phones-showcase {
+    min-height: 345px;
+    margin-bottom: -35px;
+    transform: scale(0.78);
+  }
+  .phone { width: 165px; height: 367px; }
+  .phone-left { left: -5%; }
+  .phone-right { right: -5%; }
+  .app-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .app-gallery-grid figure { padding: 4px; border-radius: 18px; }
+  .app-gallery-grid img { border-radius: 14px; }
+  .app-gallery-grid figcaption { right: 8px; bottom: 8px; left: 8px; padding: 9px 6px; font-size: 0.66rem; }
+}
