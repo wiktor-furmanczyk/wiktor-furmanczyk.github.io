@@ -1,31 +1,82 @@
 ---
 layout: project
-title: 'LinguaPilot'
+title: LinguaPilot
+description: Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb.
+permalink: /projects/lingua-pilot/
+body_class: project-body
 ---
 
-# LinguaPilot
+<section class="product-hero section-shell" aria-labelledby="product-title">
+  <div class="product-copy">
+    <a class="back-link" href="/projects/"><span aria-hidden="true">←</span> Wróć do projektów</a>
+    <h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1>
+    <p class="product-lead">Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb użytkownika.</p>
+    <div class="tag-row product-tags"><span>Mobile app</span><span>Języki</span><span>Android</span><span>Kotlin</span></div>
+    <div class="button-row product-actions">
+      <span class="button button-primary button-disabled" aria-disabled="true" aria-label="Publikacja w Google Play jest planowana">▷ Google Play — wkrótce</span>
+      <a class="button button-secondary" href="#status">Status projektu <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
 
-> Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb użytkownika.
+  <div class="phones-showcase" role="img" aria-label="Poglądowa wizualizacja trzech ekranów interfejsu LinguaPilot">
+    <div class="phone phone-left" aria-hidden="true">
+      <div class="phone-speaker"></div><small>9:41</small>
+      <p>Szczegóły</p><strong>5/10</strong><i class="progress-ring"></i>
+      <span class="phone-chip">Szybka sesja</span>
+    </div>
+    <div class="phone phone-center" aria-hidden="true">
+      <div class="phone-speaker"></div><small>9:41</small>
+      <div class="phone-logo">LP</div><b>LinguaPilot</b><em>Małe kroki.<br>Wielkie możliwości.</em>
+      <span>🇬🇧 Angielski</span><span>🇪🇸 Hiszpański</span><span>🇩🇪 Niemiecki</span><span>🇫🇷 Francuski</span>
+    </div>
+    <div class="phone phone-right" aria-hidden="true">
+      <div class="phone-speaker"></div><small>9:41</small>
+      <p>W trakcie</p><div class="flash-card"><b>Journey</b><small>Podróż</small></div>
+      <span class="phone-chip">Nie znam</span>
+    </div>
+  </div>
+</section>
 
-## Jaki problem rozwiązuje?
+<div class="product-content section-shell">
+  <section class="problem-grid" aria-label="Problem i rozwiązanie">
+    <div class="content-panel">
+      <p class="section-kicker">Wyzwanie</p>
+      <h2>Jaki problem rozwiązuje?</h2>
+      <p>Gotowe materiały do nauki języków nie zawsze odpowiadają temu, czego użytkownik potrzebuje w danym momencie. Samodzielne wyszukiwanie i układanie ćwiczeń zabiera czas i utrudnia regularną naukę.</p>
+    </div>
+    <div class="content-panel">
+      <p class="section-kicker">Rozwiązanie</p>
+      <h2>Jak pomaga LinguaPilot?</h2>
+      <p>Aplikacja pozwala skupić naukę na wybranym temacie lub sytuacji. Prowadzi użytkownika przez prostą sesję ćwiczeń, pomagając uczyć się w wygodnym tempie i koncentrować na praktycznych potrzebach.</p>
+    </div>
+  </section>
 
-Gotowe materiały do nauki języków nie zawsze odpowiadają temu, czego użytkownik potrzebuje w danym momencie. Samodzielne wyszukiwanie i układanie odpowiednich ćwiczeń może natomiast zabierać czas i utrudniać regularną naukę.
+  <section class="benefits-section" aria-labelledby="benefits-title">
+    <p class="section-kicker">Dlaczego warto</p>
+    <h2 id="benefits-title">Najważniejsze korzyści</h2>
+    <div class="benefit-grid">
+      <div><span aria-hidden="true">◎</span><strong>Nauka dopasowana<br>do celu</strong></div>
+      <div><span aria-hidden="true">▯</span><strong>Krótkie sesje<br>na telefonie</strong></div>
+      <div><span aria-hidden="true">◴</span><strong>Przejrzysty przebieg<br>ćwiczeń</strong></div>
+      <div><span aria-hidden="true">⌁</span><strong>Wsparcie regularnej<br>nauki</strong></div>
+    </div>
+  </section>
 
-## Jak pomaga LinguaPilot?
+  <section class="product-meta-grid">
+    <div>
+      <p class="section-kicker">Odbiorcy</p>
+      <h2>Dla kogo?</h2>
+      <p>Aplikacja jest przeznaczona dla osób, które chcą uczyć się języków w praktyczny i elastyczny sposób — przed podróżą, do nauki, pracy lub codziennej rozmowy.</p>
+    </div>
+    <div>
+      <p class="section-kicker">Stack</p>
+      <h2>Technologie</h2>
+      <div class="tech-list"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
+    </div>
+  </section>
 
-LinguaPilot pozwala skupić naukę na wybranym temacie lub sytuacji. Aplikacja prowadzi użytkownika przez prostą sesję ćwiczeń, pomagając uczyć się w wygodnym tempie i koncentrować na praktycznych potrzebach.
-
-## Najważniejsze korzyści
-
-- nauka dopasowana do wybranego celu,
-- krótkie sesje wygodne do wykonania na telefonie,
-- przejrzysty przebieg ćwiczeń,
-- wsparcie regularnej i praktycznej nauki.
-
-## Dla kogo?
-
-Aplikacja jest przeznaczona dla osób, które chcą rozwijać znajomość języka w elastyczny sposób — między innymi przed podróżą, nauką, pracą lub codzienną rozmową.
-
-## Status projektu
-
-LinguaPilot jest na wczesnym etapie testów i przygotowania do publikacji w Google Play. Aplikacja nie jest jeszcze szeroko dostępna, a jej zakres może zmieniać się wraz z wynikami testów. Więcej informacji zostanie udostępnionych po zakończeniu kolejnych etapów przygotowań.
+  <section id="status" class="status-panel">
+    <div><p class="section-kicker">Aktualny etap</p><h2>Status projektu</h2></div>
+    <p>LinguaPilot jest na wczesnym etapie testów i przygotowania do publikacji w Google Play. Zakres aplikacji może się zmieniać wraz z wynikami kolejnych testów.</p>
+  </section>
+</div>

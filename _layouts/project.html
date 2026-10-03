@@ -1,11 +1,18 @@
 ---
 layout: default
+body_class: project-body
 ---
 
 <article class="project-page">
-  <a class="back-link" href="{{ '/projects/' | relative_url }}">← Wróć do listy projektów</a>
+  {% unless page.url == '/projects/lingua-pilot/' %}
+  <div class="generic-project-nav">
+    <a class="back-link" href="{{ '/projects/' | relative_url }}">← Wróć do listy projektów</a>
+  </div>
+  {% endunless %}
   {{ content }}
+  {% unless page.url == '/projects/lingua-pilot/' %}
   <div class="project-footer-link">
     <a href="{{ '/' | relative_url }}">Wróć na stronę główną</a>
   </div>
+  {% endunless %}
 </article>
