@@ -7,7 +7,7 @@ permalink: /projects/
 
 # Projekty
 
-Poniżej znajdują się projekty, których materiały zostały przygotowane, sprawdzone i zatwierdzone do publicznej prezentacji.
+Poniżej znajdują się projekty, których materiały zostały przygotowane i zatwierdzone do publicznej prezentacji.
 
 {% assign project_pages = site.pages | where: "layout", "project" | sort: "title" %}
 
@@ -15,4 +15,4 @@ Poniżej znajdują się projekty, których materiały zostały przygotowane, spr
 - [{{ project.title }}]({{ project.url | relative_url }})
 {% endfor %}
 
-[Wróć na stronę główną](/)
+[← Wróć na stronę główną](/)

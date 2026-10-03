@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#0b1220">
+    <meta name="theme-color" content="#020a18">
     {% assign page_title = page.title | default: site.title %}
     {% assign page_description = page.description | default: site.description %}
-    <title>{{ page_title | escape }}{% if page.title %} · {{ site.title | escape }}{% endif %}</title>
+    <title>{{ page_title | escape }}{% if page.title and page.title != site.title %} · VeltoWeb{% endif %}</title>
     <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <meta name="author" content="{{ site.author | escape }}">
     <meta property="og:locale" content="pl_PL">
@@ -15,33 +14,52 @@
     <meta property="og:title" content="{{ page_title | escape }}">
     <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:site_name" content="VeltoWeb">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </head>
-  <body>
+  <body class="{{ page.body_class | default: 'standard-page' }}">
     <a class="skip-link" href="#content">Przejdź do treści</a>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Wiktor Furmańczyk — strona główna">
-          <span class="brand-mark" aria-hidden="true">WF</span>
-          <span>Wiktor Furmańczyk</span>
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="VeltoWeb — strona główna">
+          <span class="brand-mark" aria-hidden="true"><span>V</span></span>
+          <span>Velto<span class="text-accent">Web</span></span>
         </a>
-        <nav aria-label="Główna nawigacja">
-          <a href="{{ '/' | relative_url }}">O mnie</a>
-          <a href="{{ '/projects/' | relative_url }}">Projekty</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+          <span class="sr-only">Otwórz menu</span>
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-navigation" class="site-nav" aria-label="Główna nawigacja">
+          <a href="{{ '/#o-mnie' | relative_url }}">O mnie</a>
+          <a href="{{ '/#projekty' | relative_url }}">Projekty</a>
+          <a href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Blog</a>
+          <a href="{{ '/#kontakt' | relative_url }}">Kontakt</a>
+          <a class="nav-github" href="https://github.com/wiktor-furmanczyk" rel="noopener noreferrer">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.57-.29-5.27-1.28-5.27-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.16 1.18A10.98 10.98 0 0 1 12 6.1c.98 0 1.95.13 2.87.39 2.19-1.49 3.16-1.18 3.16-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.71 5.39-5.29 5.68.42.36.79 1.06.79 2.14v3.27c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
+            GitHub
+          </a>
         </nav>
       </div>
     </header>
 
-    <main id="content" class="shell page-content">
+    <main id="content" class="page-content">
       {{ content }}
     </main>
 
-    <footer class="site-footer">
+    <footer id="kontakt" class="site-footer">
       <div class="shell footer-inner">
-        <span>© {{ site.time | date: '%Y' }} Wiktor Furmańczyk</span>
-        <a href="{{ '/' | relative_url }}">Portfolio</a>
+        <a class="brand footer-brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true"><span>V</span></span> Velto<span class="text-accent">Web</span></a>
+        <p>Praktyczne aplikacje, automatyzacje i rozwiązania AI.</p>
+        <div class="footer-links">
+          <a href="https://github.com/wiktor-furmanczyk" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Facebook</a>
+        </div>
+        <small>© {{ site.time | date: '%Y' }} Wiktor Furmańczyk</small>
       </div>
     </footer>
   </body>
