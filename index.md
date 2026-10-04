@@ -23,29 +23,9 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </div>
   </div>
 
-  <div class="hero-workspace" aria-label="Kompozycja przedstawiająca projekty mobilne, webowe i rozszerzenia przeglądarki">
-    <div class="workspace-laptop" aria-hidden="true">
-      <div class="workspace-screen">
-        <div class="window-bar"><i></i><i></i><i></i><span>VeltoWeb / projects</span></div>
-        <div class="workspace-content">
-          <div class="workspace-sidebar"><b>Workspace</b><span class="is-active">Overview</span><span>Projects</span><span>Automations</span><span>Integrations</span></div>
-          <div class="workspace-main">
-            <div class="workspace-heading"><div><p>Current project</p><strong>LinguaPilot</strong></div><span>In progress</span></div>
-            <div class="workspace-metrics"><span>Android</span><span>Kotlin</span><span>Testing</span></div>
-            <div class="workspace-stats"><span><b>Mobile</b>Android apps</span><span><b>AI</b>integrations</span><span><b>Web</b>tools</span></div>
-            <div class="workspace-preview-lines"><i></i><i></i><i></i></div>
-          </div>
-        </div>
-      </div>
-      <div class="workspace-base"></div>
-    </div>
-    <div class="hero-phone" aria-hidden="true"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="" width="922" height="2049"></div>
-    <div class="extension-popup" aria-hidden="true">
-      <span class="popup-label">Chrome extension</span>
-      <strong>Szybka akcja</strong>
-      <span>Automatyzacja</span><span>Narzędzia webowe</span><button type="button" tabindex="-1">Uruchom</button>
-    </div>
-  </div>
+  <figure class="hero-art">
+    <img src="{{ '/assets/images/hero-laptop.png' | relative_url }}" alt="Laptop z otwartym projektem portfolio VeltoWeb w edytorze kodu" width="1536" height="1024">
+  </figure>
 </section>
 
 <section class="expertise-strip section-shell" aria-label="Obszary działania">
