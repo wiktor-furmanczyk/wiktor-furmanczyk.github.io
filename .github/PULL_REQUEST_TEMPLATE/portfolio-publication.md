@@ -2,12 +2,14 @@
 
 - [ ] Strona główna została zaktualizowana tylko wtedy, gdy strona projektu jest częścią tego PR.
 - [ ] Strona projektu znajduje się w `projects/<slug>/index.md`.
-- [ ] Obrazy pochodzą wyłącznie z zatwierdzonego `public-documentation/images/`.
+- [ ] Treść powstała wyłącznie na podstawie `public-documentation/` jednego wskazanego projektu.
+- [ ] Obrazy pochodzą wyłącznie z jego zatwierdzonego `public-documentation/images/`.
 
 ## Bezpieczeństwo
 
 - [ ] Diff nie zawiera kodu prywatnego, dokumentacji wewnętrznej, konfiguracji, sekretów ani danych klientów.
 - [ ] Nie dodano `solution-brief.md`, `facebook.txt`, `.env`, logów ani plików spoza allowlisty.
+- [ ] Podczas pracy nie odczytywano kodu aplikacji ani jej wewnętrznej dokumentacji.
 - [ ] Linki i iframe prowadzą do zatwierdzonych adresów HTTPS.
 
 ## Weryfikacja

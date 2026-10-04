@@ -14,4 +14,4 @@ Repozytorium jest publikowane przez GitHub Pages z gałęzi `main` i katalogu g�
 - `404.md` — strona błędu,
 - `PUBLISHING.md` — zasady bezpiecznej publikacji.
 
-Źródłem treści jest prywatne repozytorium workspace. Publikacje są przygotowywane ręcznie na osobnych gałęziach i trafiają do `main` dopiero po przeglądzie PR. Szczegóły opisuje [PUBLISHING.md](PUBLISHING.md).
+Informacje o projekcie mogą być pobierane wyłącznie z jego zatwierdzonego katalogu `public-documentation/` w prywatnym Workspace. Agent buduje na tej podstawie treść strony bez odczytywania kodu aplikacji i bez modyfikowania prywatnego repozytorium. Publikacje są przygotowywane osobno w tym repozytorium i trafiają do `main` dopiero po przeglądzie PR. Szczegóły opisuje [PUBLISHING.md](PUBLISHING.md).
