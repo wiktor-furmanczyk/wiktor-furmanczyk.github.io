@@ -26,9 +26,15 @@ if (toggle && navigation) {
   });
 
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
+    if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
       closeMenu();
       toggle.focus();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (toggle.getAttribute('aria-expanded') === 'true' && !event.target.closest('.header-inner')) {
+      closeMenu();
     }
   });
 }

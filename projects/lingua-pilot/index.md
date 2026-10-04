@@ -4,11 +4,13 @@ title: LinguaPilot
 description: Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb.
 permalink: /projects/lingua-pilot/
 body_class: project-body
+image: /assets/projects/lingua-pilot/cosmic-portfolio-background.jpg
+image_alt: Kosmiczne, granatowe tło portfolio VeltoWeb
 ---
 
 <section class="product-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
-    <a class="back-link" href="/projects/"><span aria-hidden="true">←</span> Wróć do projektów</a>
+    <a class="back-link" href="{{ '/projects/' | relative_url }}"><span aria-hidden="true">←</span> Wróć do projektów</a>
     <h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1>
     <p class="product-lead">Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb użytkownika.</p>
     <div class="tag-row product-tags"><span>Mobile app</span><span>Języki</span><span>Android</span><span>Kotlin</span></div>
@@ -20,13 +22,13 @@ body_class: project-body
 
   <div class="phones-showcase" role="img" aria-label="Trzy ekrany aplikacji LinguaPilot: tworzenie zestawu, ekran startowy i ćwiczenie z fiszkami">
     <figure class="phone phone-left" aria-hidden="true">
-      <img src="/assets/projects/lingua-pilot/linguapilot-create-set.jpg" alt="">
+      <img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="" width="922" height="2049">
     </figure>
     <figure class="phone phone-center" aria-hidden="true">
-      <img src="/assets/projects/lingua-pilot/linguapilot-home.jpg" alt="">
+      <img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="" width="922" height="2049">
     </figure>
     <figure class="phone phone-right" aria-hidden="true">
-      <img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="">
+      <img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="" width="922" height="2049">
     </figure>
   </div>
 </section>
@@ -64,10 +66,10 @@ body_class: project-body
       </div>
     </div>
     <div class="app-gallery-grid">
-      <figure><img src="/assets/projects/lingua-pilot/linguapilot-create-set.jpg" alt="Ekran tworzenia zestawu fiszek w LinguaPilot" loading="lazy"><figcaption>Tworzenie zestawu</figcaption></figure>
-      <figure><img src="/assets/projects/lingua-pilot/linguapilot-loading.jpg" alt="Ekran generowania fiszek w LinguaPilot" loading="lazy"><figcaption>Generowanie materiału</figcaption></figure>
-      <figure><img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="Ekran ćwiczenia z fiszką w LinguaPilot" loading="lazy"><figcaption>Ćwiczenie</figcaption></figure>
-      <figure><img src="/assets/projects/lingua-pilot/linguapilot-results.jpg" alt="Ekran wyników sesji w LinguaPilot" loading="lazy"><figcaption>Podsumowanie sesji</figcaption></figure>
+      <figure><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="Formularz tworzenia zestawu fiszek w aplikacji LinguaPilot" loading="lazy" width="922" height="2049"><figcaption>Tworzenie zestawu</figcaption></figure>
+      <figure><img src="{{ '/assets/projects/lingua-pilot/linguapilot-loading.jpg' | relative_url }}" alt="Ekran generowania materiału do nauki w aplikacji LinguaPilot" loading="lazy" width="922" height="2049"><figcaption>Generowanie materiału</figcaption></figure>
+      <figure><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="Fiszka podczas ćwiczenia w aplikacji LinguaPilot" loading="lazy" width="922" height="2049"><figcaption>Ćwiczenie</figcaption></figure>
+      <figure><img src="{{ '/assets/projects/lingua-pilot/linguapilot-results.jpg' | relative_url }}" alt="Podsumowanie wyników sesji w aplikacji LinguaPilot" loading="lazy" width="922" height="2049"><figcaption>Podsumowanie sesji</figcaption></figure>
     </div>
   </section>
 

@@ -4,15 +4,8 @@ body_class: project-body
 ---
 
 <article class="project-page">
-  {% unless page.url == '/projects/lingua-pilot/' %}
-  <div class="generic-project-nav">
-    <a class="back-link" href="{{ '/projects/' | relative_url }}">← Wróć do listy projektów</a>
-  </div>
-  {% endunless %}
   {{ content }}
-  {% unless page.url == '/projects/lingua-pilot/' %}
   <div class="project-footer-link">
-    <a href="{{ '/' | relative_url }}">Wróć na stronę główną</a>
+    <a href="{{ '/projects/' | relative_url }}">← Zobacz wszystkie projekty</a>
   </div>
-  {% endunless %}
 </article>

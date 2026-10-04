@@ -4,6 +4,8 @@ title: Wiktor Furmańczyk
 description: Portfolio VeltoWeb — aplikacje mobilne, automatyzacje i rozwiązania AI.
 permalink: /
 body_class: home-page
+image: /assets/images/veltoweb-og.jpg
+image_alt: Logo VeltoWeb na granatowym, neonowym tle
 ---
 
 <section class="hero section-shell" aria-labelledby="hero-title">
@@ -50,10 +52,11 @@ body_class: home-page
         <div class="card-title-row"><span class="icon-box" aria-hidden="true">LP</span><h3>LinguaPilot</h3></div>
         <p>Mobilna aplikacja wspierająca naukę języków w krótkich, dopasowanych sesjach.</p>
         <div class="tag-row"><span>Android</span><span>Języki</span></div>
-        <a class="card-link" href="/projects/lingua-pilot/">Zobacz projekt <span aria-hidden="true">→</span></a>
+        <p class="card-status"><span aria-hidden="true"></span> Wczesne testy</p>
+        <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
       <div class="mini-phone app-preview-phone" aria-hidden="true">
-        <img src="/assets/projects/lingua-pilot/linguapilot-practice.jpg" alt="" loading="lazy">
+        <img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="" loading="lazy" width="922" height="2049">
       </div>
     </article>
 
@@ -62,17 +65,19 @@ body_class: home-page
         <div class="card-title-row"><span class="icon-box" aria-hidden="true">AI</span><h3>AI Writing Assistant</h3></div>
         <p>Mobilny asystent pisania, który pomaga poprawiać i tłumaczyć tekst bez zmiany aplikacji.</p>
         <div class="tag-row"><span>AI</span><span>Produktywność</span></div>
-        <a class="card-link" href="/projects/writing-assistant-android/">Zobacz projekt <span aria-hidden="true">→</span></a>
+        <p class="card-status"><span aria-hidden="true"></span> Rozwijany i testowany</p>
+        <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
       <div class="writing-preview" aria-hidden="true"><strong>Improve<br>your text</strong><span>✓ Grammar</span><span>↔ Translate</span></div>
     </article>
 
     <article class="project-card">
       <div class="card-copy">
-        <div class="card-title-row"><span class="icon-box" aria-hidden="true">VW</span><h3>Blog VeltoWeb</h3></div>
-        <p>Informacje o projektach, poradniki oraz prezentacje rozwijanych rozwiązań.</p>
-        <div class="tag-row"><span>Blog</span><span>Poradniki</span></div>
-        <a class="card-link" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Odwiedź blog <span aria-hidden="true">→</span></a>
+        <div class="card-title-row"><span class="icon-box" aria-hidden="true">VW</span><h3>VeltoWeb na Facebooku</h3></div>
+        <p>Aktualności, prezentacje rozwijanych projektów i krótkie materiały instruktażowe.</p>
+        <div class="tag-row"><span>Aktualności</span><span>Materiały</span></div>
+        <p class="card-status"><span aria-hidden="true"></span> Profil zewnętrzny</p>
+        <a class="card-link" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Przejdź na Facebooka <span aria-hidden="true">↗</span></a>
       </div>
       <div class="blog-preview" aria-hidden="true"><span></span><span></span><span></span></div>
     </article>
@@ -86,7 +91,7 @@ body_class: home-page
       <h2>O mnie</h2>
       <p>Tworzę i rozwijam praktyczne rozwiązania cyfrowe pod marką VeltoWeb. Łączę programowanie, automatyzację i AI, aby upraszczać codzienne zadania.</p>
     </div>
-    <a class="button button-quiet" href="https://github.com/wiktor-furmanczyk" rel="noopener noreferrer">Dowiedz się więcej <span aria-hidden="true">→</span></a>
+    <a class="button button-quiet" href="https://github.com/wiktor-furmanczyk" rel="noopener noreferrer">Zobacz profil GitHub <span aria-hidden="true">↗</span></a>
   </div>
   <div class="skill-grid">
     <div><span aria-hidden="true">▯</span>Aplikacje mobilne</div>
