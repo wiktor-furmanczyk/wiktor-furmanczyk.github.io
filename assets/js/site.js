@@ -46,17 +46,9 @@ let pointerY = 0;
 const updateParallax = () => {
   parallaxFrame = 0;
   const offset = Math.min(window.scrollY, 2400);
-  document.documentElement.style.setProperty('--parallax-slow', `${offset * -0.018}px`);
-  document.documentElement.style.setProperty('--parallax-fast', `${offset * -0.035}px`);
-  document.documentElement.style.setProperty('--parallax-art', `${offset * -0.012}px`);
-  document.documentElement.style.setProperty('--pointer-x', `${pointerX}px`);
-  document.documentElement.style.setProperty('--pointer-y', `${pointerY}px`);
-  document.documentElement.style.setProperty('--art-x', `${pointerX * -0.35}px`);
-  document.documentElement.style.setProperty('--art-y', `${pointerY * -0.25}px`);
-  document.documentElement.style.setProperty('--network-x', `${pointerX * 0.45}px`);
-  document.documentElement.style.setProperty('--network-y', `${pointerY * 0.35}px`);
-  document.documentElement.style.setProperty('--wave-x', `${pointerX * -0.65}px`);
-  document.documentElement.style.setProperty('--wave-y', `${pointerY * -0.5}px`);
+  document.documentElement.style.setProperty('--parallax-art', `${offset * -0.01}px`);
+  document.documentElement.style.setProperty('--art-x', `${pointerX * -0.22}px`);
+  document.documentElement.style.setProperty('--art-y', `${pointerY * -0.18}px`);
 };
 
 const requestParallaxUpdate = () => {
@@ -67,17 +59,9 @@ const requestParallaxUpdate = () => {
 const resetParallax = () => {
   if (parallaxFrame) window.cancelAnimationFrame(parallaxFrame);
   parallaxFrame = 0;
-  document.documentElement.style.setProperty('--parallax-slow', '0px');
-  document.documentElement.style.setProperty('--parallax-fast', '0px');
   document.documentElement.style.setProperty('--parallax-art', '0px');
-  document.documentElement.style.setProperty('--pointer-x', '0px');
-  document.documentElement.style.setProperty('--pointer-y', '0px');
   document.documentElement.style.setProperty('--art-x', '0px');
   document.documentElement.style.setProperty('--art-y', '0px');
-  document.documentElement.style.setProperty('--network-x', '0px');
-  document.documentElement.style.setProperty('--network-y', '0px');
-  document.documentElement.style.setProperty('--wave-x', '0px');
-  document.documentElement.style.setProperty('--wave-y', '0px');
   requestParallaxUpdate();
 };
 
@@ -97,7 +81,7 @@ observeMediaQuery(motionQuery);
 observeMediaQuery(desktopQuery);
 requestParallaxUpdate();
 
-const homeSections = [...document.querySelectorAll('.home-page main section[id], .home-page footer#kontakt')];
+const homeSections = [...document.querySelectorAll('.home-page main section[id]')];
 const sectionLinks = [...document.querySelectorAll('.site-nav a[href*="#"]')];
 
 if (homeSections.length && sectionLinks.length && 'IntersectionObserver' in window) {
