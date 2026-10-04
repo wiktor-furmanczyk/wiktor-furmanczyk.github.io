@@ -29,12 +29,12 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 </section>
 
 <section class="expertise-strip section-shell" aria-label="Obszary działania">
-  <div><span aria-hidden="true">▯</span>Aplikacje mobilne</div>
-  <div><span aria-hidden="true">▣</span>Aplikacje desktopowe</div>
-  <div><span aria-hidden="true">◉</span>Rozszerzenia Chrome</div>
-  <div><span aria-hidden="true">⌘</span>Narzędzia webowe</div>
-  <div><span aria-hidden="true">⚙</span>Automatyzacje</div>
-  <div><span aria-hidden="true">◇</span>AI i integracje</div>
+  <div><img src="{{ '/assets/images/expertise-mobile.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Aplikacje mobilne</div>
+  <div><img src="{{ '/assets/images/expertise-desktop.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Aplikacje desktopowe</div>
+  <div><img src="{{ '/assets/images/expertise-extension.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Rozszerzenia Chrome</div>
+  <div><img src="{{ '/assets/images/expertise-web.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Narzędzia webowe</div>
+  <div><img src="{{ '/assets/images/expertise-automation.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Automatyzacje</div>
+  <div><img src="{{ '/assets/images/expertise-ai.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI i integracje</div>
 </section>
 
 <section id="projekty" class="projects-section section-shell" aria-labelledby="projects-title">
