@@ -41,7 +41,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   <div class="section-heading">
     <div>
       <p class="section-kicker">Realne projekty</p>
-      <h2 id="projects-title">Moje projekty</h2>
+      <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
       <p>Wybrane produkty tworzone od pomysłu po działający prototyp.</p>
     </div>
     <a class="text-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
@@ -54,7 +54,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <div class="card-phone"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="" loading="lazy" width="922" height="2049"></div>
       </div>
       <div class="project-card-body">
-        <div class="card-title-row"><span class="icon-box" aria-hidden="true">LP</span><div><h3>LinguaPilot</h3><span class="status-badge">W fazie testów</span></div></div>
+        <div class="card-meta-row"><span class="icon-box" aria-hidden="true">LP</span><span class="status-badge">W fazie testów</span></div>
+        <h3>LinguaPilot</h3>
         <p>Aplikacja do nauki języków w krótkich sesjach dopasowanych do aktualnego celu.</p>
         <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Aplikacja</span></div>
         <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
@@ -66,7 +67,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <div class="writing-card-ui" aria-hidden="true"><small>AI Writing Assistant</small><strong>Improve your text</strong><span>✓ Grammar</span><span>↔ Translate</span></div>
       </div>
       <div class="project-card-body">
-        <div class="card-title-row"><span class="icon-box" aria-hidden="true">AI</span><div><h3>AI Writing Assistant</h3><span class="status-badge status-violet">Rozwijany i testowany</span></div></div>
+        <div class="card-meta-row"><span class="icon-box" aria-hidden="true">AI</span><span class="status-badge status-violet">Rozwijany i testowany</span></div>
+        <h3>AI Writing Assistant</h3>
         <p>Mobilny asystent poprawiania i tłumaczenia tekstu dostępny bezpośrednio przy klawiaturze.</p>
         <div class="tag-row"><span>Android</span><span>AI</span><span>Produktywność</span></div>
         <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
@@ -74,7 +76,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </article>
 
     <article class="project-card project-card-upcoming">
-      <div class="upcoming-mark" aria-hidden="true"><span>+</span></div>
+      <div class="upcoming-visual" aria-hidden="true"><div class="upcoming-mark"><span>+</span></div></div>
       <div class="project-card-body">
         <span class="status-badge status-muted">W przygotowaniu</span>
         <h3>Więcej projektów wkrótce</h3>
