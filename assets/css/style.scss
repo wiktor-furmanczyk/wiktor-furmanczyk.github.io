@@ -231,7 +231,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   .hero { display: block; min-height: 0; padding-block: 68px 30px; }.hero-copy { max-width: 620px; }.hero-description { font-size: 1rem; }.hero-art { min-height: 340px; overflow: hidden; overflow: clip; margin-top: 0; }.hero-art img { width: min(600px, 100%); transform: none; }
   .project-grid { grid-template-columns: 1fr; }.project-card { min-height: 0; }.project-card-upcoming { display: flex; grid-column: auto; }.project-card-upcoming .upcoming-visual { height: 220px; flex-basis: 220px; border-right: 0; border-bottom: 0; }.project-card-upcoming .project-card-body { margin-top: -72px; padding-top: 0; }.card-link { margin-top: 24px; padding-top: 0; }.section-heading { align-items: flex-start; flex-direction: column; gap: 18px; }
   .projects-desktop-link { display: none; }.projects-section .projects-mobile-link { display: flex; width: 100%; justify-content: center; margin-top: 24px; }
-  .blog-section { gap: 28px; margin-block: 0; }
+  .blog-section { grid-template-areas: "copy" "cta" "art"; gap: 28px; margin-block: 0; }
   .product-hero { display: block; padding-block: 46px 44px; }.phones-showcase { max-width: 610px; margin: 42px auto 0; }.phone { max-width: 168px; }
   .problem-grid, .product-meta-grid, .status-panel { grid-template-columns: 1fr; }.benefit-list { grid-template-columns: 1fr 1fr; }
   .process-steps { grid-template-columns: 1fr 1fr; }.process-steps li:nth-child(2)::after { display: none; }
