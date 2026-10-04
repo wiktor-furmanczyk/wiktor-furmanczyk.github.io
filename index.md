@@ -102,6 +102,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 18h6m-5 3h4M8.5 14.5a7 7 0 1 1 7 0c-.9.6-1.5 1.4-1.5 2.5h-4c0-1.1-.6-1.9-1.5-2.5Z"/></svg>Projekty</span>
       <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0-5v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/></svg>Kulisy pracy</span>
     </div>
-    <a class="button button-primary blog-cta" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer">Odwiedź VeltoWeb na Facebooku <span aria-hidden="true">↗</span></a>
   </div>
+  <a class="button button-primary blog-cta" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer">Odwiedź VeltoWeb na Facebooku <span aria-hidden="true">↗</span></a>
 </section>
