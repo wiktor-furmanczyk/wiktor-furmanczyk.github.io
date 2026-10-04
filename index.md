@@ -49,9 +49,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 
   <div class="project-grid">
     <article class="project-card project-card-featured">
-      <div class="project-card-visual" aria-hidden="true">
-        <div class="card-phone card-phone-back"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="" loading="lazy" width="922" height="2049"></div>
-        <div class="card-phone"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="" loading="lazy" width="922" height="2049"></div>
+      <div class="project-card-visual">
+        <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="751">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="icon-box" aria-hidden="true">LP</span><span class="status-badge">W fazie testów</span></div>
@@ -63,8 +62,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </article>
 
     <article class="project-card">
-      <div class="project-card-visual writing-card-visual" aria-label="Ilustracyjny układ działań AI Writing Assistant">
-        <div class="writing-card-ui" aria-hidden="true"><small>AI Writing Assistant</small><strong>Improve your text</strong><span>✓ Grammar</span><span>↔ Translate</span></div>
+      <div class="project-card-visual">
+        <img class="project-card-image" src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="Interfejs AI Writing Assistant z funkcjami poprawiania, przeredagowywania i tłumaczenia tekstu" loading="lazy" width="1200" height="751">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="icon-box" aria-hidden="true">AI</span><span class="status-badge status-violet">Rozwijany i testowany</span></div>
@@ -76,7 +75,9 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </article>
 
     <article class="project-card project-card-upcoming">
-      <div class="upcoming-visual" aria-hidden="true"><div class="upcoming-mark"><span>+</span></div></div>
+      <div class="upcoming-visual">
+        <img class="project-card-image" src="{{ '/assets/images/project-upcoming.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="751">
+      </div>
       <div class="project-card-body">
         <span class="status-badge status-muted">W przygotowaniu</span>
         <h3>Więcej projektów wkrótce</h3>
