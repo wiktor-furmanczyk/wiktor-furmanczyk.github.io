@@ -1,6 +1,9 @@
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 const desktopQuery = window.matchMedia('(min-width: 761px)');
+const siteHeader = document.querySelector('.site-header');
 let parallaxFrame = 0;
+let headerFrame = 0;
+let lastHeaderScroll = window.scrollY;
 let pointerX = 0;
 let pointerY = 0;
 
@@ -15,6 +18,24 @@ const updateParallax = () => {
 const requestParallaxUpdate = () => {
   if (motionQuery.matches || !desktopQuery.matches || parallaxFrame) return;
   parallaxFrame = window.requestAnimationFrame(updateParallax);
+};
+
+const updateHeaderVisibility = () => {
+  headerFrame = 0;
+  if (!siteHeader) return;
+
+  const currentScroll = window.scrollY;
+  const scrollDelta = currentScroll - lastHeaderScroll;
+
+  if (currentScroll <= 64 || scrollDelta < -5) siteHeader.classList.remove('is-hidden');
+  else if (currentScroll > 96 && scrollDelta > 5) siteHeader.classList.add('is-hidden');
+
+  if (Math.abs(scrollDelta) > 5 || currentScroll <= 64) lastHeaderScroll = currentScroll;
+};
+
+const requestHeaderUpdate = () => {
+  if (headerFrame) return;
+  headerFrame = window.requestAnimationFrame(updateHeaderVisibility);
 };
 
 const resetParallax = () => {
@@ -32,6 +53,7 @@ const observeMediaQuery = (query) => {
 };
 
 window.addEventListener('scroll', requestParallaxUpdate, { passive: true });
+window.addEventListener('scroll', requestHeaderUpdate, { passive: true });
 window.addEventListener('pointermove', (event) => {
   if (motionQuery.matches || !desktopQuery.matches) return;
   pointerX = ((event.clientX / window.innerWidth) - 0.5) * 14;
