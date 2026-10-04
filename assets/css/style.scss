@@ -156,11 +156,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .project-card-upcoming .project-card-body { padding: 0; }.project-card-upcoming h3 { margin-top: 14px; font-size: 1.3rem; }.project-card-upcoming p { max-width: 310px; }
 .upcoming-mark { display: grid; width: 58px; height: 58px; place-items: center; color: #81bddd; background: rgba(11,42,77,.6); border: 1px solid rgba(74,150,211,.25); border-radius: 15px; font-size: 1.8rem; }
 
-.about-section { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); align-items: center; gap: clamp(40px, 7vw, 90px); margin-block: 36px 72px; padding: clamp(30px, 5vw, 58px); background: linear-gradient(125deg, rgba(4,21,47,.74), rgba(3,13,31,.58)); border: 1px solid var(--border-soft); border-radius: calc(var(--radius) + 4px); box-shadow: var(--shadow); backdrop-filter: blur(14px); }
-.about-copy p:last-child { max-width: 680px; margin-bottom: 0; color: var(--muted); font-size: 1.02rem; }
-.competency-list { display: flex; flex-wrap: wrap; gap: 10px; }
-.competency-list span { padding: 12px 15px; color: #d5e4f5; background: rgba(7,24,51,.6); border: 1px solid var(--border-soft); border-radius: 10px; font-size: .82rem; font-weight: 600; }
-.blog-section { display: flex; align-items: center; justify-content: space-between; gap: 40px; margin-bottom: 90px; padding: 30px 32px; background: linear-gradient(120deg, rgba(7,34,70,.72), rgba(3,14,32,.82)); border: 1px solid var(--border-soft); border-radius: var(--radius); }
+.blog-section { display: flex; align-items: center; justify-content: space-between; gap: 40px; margin-block: 38px 90px; padding: clamp(28px, 4vw, 44px); background: linear-gradient(120deg, rgba(7,34,70,.72), rgba(3,14,32,.82)); border: 1px solid var(--border-soft); border-radius: var(--radius); }
 .blog-section > div { max-width: 720px; }.blog-section p:last-child { margin-bottom: 0; color: var(--muted); }
 
 .product-hero { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); align-items: center; gap: clamp(35px, 5vw, 66px); padding-block: 72px 64px; }
@@ -240,7 +236,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   .site-nav { position: absolute; top: calc(100% + 8px); right: 0; left: 0; display: none; align-items: stretch; padding: 8px; background: rgba(2,10,25,.98); border-color: var(--border); border-radius: 14px; box-shadow: 0 22px 44px rgba(0,0,0,.48); }.site-nav.is-open { display: grid; }.site-nav > a { min-height: 48px; padding-inline: 14px; border-radius: 9px; }.site-nav .nav-github { margin-top: 4px; justify-content: center; }
   .hero { display: block; min-height: 0; padding-block: 58px 38px; }.hero-copy { max-width: 620px; }.hero-description { font-size: 1rem; }.hero-workspace { min-height: 390px; margin-top: 26px; }.workspace-laptop { width: 80%; right: 12%; }.hero-phone { width: 112px; right: 3%; }.extension-popup { top: 2%; right: 1%; }
   .project-grid { grid-template-columns: 1fr; }.project-card-upcoming { grid-column: auto; }.section-heading { align-items: flex-start; flex-direction: column; gap: 18px; }
-  .about-section { grid-template-columns: 1fr; gap: 30px; padding-block: 62px; }.blog-section { align-items: flex-start; flex-direction: column; margin-bottom: 70px; }
+  .blog-section { align-items: flex-start; flex-direction: column; margin-bottom: 70px; }
   .product-hero { display: block; padding-block: 46px 44px; }.phones-showcase { max-width: 610px; margin: 42px auto 0; }.phone { max-width: 168px; }
   .problem-grid, .product-meta-grid, .status-panel { grid-template-columns: 1fr; }.benefit-list { grid-template-columns: 1fr 1fr; }
   .process-steps { grid-template-columns: 1fr 1fr; }.process-steps li:nth-child(2)::after { display: none; }

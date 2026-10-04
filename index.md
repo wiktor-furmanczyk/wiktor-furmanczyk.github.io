@@ -105,22 +105,11 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   </div>
 </section>
 
-<section id="o-mnie" class="about-section section-shell" aria-labelledby="about-title">
-  <div class="about-copy">
-    <p class="section-kicker">Co tworzę</p>
-    <h2 id="about-title">Technologia, która rozwiązuje konkretny problem</h2>
-    <p>Łączę development, automatyzacje i AI w proste, użyteczne produkty. VeltoWeb to miejsce, w którym pokazuję własne projekty — ich założenia, sposób działania i kolejne etapy rozwoju.</p>
-  </div>
-  <div class="competency-list" aria-label="Kompetencje">
-    <span>Aplikacje mobilne</span><span>Aplikacje desktopowe</span><span>Rozszerzenia</span><span>Web</span><span>Automatyzacje</span><span>AI</span>
-  </div>
-</section>
-
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <div>
-    <p class="section-kicker">Notatki i materiały</p>
-    <h2 id="blog-title">Blog VeltoWeb</h2>
-    <p>Publikuję postępy prac, krótkie prezentacje i wnioski z rozwijania własnych produktów. Pełna sekcja artykułów jest w przygotowaniu.</p>
+    <p class="section-kicker">Rozwój, pomysły i kulisy pracy</p>
+    <h2 id="blog-title">Prowadzę blog VeltoWeb na Facebooku</h2>
+    <p>Dzielę się tam swoim rozwojem, przemyśleniami i pomysłami, a także pokazuję aktualne projekty oraz rozwiązania, nad którymi pracuję. To miejsce na krótkie prezentacje, wnioski z pracy i regularne informacje o tym, co właśnie tworzę.</p>
   </div>
-  <a class="button button-secondary" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Aktualności na Facebooku <span aria-hidden="true">↗</span></a>
+  <a class="button button-secondary" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Odwiedź blog na Facebooku <span aria-hidden="true">↗</span></a>
 </section>
