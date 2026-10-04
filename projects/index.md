@@ -26,7 +26,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       </div>
       <p>Wsparcie nauki języków w krótkich sesjach dopasowanych do bieżącego tematu lub sytuacji.</p>
       <div class="tech-list" aria-label="Technologie"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
-      <p class="project-status"><strong>Status:</strong> wczesne testy i przygotowanie do publikacji w Google Play.</p>
+      <p class="project-status"><strong>Status:</strong> w fazie testów i przygotowania do publikacji w Google Play.</p>
       <a class="button button-primary" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
     </div>
   </article>

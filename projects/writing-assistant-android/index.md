@@ -49,11 +49,11 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   <section class="benefits-section" aria-labelledby="benefits-title">
     <p class="section-kicker">Dlaczego warto</p>
     <h2 id="benefits-title">Najważniejsze korzyści</h2>
-    <div class="benefit-grid">
-      <div><span aria-hidden="true">↔</span><strong>Mniej przełączania<br>między aplikacjami</strong></div>
-      <div><span aria-hidden="true">✓</span><strong>Szybsza korekta<br>wiadomości</strong></div>
-      <div><span aria-hidden="true">文</span><strong>Tłumaczenie<br>podczas pisania</strong></div>
-      <div><span aria-hidden="true">↶</span><strong>Cofnięcie ostatniej<br>zmiany</strong></div>
+    <div class="benefit-list">
+      <div><span aria-hidden="true">↔</span><strong>Mniej przełączania między aplikacjami</strong></div>
+      <div><span aria-hidden="true">✓</span><strong>Szybsza korekta wiadomości</strong></div>
+      <div><span aria-hidden="true">文</span><strong>Tłumaczenie podczas pisania</strong></div>
+      <div><span aria-hidden="true">↶</span><strong>Cofnięcie ostatniej zmiany</strong></div>
     </div>
   </section>
 
