@@ -89,10 +89,40 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
-  <div>
-    <p class="section-kicker">Rozwój, pomysły i kulisy pracy</p>
-    <h2 id="blog-title">Prowadzę blog VeltoWeb na Facebooku</h2>
-    <p>Dzielę się tam swoim rozwojem, przemyśleniami i pomysłami, a także pokazuję aktualne projekty oraz rozwiązania, nad którymi pracuję. To miejsce na krótkie prezentacje, wnioski z pracy i regularne informacje o tym, co właśnie tworzę.</p>
+  <div class="blog-copy">
+    <p class="section-kicker">Blog VeltoWeb</p>
+    <h2 id="blog-title">Kulisy pracy i rozwój <span class="text-gradient">projektów</span></h2>
+    <p>Na VeltoWeb dzielę się postępami prac, pomysłami, eksperymentami i krótkimi wnioskami z rozwijania własnych projektów. Pokazuję, nad czym aktualnie pracuję i jak moje rozwiązania powstają krok po kroku.</p>
+    <div class="blog-topics" aria-label="Tematy bloga">
+      <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 20V10m7 10V4m7 16v-7"/></svg>Rozwój</span>
+      <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 18h6m-5 3h4M8.5 14.5a7 7 0 1 1 7 0c-.9.6-1.5 1.4-1.5 2.5h-4c0-1.1-.6-1.9-1.5-2.5Z"/></svg>Projekty</span>
+      <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0-5v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/></svg>Kulisy pracy</span>
+    </div>
+    <a class="button button-primary blog-cta" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Odwiedź VeltoWeb na Facebooku <span aria-hidden="true">↗</span></a>
   </div>
-  <a class="button button-secondary" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Odwiedź blog na Facebooku <span aria-hidden="true">↗</span></a>
+
+  <div class="blog-preview" aria-label="Tematy publikowane na blogu VeltoWeb">
+    <div class="blog-profile">
+      <span class="blog-avatar" aria-hidden="true">V</span>
+      <div><strong>VeltoWeb</strong><small>Rozwój • Projekty • Technologie</small></div>
+      <a href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer"><span aria-hidden="true">●</span> Obserwuj</a>
+    </div>
+    <div class="blog-post-list">
+      <a class="blog-post" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">
+        <img src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="751">
+        <span class="blog-post-copy"><span class="blog-post-meta"><strong>Projekty</strong><small>Aktualne prace</small></span><b>Jak rozwijam LinguaPilot</b><span>Nowe funkcje, postępy prac i kolejne etapy rozwoju aplikacji.</span></span>
+        <span class="blog-post-arrow" aria-hidden="true">›</span>
+      </a>
+      <a class="blog-post" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">
+        <img src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="751">
+        <span class="blog-post-copy"><span class="blog-post-meta"><strong>AI</strong><small>Praktyczne wnioski</small></span><b>Automatyzacja pracy z AI</b><span>Jak wykorzystuję AI i które narzędzia realnie usprawniają pracę.</span></span>
+        <span class="blog-post-arrow" aria-hidden="true">›</span>
+      </a>
+      <a class="blog-post" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">
+        <img src="{{ '/assets/images/veltoweb-og.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="630">
+        <span class="blog-post-copy"><span class="blog-post-meta"><strong>Portfolio</strong><small>Od kuchni</small></span><b>Jak rozwijam VeltoWeb</b><span>Zmiany, decyzje projektowe i usprawnienia, które robią różnicę.</span></span>
+        <span class="blog-post-arrow" aria-hidden="true">›</span>
+      </a>
+    </div>
+  </div>
 </section>
