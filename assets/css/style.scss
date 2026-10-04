@@ -55,7 +55,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 
 .site-background { position: fixed; z-index: -2; inset: 0; overflow: hidden; pointer-events: none; background: #010713; }
 .site-background > div { position: absolute; inset: -5%; will-change: transform; }
-.background-art { opacity: .88; background: url("../images/cosmic-background-v2.jpg") center center / cover no-repeat; filter: saturate(1.04) contrast(1.03); transform: translate3d(var(--art-x), calc(var(--parallax-art) + var(--art-y)), 0) scale(1.07); }
+.background-art { opacity: .88; background: url("../images/portfolio-background-2.jpg") center center / cover no-repeat; filter: saturate(1.04) contrast(1.03); transform: translate3d(var(--art-x), calc(var(--parallax-art) + var(--art-y)), 0) scale(1.07); }
 .background-glow { inset: 0 !important; background: radial-gradient(ellipse 58% 48% at 50% 38%, rgba(1,8,20,.08), rgba(1,8,20,.5) 74%), linear-gradient(180deg, rgba(1,7,18,.12), rgba(1,7,18,.38) 68%, rgba(1,5,13,.72)); }
 .background-vignette { inset: 0 !important; background: linear-gradient(90deg, rgba(0,4,13,.28), transparent 24%, transparent 76%, rgba(0,4,13,.28)), linear-gradient(180deg, rgba(0,4,13,.08), transparent 24%, rgba(0,4,13,.3)); }
 
