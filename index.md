@@ -44,13 +44,13 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
       <p>Wybrane produkty tworzone od pomysłu po działający prototyp.</p>
     </div>
-    <a class="text-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
+    <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
 
   <div class="project-grid">
     <article class="project-card project-card-featured">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="751">
+        <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="900">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="icon-box" aria-hidden="true">LP</span><span class="status-badge">W fazie testów</span></div>
@@ -63,7 +63,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 
     <article class="project-card">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="Interfejs AI Writing Assistant z funkcjami poprawiania, przeredagowywania i tłumaczenia tekstu" loading="lazy" width="1200" height="751">
+        <img class="project-card-image" src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="Interfejs AI Writing Assistant z funkcjami poprawiania, przeredagowywania i tłumaczenia tekstu" loading="lazy" width="1200" height="900">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="icon-box" aria-hidden="true">AI</span><span class="status-badge status-violet">Rozwijany i testowany</span></div>
@@ -86,6 +86,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       </div>
     </article>
   </div>
+  <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
