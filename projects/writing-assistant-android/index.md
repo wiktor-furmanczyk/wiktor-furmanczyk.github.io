@@ -15,7 +15,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <p class="product-lead">Podręczne wsparcie podczas pisania na Androidzie — bez ciągłego przełączania się między aplikacjami.</p>
     <div class="tag-row product-tags"><span>Android</span><span>AI</span><span>Produktywność</span><span>Wielojęzyczność</span></div>
     <div class="button-row product-actions">
-      <a class="button button-primary" href="https://www.facebook.com/reel/2406684763155156" rel="noopener noreferrer">Zobacz prezentację <span aria-hidden="true">↗</span></a>
+      <a class="button button-primary" href="https://www.facebook.com/reel/2406684763155156" target="_blank" rel="noopener noreferrer">Zobacz prezentację <span aria-hidden="true">↗</span></a>
       <a class="button button-secondary" href="#status">Status projektu <span aria-hidden="true">↓</span></a>
     </div>
   </div>
