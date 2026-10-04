@@ -1,58 +1,46 @@
 # Public portfolio instructions
 
-## Purpose and technology
+## Responsibility
 
-This repository is the public VeltoWeb portfolio hosted with GitHub Pages and Jekyll. It is a small server-rendered site, not a React or Node application. Preserve the Jekyll structure and avoid adding a frontend framework unless the user explicitly requests an architectural change.
+This repository is the public VeltoWeb portfolio hosted by GitHub Pages with Jekyll. It is independent from the private `Workspace` repository. All website edits, commits, pushes, and pull requests happen only here.
+
+Do not write to, stage, commit, or push the sibling Workspace during a portfolio task. Do not run a Workspace publishing or synchronization script.
+
+## Private source boundary
+
+For a project page or homepage card, the only permitted private source is the selected project's directory:
+
+```text
+C:\Repozytories\Workspace\projects\...\<project>\public-documentation\
+```
+
+Read only that exact `public-documentation/` tree. Do not inspect application source, internal `docs/`, README files outside the public directory, manifests, configuration, tests, logs, build output, Git history, or sibling projects. If the approved public material does not contain a required fact, ask the user instead of opening private project files.
+
+Use `facebook.txt` only as an optional messaging reference; do not publish it as a website file. Use images only from `public-documentation/images/`.
 
 ## Architecture
 
-- `_config.yml` contains the site identity, public URL, language, permalink configuration, and default project layout.
-- `_layouts/default.html` is the shared document shell: metadata, fonts, stylesheet and script loading, brand header, navigation, `{{ content }}`, and footer.
-- `_layouts/project.html` wraps project pages and supplies standard return navigation. LinguaPilot has its own return link inside its product hero.
-- `assets/css/style.scss` is the source of all site styling. GitHub Pages compiles it to `/assets/css/style.css` because the file starts with Jekyll front matter. Never create or edit generated `style.css` or `_site/` output.
-- `assets/js/site.js` controls only the responsive navigation: open/close state, accessible label, link selection, viewport changes, and Escape handling.
-- `index.md` contains the homepage structure: hero, CSS laptop illustration, selected project cards, About section, and skills.
-- `projects/index.md` builds the project list from pages whose front matter uses `layout: project`.
-- `projects/<slug>/index.md` contains a public project page. LinguaPilot currently uses a custom product layout with CSS-rendered phone mockups.
+- `_config.yml` contains site identity, URL, language, permalinks, and layout defaults.
+- `_layouts/default.html` is the shared document shell.
+- `_layouts/project.html` wraps standard project pages.
+- `assets/css/style.scss` is the stylesheet source. Never create or edit generated `style.css` or `_site/`.
+- `assets/js/site.js` controls responsive navigation.
+- `index.md` owns the public homepage, About content, skills, and project cards.
+- `projects/index.md` builds the project list.
+- `projects/<slug>/index.md` contains a public project page.
 
-Pages are Markdown files with YAML front matter, but they may contain semantic HTML when the design needs structured sections. Keep one meaningful `h1`, working internal anchors, and accessible labels.
+Preserve the existing dark cosmic VeltoWeb system and reuse current components and breakpoints before adding variants. Keep pages accessible, responsive, and limited to one meaningful `h1`.
 
-## Visual system
+## Portfolio workflow
 
-The current portfolio uses a dark cosmic VeltoWeb presentation style:
+Use `.agents/skills/portfolio-site-workflow/SKILL.md` whenever adding or updating a project from Workspace public documentation.
 
-- deep navy background,
-- cyan and electric-blue accents,
-- translucent glass-like panels,
-- subtle glow and orbit decorations,
-- compact Inter typography,
-- responsive desktop, tablet, and mobile layouts.
+Treat approved source material as factual input, not as a file synchronization target. Adapt it to the current website structure and preserve unrelated homepage and project content.
 
-CSS custom properties at the beginning of `assets/css/style.scss` define the palette and shared dimensions. Reuse the existing components and breakpoints before introducing new variants. The laptop, project previews, and LinguaPilot phones are lightweight HTML/CSS illustrations, not image files.
+## Safety and Git
 
-For pixel-accurate replacements, use only explicitly approved public assets. Expected optional assets are an SVG VeltoWeb logo, a transparent laptop render, and approved LinguaPilot screen captures stored under `assets/projects/<slug>/`.
+The public diff may contain only intended website files. It must not contain private source, internal documentation, `solution-brief.md`, configuration, secrets, logs, customer data, build output, or `facebook.txt`.
 
-## Content source and synchronization
+Before a requested push, verify that `origin` is `wiktor-furmanczyk/wiktor-furmanczyk.github.io`, review the committed diff, and confirm no Workspace path is staged. Push or open a PR only when explicitly requested.
 
-The approved content source is the separate private workspace, usually `C:\Workspace`:
-
-- workspace `docs/portfolio-home.md` maps to this repository's `index.md`,
-- workspace `projects/veltoweb/android-apps/<slug>/public-documentation/github/project-page.md` maps to `projects/<slug>/index.md`,
-- workspace `public-documentation/images/` maps to `assets/projects/<slug>/`.
-
-If homepage or project content changes, update the workspace source and keep it equivalent to the public copy. Layout, SCSS, JavaScript, Jekyll configuration, and shared website components live only in this public repository.
-
-Do not copy private application code, internal documentation, `solution-brief.md`, `facebook.txt`, configuration, secrets, logs, or unapproved images into this repository.
-
-## Verification
-
-Before handoff or PR publication:
-
-1. Run the workspace portfolio validator for every affected project and related project slug.
-2. Run `tools/portfolio/Test-PortfolioPublishing.ps1` when the publication mechanism or accepted page structure changes.
-3. Run `git diff --check` in both repositories.
-4. Check internal links, HTML tag balance, CSS brace balance, and mobile navigation behavior.
-5. Build with Jekyll and inspect desktop/mobile rendering when those tools are available. If they are unavailable, state this explicitly and require visual confirmation in the GitHub Pages preview before merge.
-6. Confirm that the public diff contains only intended public website files.
-
-The workspace and this website are independent repositories. Never imply that both are committed or published when only one has passed its commit, remote-hash, and PR verification gates.
+Ignore every `_private` directory unless the user explicitly requests it.

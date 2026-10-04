@@ -1,30 +1,37 @@
 # Publikowanie materiałów portfolio
 
-Prywatne repozytorium workspace jest jedynym źródłem treści. To repozytorium przyjmuje wyłącznie materiały zatwierdzone do publicznego udostępnienia.
+Repozytorium strony jest niezależne od prywatnego `Workspace`. Nie istnieje automatyczna synchronizacja ani skrypt publikujący między repozytoriami.
 
-## Dozwolone mapowanie
+## Źródło informacji o projekcie
 
-| Źródło w workspace | Cel publiczny |
+Dla jednego zadania wybierz jeden konkretny projekt w `C:\Repozytories\Workspace\projects\`. Jedynym dozwolonym źródłem prywatnym jest jego katalog:
+
+```text
+<project>/public-documentation/
+```
+
+Nie odczytuj kodu aplikacji, wewnętrznego `docs/`, konfiguracji, manifestów, testów, logów, buildów ani innych projektów. Jeśli brakuje informacji potrzebnej na stronie, poproś użytkownika o jej podanie.
+
+## Dozwolone wykorzystanie
+
+| Źródło | Zastosowanie w portfolio |
 | --- | --- |
-| `docs/portfolio-home.md` | `index.md` |
-| `<projekt>/public-documentation/github/project-page.md` | `projects/<slug>/index.md` |
-| `<projekt>/public-documentation/images/*` | `assets/projects/<slug>/*` |
+| `public-documentation/github/project-page.md` | fakty i treść strony `projects/<slug>/index.md` oraz skrótu na `index.md` |
+| `public-documentation/images/*` | wybrane obrazy w `assets/projects/<slug>/` |
+| `public-documentation/facebook.txt` | opcjonalny kontekst językowy; nigdy osobny plik strony |
 
-Nie wolno kopiować dokumentacji wewnętrznej, `facebook.txt`, kodu źródłowego, testów aplikacji, konfiguracji, sekretów, plików `.env`, logów ani obrazów spoza `public-documentation/images/`.
+Treść należy dopasować do aktualnego układu Jekyll i stylu portfolio. Nie trzeba utrzymywać kopii jeden do jednego. Strona główna, układ, style i nawigacja są własnością tego repozytorium.
 
 ## Proces
 
-1. Sprawdź publiczną dokumentację projektu w prywatnym workspace.
-2. Uruchom walidację narzędziem `tools/portfolio/Publish-Portfolio.ps1 -ValidateOnly` z prywatnego repozytorium.
-3. Przejrzyj tekst, obrazy, linki i iframe pod kątem poufności oraz praw do publikacji.
-4. Utwórz osobną gałąź z aktualnego `origin/main`.
-5. Uruchom kontrolowane kopiowanie z parametrem `-ConfirmPublication`.
-6. Przejrzyj publiczny diff i potwierdź, że zawiera tylko dozwolone materiały.
-7. Sprawdź build i wygląd strony lokalnie, jeśli narzędzia są dostępne.
-8. Utwórz commit, wypchnij gałąź i przygotuj PR. Nie scalaj PR automatycznie.
-
-Strona główna nie powinna zawierać projektu, którego dedykowana strona nie jest częścią tego samego PR.
+1. Wskaż repozytorium publiczne jako jedyny cel zmian.
+2. Ustal dokładny projekt i odczytaj wyłącznie jego `public-documentation/`.
+3. Zaktualizuj stronę projektu, odpowiednią kartę na stronie głównej i tylko potrzebne, zatwierdzone obrazy.
+4. Zachowaj pozostałe projekty i treść właściciela.
+5. Sprawdź prywatność, linki, ścieżki, teksty alternatywne, strukturę HTML i responsywność.
+6. Przejrzyj diff wyłącznie w tym repozytorium.
+7. Commit, push i PR wykonaj tylko zgodnie z poleceniem użytkownika i tylko dla publicznego `origin`.
 
 ## Multimedia
 
-Obrazy muszą mieć tekst alternatywny. Filmy osadzaj responsywnie w kontenerze `.media-embed`. Iframe musi używać HTTPS i mieć co najmniej `title`, `loading="lazy"`, `referrerpolicy` oraz ograniczający `sandbox`. Jeśli dostawca blokuje osadzanie, użyj zwykłego linku.
+Obrazy muszą pochodzić z wybranego `public-documentation/images/` i mieć tekst alternatywny. Filmy osadzaj responsywnie przez HTTPS. Iframe powinien mieć co najmniej `title`, `loading="lazy"`, `referrerpolicy`, ograniczający `sandbox` oraz zwykły link awaryjny.
