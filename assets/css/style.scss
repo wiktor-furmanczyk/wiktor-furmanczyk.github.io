@@ -148,7 +148,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .blog-topics { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 .blog-topics > span { display: inline-flex; min-height: 50px; align-items: center; gap: 10px; padding: 0 18px; color: #e2f3ff; background: linear-gradient(180deg, rgba(15,56,105,.72), rgba(5,24,54,.74)); border: 1px solid rgba(67,167,239,.58); border-radius: 999px; box-shadow: inset 0 1px rgba(255,255,255,.07), 0 10px 26px rgba(0,0,0,.16); font-size: .82rem; font-weight: 750; }
 .blog-topics svg { width: 20px; height: 20px; fill: none; stroke: #39dbff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; filter: drop-shadow(0 0 7px rgba(34,209,255,.42)); }
-.blog-cta { min-width: 330px; grid-area: cta; align-self: start; justify-self: end; margin-top: 0; }
+.blog-cta { min-width: 330px; grid-area: cta; align-self: start; justify-self: start; margin-top: 0; }
 .blog-art { position: relative; display: block; width: 100%; max-width: 680px; height: auto; aspect-ratio: 4 / 3; grid-area: art; align-self: center; justify-self: center; overflow: hidden; overflow: clip; text-decoration: none; filter: drop-shadow(0 30px 40px rgba(0,0,0,.5)); transition: filter .35s ease, transform .45s cubic-bezier(.2,.7,.2,1); }
 .blog-art::before { position: absolute; z-index: -1; width: 74%; height: 66%; inset: 18% 7% auto auto; content: ""; background: rgba(0,135,255,.24); border-radius: 50%; filter: blur(55px); opacity: .62; }
 .blog-art img { display: block; width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: contain; object-position: center; }
