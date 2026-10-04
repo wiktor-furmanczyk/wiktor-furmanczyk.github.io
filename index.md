@@ -12,8 +12,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Witam na moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">Tworzę praktyczne rozwiązania cyfrowe</p>
-    <p class="hero-description">Aplikacje mobilne i desktopowe, rozszerzenia przeglądarek, narzędzia webowe, automatyzacje i integracje AI, które pomagają upraszczać codzienne zadania.</p>
+    <p class="hero-lead">Projektuję i rozwijam praktyczne produkty cyfrowe</p>
+    <p class="hero-description">Od aplikacji mobilnych i desktopowych po narzędzia webowe, automatyzacje i integracje AI — tworzę rozwiązania, które upraszczają codzienną pracę.</p>
     <div class="button-row">
       <a class="button button-primary" href="#projekty">Zobacz projekty <span aria-hidden="true">→</span></a>
       <a class="button button-secondary" href="https://github.com/wiktor-furmanczyk" rel="noopener noreferrer">
@@ -28,11 +28,12 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <div class="workspace-screen">
         <div class="window-bar"><i></i><i></i><i></i><span>VeltoWeb / projects</span></div>
         <div class="workspace-content">
-          <div class="workspace-sidebar"><b>Projects</b><span>LinguaPilot</span><span>Writing Assistant</span><span>Automations</span></div>
+          <div class="workspace-sidebar"><b>Workspace</b><span class="is-active">Overview</span><span>Projects</span><span>Automations</span><span>Integrations</span></div>
           <div class="workspace-main">
-            <p>Current project</p><strong>LinguaPilot</strong>
-            <div class="workspace-metrics"><span>Android</span><span>Kotlin</span><span>Tests</span></div>
-            <div class="workspace-preview-lines"><i></i><i></i><i></i><i></i></div>
+            <div class="workspace-heading"><div><p>Current project</p><strong>LinguaPilot</strong></div><span>In progress</span></div>
+            <div class="workspace-metrics"><span>Android</span><span>Kotlin</span><span>Testing</span></div>
+            <div class="workspace-stats"><span><b>Mobile</b>Android apps</span><span><b>AI</b>integrations</span><span><b>Web</b>tools</span></div>
+            <div class="workspace-preview-lines"><i></i><i></i><i></i></div>
           </div>
         </div>
       </div>
@@ -61,7 +62,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <div>
       <p class="section-kicker">Realne projekty</p>
       <h2 id="projects-title">Moje projekty</h2>
-      <p>Praktyczne rozwiązania, które tworzę i rozwijam.</p>
+      <p>Wybrane produkty tworzone od pomysłu po działający prototyp.</p>
     </div>
     <a class="text-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
@@ -74,7 +75,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       </div>
       <div class="project-card-body">
         <div class="card-title-row"><span class="icon-box" aria-hidden="true">LP</span><div><h3>LinguaPilot</h3><span class="status-badge">W fazie testów</span></div></div>
-        <p>Nauka języków w krótkich sesjach, dopasowanych do bieżących potrzeb.</p>
+        <p>Aplikacja do nauki języków w krótkich sesjach dopasowanych do aktualnego celu.</p>
         <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Aplikacja</span></div>
         <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
@@ -86,7 +87,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       </div>
       <div class="project-card-body">
         <div class="card-title-row"><span class="icon-box" aria-hidden="true">AI</span><div><h3>AI Writing Assistant</h3><span class="status-badge status-violet">Rozwijany i testowany</span></div></div>
-        <p>Asystent pisania dostępny przy klawiaturze, bez ciągłego przełączania aplikacji.</p>
+        <p>Mobilny asystent poprawiania i tłumaczenia tekstu dostępny bezpośrednio przy klawiaturze.</p>
         <div class="tag-row"><span>Android</span><span>AI</span><span>Produktywność</span></div>
         <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
@@ -107,8 +108,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 <section id="o-mnie" class="about-section section-shell" aria-labelledby="about-title">
   <div class="about-copy">
     <p class="section-kicker">Co tworzę</p>
-    <h2 id="about-title">Rozwiązania oparte na realnych potrzebach</h2>
-    <p>Łączę development, automatyzacje i AI, aby budować praktyczne narzędzia, których wygodnie używa się na co dzień. VeltoWeb jest miejscem, w którym pokazuję własne projekty, sposób pracy i rozwój.</p>
+    <h2 id="about-title">Technologia, która rozwiązuje konkretny problem</h2>
+    <p>Łączę development, automatyzacje i AI w proste, użyteczne produkty. VeltoWeb to miejsce, w którym pokazuję własne projekty — ich założenia, sposób działania i kolejne etapy rozwoju.</p>
   </div>
   <div class="competency-list" aria-label="Kompetencje">
     <span>Aplikacje mobilne</span><span>Aplikacje desktopowe</span><span>Rozszerzenia</span><span>Web</span><span>Automatyzacje</span><span>AI</span>
@@ -119,7 +120,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   <div>
     <p class="section-kicker">Notatki i materiały</p>
     <h2 id="blog-title">Blog VeltoWeb</h2>
-    <p>Dzielę się postępami projektów i krótkimi prezentacjami rozwijanych rozwiązań. Pełna sekcja wpisów jest w przygotowaniu.</p>
+    <p>Publikuję postępy prac, krótkie prezentacje i wnioski z rozwijania własnych produktów. Pełna sekcja artykułów jest w przygotowaniu.</p>
   </div>
   <a class="button button-secondary" href="https://www.facebook.com/VeltoWeb" rel="noopener noreferrer">Aktualności na Facebooku <span aria-hidden="true">↗</span></a>
 </section>
