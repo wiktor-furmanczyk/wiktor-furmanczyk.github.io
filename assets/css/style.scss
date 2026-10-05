@@ -74,7 +74,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .home-page .page-content { display: flex; flex-direction: column; gap: var(--home-section-gap); }
 .home-page { --home-section-gap: clamp(32px, 4vw, 56px); }
 .home-page .hero { padding-bottom: 0; }
-.home-page .expertise-strip { margin-bottom: 0; }
+.home-page .expertise-strip { margin-bottom: 0; border-top: 0; }
 .home-page .projects-section, .home-page .blog-section { padding-block: 0; }
 .home-page .site-footer { margin-top: var(--home-section-gap); }
 .eyebrow, .section-kicker { margin: 0 0 13px; color: #56dcff; font-size: 0.72rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
