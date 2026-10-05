@@ -1,10 +1,13 @@
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 const desktopQuery = window.matchMedia('(min-width: 761px)');
+const wheelInertiaQuery = window.matchMedia('(min-width: 761px) and (hover: hover) and (pointer: fine)');
 const siteHeader = document.querySelector('.site-header');
 const scrollFocusTargets = document.querySelectorAll('.home-page .expertise-strip > div, .home-page .project-card, .home-page .blog-cta, .projects-page .showcase-project, .projects-page .projects-upcoming, .project-body .project-facts > article, .project-body .content-panel, .project-body .process-screens figure, .project-body .process-steps li, .project-body .lingua-gallery-grid figure, .project-body .project-status-bar, .project-body .product-meta-grid > *, .project-body .status-panel');
 let parallaxFrame = 0;
 let headerFrame = 0;
 let scrollFocusFrame = 0;
+let wheelScrollFrame = 0;
+let wheelScrollTarget = 0;
 let lastHeaderScroll = window.scrollY;
 let pointerX = 0;
 let pointerY = 0;
@@ -76,6 +79,43 @@ const requestScrollFocusUpdate = () => {
   scrollFocusFrame = window.requestAnimationFrame(updateScrollFocus);
 };
 
+const cancelWheelScroll = () => {
+  if (wheelScrollFrame) window.cancelAnimationFrame(wheelScrollFrame);
+  wheelScrollFrame = 0;
+  const scrollRoot = document.scrollingElement;
+  wheelScrollTarget = scrollRoot ? scrollRoot.scrollTop : window.scrollY;
+};
+
+const updateWheelScroll = () => {
+  wheelScrollFrame = 0;
+  const scrollRoot = document.scrollingElement;
+  if (!scrollRoot || motionQuery.matches || !wheelInertiaQuery.matches) return;
+
+  const distance = wheelScrollTarget - scrollRoot.scrollTop;
+  if (Math.abs(distance) < 0.6) {
+    scrollRoot.scrollTop = wheelScrollTarget;
+    return;
+  }
+
+  scrollRoot.scrollTop += distance * 0.2;
+  wheelScrollFrame = window.requestAnimationFrame(updateWheelScroll);
+};
+
+const handleWheelScroll = (event) => {
+  if (!wheelInertiaQuery.matches || motionQuery.matches || event.ctrlKey || event.deltaMode !== 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) || event.deltaY === 0) return;
+
+  event.preventDefault();
+  const scrollRoot = document.scrollingElement;
+  if (!scrollRoot) return;
+  if (!wheelScrollFrame) wheelScrollTarget = scrollRoot.scrollTop;
+
+  const delta = event.deltaY * 16;
+  const momentum = Math.sign(delta) * Math.min(12, Math.abs(delta) * 0.16);
+  const maxScroll = scrollRoot.scrollHeight - window.innerHeight;
+  wheelScrollTarget = Math.max(0, Math.min(maxScroll, wheelScrollTarget + delta + momentum));
+  if (!wheelScrollFrame) wheelScrollFrame = window.requestAnimationFrame(updateWheelScroll);
+};
+
 const resetScrollFocus = () => {
   if (scrollFocusFrame) window.cancelAnimationFrame(scrollFocusFrame);
   scrollFocusFrame = 0;
@@ -103,6 +143,9 @@ const observeMediaQuery = (query, callback) => {
 window.addEventListener('scroll', requestParallaxUpdate, { passive: true });
 window.addEventListener('scroll', requestHeaderUpdate, { passive: true });
 window.addEventListener('scroll', requestScrollFocusUpdate, { passive: true });
+window.addEventListener('wheel', handleWheelScroll, { passive: false });
+window.addEventListener('pointerdown', cancelWheelScroll, { passive: true });
+window.addEventListener('keydown', cancelWheelScroll, { passive: true });
 window.addEventListener('resize', requestScrollFocusUpdate, { passive: true });
 window.addEventListener('pointermove', (event) => {
   if (motionQuery.matches || !desktopQuery.matches) return;
@@ -111,6 +154,7 @@ window.addEventListener('pointermove', (event) => {
   requestParallaxUpdate();
 }, { passive: true });
 observeMediaQuery(motionQuery, () => {
+  cancelWheelScroll();
   resetParallax();
   resetScrollFocus();
 });
