@@ -10,7 +10,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
 
 <section class="product-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
-    <a class="back-link" href="{{ '/projects/' | relative_url }}"><span aria-hidden="true">←</span> Wróć do projektów</a>
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / LinguaPilot</p>
     <div class="product-title-row"><span class="product-icon" aria-hidden="true">LP</span><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
     <p class="product-lead">Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p>
@@ -71,7 +70,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <div class="section-heading">
       <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="gallery-title">LinguaPilot w praktyce</h2></div>
     </div>
-    <div class="lingua-gallery-grid">
+    <div class="lingua-gallery-grid" role="region" aria-label="Przewijana galeria pięciu ekranów LinguaPilot" tabindex="0">
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="Tworzenie zestawu fiszek i wybór tematu" loading="lazy" width="922" height="2049"></div><figcaption><strong>Tworzenie zestawu</strong><small>Wybierz temat i przygotuj materiał.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="Ekran główny aplikacji LinguaPilot" loading="lazy" width="922" height="2049"></div><figcaption><strong>Ekran startowy</strong><small>Szybki dostęp do nauki.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-loading.jpg' | relative_url }}" alt="Przygotowywanie materiału do nauki" loading="lazy" width="922" height="2049"></div><figcaption><strong>Przygotowanie</strong><small>Chwila przed rozpoczęciem sesji.</small></figcaption></figure>

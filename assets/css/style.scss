@@ -200,7 +200,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .lingua-project .back-link { margin-bottom: 18px; }
 .product-eyebrow { display: flex; align-items: center; gap: 8px; margin: 0 0 14px; color: #83b9df; font-size: .63rem; font-weight: 800; letter-spacing: .17em; text-transform: uppercase; }
 .product-eyebrow span { width: 6px; height: 6px; background: var(--cyan); border-radius: 50%; box-shadow: 0 0 10px rgba(32,217,255,.75); }
-.lingua-project .product-title-row { gap: 12px; }
+.lingua-project .product-title-row { align-items: center; gap: 12px; }
 .lingua-project .product-title-row .product-icon { flex-basis: 48px; height: 48px; border-radius: 13px; font-size: .72rem; }
 .lingua-project .product-copy h1 { font-size: clamp(2.8rem, 5vw, 4.4rem); }
 .lingua-project .product-lead { margin-top: 12px; font-size: clamp(1.12rem, 1.8vw, 1.42rem); }
@@ -234,6 +234,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .lingua-gallery-grid figcaption { display: grid; gap: 3px; width: 100%; text-align: center; }
 .lingua-gallery-grid figcaption strong { font-size: .7rem; transition: color .25s ease; }
 .lingua-gallery-grid figcaption small { color: var(--muted); font-size: .61rem; line-height: 1.4; }
+.lingua-gallery-grid:focus-visible { outline: 3px solid #8bebff; outline-offset: 4px; border-radius: 8px; }
 .lingua-tech-section { display: grid; grid-template-columns: minmax(220px, .82fr) 1.18fr; align-items: center; gap: 30px; padding-block: 20px; border-block: 1px solid var(--border-soft); }
 .lingua-tech-heading .section-kicker { margin-bottom: 6px; font-size: .6rem; }
 .lingua-tech-heading h2 { margin: 0; font-size: 1.12rem; }
@@ -250,7 +251,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .lingua-status-indicator::after { position: absolute; inset: -5px; content: ""; border: 1px solid rgba(66,229,174,.42); border-radius: 50%; animation: lingua-status-pulse 2.4s ease-out infinite; }
 @keyframes lingua-status-pulse { 0% { opacity: .75; transform: scale(.7); } 100% { opacity: 0; transform: scale(1.55); } }
 .lingua-status-bar > p { max-width: 760px; margin: 0; color: #a9bbd0; font-size: .75rem; line-height: 1.55; }
-.lingua-project .product-footer-link { margin-bottom: 38px; }
+.lingua-project .project-footer-link { margin-bottom: 36px; padding-top: 18px; }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .lingua-project .phone-left:hover { z-index: 3; transform: translateY(-10px) rotate(-1.5deg) scale(1.045); }
@@ -267,35 +268,42 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   .lingua-gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
-  .lingua-project .product-hero { padding-top: 78px; padding-bottom: 30px; }
+  .lingua-project .product-hero { padding-top: 74px; padding-bottom: 26px; }
   .lingua-project .product-copy { max-width: 680px; }
   .lingua-project .problem-grid { grid-template-columns: 1fr; }
-  .lingua-project .phones-showcase { max-width: 480px; margin-top: 24px; padding-top: 14px; }
-  .lingua-project .phone { max-width: 148px; }
-  .lingua-project .phone-center { transform: translateY(-10px); }
-  .lingua-content { gap: 28px; padding-bottom: 42px; }
+  .lingua-project .phones-showcase { width: 100%; max-width: 480px; margin-top: 18px; padding: 12px 2px 8px; }
+  .lingua-project .phone { max-width: 142px; padding: 3px; border-width: 3px; border-radius: 21px; }
+  .lingua-project .phone img { border-radius: 15px; }
+  .lingua-project .phone-center { transform: translateY(-8px); }
+  .lingua-content { gap: 24px; padding-bottom: 34px; }
   .lingua-project .content-panel { padding: 20px; }
+  .lingua-project .content-panel h2 { font-size: 1.08rem; }
+  .lingua-project .content-panel p:last-child { font-size: .82rem; }
   .lingua-project .lingua-process .process-steps { grid-template-columns: 1fr; gap: 9px; }
   .lingua-project .lingua-process .process-steps li { min-height: 0; }
   .lingua-project .lingua-process .process-steps li:not(:last-child)::after { display: none; }
-  .lingua-gallery-grid { grid-auto-columns: minmax(132px, 42vw); grid-auto-flow: column; grid-template-columns: none; gap: 10px; overflow-x: auto; padding: 3px 2px 12px; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; scrollbar-width: thin; }
-  .lingua-gallery-grid figure { scroll-snap-align: start; }
+  .lingua-gallery-grid { grid-auto-columns: minmax(138px, 43vw); grid-auto-flow: column; grid-template-columns: none; gap: 12px; overflow-x: auto; padding: 4px 4px 14px; scroll-padding-inline: 4px; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; scrollbar-width: thin; }
+  .lingua-gallery-grid figure { scroll-snap-align: center; }
   .lingua-gallery-grid .screen-frame { width: min(100%, 144px); }
   .lingua-tech-section { grid-template-columns: 1fr; gap: 16px; padding-block: 18px; }
   .lingua-tech-list { justify-content: flex-start; gap: 14px 20px; }
-  .lingua-status-bar { grid-template-columns: 1fr; gap: 10px; padding: 16px 4px; }
+  .lingua-status-bar { grid-template-columns: 1fr; gap: 9px; padding: 16px 4px; }
+  .lingua-project .project-footer-link { margin-bottom: 30px; padding-top: 14px; }
 }
 @media (max-width: 480px) {
   .lingua-project .product-title-row { gap: 10px; }
-  .lingua-project .product-title-row .product-icon { flex-basis: 42px; height: 42px; }
-  .lingua-project .product-copy h1 { font-size: clamp(2.6rem, 12vw, 3.35rem); }
-  .lingua-project .product-lead { font-size: 1.08rem; }
+  .lingua-project .product-title-row .product-icon { flex-basis: 40px; height: 40px; }
+  .lingua-project .product-copy h1 { font-size: clamp(2.15rem, 10.2vw, 3.05rem); white-space: nowrap; }
+  .lingua-project .product-lead { margin-top: 10px; font-size: 1.04rem; }
+  .lingua-project .product-description { font-size: .88rem; line-height: 1.58; }
   .lingua-project .product-actions { display: grid; grid-template-columns: 1fr; }
   .lingua-project .product-actions .button { width: 100%; }
-  .lingua-project .phone { max-width: 112px; padding: 3px; border-width: 3px; border-radius: 19px; }
-  .lingua-project .phone img { border-radius: 13px; }
-  .lingua-gallery-grid { grid-auto-columns: minmax(132px, 46vw); }
+  .lingua-project .phones-showcase { gap: 5px; }
+  .lingua-project .phone { max-width: 112px; border-radius: 18px; }
+  .lingua-project .phone img { border-radius: 12px; }
+  .lingua-gallery-grid { grid-auto-columns: minmax(138px, 46vw); }
   .lingua-gallery-grid figure { padding: 10px 8px; }
+  .lingua-status-bar > p { font-size: .78rem; }
 }
 
 .writing-showcase { display: grid; min-height: 430px; place-items: center; padding: 25px; }
