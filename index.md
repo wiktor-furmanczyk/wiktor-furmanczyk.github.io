@@ -55,8 +55,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge">W przygotowaniu do Google Play</span></div>
         <h3>LinguaPilot</h3>
-        <p>Aplikacja do nauki języków w krótkich sesjach dopasowanych do aktualnego celu.</p>
-        <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Aplikacja</span></div>
+        <p>Ucz się języków w krótkich sesjach z fiszkami dopasowanymi do Twojego celu.</p>
+        <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
         <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -68,8 +68,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
         <h3>AI Writing Assistant</h3>
-        <p>Mobilny asystent dyktowania, poprawiania i tłumaczenia tekstu przy klawiaturze w różnych aplikacjach.</p>
-        <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+        <p>Dyktuj, poprawiaj i tłumacz wiadomości przy klawiaturze w różnych aplikacjach.</p>
+        <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
         <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
     </article>

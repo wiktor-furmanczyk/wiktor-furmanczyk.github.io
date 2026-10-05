@@ -20,9 +20,9 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <span class="showcase-type">Aplikacja mobilna</span>
       <h2>Lingua<span>Pilot</span></h2>
       <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
-      <p>Inteligentna aplikacja do nauki języków obcych z wykorzystaniem AI. Twórz własne zestawy fiszek, ucz się skutecznie i rozwijaj swoje umiejętności w praktycznych sytuacjach.</p>
-      <div class="showcase-tags" aria-label="Technologie">
-        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
+      <p>Twórz własne zestawy fiszek i ucz się języków w krótkich sesjach dopasowanych do codziennych sytuacji.</p>
+      <div class="showcase-tags" aria-label="Technologie projektu">
+        <span>Kotlin</span><span>Jetpack Compose</span>
       </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</small></p>
       <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
@@ -37,9 +37,9 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <span class="showcase-type">Aplikacja mobilna</span>
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
-      <p>Asystent pomagający dyktować, poprawiać i tłumaczyć tekst przy klawiaturze w różnych aplikacjach.</p>
-      <div class="showcase-tags" aria-label="Zakres projektu">
-        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
+      <p>Dyktuj wiadomości, poprawiaj rozpoznany tekst i tłumacz go przy klawiaturze w różnych aplikacjach.</p>
+      <div class="showcase-tags" aria-label="Technologie projektu">
+        <span>Kotlin</span><span>Jetpack Compose</span>
       </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Korzystam z aplikacji prywatnie i nadal rozwijam ją o nowe pomysły oraz usprawnienia.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
