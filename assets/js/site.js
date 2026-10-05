@@ -63,7 +63,10 @@ const updateScrollFocus = () => {
     const focus = (1 + Math.cos(normalizedDistance * Math.PI)) / 2;
     const scale = 1 + focus * (desktopQuery.matches ? 0.01 : 0.012);
 
-    element.style.setProperty('--focus-scale', scale.toFixed(3));
+    const scaleValue = scale.toFixed(4);
+    if (element.style.getPropertyValue('--focus-scale') !== scaleValue) {
+      element.style.setProperty('--focus-scale', scaleValue);
+    }
     element.classList.add('scroll-focus-target');
   });
 };
