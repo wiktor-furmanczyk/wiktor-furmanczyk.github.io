@@ -102,7 +102,7 @@
       let headerHidden = false;
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
-        if (scrollY <= 70) {
+        if (scrollY <= 12) {
           if (headerHidden) {
             document.body.classList.remove('header-hidden');
             headerHidden = false;
@@ -111,17 +111,17 @@
           lastDirection = 0;
         } else {
           const delta = scrollY - lastScrollY;
-          if (Math.abs(delta) >= 2) {
+          if (Math.abs(delta) >= 1) {
             const direction = Math.sign(delta);
             if (direction !== lastDirection) directionStartY = lastScrollY;
-            if (Math.abs(scrollY - directionStartY) >= 20 && headerHidden !== (direction > 0)) {
+            if (Math.abs(scrollY - directionStartY) >= 8 && headerHidden !== (direction > 0)) {
               headerHidden = direction > 0;
               document.body.classList.toggle('header-hidden', headerHidden);
             }
             lastDirection = direction;
           }
         }
-        if (scrollY <= 70 || Math.abs(scrollY - lastScrollY) >= 2) lastScrollY = scrollY;
+        if (scrollY <= 12 || Math.abs(scrollY - lastScrollY) >= 1) lastScrollY = scrollY;
       }
       let scrollFrame = 0;
       window.addEventListener('scroll', () => {
