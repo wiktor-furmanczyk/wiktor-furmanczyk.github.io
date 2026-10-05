@@ -38,11 +38,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
       <p>Asystent AI, który pomaga poprawiać, dopracowywać i tłumaczyć wiadomości pisane lub dyktowane głosem. Działa bezpośrednio przy klawiaturze w wielu językach.</p>
-      <ul class="showcase-features">
-        <li><span aria-hidden="true">✦</span><span><strong>Popraw błędy</strong><small>Zadbaj o poprawną pisownię i gramatykę.</small></span></li>
-        <li><span aria-hidden="true">↻</span><span><strong>Rozwiń wiadomość</strong><small>Uczyń tekst bardziej klarownym i uprzejmym.</small></span></li>
-        <li><span aria-hidden="true">文</span><span><strong>Przetłumacz</strong><small>Na wybrany język, np. angielski.</small></span></li>
-      </ul>
       <div class="showcase-tags" aria-label="Zakres projektu">
         <span>Android</span><span>AI</span><span>Produktywność</span><span>Wielojęzyczność</span>
       </div>
