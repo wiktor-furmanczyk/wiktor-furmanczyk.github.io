@@ -4,8 +4,8 @@ title: Wiktor Furmańczyk
 description: Portfolio VeltoWeb. Aplikacje mobilne i desktopowe, rozszerzenia, narzędzia webowe, automatyzacje i integracje AI.
 permalink: /
 body_class: home-page
-image: /assets/images/veltoweb-og.jpg
-image_alt: Logo VeltoWeb na granatowym, neonowym tle
+image: /assets/images/portfolio-og.jpg
+image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje i AI
 ---
 
 <section class="hero section-shell" aria-labelledby="hero-title">
