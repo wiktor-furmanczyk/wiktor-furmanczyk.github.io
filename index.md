@@ -69,7 +69,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Mobilny asystent dyktowania, poprawiania i tłumaczenia tekstu przy klawiaturze w różnych aplikacjach.</p>
-        <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
+        <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span></div>
         <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
       </div>
     </article>

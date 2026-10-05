@@ -39,7 +39,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
       <p>Asystent pomagający dyktować, poprawiać i tłumaczyć tekst przy klawiaturze w różnych aplikacjach.</p>
       <div class="showcase-tags" aria-label="Zakres projektu">
-        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
+        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
       </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Korzystam z aplikacji prywatnie i nadal rozwijam ją o nowe pomysły oraz usprawnienia.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
