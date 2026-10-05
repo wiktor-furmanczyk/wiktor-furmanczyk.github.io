@@ -41,13 +41,13 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </article>
   </section>
 
-  <section class="lingua-tech-section" aria-labelledby="tech-title">
-    <div class="lingua-tech-heading">
+  <section class="project-tech-section" aria-labelledby="tech-title">
+    <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>
       <h2 id="tech-title">Aplikacja stworzona z użyciem</h2>
       <p>Sprawdzone narzędzia do budowy aplikacji na Androida.</p>
     </div>
-    <ul class="lingua-tech-list" aria-label="Technologie projektu">
+    <ul class="project-tech-list" aria-label="Technologie projektu">
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><defs><linearGradient id="kotlin-mark" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse"><stop stop-color="#E44857"/><stop offset=".48" stop-color="#7F52FF"/><stop offset="1" stop-color="#0095D5"/></linearGradient></defs><path fill="url(#kotlin-mark)" d="M3 3h18L3 21V3Zm9 9h9v9H3l9-9Z"/></svg><span>Kotlin</span></li>
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#4285F4" d="m12 2 9 5.1v9.8L12 22l-9-5.1V7.1L12 2Zm0 2.5L5.2 8.3v7.4l6.8 3.9 6.8-3.9V8.3L12 4.5Z"/><path fill="#34A853" d="m12 5.1 6 3.4v6.9l-6 3.5-6-3.5V8.5l6-3.4Zm0 3-3.4 1.9v3.9l3.4 1.9 3.4-1.9V10L12 8.1Z"/><path fill="#FBBC04" d="m12 8.1 3.4 1.9v3.9L12 15.8l-3.4-1.9V10L12 8.1Z"/></svg><span>Jetpack Compose</span></li>
@@ -55,7 +55,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </ul>
   </section>
 
-  <section class="process-section lingua-process" aria-labelledby="process-title">
+  <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
       <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Trzy kroki do skutecznej nauki</h2></div>
     </div>
@@ -79,8 +79,8 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </div>
   </section>
 
-  <section id="status" class="lingua-status-bar" aria-labelledby="status-title">
-    <div class="lingua-status-heading"><span class="lingua-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
+  <section id="status" class="project-status-bar" aria-labelledby="status-title">
+    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
     <p>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</p>
   </section>
 </div>

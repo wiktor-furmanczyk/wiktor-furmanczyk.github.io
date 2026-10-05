@@ -34,14 +34,14 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 
   <article class="showcase-project showcase-project-writing">
     <div class="showcase-copy">
-      <span class="showcase-type">Narzędzie produktywności</span>
+      <span class="showcase-type">Aplikacja mobilna</span>
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
-      <p>Asystent AI, który pomaga poprawiać, dopracowywać i tłumaczyć wiadomości pisane lub dyktowane głosem. Działa bezpośrednio przy klawiaturze w wielu językach.</p>
+      <p>Asystent pomagający poprawiać i tłumaczyć wiadomości bezpośrednio przy klawiaturze, bez ciągłego przełączania aplikacji.</p>
       <div class="showcase-tags" aria-label="Zakres projektu">
-        <span>Android</span><span>AI</span><span>Produktywność</span><span>Wielojęzyczność</span>
+        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
       </div>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>W trakcie tworzenia i testów</strong><small>Rozwijam funkcje i testuję działanie w różnych aplikacjach.</small></p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Korzystam z aplikacji prywatnie i nadal rozwijam ją o nowe pomysły oraz usprawnienia.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
