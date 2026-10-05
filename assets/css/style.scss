@@ -34,6 +34,9 @@ body {
   font-size: 16px;
   line-height: 1.65;
 }
+body::before, body::after { position: fixed; z-index: 90; right: 0; left: 0; content: ""; pointer-events: none; }
+body::before { top: 60px; height: 36px; background: linear-gradient(to bottom, rgba(1,7,18,.88), rgba(1,7,18,0)); }
+body::after { bottom: 0; height: 68px; background: linear-gradient(to top, rgba(1,7,18,.92), rgba(1,7,18,0)); }
 
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 3px solid #8bebff; outline-offset: 4px; }
@@ -482,6 +485,11 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 @media (hover: none) { .button:hover { transform: none; } }
 @media (max-width: 760px) {
   .site-background { display: none; }
+  body::before { top: 54px; height: 32px; }
+  body::after { height: 56px; }
+  .hero-art::before, .blog-section::before, .phones-showcase::before, .writing-hero-visual::before { filter: none; }
+  .hero-art img, .blog-art, .writing-hero-visual img, .expertise-strip img { filter: none; }
+  .status-badge { backdrop-filter: none; }
   .showcase-art img, .showcase-project-writing .showcase-art img { -webkit-mask-image: none; mask-image: none; }
 }
 @media (prefers-reduced-motion: reduce) {
