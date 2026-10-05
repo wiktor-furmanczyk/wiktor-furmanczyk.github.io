@@ -53,7 +53,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="900">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="icon-box" aria-hidden="true">LP</span><span class="status-badge">W fazie testów</span></div>
+        <div class="card-meta-row"><span class="status-badge">W fazie testów</span></div>
         <h3>LinguaPilot</h3>
         <p>Aplikacja do nauki języków w krótkich sesjach dopasowanych do aktualnego celu.</p>
         <div class="tag-row"><span>Android</span><span>Kotlin</span><span>Aplikacja</span></div>
@@ -66,7 +66,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <img class="project-card-image" src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="Interfejs AI Writing Assistant z funkcjami poprawiania, przeredagowywania i tłumaczenia tekstu" loading="lazy" width="1200" height="900">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="icon-box" aria-hidden="true">AI</span><span class="status-badge status-violet">Rozwijany i testowany</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">Rozwijany i testowany</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Mobilny asystent poprawiania i tłumaczenia tekstu dostępny bezpośrednio przy klawiaturze.</p>
         <div class="tag-row"><span>Android</span><span>AI</span><span>Produktywność</span></div>
