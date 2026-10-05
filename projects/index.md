@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projekty
-description: Case studies aplikacji mobilnych VeltoWeb — LinguaPilot i AI Writing Assistant, wraz z technologiami i aktualnym statusem prac.
+description: Opisy projektów VeltoWeb. LinguaPilot i AI Writing Assistant wraz z technologiami i aktualnym etapem prac.
 permalink: /projects/
 body_class: projects-page
 image: /assets/images/veltoweb-og.jpg
@@ -11,7 +11,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 <header class="projects-hero section-shell">
   <p class="eyebrow"><span></span> Portfolio VeltoWeb</p>
   <h1>Projekty</h1>
-  <p>Poznaj moje aplikacje i narzędzia. To realne projekty, które tworzę z pasją — od pomysłu, przez projekt, aż po działające rozwiązania.</p>
+  <p>Poznaj moje aplikacje i narzędzia. Każdy projekt rozwijam od pierwszego pomysłu do działającego rozwiązania.</p>
 </header>
 
 <section class="projects-showcase section-shell" aria-label="Lista projektów">

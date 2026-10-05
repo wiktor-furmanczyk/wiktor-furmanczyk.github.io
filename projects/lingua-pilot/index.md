@@ -15,7 +15,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <p class="product-lead">Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p>
     <p class="product-description">Mobilna aplikacja pomaga skupić naukę na wybranym temacie lub sytuacji i prowadzi przez prostą sesję ćwiczeń. Sprawdza się w nauce, pracy, podróży i codziennych rozmowach.</p>
     <div class="button-row product-actions">
-      <span class="button button-primary button-disabled" aria-disabled="true">Google Play — wkrótce</span>
+      <span class="button button-primary button-disabled" aria-disabled="true">Wkrótce w Google Play</span>
       <a class="button button-secondary" href="#status">Aktualny etap <span aria-hidden="true">↓</span></a>
     </div>
   </div>
@@ -37,7 +37,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <article class="content-panel">
       <p class="section-kicker">Rozwiązanie</p>
       <h2>Krótka sesja skupiona na temacie</h2>
-      <p>LinguaPilot pomaga wybrać temat lub sytuację i przejść przez praktyczne ćwiczenia w wygodnym tempie — bez przygotowywania materiałów od zera.</p>
+      <p>LinguaPilot pomaga wybrać temat lub sytuację, a potem przejść przez serię praktycznych ćwiczeń we własnym tempie.</p>
     </article>
   </section>
 

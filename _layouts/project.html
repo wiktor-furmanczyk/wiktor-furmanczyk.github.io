@@ -6,6 +6,10 @@ body_class: project-body
 <article class="project-page">
   {{ content }}
   <div class="project-footer-link">
-    <a href="{{ '/projects/' | relative_url }}">← Wróć do wszystkich projektów</a>
+    {% if page.lang == 'en-US' %}
+      <a href="{{ '/en/projects/' | relative_url }}">← Back to all projects</a>
+    {% else %}
+      <a href="{{ '/projects/' | relative_url }}">← Wróć do wszystkich projektów</a>
+    {% endif %}
   </div>
 </article>

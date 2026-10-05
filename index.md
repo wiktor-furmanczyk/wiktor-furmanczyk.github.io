@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiktor Furmańczyk
-description: Portfolio VeltoWeb — aplikacje mobilne i desktopowe, rozszerzenia, narzędzia webowe, automatyzacje i integracje AI.
+description: Portfolio VeltoWeb. Aplikacje mobilne i desktopowe, rozszerzenia, narzędzia webowe, automatyzacje i integracje AI.
 permalink: /
 body_class: home-page
 image: /assets/images/veltoweb-og.jpg
@@ -13,7 +13,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <p class="eyebrow"><span></span> Witam na moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
     <p class="hero-lead">Projektuję i rozwijam praktyczne produkty cyfrowe</p>
-    <p class="hero-description">Od aplikacji mobilnych i desktopowych po narzędzia webowe, automatyzacje i integracje AI — tworzę rozwiązania, które upraszczają codzienną pracę.</p>
+    <p class="hero-description">Tworzę aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI. Moje rozwiązania pomagają sprawniej wykonywać codzienne zadania.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
       <a class="button button-secondary" href="https://github.com/wiktor-furmanczyk" target="_blank" rel="noopener noreferrer">
