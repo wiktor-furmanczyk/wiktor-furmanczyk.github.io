@@ -24,7 +24,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <div class="showcase-tags" aria-label="Technologie">
         <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
       </div>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Aplikacja jest obecnie testowana i dopracowywana.</small></p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</small></p>
       <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">

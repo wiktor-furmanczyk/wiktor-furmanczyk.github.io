@@ -11,7 +11,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
 <section class="product-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / LinguaPilot</p>
-    <div class="product-title-row"><span class="product-icon" aria-hidden="true">LP</span><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
+    <div class="product-title-row"><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
     <p class="product-lead">Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p>
     <p class="product-description">Mobilna aplikacja pomaga skupić naukę na wybranym temacie lub sytuacji i prowadzi przez prostą sesję ćwiczeń. Sprawdza się w nauce, pracy, podróży i codziennych rozmowach.</p>
     <div class="button-row product-actions">
@@ -81,6 +81,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
 
   <section id="status" class="lingua-status-bar" aria-labelledby="status-title">
     <div class="lingua-status-heading"><span class="lingua-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
-    <p>Aplikacja jest obecnie testowana i dopracowywana.</p>
+    <p>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</p>
   </section>
 </div>
