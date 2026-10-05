@@ -15,7 +15,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <div class="product-title-row"><span class="product-icon" aria-hidden="true">LP</span><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
     <p class="product-lead">Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p>
     <p class="product-description">Mobilna aplikacja pomaga skupić naukę na wybranym temacie lub sytuacji i prowadzi przez prostą sesję ćwiczeń. Sprawdza się w nauce, pracy, podróży i codziennych rozmowach.</p>
-    <div class="tag-row product-tags" aria-label="Platforma i technologie"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
     <div class="button-row product-actions">
       <span class="button button-primary button-disabled" aria-disabled="true">Google Play — wkrótce</span>
       <a class="button button-secondary" href="#status">Aktualny etap <span aria-hidden="true">↓</span></a>
@@ -43,6 +42,20 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </article>
   </section>
 
+  <section class="lingua-tech-section" aria-labelledby="tech-title">
+    <div class="lingua-tech-heading">
+      <p class="section-kicker">Technologie</p>
+      <h2 id="tech-title">Aplikacja stworzona z użyciem</h2>
+      <p>Sprawdzone narzędzia do budowy aplikacji na Androida.</p>
+    </div>
+    <ul class="lingua-tech-list" aria-label="Technologie projektu">
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><defs><linearGradient id="kotlin-mark" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse"><stop stop-color="#E44857"/><stop offset=".48" stop-color="#7F52FF"/><stop offset="1" stop-color="#0095D5"/></linearGradient></defs><path fill="url(#kotlin-mark)" d="M3 3h18L3 21V3Zm9 9h9v9H3l9-9Z"/></svg><span>Kotlin</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#4285F4" d="m12 2 9 5.1v9.8L12 22l-9-5.1V7.1L12 2Zm0 2.5L5.2 8.3v7.4l6.8 3.9 6.8-3.9V8.3L12 4.5Z"/><path fill="#34A853" d="m12 5.1 6 3.4v6.9l-6 3.5-6-3.5V8.5l6-3.4Zm0 3-3.4 1.9v3.9l3.4 1.9 3.4-1.9V10L12 8.1Z"/><path fill="#FBBC04" d="m12 8.1 3.4 1.9v3.9L12 15.8l-3.4-1.9V10L12 8.1Z"/></svg><span>Jetpack Compose</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#FFCA28" d="M12.8 1.5c.35 3.1-1.55 4.95-3.2 6.6-1.2 1.2-2.3 2.3-2.3 4.15 0 1.05.42 1.9 1.15 2.5-.08-1.45.65-2.45 1.55-3.4.75-.8 1.6-1.7 1.95-3.05 2.9 2.05 5.25 4.7 5.25 8.1a6.7 6.7 0 0 1-13.4 0c0-3.1 1.65-5.45 4.1-7.8 2.05-1.95 4.3-4.05 4.9-7.1Z"/><path fill="#F57C00" d="M12.2 12c-.2 1.25-.85 2-1.45 2.7-.65.75-1.25 1.45-1.25 2.6a2.5 2.5 0 0 0 5 0c0-1.85-1.05-3.55-2.3-5.3Z"/></svg><span>Firebase</span></li>
+    </ul>
+  </section>
+
   <section class="process-section lingua-process" aria-labelledby="process-title">
     <div class="section-heading">
       <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Trzy kroki do skutecznej nauki</h2></div>
@@ -67,14 +80,8 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </div>
   </section>
 
-  <div class="lingua-bottom-grid">
-    <section id="status" class="status-panel" aria-labelledby="status-title">
-      <div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Wczesne testy</h2></div>
-      <p>Rozwijam i testuję aplikację przed planowaną publikacją w Google Play. Jej zakres może się jeszcze zmieniać wraz z wynikami testów.</p>
-    </section>
-    <section class="lingua-tech-panel" aria-labelledby="tech-title">
-      <div><p class="section-kicker">Technologie</p><h2 id="tech-title">Stworzone na Androida</h2></div>
-      <div class="tech-list" aria-label="Technologie projektu"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
-    </section>
-  </div>
+  <section id="status" class="lingua-status-bar" aria-labelledby="status-title">
+    <div class="lingua-status-heading"><span class="lingua-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W fazie testów</h2></div></div>
+    <p>Rozwijam i testuję aplikację przed planowaną publikacją w Google Play. Jej zakres może się jeszcze zmieniać wraz z wynikami testów.</p>
+  </section>
 </div>
