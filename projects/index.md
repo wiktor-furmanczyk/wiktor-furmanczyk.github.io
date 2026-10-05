@@ -37,7 +37,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <span class="showcase-type">Aplikacja mobilna</span>
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
-      <p>Asystent pomagający poprawiać i tłumaczyć wiadomości bezpośrednio przy klawiaturze, bez ciągłego przełączania aplikacji.</p>
+      <p>Asystent pomagający dyktować, poprawiać i tłumaczyć tekst przy klawiaturze w różnych aplikacjach.</p>
       <div class="showcase-tags" aria-label="Zakres projektu">
         <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
       </div>

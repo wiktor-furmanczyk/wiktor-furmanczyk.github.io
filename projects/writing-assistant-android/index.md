@@ -1,7 +1,7 @@
 ---
 layout: project
 title: AI Writing Assistant
-description: Asystent poprawiania i tłumaczenia tekstu na Androidzie, dostępny bezpośrednio przy klawiaturze.
+description: Asystent poprawiania i tłumaczenia tekstu na Androidzie, dostępny przy klawiaturze w różnych aplikacjach.
 permalink: /projects/writing-assistant-android/
 body_class: project-body writing-project
 image: /assets/images/project-writing-assistant.jpg
@@ -12,8 +12,8 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / AI Writing Assistant</p>
     <h1 id="product-title">AI Writing <span class="text-gradient">Assistant</span></h1>
-    <p class="product-lead">Podręczne wsparcie podczas pisania na Androidzie — bez ciągłego przełączania się między aplikacjami.</p>
-    <p class="product-description">Poprawiaj i tłumacz wiadomości bezpośrednio przy klawiaturze. Pracuj nad tekstem w aktualnie otwartej aplikacji, zastosuj wybraną zmianę albo wróć do poprzedniej wersji.</p>
+    <p class="product-lead">Działa przy klawiaturze w każdej aplikacji — nie tylko w WhatsAppie. Dyktuj tekst głosem, a potem poprawiaj go asystentem.</p>
+    <p class="product-description">Podyktuj tekst przez mikrofon klawiatury, a potem popraw błędy powstałe podczas rozpoznawania mowy. Asystent działa wszędzie tam, gdzie możesz pisać na klawiaturze, więc nie musisz przełączać się do osobnego edytora.</p>
     <div class="tag-row product-tags" aria-label="Technologie">
       <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
     </div>
@@ -33,12 +33,12 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     <article class="content-panel">
       <p class="section-kicker">Wyzwanie</p>
       <h2>Poprawki wymagające przełączania aplikacji</h2>
-      <p>Korekta wiadomości lub przygotowanie jej w innym języku często oznacza kopiowanie tekstu do dodatkowego narzędzia, a potem powrót do miejsca, w którym się pisze.</p>
+      <p>Dyktowanie przyspiesza pisanie, ale rozpoznany tekst często wymaga poprawek. Kopiowanie go do osobnego narzędzia przerywa pracę i wybija z rytmu.</p>
     </article>
     <article class="content-panel">
       <p class="section-kicker">Rozwiązanie</p>
       <h2>Pomoc dostępna przy klawiaturze</h2>
-      <p>Asystent udostępnia podręczne działania w aktualnie otwartej aplikacji. Możesz zastosować wybraną zmianę lub szybko wrócić do poprzedniej wersji tekstu.</p>
+      <p>AI Writing Assistant poprawia i tłumaczy tekst bezpośrednio przy klawiaturze. Działa w różnych aplikacjach, więc możesz skorygować podyktowaną wiadomość bez przechodzenia do osobnego edytora.</p>
     </article>
   </section>
 
@@ -61,9 +61,9 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
       <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Trzy kroki do gotowej wiadomości</h2></div>
     </div>
     <ol class="process-steps">
-      <li><span>1</span><strong>Napisz tekst</strong><small>Pracuj w aplikacji, w której tworzysz wiadomość.</small></li>
-      <li><span>2</span><strong>Wybierz działanie</strong><small>Popraw tekst lub przygotuj jego tłumaczenie.</small></li>
-      <li><span>3</span><strong>Zastosuj zmianę</strong><small>Użyj nowej wersji albo wróć do poprzedniego tekstu.</small></li>
+      <li><span>1</span><strong>Podyktuj wiadomość</strong><small>Użyj mikrofonu klawiatury, aby wprowadzić tekst głosem.</small></li>
+      <li><span>2</span><strong>Popraw rozpoznany tekst</strong><small>Asystent skoryguje błędy, które pojawiły się podczas dyktowania.</small></li>
+      <li><span>3</span><strong>Wstaw poprawioną wersję</strong><small>Sprawdź wiadomość i zastosuj ją w miejscu pisania.</small></li>
     </ol>
   </section>
 
