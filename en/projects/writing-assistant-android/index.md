@@ -15,6 +15,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     <h1 id="product-title">AI Writing <span class="text-gradient">Assistant</span></h1>
     <p class="product-lead">Dictate, edit, and translate text right from your keyboard.</p>
     <p class="product-description">Dictate a message with your keyboard microphone, then use the assistant to fix speech recognition errors. The tools work in different apps wherever you can type with the Android keyboard.</p>
+    <p class="project-role">My role: concept, interface design, implementation, and ongoing development.</p>
     <div class="tag-row product-tags" aria-label="Technologies">
       <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
     </div>
@@ -47,7 +48,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>
       <h2 id="tech-title">Built with</h2>
-      <p>Technologies used to build the app.</p>
     </div>
     <ul class="project-tech-list" aria-label="Project technologies">
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
@@ -71,6 +71,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     <div class="section-heading">
       <div><p class="section-kicker">Example screens</p><h2 id="writing-gallery-title">Dictation and text editing</h2></div>
     </div>
+    <p class="gallery-hint">Swipe to see more</p>
     <div class="lingua-gallery-grid writing-gallery-grid" role="region" aria-label="Scrollable gallery of AI Writing Assistant screens" tabindex="0">
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/voice-dictation.jfif' | relative_url }}" alt="Android keyboard in voice dictation mode" loading="lazy" width="922" height="2049"></div><figcaption><strong>Voice dictation</strong><small>Speak your message into the keyboard microphone.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/recognized-text.jfif' | relative_url }}" alt="Dictated message with speech recognition errors" loading="lazy" width="922" height="2049"></div><figcaption><strong>Text before editing</strong><small>Your spoken words appear in the message field.</small></figcaption></figure>
@@ -81,6 +82,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
     <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">For personal use</h2></div></div>
-    <p>I use the app privately and continue to develop new ideas and improvements.</p>
+    <p>The app is currently for personal use, and I continue to refine it based on my day-to-day needs.</p>
   </section>
 </div>

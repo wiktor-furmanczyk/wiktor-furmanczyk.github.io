@@ -15,8 +15,9 @@ image_alt: LinguaPilot identity on a dark blue background
     <div class="product-title-row"><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
     <p class="product-lead">Learn languages in short sessions built around what you need right now.</p>
     <p class="product-description">Choose a topic or situation and work through a short set of practical exercises. Use LinguaPilot for learning, work, travel, and everyday conversations.</p>
+    <p class="project-role">My role: concept, interface design, implementation, and ongoing development.</p>
     <div class="button-row product-actions">
-      <span class="button button-primary button-disabled" aria-disabled="true">Coming to Google Play</span>
+      <span class="project-availability"><span aria-hidden="true"></span>Coming to Google Play</span>
       <a class="button button-secondary" href="#status">Project status <span aria-hidden="true">↓</span></a>
     </div>
   </div>
@@ -46,7 +47,6 @@ image_alt: LinguaPilot identity on a dark blue background
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>
       <h2 id="tech-title">Built with</h2>
-      <p>Tools used to build an Android app.</p>
     </div>
     <ul class="project-tech-list" aria-label="Project technologies">
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
@@ -71,6 +71,7 @@ image_alt: LinguaPilot identity on a dark blue background
     <div class="section-heading">
       <div><p class="section-kicker">Example screens</p><h2 id="gallery-title">LinguaPilot in practice</h2></div>
     </div>
+    <p class="gallery-hint">Swipe to see more</p>
     <div class="lingua-gallery-grid" role="region" aria-label="Scrollable gallery of five LinguaPilot screens" tabindex="0">
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="Creating a flashcard set and choosing a topic" loading="lazy" width="922" height="2049"></div><figcaption><strong>Create a set</strong><small>Choose a topic and prepare your material.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="LinguaPilot home screen" loading="lazy" width="922" height="2049"></div><figcaption><strong>Home screen</strong><small>Start learning in a few taps.</small></figcaption></figure>

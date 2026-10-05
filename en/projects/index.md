@@ -12,7 +12,7 @@ image_alt: VeltoWeb logo on a dark blue background
 <header class="projects-hero section-shell">
   <p class="eyebrow"><span></span> VeltoWeb portfolio</p>
   <h1>Projects</h1>
-  <p>Explore the apps and tools I am building, from the first idea to working products.</p>
+  <p>Explore the apps I independently designed and built, from the first idea to a working product.</p>
 </header>
 
 <section class="projects-showcase section-shell" aria-label="Project list">
@@ -26,7 +26,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <span>Kotlin</span><span>Jetpack Compose</span>
       </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Preparing for Google Play</strong><small>I use the app myself while refining it for a planned Google Play release.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">View case study <span aria-hidden="true">→</span></a>
+      <a class="showcase-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/projects-linguapilot-showcase.png' | relative_url }}" alt="Three LinguaPilot screens for practice, the home screen, and creating flashcards" width="1448" height="1086">
@@ -42,8 +42,8 @@ image_alt: VeltoWeb logo on a dark blue background
       <div class="showcase-tags" aria-label="Project technologies">
         <span>Kotlin</span><span>Jetpack Compose</span>
       </div>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>I use the app privately and continue to develop new ideas and improvements.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">View case study <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>The app is currently for personal use, and I continue to refine it based on my day-to-day needs.</small></p>
+      <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant at the keyboard, with examples of editing and translating messages" loading="lazy" width="1448" height="1086">
@@ -52,7 +52,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
   <aside class="projects-upcoming" aria-label="More projects coming soon">
     <span class="projects-upcoming-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.75 21.25 12 12 21.25 2.75 12 12 2.75Zm0 3.54L6.29 12 12 17.71 17.71 12 12 6.29Z"/></svg></span>
-    <div><h2>More projects coming soon</h2><p>I am working on more apps and tools. Follow along to see what is next.</p></div>
+    <div><h2>More projects coming soon</h2><p>I will add more apps and tools when they are ready to be presented publicly.</p></div>
     <span class="projects-question" aria-hidden="true">?</span>
   </aside>
 </section>

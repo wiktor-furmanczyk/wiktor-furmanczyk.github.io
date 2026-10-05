@@ -14,6 +14,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     <h1 id="product-title">AI Writing <span class="text-gradient">Assistant</span></h1>
     <p class="product-lead">Dyktuj, poprawiaj i tłumacz tekst bezpośrednio przy klawiaturze.</p>
     <p class="product-description">Podyktuj wiadomość mikrofonem klawiatury, a asystent pomoże poprawić tekst rozpoznany z mowy. Możesz korzystać z tych funkcji w różnych aplikacjach, wszędzie tam, gdzie piszesz na klawiaturze Androida.</p>
+    <p class="project-role">Moja rola: koncepcja, projekt interfejsu, implementacja i dalszy rozwój aplikacji.</p>
     <div class="tag-row product-tags" aria-label="Technologie">
       <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
     </div>
@@ -45,8 +46,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>
-      <h2 id="tech-title">Aplikacja stworzona z użyciem</h2>
-      <p>Technologie używane do budowy aplikacji.</p>
+      <h2 id="tech-title">Technologie wykorzystane w projekcie</h2>
     </div>
     <ul class="project-tech-list" aria-label="Technologie projektu">
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
@@ -70,6 +70,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     <div class="section-heading">
       <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="writing-gallery-title">Dyktowanie i korekta tekstu</h2></div>
     </div>
+    <p class="gallery-hint">Przesuń, aby zobaczyć więcej</p>
     <div class="lingua-gallery-grid writing-gallery-grid" role="region" aria-label="Przewijana galeria ekranów AI Writing Assistant" tabindex="0">
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/voice-dictation.jfif' | relative_url }}" alt="Klawiatura Androida w trybie dyktowania głosowego" loading="lazy" width="922" height="2049"></div><figcaption><strong>Dyktowanie głosem</strong><small>Powiedz wiadomość do mikrofonu klawiatury.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/recognized-text.jfif' | relative_url }}" alt="Wiadomość wpisana przez dyktowanie z błędami rozpoznawania mowy" loading="lazy" width="922" height="2049"></div><figcaption><strong>Tekst przed korektą</strong><small>Rozpoznana wypowiedź trafia do pola tekstowego.</small></figcaption></figure>
@@ -80,6 +81,6 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
     <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Do użytku własnego</h2></div></div>
-    <p>Korzystam z aplikacji prywatnie i nadal rozwijam ją o nowe pomysły oraz usprawnienia.</p>
+    <p>Aplikację stworzyłem do własnego użytku i nadal rozwijam ją o nowe funkcje oraz usprawnienia.</p>
   </section>
 </div>

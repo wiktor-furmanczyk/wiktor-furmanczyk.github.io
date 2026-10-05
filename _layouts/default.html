@@ -48,6 +48,22 @@
     <meta name="twitter:image" content="{{ social_image | absolute_url }}">
     <meta name="twitter:image:alt" content="{{ page.image_alt | default: social_image_alt | escape }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% unless page.url == '/404.html' or page.url == '/en/404.html' %}
+      {% if current_lang == 'en-US' %}
+        {% assign polish_url = page.url | remove_first: '/en' %}
+        {% assign english_url = page.url %}
+      {% else %}
+        {% assign polish_url = page.url %}
+        {% assign english_url = page.url | prepend: '/en' %}
+      {% endif %}
+      <link rel="alternate" hreflang="pl" href="{{ polish_url | absolute_url }}">
+      <link rel="alternate" hreflang="en" href="{{ english_url | absolute_url }}">
+      <link rel="alternate" hreflang="x-default" href="{{ polish_url | absolute_url }}">
+    {% endunless %}
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

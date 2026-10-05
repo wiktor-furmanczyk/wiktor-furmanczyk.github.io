@@ -14,8 +14,9 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <div class="product-title-row"><h1 id="product-title">Lingua<span class="text-gradient">Pilot</span></h1></div>
     <p class="product-lead">Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p>
     <p class="product-description">Mobilna aplikacja pomaga skupić naukę na wybranym temacie lub sytuacji i prowadzi przez prostą sesję ćwiczeń. Sprawdza się w nauce, pracy, podróży i codziennych rozmowach.</p>
+    <p class="project-role">Moja rola: koncepcja, projekt interfejsu, implementacja i dalszy rozwój aplikacji.</p>
     <div class="button-row product-actions">
-      <span class="button button-primary button-disabled" aria-disabled="true">Wkrótce w Google Play</span>
+      <span class="project-availability"><span aria-hidden="true"></span>Wkrótce w Google Play</span>
       <a class="button button-secondary" href="#status">Aktualny etap <span aria-hidden="true">↓</span></a>
     </div>
   </div>
@@ -44,8 +45,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>
-      <h2 id="tech-title">Aplikacja stworzona z użyciem</h2>
-      <p>Sprawdzone narzędzia do budowy aplikacji na Androida.</p>
+      <h2 id="tech-title">Technologie wykorzystane w projekcie</h2>
     </div>
     <ul class="project-tech-list" aria-label="Technologie projektu">
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 7.9 5.8 5.7a.55.55 0 0 1 .95-.56L8.1 7.2a9.7 9.7 0 0 1 7.8 0l1.35-2.06a.55.55 0 1 1 .92.6l-1.27 2.15A7.8 7.8 0 0 1 20 14H4a7.8 7.8 0 0 1 3.1-6.1ZM8 10.1a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6Zm8 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6ZM5 15h14v3.2a2 2 0 0 1-2 2h-.8v1.1a1.2 1.2 0 0 1-2.4 0v-1.1h-3.6v1.1a1.2 1.2 0 0 1-2.4 0v-1.1H7a2 2 0 0 1-2-2V15Z"/></svg><span>Android</span></li>
@@ -70,6 +70,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <div class="section-heading">
       <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="gallery-title">LinguaPilot w praktyce</h2></div>
     </div>
+    <p class="gallery-hint">Przesuń, aby zobaczyć więcej</p>
     <div class="lingua-gallery-grid" role="region" aria-label="Przewijana galeria pięciu ekranów LinguaPilot" tabindex="0">
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="Tworzenie zestawu fiszek i wybór tematu" loading="lazy" width="922" height="2049"></div><figcaption><strong>Tworzenie zestawu</strong><small>Wybierz temat i przygotuj materiał.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="Ekran główny aplikacji LinguaPilot" loading="lazy" width="922" height="2049"></div><figcaption><strong>Ekran startowy</strong><small>Szybki dostęp do nauki.</small></figcaption></figure>

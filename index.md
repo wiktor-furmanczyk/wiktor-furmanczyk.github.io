@@ -10,10 +10,10 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 
 <section class="hero section-shell" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <p class="eyebrow"><span></span> Witam na moim portfolio</p>
+    <p class="eyebrow"><span></span> Witam w moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">Projektuję i rozwijam praktyczne produkty cyfrowe</p>
-    <p class="hero-description">Tworzę aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI. Moje rozwiązania pomagają sprawniej wykonywać codzienne zadania.</p>
+    <p class="hero-lead">Projektuję i tworzę praktyczne produkty cyfrowe</p>
+    <p class="hero-description">Samodzielnie rozwijam aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI — od pomysłu i projektu interfejsu po działające rozwiązanie.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
     </div>
@@ -38,7 +38,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <div>
       <p class="section-kicker">Realne projekty</p>
       <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
-      <p>Wybrane produkty tworzone od pomysłu po działający prototyp.</p>
+      <p>Wybrane projekty, które samodzielnie rozwijam od pomysłu po działającą aplikację.</p>
     </div>
     <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
@@ -53,7 +53,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <h3>LinguaPilot</h3>
         <p>Ucz się języków w krótkich sesjach z fiszkami dopasowanymi do Twojego celu.</p>
         <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
-        <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -66,7 +66,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
         <h3>AI Writing Assistant</h3>
         <p>Dyktuj, poprawiaj i tłumacz wiadomości przy klawiaturze w różnych aplikacjach.</p>
         <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
-        <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
 

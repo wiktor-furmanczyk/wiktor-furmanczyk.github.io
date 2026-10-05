@@ -14,7 +14,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <p class="eyebrow"><span></span> Welcome to my portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
     <p class="hero-lead">I design and build practical digital products</p>
-    <p class="hero-description">I create mobile and desktop apps, web tools, automation, and AI integrations that make everyday work easier.</p>
+    <p class="hero-description">I independently develop mobile and desktop apps, web tools, automation, and AI integrations—from the initial idea and interface design to a working solution.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Explore projects <span aria-hidden="true">→</span></a>
     </div>
@@ -39,7 +39,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <div>
       <p class="section-kicker">Selected work</p>
       <h2 id="projects-title">My <span class="text-gradient">projects</span></h2>
-      <p>Products I develop from the first idea to a working prototype.</p>
+      <p>Selected projects I independently develop from the initial idea to a working application.</p>
     </div>
     <a class="text-link projects-desktop-link" href="{{ '/en/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
   </div>
@@ -54,7 +54,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <h3>LinguaPilot</h3>
         <p>Learn languages in short sessions with flashcards tailored to your goals.</p>
         <div class="tag-row" aria-label="Project type and technologies"><span>Mobile app</span><span>Kotlin</span><span>Jetpack Compose</span></div>
-        <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">View case study <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -67,7 +67,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <h3>AI Writing Assistant</h3>
         <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
         <div class="tag-row" aria-label="Project type and technologies"><span>Mobile app</span><span>Kotlin</span><span>Jetpack Compose</span></div>
-        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">View case study <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
