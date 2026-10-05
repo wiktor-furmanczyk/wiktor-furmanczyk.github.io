@@ -11,43 +11,52 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 <header class="projects-hero section-shell">
   <p class="eyebrow"><span></span> Portfolio VeltoWeb</p>
   <h1>Projekty</h1>
-  <p>Publiczne case studies aplikacji tworzonych z myślą o konkretnych potrzebach użytkowników. Każdy opis jasno pokazuje problem, sposób działania i aktualny etap prac.</p>
+  <p>Poznaj moje aplikacje i narzędzia. To realne projekty, które tworzę z pasją — od pomysłu, przez projekt, aż po działające rozwiązania.</p>
 </header>
 
-<section class="projects-catalog section-shell" aria-label="Lista projektów">
-  <article class="catalog-card">
-    <div class="catalog-visual catalog-visual-lingua" role="img" aria-label="Podgląd ekranu ćwiczenia w aplikacji LinguaPilot">
-      <div class="catalog-phone"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="" loading="lazy" width="922" height="2049"></div>
-    </div>
-    <div class="catalog-copy">
-      <div class="catalog-heading">
-        <span class="icon-box" aria-hidden="true">LP</span>
-        <div><p class="section-kicker">Aplikacja mobilna</p><h2>LinguaPilot</h2></div>
+<section class="projects-showcase section-shell" aria-label="Lista projektów">
+  <article class="showcase-project showcase-project-lingua">
+    <div class="showcase-copy">
+      <span class="showcase-type">Aplikacja mobilna</span>
+      <h2>Lingua<span>Pilot</span></h2>
+      <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
+      <p>Inteligentna aplikacja do nauki języków obcych z wykorzystaniem AI. Twórz własne zestawy fiszek, ucz się skutecznie i rozwijaj swoje umiejętności w praktycznych sytuacjach.</p>
+      <div class="showcase-tags" aria-label="Technologie">
+        <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span>
       </div>
-      <p>Wsparcie nauki języków w krótkich sesjach dopasowanych do bieżącego tematu lub sytuacji.</p>
-      <div class="tech-list" aria-label="Technologie"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div>
-      <p class="project-status"><strong>Status:</strong> w fazie testów i przygotowania do publikacji w Google Play.</p>
-      <a class="button button-primary" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Aplikacja jest obecnie testowana i dopracowywana.</small></p>
+      <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art">
+      <img src="{{ '/assets/images/projects-linguapilot-showcase.png' | relative_url }}" alt="Trzy ekrany aplikacji LinguaPilot: ćwiczenie, ekran główny i tworzenie zestawu fiszek" width="1448" height="1086">
+    </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-writing">
+    <figure class="showcase-art">
+      <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant działający przy klawiaturze oraz widoki poprawiania i tłumaczenia wiadomości" loading="lazy" width="1448" height="1086">
+    </figure>
+    <div class="showcase-copy">
+      <span class="showcase-type">Narzędzie produktywności</span>
+      <h2>AI Writing <span>Assistant</span></h2>
+      <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
+      <p>Asystent AI, który pomaga poprawiać, dopracowywać i tłumaczyć wiadomości pisane lub dyktowane głosem. Działa bezpośrednio przy klawiaturze w wielu językach.</p>
+      <ul class="showcase-features">
+        <li><span aria-hidden="true">✦</span><span><strong>Popraw błędy</strong><small>Zadbaj o poprawną pisownię i gramatykę.</small></span></li>
+        <li><span aria-hidden="true">↻</span><span><strong>Rozwiń wiadomość</strong><small>Uczyń tekst bardziej klarownym i uprzejmym.</small></span></li>
+        <li><span aria-hidden="true">文</span><span><strong>Przetłumacz</strong><small>Na wybrany język, np. angielski.</small></span></li>
+      </ul>
+      <div class="showcase-tags" aria-label="Zakres projektu">
+        <span>Android</span><span>AI</span><span>Produktywność</span><span>Wielojęzyczność</span>
+      </div>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>W trakcie tworzenia i testów</strong><small>Rozwijam funkcje i testuję działanie w różnych aplikacjach.</small></p>
+      <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
     </div>
   </article>
 
-  <article class="catalog-card catalog-card-reverse">
-    <div class="catalog-visual catalog-visual-writing" role="img" aria-label="Stylizowany podgląd narzędzi AI Writing Assistant">
-      <div class="writing-window" aria-hidden="true">
-        <span class="writing-label">AI Writing Assistant</span>
-        <strong>Improve your text</strong>
-        <span>✓ Grammar</span><span>↔ Translate</span><span>↶ Undo</span>
-      </div>
-    </div>
-    <div class="catalog-copy">
-      <div class="catalog-heading">
-        <span class="icon-box" aria-hidden="true">AI</span>
-        <div><p class="section-kicker">Aplikacja mobilna</p><h2>AI Writing Assistant</h2></div>
-      </div>
-      <p>Podręczne działania przy klawiaturze, które ułatwiają poprawianie i tłumaczenie tekstu bez ciągłego przełączania aplikacji.</p>
-      <div class="tech-list" aria-label="Zakres projektu"><span>Android</span><span>AI</span><span>Produktywność</span><span>Wielojęzyczność</span></div>
-      <p class="project-status"><strong>Status:</strong> projekt rozwijany i testowany; zakres może zmieniać się po kolejnych testach.</p>
-      <a class="button button-primary" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
-    </div>
-  </article>
+  <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">
+    <span class="projects-upcoming-icon" aria-hidden="true">◇</span>
+    <div><h2>Więcej projektów wkrótce</h2><p>Pracuję nad kolejnymi aplikacjami i narzędziami. Śledź moje media, aby być na bieżąco!</p></div>
+    <span class="projects-question" aria-hidden="true">?</span>
+  </aside>
 </section>
