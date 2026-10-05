@@ -98,7 +98,7 @@
     <script>
       let lastScrollY = Math.max(0, window.scrollY);
       let lastDirection = 0;
-      let directionDistance = 0;
+      let directionStartY = lastScrollY;
       let edgeFadeVisible = false;
       let headerHidden = false;
       function updateScrollEffects() {
@@ -114,23 +114,34 @@
             document.body.classList.remove('header-hidden');
             headerHidden = false;
           }
-          directionDistance = 0;
+          directionStartY = scrollY;
           lastDirection = 0;
         } else {
           const delta = scrollY - lastScrollY;
-          if (delta !== 0) {
+          if (Math.abs(delta) >= 2) {
             const direction = Math.sign(delta);
-            directionDistance = direction === lastDirection ? Math.min(10, directionDistance + Math.abs(delta)) : Math.abs(delta);
-            if (directionDistance >= 10 && headerHidden !== (direction > 0)) {
+            if (direction !== lastDirection) directionStartY = lastScrollY;
+            if (Math.abs(scrollY - directionStartY) >= 20 && headerHidden !== (direction > 0)) {
               headerHidden = direction > 0;
               document.body.classList.toggle('header-hidden', headerHidden);
             }
             lastDirection = direction;
           }
         }
-        lastScrollY = scrollY;
+        if (scrollY <= 70 || Math.abs(scrollY - lastScrollY) >= 2) lastScrollY = scrollY;
       }
-      window.addEventListener('scroll', updateScrollEffects, { passive: true });
+      let scrollFrame = 0;
+      window.addEventListener('scroll', () => {
+        if (scrollFrame) return;
+        scrollFrame = requestAnimationFrame(() => {
+          scrollFrame = 0;
+          updateScrollEffects();
+        });
+      }, { passive: true });
+      document.querySelector('.site-header').addEventListener('focusin', () => {
+        headerHidden = false;
+        document.body.classList.remove('header-hidden');
+      });
       updateScrollEffects();
     </script>
   </body>
