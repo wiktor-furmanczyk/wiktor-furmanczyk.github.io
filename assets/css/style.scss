@@ -35,9 +35,9 @@ body {
   line-height: 1.65;
 }
 body::before, body::after { position: fixed; z-index: 90; right: 0; left: 0; content: ""; pointer-events: none; }
-body::before { top: 60px; height: 92px; background: linear-gradient(to bottom, rgba(1,7,18,.98), rgba(1,7,18,.78) 24%, rgba(1,7,18,.3) 70%, rgba(1,7,18,0)); opacity: 0; transition: opacity .2s ease; }
+body::before { top: 60px; height: 76px; background: linear-gradient(to bottom, rgba(1,7,18,.88), rgba(1,7,18,.62) 24%, rgba(1,7,18,.22) 70%, rgba(1,7,18,0)); opacity: 0; transition: opacity .2s ease; }
 body.is-scrolled::before { opacity: 1; }
-body::after { bottom: 0; height: 132px; background: linear-gradient(to top, rgba(1,7,18,.98), rgba(1,7,18,.78) 24%, rgba(1,7,18,.3) 70%, rgba(1,7,18,0)); }
+body::after { bottom: 0; height: 104px; background: linear-gradient(to top, rgba(1,7,18,.88), rgba(1,7,18,.62) 24%, rgba(1,7,18,.22) 70%, rgba(1,7,18,0)); }
 
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 3px solid #8bebff; outline-offset: 4px; }
@@ -108,7 +108,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .expertise-strip { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin-bottom: 0; }
 .expertise-strip div { display: grid; min-height: 100px; place-items: center; align-content: center; gap: 8px; padding: 10px 8px; color: #d7e5f4; font-size: .82rem; font-weight: 700; text-align: center; transition: color .2s ease, background .2s ease; }
 .expertise-strip img { width: 50px; height: 50px; object-fit: contain; filter: drop-shadow(0 0 10px rgba(25,196,255,.34)); }
-.expertise-strip div:hover { color: #fff; background: #0a2141; }
+.expertise-strip div:hover { color: #fff; background: rgba(12,45,80,.56); }
 
 .projects-section { padding-block: 56px 0; }
 .projects-section .section-kicker { display: flex; align-items: center; gap: 14px; }
@@ -267,10 +267,10 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 .project-tech-heading h2 { margin: 0; font-size: 1.12rem; }
 .project-tech-heading > p:last-child { margin: 6px 0 0; color: var(--muted); font-size: .72rem; }
 .project-tech-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch; margin: 0; list-style: none; }
-.expertise-strip, .project-tech-list { gap: 1px; padding: 1px; background: rgba(105,160,211,.25); }
-.expertise-strip div, .project-tech-list li { background: #020b1a; }
+.expertise-strip, .project-tech-list { gap: 1px; padding: 1px; background: rgba(105,160,211,.14); }
+.expertise-strip div, .project-tech-list li { background: rgba(2,8,23,.66); }
 .project-tech-list li { display: grid; min-height: 100px; place-items: center; align-content: center; gap: 8px; padding: 10px 8px; color: #d9e9fa; font-size: .82rem; font-weight: 700; text-align: center; white-space: nowrap; transition: color .2s ease, background .2s ease; }
-.project-tech-list li:hover { color: #fff; background: #0a2141; }
+.project-tech-list li:hover { color: #fff; background: rgba(12,45,80,.56); }
 .project-tech-list svg { width: 50px; height: 50px; flex: 0 0 50px; fill: currentColor; filter: drop-shadow(0 3px 8px rgba(0,0,0,.28)); }
 .project-tech-list li:first-child svg { color: #3ddc84; }
 .project-status-bar { display: grid; width: 100%; min-width: 0; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); align-items: center; gap: 24px; padding: 19px 22px; background: linear-gradient(110deg, rgba(4,35,54,.78), rgba(3,13,30,.68)); border: 1px solid rgba(48,151,222,.34); border-radius: 14px; }
@@ -472,8 +472,8 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
 @media (hover: none) { .button:hover { transform: none; } }
 @media (max-width: 760px) {
   .site-background { display: none; }
-  body::before { top: 54px; height: 76px; }
-  body::after { height: 108px; }
+  body::before { top: 54px; height: 60px; }
+  body::after { height: 84px; }
   .hero-art::before, .blog-section::before, .phones-showcase::before, .writing-hero-visual::before { filter: none; }
   .hero-art img, .blog-art, .writing-hero-visual img, .expertise-strip img { filter: none; }
   .status-badge { backdrop-filter: none; }
