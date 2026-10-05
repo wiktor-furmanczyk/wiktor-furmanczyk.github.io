@@ -80,7 +80,7 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
   </section>
 
   <section id="status" class="lingua-status-bar" aria-labelledby="status-title">
-    <div class="lingua-status-heading"><span class="lingua-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W fazie testów</h2></div></div>
-    <p>Rozwijam i testuję aplikację przed planowaną publikacją w Google Play. Jej zakres może się jeszcze zmieniać wraz z wynikami testów.</p>
+    <div class="lingua-status-heading"><span class="lingua-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
+    <p>Aplikacja jest obecnie testowana i dopracowywana.</p>
   </section>
 </div>
