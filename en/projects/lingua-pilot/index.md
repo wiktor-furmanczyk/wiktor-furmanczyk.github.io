@@ -39,7 +39,7 @@ image_alt: LinguaPilot identity on a dark blue background
     <article class="content-panel">
       <p class="section-kicker">The solution</p>
       <h2>A short session focused on one topic</h2>
-      <p>LinguaPilot helps you choose a topic or situation, then practise with a short set of exercises at your own pace.</p>
+      <p>LinguaPilot helps you choose a topic or situation, then practice with a short set of exercises at your own pace.</p>
     </article>
   </section>
 
@@ -63,7 +63,7 @@ image_alt: LinguaPilot identity on a dark blue background
     <ol class="process-steps">
       <li><span>1</span><strong>Choose a topic</strong><small>Pick what you want to focus on.</small></li>
       <li><span>2</span><strong>Prepare a set</strong><small>The app creates material for a short session.</small></li>
-      <li><span>3</span><strong>Practise and review</strong><small>Work at your own pace and check your results.</small></li>
+      <li><span>3</span><strong>Practice and review</strong><small>Work at your own pace and check your results.</small></li>
     </ol>
   </section>
 
@@ -76,7 +76,7 @@ image_alt: LinguaPilot identity on a dark blue background
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-create-set.jpg' | relative_url }}" alt="Creating a flashcard set and choosing a topic" loading="lazy" width="922" height="2049"></div><figcaption><strong>Create a set</strong><small>Choose a topic and prepare your material.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="LinguaPilot home screen" loading="lazy" width="922" height="2049"></div><figcaption><strong>Home screen</strong><small>Start learning in a few taps.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-loading.jpg' | relative_url }}" alt="Preparing learning material" loading="lazy" width="922" height="2049"></div><figcaption><strong>Preparing a session</strong><small>A short pause before practice begins.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="Practising with a flashcard in LinguaPilot" loading="lazy" width="922" height="2049"></div><figcaption><strong>Practice</strong><small>Learn at your own pace.</small></figcaption></figure>
+      <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-practice.jpg' | relative_url }}" alt="Practicing with a flashcard in LinguaPilot" loading="lazy" width="922" height="2049"></div><figcaption><strong>Practice</strong><small>Learn at your own pace.</small></figcaption></figure>
       <figure><div class="screen-frame"><img src="{{ '/assets/projects/lingua-pilot/linguapilot-results.jpg' | relative_url }}" alt="Summary of a learning session" loading="lazy" width="922" height="2049"></div><figcaption><strong>Results</strong><small>Review your session summary.</small></figcaption></figure>
     </div>
   </section>

@@ -312,6 +312,8 @@ body.header-hidden .site-header:not(:focus-within) { transform: translateY(-100%
   .writing-project .content-panel p:last-child { font-size: .82rem; }
   .writing-project .project-process .process-steps { grid-template-columns: 1fr; gap: 9px; }
   .writing-project .project-process .process-steps li { min-height: 0; }
+  .writing-project .project-process .process-steps small,
+  .lingua-project .project-process .process-steps small { font-size: .8125rem; line-height: 1.5; }
   .writing-project .project-process .process-steps li:not(:last-child)::after { display: none; }
   .writing-project .project-footer-link { margin-bottom: 22px; padding-top: 0; }
   .writing-gallery .writing-gallery-grid { grid-template-columns: none; grid-auto-columns: minmax(230px, min(78vw, 330px)); grid-auto-flow: column; gap: 16px; }
@@ -440,6 +442,8 @@ body.header-hidden .site-header:not(:focus-within) { transform: translateY(-100%
   .showcase-project, .showcase-project-writing { grid-template-columns: 1fr; }.showcase-art { min-height: 420px; overflow: hidden; }.showcase-copy { padding: 32px 28px; }.showcase-art img, .showcase-project-writing .showcase-art img { width: 98%; height: 98%; inset: 1%; -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 15%, #000 100%); mask-image: linear-gradient(to bottom, transparent 0%, #000 15%, #000 100%); }.showcase-project-writing .showcase-art img { width: 92%; height: 92%; inset: 4%; }.projects-upcoming { grid-template-columns: auto 1fr; }.projects-question { display: none; }
   .footer-minimal { gap: 10px 22px; }
   .language-switch { min-width: 44px; min-height: 44px; }
+  .product-eyebrow { font-size: .7rem; }
+  .status-badge { font-size: .75rem; }
   .gallery-hint { display: block; margin: -7px 0 10px; color: #b8c8dd; font-size: .75rem; line-height: 1.4; }
   .project-role { font-size: .94rem; }
   .project-availability { min-height: 44px; font-size: .75rem; }
@@ -456,7 +460,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translateY(-100%
   .project-status-bar > p, .project-facts p:last-child, .content-panel > p:last-child { font-size: .94rem; }
   .footer-brand, .footer-social { min-height: 44px; }
   .footer-minimal p { color: #b0c2d7; font-size: .88rem; }
-  .footer-minimal small { min-height: 44px; display: flex; align-items: center; color: #9aadc4; font-size: .75rem; white-space: normal; }
+  .footer-minimal small { min-height: 44px; display: flex; align-items: center; color: #9aadc4; font-size: .8125rem; white-space: normal; }
 }
 
 @media (max-width: 480px) {
