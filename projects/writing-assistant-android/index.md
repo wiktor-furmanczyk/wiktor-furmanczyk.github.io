@@ -25,7 +25,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant na ekranie telefonu z przykładami korekty i tłumaczenia wiadomości" width="1448" height="1086">
+    <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant na ekranie telefonu z przykładami korekty i tłumaczenia wiadomości" width="1448" height="1086" fetchpriority="high" decoding="async">
   </figure>
 </section>
 

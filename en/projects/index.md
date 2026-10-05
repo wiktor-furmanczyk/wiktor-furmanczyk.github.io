@@ -29,7 +29,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="showcase-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-linguapilot-showcase.png' | relative_url }}" alt="Three LinguaPilot screens for practice, the home screen, and creating flashcards" width="1448" height="1086">
+      <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Three LinguaPilot screens for practice, the home screen, and creating flashcards" width="1448" height="1086" fetchpriority="high" decoding="async">
     </figure>
   </article>
 
@@ -46,7 +46,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant at the keyboard, with examples of editing and translating messages" loading="lazy" width="1448" height="1086">
+      <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant at the keyboard, with examples of editing and translating messages" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 

@@ -20,7 +20,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-devices.png' | relative_url }}" alt="Laptop z portfolio VeltoWeb oraz telefon z aplikacją LinguaPilot" width="1448" height="1086">
+    <img src="{{ '/assets/images/hero-devices.webp' | relative_url }}" srcset="{{ '/assets/images/hero-devices-724.webp' | relative_url }} 724w, {{ '/assets/images/hero-devices.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Laptop z portfolio VeltoWeb oraz telefon z aplikacją LinguaPilot" width="1448" height="1086" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -86,7 +86,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.png' | relative_url }}" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
   </a>
 
   <div class="blog-copy">

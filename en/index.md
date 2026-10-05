@@ -21,7 +21,7 @@ image_alt: VeltoWeb logo on a dark blue background
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-devices.png' | relative_url }}" alt="VeltoWeb portfolio on a laptop and the LinguaPilot app on a phone" width="1448" height="1086">
+    <img src="{{ '/assets/images/hero-devices.webp' | relative_url }}" srcset="{{ '/assets/images/hero-devices-724.webp' | relative_url }} 724w, {{ '/assets/images/hero-devices.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="VeltoWeb portfolio on a laptop and the LinguaPilot app on a phone" width="1448" height="1086" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -87,7 +87,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Visit the VeltoWeb blog on Facebook, opens in a new tab">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.png' | relative_url }}" alt="VeltoWeb blog with posts about LinguaPilot, AI automation, and project development" loading="lazy" width="1448" height="1086">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="VeltoWeb blog with posts about LinguaPilot, AI automation, and project development" loading="lazy" width="1448" height="1086" decoding="async">
   </a>
 
   <div class="blog-copy">
