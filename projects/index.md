@@ -33,9 +33,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
   </article>
 
   <article class="showcase-project showcase-project-writing">
-    <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant działający przy klawiaturze oraz widoki poprawiania i tłumaczenia wiadomości" loading="lazy" width="1448" height="1086">
-    </figure>
     <div class="showcase-copy">
       <span class="showcase-type">Narzędzie produktywności</span>
       <h2>AI Writing <span>Assistant</span></h2>
@@ -52,6 +49,9 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <p class="showcase-status"><span aria-hidden="true"></span><strong>W trakcie tworzenia i testów</strong><small>Rozwijam funkcje i testuję działanie w różnych aplikacjach.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz case study <span aria-hidden="true">→</span></a>
     </div>
+    <figure class="showcase-art">
+      <img src="{{ '/assets/images/projects-writing-showcase.png' | relative_url }}" alt="AI Writing Assistant działający przy klawiaturze oraz widoki poprawiania i tłumaczenia wiadomości" loading="lazy" width="1448" height="1086">
+    </figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">
