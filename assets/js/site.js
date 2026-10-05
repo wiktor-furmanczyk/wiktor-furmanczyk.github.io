@@ -45,7 +45,7 @@ const updateScrollFocus = () => {
   if (motionQuery.matches) return;
 
   const viewportCenter = window.innerHeight / 2;
-  const focusRange = window.innerHeight * 0.72;
+  const focusRange = window.innerHeight * 0.92;
 
   scrollFocusTargets.forEach((element) => {
     const bounds = element.getBoundingClientRect();
@@ -61,9 +61,9 @@ const updateScrollFocus = () => {
     }
 
     const focus = (1 + Math.cos(normalizedDistance * Math.PI)) / 2;
-    const scale = 1 + focus * (desktopQuery.matches ? 0.01 : 0.012);
+    const scale = 1 + focus * (desktopQuery.matches ? 0.008 : 0.01);
 
-    const scaleValue = scale.toFixed(4);
+    const scaleValue = scale.toFixed(5);
     if (element.style.getPropertyValue('--focus-scale') !== scaleValue) {
       element.style.setProperty('--focus-scale', scaleValue);
     }
