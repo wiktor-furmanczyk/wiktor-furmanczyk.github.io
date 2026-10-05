@@ -95,5 +95,16 @@
         <small>© {{ site.time | date: '%Y' }} Wiktor Furmańczyk · VeltoWeb</small>
       </div>
     </footer>
+    <script>
+      let edgeFadeVisible = false;
+      function updateEdgeFade() {
+        const visible = window.scrollY > 24;
+        if (visible === edgeFadeVisible) return;
+        document.body.classList.toggle('is-scrolled', visible);
+        edgeFadeVisible = visible;
+      }
+      window.addEventListener('scroll', updateEdgeFade, { passive: true });
+      updateEdgeFade();
+    </script>
   </body>
 </html>
