@@ -99,16 +99,9 @@
       let lastScrollY = Math.max(0, window.scrollY);
       let lastDirection = 0;
       let directionStartY = lastScrollY;
-      let edgeFadeVisible = false;
       let headerHidden = false;
-      function updateScrollEffects() {
+      function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
-        const fadeVisible = scrollY > 24;
-        if (fadeVisible !== edgeFadeVisible) {
-          document.body.classList.toggle('is-scrolled', fadeVisible);
-          edgeFadeVisible = fadeVisible;
-        }
-
         if (scrollY <= 70) {
           if (headerHidden) {
             document.body.classList.remove('header-hidden');
@@ -135,14 +128,14 @@
         if (scrollFrame) return;
         scrollFrame = requestAnimationFrame(() => {
           scrollFrame = 0;
-          updateScrollEffects();
+          updateHeaderVisibility();
         });
       }, { passive: true });
       document.querySelector('.site-header').addEventListener('focusin', () => {
         headerHidden = false;
         document.body.classList.remove('header-hidden');
       });
-      updateScrollEffects();
+      updateHeaderVisibility();
     </script>
   </body>
 </html>
