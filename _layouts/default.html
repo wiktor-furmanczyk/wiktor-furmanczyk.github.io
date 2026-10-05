@@ -96,15 +96,42 @@
       </div>
     </footer>
     <script>
+      let lastScrollY = Math.max(0, window.scrollY);
+      let lastDirection = 0;
+      let directionDistance = 0;
       let edgeFadeVisible = false;
-      function updateEdgeFade() {
-        const visible = window.scrollY > 24;
-        if (visible === edgeFadeVisible) return;
-        document.body.classList.toggle('is-scrolled', visible);
-        edgeFadeVisible = visible;
+      let headerHidden = false;
+      function updateScrollEffects() {
+        const scrollY = Math.max(0, window.scrollY);
+        const fadeVisible = scrollY > 24;
+        if (fadeVisible !== edgeFadeVisible) {
+          document.body.classList.toggle('is-scrolled', fadeVisible);
+          edgeFadeVisible = fadeVisible;
+        }
+
+        if (scrollY <= 70) {
+          if (headerHidden) {
+            document.body.classList.remove('header-hidden');
+            headerHidden = false;
+          }
+          directionDistance = 0;
+          lastDirection = 0;
+        } else {
+          const delta = scrollY - lastScrollY;
+          if (delta !== 0) {
+            const direction = Math.sign(delta);
+            directionDistance = direction === lastDirection ? Math.min(10, directionDistance + Math.abs(delta)) : Math.abs(delta);
+            if (directionDistance >= 10 && headerHidden !== (direction > 0)) {
+              headerHidden = direction > 0;
+              document.body.classList.toggle('header-hidden', headerHidden);
+            }
+            lastDirection = direction;
+          }
+        }
+        lastScrollY = scrollY;
       }
-      window.addEventListener('scroll', updateEdgeFade, { passive: true });
-      updateEdgeFade();
+      window.addEventListener('scroll', updateScrollEffects, { passive: true });
+      updateScrollEffects();
     </script>
   </body>
 </html>
