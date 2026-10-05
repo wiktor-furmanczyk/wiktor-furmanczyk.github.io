@@ -1,8 +1,11 @@
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 const desktopQuery = window.matchMedia('(min-width: 761px)');
+const scrollFocusQuery = window.matchMedia('(max-width: 760px)');
 const siteHeader = document.querySelector('.site-header');
+const scrollFocusTargets = document.querySelectorAll('.home-page .hero-copy, .home-page .hero-art, .home-page .expertise-strip > div, .home-page .project-card, .home-page .blog-art, .home-page .blog-copy, .home-page .blog-cta');
 let parallaxFrame = 0;
 let headerFrame = 0;
+let scrollFocusFrame = 0;
 let lastHeaderScroll = window.scrollY;
 let pointerX = 0;
 let pointerY = 0;
@@ -38,6 +41,45 @@ const requestHeaderUpdate = () => {
   headerFrame = window.requestAnimationFrame(updateHeaderVisibility);
 };
 
+const updateScrollFocus = () => {
+  scrollFocusFrame = 0;
+  if (!scrollFocusQuery.matches || motionQuery.matches) return;
+
+  const viewportCenter = window.innerHeight / 2;
+  const focusRange = window.innerHeight * 0.85;
+
+  scrollFocusTargets.forEach((element) => {
+    const bounds = element.getBoundingClientRect();
+    const normalizedDistance = Math.max(-1, Math.min(1, (bounds.top + bounds.height / 2 - viewportCenter) / focusRange));
+    const focus = 1 - Math.abs(normalizedDistance);
+    const scale = 0.965 + focus * 0.07;
+    const depth = -18 + focus * 34;
+    const tilt = normalizedDistance * -5;
+
+    element.style.setProperty('--focus-scale', scale.toFixed(3));
+    element.style.setProperty('--focus-depth', `${depth.toFixed(1)}px`);
+    element.style.setProperty('--focus-tilt', `${tilt.toFixed(2)}deg`);
+    element.classList.add('scroll-focus-target');
+  });
+};
+
+const requestScrollFocusUpdate = () => {
+  if (!scrollFocusQuery.matches || motionQuery.matches || scrollFocusFrame) return;
+  scrollFocusFrame = window.requestAnimationFrame(updateScrollFocus);
+};
+
+const resetScrollFocus = () => {
+  if (scrollFocusFrame) window.cancelAnimationFrame(scrollFocusFrame);
+  scrollFocusFrame = 0;
+  scrollFocusTargets.forEach((element) => {
+    element.classList.remove('scroll-focus-target');
+    element.style.removeProperty('--focus-scale');
+    element.style.removeProperty('--focus-depth');
+    element.style.removeProperty('--focus-tilt');
+  });
+  requestScrollFocusUpdate();
+};
+
 const resetParallax = () => {
   if (parallaxFrame) window.cancelAnimationFrame(parallaxFrame);
   parallaxFrame = 0;
@@ -47,19 +89,26 @@ const resetParallax = () => {
   requestParallaxUpdate();
 };
 
-const observeMediaQuery = (query) => {
-  if (query.addEventListener) query.addEventListener('change', resetParallax);
-  else query.addListener(resetParallax);
+const observeMediaQuery = (query, callback) => {
+  if (query.addEventListener) query.addEventListener('change', callback);
+  else query.addListener(callback);
 };
 
 window.addEventListener('scroll', requestParallaxUpdate, { passive: true });
 window.addEventListener('scroll', requestHeaderUpdate, { passive: true });
+window.addEventListener('scroll', requestScrollFocusUpdate, { passive: true });
+window.addEventListener('resize', requestScrollFocusUpdate, { passive: true });
 window.addEventListener('pointermove', (event) => {
   if (motionQuery.matches || !desktopQuery.matches) return;
   pointerX = ((event.clientX / window.innerWidth) - 0.5) * 14;
   pointerY = ((event.clientY / window.innerHeight) - 0.5) * 10;
   requestParallaxUpdate();
 }, { passive: true });
-observeMediaQuery(motionQuery);
-observeMediaQuery(desktopQuery);
+observeMediaQuery(motionQuery, () => {
+  resetParallax();
+  resetScrollFocus();
+});
+observeMediaQuery(desktopQuery, resetParallax);
+observeMediaQuery(scrollFocusQuery, resetScrollFocus);
 requestParallaxUpdate();
+requestScrollFocusUpdate();

@@ -293,6 +293,9 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   .site-footer { padding-block: 22px; }.footer-minimal { grid-template-columns: 1fr; gap: 4px; }.footer-minimal p { max-width: 310px; margin-bottom: 8px; }.footer-minimal small { grid-column: auto; }
 }
 
+@media (max-width: 760px) {
+  .home-page .scroll-focus-target { transform: perspective(900px) translateZ(var(--focus-depth, -18px)) rotateX(var(--focus-tilt, 0deg)) scale(var(--focus-scale, .965)); transform-origin: center; backface-visibility: hidden; will-change: transform; }
+}
 @media (hover: none) { .button:hover, .project-card:hover { transform: none; } }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
