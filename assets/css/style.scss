@@ -312,6 +312,7 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   .writing-project .project-process .process-steps li { min-height: 0; }
   .writing-project .project-process .process-steps li:not(:last-child)::after { display: none; }
   .writing-project .project-footer-link { margin-bottom: 22px; padding-top: 0; }
+  .writing-gallery .writing-gallery-grid { grid-template-columns: none; grid-auto-columns: minmax(230px, min(78vw, 330px)); grid-auto-flow: column; gap: 16px; }
   .lingua-project .product-hero { padding-top: 74px; padding-bottom: 26px; }
   .lingua-project .product-copy { max-width: 680px; }
   .lingua-project .problem-grid { grid-template-columns: 1fr; }
@@ -489,5 +490,8 @@ h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.025em; }
   [data-parallax] { transform: none !important; }
 }
 @media (max-width: 760px) {
-  .scroll-focus-target { transform: perspective(1100px) translateZ(var(--focus-depth, 0px)) rotateX(var(--focus-tilt, 0deg)) scale(var(--focus-scale, 1)); transform-origin: center; backface-visibility: hidden; will-change: transform; }
+  .scroll-focus-target { scale: var(--focus-scale, 1); transform-origin: center; will-change: scale; }
+}
+@media (min-width: 761px) {
+  .scroll-focus-target { scale: var(--focus-scale, 1); transform-origin: center; will-change: scale; }
 }

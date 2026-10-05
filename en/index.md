@@ -14,7 +14,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <p class="eyebrow"><span></span> Welcome to my portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
     <p class="hero-lead">I design and build practical digital products</p>
-    <p class="hero-description">I independently develop mobile and desktop apps, web tools, automation, and AI integrations—from the initial idea and interface design to a working solution.</p>
+    <p class="hero-description">I independently develop mobile and desktop apps, web tools, automation, and AI integrations. I take each project from the initial idea and interface design through to a working solution.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Explore projects <span aria-hidden="true">→</span></a>
     </div>

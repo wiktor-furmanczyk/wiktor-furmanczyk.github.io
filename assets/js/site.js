@@ -1,8 +1,7 @@
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 const desktopQuery = window.matchMedia('(min-width: 761px)');
-const scrollFocusQuery = window.matchMedia('(max-width: 760px)');
 const siteHeader = document.querySelector('.site-header');
-const scrollFocusTargets = document.querySelectorAll('.home-page .expertise-strip > div, .home-page .project-card, .home-page .blog-cta, .projects-page .showcase-project, .projects-page .projects-upcoming, .project-body .project-facts > article, .project-body .content-panel, .project-body .process-screens figure, .project-body .product-meta-grid > *, .project-body .status-panel');
+const scrollFocusTargets = document.querySelectorAll('.home-page .expertise-strip > div, .home-page .project-card, .home-page .blog-cta, .projects-page .showcase-project, .projects-page .projects-upcoming, .project-body .project-facts > article, .project-body .content-panel, .project-body .process-screens figure, .project-body .process-steps li, .project-body .lingua-gallery-grid figure, .project-body .project-status-bar, .project-body .product-meta-grid > *, .project-body .status-panel');
 let parallaxFrame = 0;
 let headerFrame = 0;
 let scrollFocusFrame = 0;
@@ -30,10 +29,10 @@ const updateHeaderVisibility = () => {
   const currentScroll = window.scrollY;
   const scrollDelta = currentScroll - lastHeaderScroll;
 
-  if (currentScroll <= 64 || scrollDelta < -5) siteHeader.classList.remove('is-hidden');
-  else if (currentScroll > 96 && scrollDelta > 5) siteHeader.classList.add('is-hidden');
+  if (currentScroll <= 64 || scrollDelta < -10) siteHeader.classList.remove('is-hidden');
+  else if (currentScroll > 120 && scrollDelta > 14) siteHeader.classList.add('is-hidden');
 
-  if (Math.abs(scrollDelta) > 5 || currentScroll <= 64) lastHeaderScroll = currentScroll;
+  if (Math.abs(scrollDelta) > 10 || currentScroll <= 64) lastHeaderScroll = currentScroll;
 };
 
 const requestHeaderUpdate = () => {
@@ -43,7 +42,7 @@ const requestHeaderUpdate = () => {
 
 const updateScrollFocus = () => {
   scrollFocusFrame = 0;
-  if (!scrollFocusQuery.matches || motionQuery.matches) return;
+  if (motionQuery.matches) return;
 
   const viewportCenter = window.innerHeight / 2;
   const focusRange = window.innerHeight * 0.72;
@@ -57,26 +56,20 @@ const updateScrollFocus = () => {
       if (element.classList.contains('scroll-focus-target')) {
         element.classList.remove('scroll-focus-target');
         element.style.removeProperty('--focus-scale');
-        element.style.removeProperty('--focus-depth');
-        element.style.removeProperty('--focus-tilt');
       }
       return;
     }
 
     const focus = (1 + Math.cos(normalizedDistance * Math.PI)) / 2;
-    const scale = 1 + focus * 0.014;
-    const depth = -3 + focus * 8;
-    const tilt = -(distance / focusRange) * (1 - focus) * 1.2;
+    const scale = 1 + focus * (desktopQuery.matches ? 0.01 : 0.012);
 
     element.style.setProperty('--focus-scale', scale.toFixed(3));
-    element.style.setProperty('--focus-depth', `${depth.toFixed(1)}px`);
-    element.style.setProperty('--focus-tilt', `${tilt.toFixed(2)}deg`);
     element.classList.add('scroll-focus-target');
   });
 };
 
 const requestScrollFocusUpdate = () => {
-  if (!scrollFocusQuery.matches || motionQuery.matches || scrollFocusFrame) return;
+  if (motionQuery.matches || scrollFocusFrame) return;
   scrollFocusFrame = window.requestAnimationFrame(updateScrollFocus);
 };
 
@@ -86,8 +79,6 @@ const resetScrollFocus = () => {
   scrollFocusTargets.forEach((element) => {
     element.classList.remove('scroll-focus-target');
     element.style.removeProperty('--focus-scale');
-    element.style.removeProperty('--focus-depth');
-    element.style.removeProperty('--focus-tilt');
   });
   requestScrollFocusUpdate();
 };
@@ -121,6 +112,5 @@ observeMediaQuery(motionQuery, () => {
   resetScrollFocus();
 });
 observeMediaQuery(desktopQuery, resetParallax);
-observeMediaQuery(scrollFocusQuery, resetScrollFocus);
 requestParallaxUpdate();
 requestScrollFocusUpdate();

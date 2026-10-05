@@ -13,7 +13,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <p class="eyebrow"><span></span> Witam w moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
     <p class="hero-lead">Projektuję i tworzę praktyczne produkty cyfrowe</p>
-    <p class="hero-description">Samodzielnie rozwijam aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI — od pomysłu i projektu interfejsu po działające rozwiązanie.</p>
+    <p class="hero-description">Samodzielnie rozwijam aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI. Zajmuję się każdym etapem, od pomysłu i projektu interfejsu po działające rozwiązanie.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
     </div>
