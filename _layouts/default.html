@@ -105,6 +105,7 @@
       let lastDirection = 0;
       let directionStartY = lastScrollY;
       let headerHidden = false;
+      let backToTopVisible = false;
       const backToTop = document.querySelector('.back-to-top');
       function updateMobileBackgroundPosition(scrollY) {
         const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
@@ -113,6 +114,13 @@
       }
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
+        const scrollDelta = scrollY - lastScrollY;
+        const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+        if (scrollDelta < 0 || scrollY <= maxScroll * .5) {
+          backToTopVisible = false;
+        } else if (scrollDelta > 0 && scrollY > maxScroll * .5) {
+          backToTopVisible = true;
+        }
         if (scrollY <= 12) {
           if (headerHidden) {
             document.body.classList.remove('header-hidden');
@@ -134,7 +142,7 @@
         }
         if (scrollY <= 12 || Math.abs(scrollY - lastScrollY) >= 1) lastScrollY = scrollY;
         updateMobileBackgroundPosition(scrollY);
-        backToTop.classList.toggle('is-visible', scrollY > Math.max(480, window.innerHeight * .75));
+        backToTop.classList.toggle('is-visible', backToTopVisible);
       }
       let scrollFrame = 0;
       window.addEventListener('scroll', () => {

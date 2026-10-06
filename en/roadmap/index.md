@@ -20,7 +20,7 @@ image_alt: VeltoWeb project roadmap and changelog
 </header>
 
 <div class="roadmap-layout section-shell">
-  <aside class="roadmap-periods" aria-label="Changelog period"><strong>2026</strong><a class="is-current" href="#changes-october" aria-current="date">October</a><a href="#changes-september">September</a><span>August</span><span class="roadmap-older">Older</span></aside>
+  <aside class="roadmap-periods" aria-label="Changelog period"><strong>2026</strong><a class="is-current" href="#changes-october" aria-current="date">October</a><a href="#changes-september">September</a><span class="roadmap-older">Older</span></aside>
   <div class="roadmap-main">
     <section id="roadmap" class="roadmap-section" aria-labelledby="roadmap-title">
       <div class="roadmap-section-heading"><h2 id="roadmap-title">Roadmap</h2><p>Upcoming plans and directions for each project.</p></div>
@@ -33,14 +33,14 @@ image_alt: VeltoWeb project roadmap and changelog
     <section id="changelog" class="roadmap-section changelog-section" aria-labelledby="changelog-title">
       <div class="roadmap-section-heading"><h2 id="changelog-title">Latest updates</h2><p>The most important changes across my projects.</p></div>
       <div id="changes-october" class="change-month"><h3>October 2026</h3><ol class="change-list">
-        <li class="is-current"><time datetime="2026-10-06">06 Oct 2026</time><div><span class="change-project">LinguaPilot</span><h4>Flashcard generation cost optimization</h4><p>Added a mechanism that limits repeated generation of the same material, reducing token use and costs.</p></div><span class="change-type">Optimization</span></li>
-        <li><time datetime="2026-10-04">04 Oct 2026</time><div><span class="change-project">LinguaPilot</span><h4>API key protection</h4><p>Added safeguards for storing API keys and improved how the app handles them.</p></div><span class="change-type">Security</span></li>
-        <li><time datetime="2026-10-02">02 Oct 2026</time><div><span class="change-project change-project-violet">AI Writing Assistant</span><h4>Improved behavior across apps</h4><p>Improved behavior in different text fields and compatibility with popular applications.</p></div><span class="change-type">Improvement</span></li>
+        <li class="is-current"><time datetime="2026-10-06">06 Oct 2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Optimization</span></div><h4>Flashcard generation cost optimization</h4><p>Added a mechanism that limits repeated generation of the same material, reducing token use and costs.</p></div></li>
+        <li><time datetime="2026-10-04">04 Oct 2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Security</span></div><h4>API key protection</h4><p>Added safeguards for storing API keys and improved how the app handles them.</p></div></li>
+        <li><time datetime="2026-10-02">02 Oct 2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Improvement</span></div><h4>Improved behavior across apps</h4><p>Improved behavior in different text fields and compatibility with popular applications.</p></div></li>
       </ol></div>
       <div id="changes-september" class="change-month"><h3>September 2026</h3><ol class="change-list">
-        <li><time datetime="2026-09-23">23 Sep 2026</time><div><span class="change-project">LinguaPilot</span><h4>Adding more languages</h4><p>Expanded the project plans with additional, less widely supported languages to make learning before a trip easier—for example, before visiting Italy or Romania.</p></div><span class="change-type">Development</span></li>
-        <li><time datetime="2026-09-17">17 Sep 2026</time><div><span class="change-project">Finance system</span><h4>Requirements analysis</h4><p>Collected requirements and prepared the initial system architecture.</p></div><span class="change-type">Analysis</span></li>
-        <li><time datetime="2026-09-12">12 Sep 2026</time><div><span class="change-project change-project-violet">AI Writing Assistant</span><h4>Resolved an issue with banking apps</h4><p>Fixed an issue where AI Writing Assistant could block navigation to a banking app while enabled. Compatibility with mobile banking apps has been improved.</p></div><span class="change-type">Compatibility</span></li>
+        <li><time datetime="2026-09-23">23 Sep 2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Development</span></div><h4>Adding more languages</h4><p>Expanded the project plans with additional, less widely supported languages to make learning before a trip easier—for example, before visiting Italy or Romania.</p></div></li>
+        <li><time datetime="2026-09-17">17 Sep 2026</time><div class="change-content"><div class="change-meta"><span class="change-project">Finance system</span><span class="change-type">Analysis</span></div><h4>Requirements analysis</h4><p>Collected requirements and prepared the initial system architecture.</p></div></li>
+        <li><time datetime="2026-09-12">12 Sep 2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Compatibility</span></div><h4>Resolved an issue with banking apps</h4><p>Fixed an issue where AI Writing Assistant could block navigation to a banking app while enabled. Compatibility with mobile banking apps has been improved.</p></div></li>
       </ol></div>
     </section>
   </div>

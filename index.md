@@ -94,6 +94,9 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
       <a class="roadmap-banner-secondary" href="{{ '/roadmap/#changelog' | relative_url }}">Ostatnie zmiany <span aria-hidden="true">→</span></a>
     </div>
   </div>
+  <figure class="roadmap-banner-art">
+    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" alt="Neonowy interfejs changelogu z listą nowych funkcji, usprawnień i poprawek" width="1448" height="1086" loading="lazy" decoding="async">
+  </figure>
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
