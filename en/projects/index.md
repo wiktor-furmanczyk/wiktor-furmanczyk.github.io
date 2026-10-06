@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: VeltoWeb case studies for LinguaPilot and AI Writing Assistant, including technologies and current project status.
+description: VeltoWeb case studies for LinguaPilot, AI Writing Assistant, and Finance Manager, including focus areas and current project status.
 permalink: /en/projects/
 lang: en-US
 body_class: projects-page
@@ -47,6 +47,23 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant at the keyboard, with examples of editing and translating messages" loading="lazy" width="1448" height="1086" decoding="async">
+    </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-finance">
+    <div class="showcase-copy">
+      <span class="showcase-type">Desktop app</span>
+      <h2>Finance <span>Manager</span></h2>
+      <p class="showcase-lead">Financial data that supports better decisions</p>
+      <p>One private place for tracking transactions, budgets, savings, and the real profitability of side projects.</p>
+      <div class="showcase-tags" aria-label="Project focus areas">
+        <span>Finance</span><span>Automation</span><span>AI</span>
+      </div>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Needs and requirements analysis</strong><small>Requirements are being organized. Architecture design, transaction import, and automatic categorization are next.</small></p>
+      <a class="showcase-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art">
+      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
   </article>
 

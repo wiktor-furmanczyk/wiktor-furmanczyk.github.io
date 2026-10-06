@@ -70,14 +70,16 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
       </div>
     </article>
 
-    <article class="project-card project-card-upcoming">
-      <div class="upcoming-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-upcoming.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="751">
+    <article class="project-card">
+      <div class="project-card-visual">
+        <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Panel Finance Manager z podsumowaniem salda, wydatków, budżetów i celu oszczędnościowego" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
-        <span class="status-badge status-muted">W przygotowaniu</span>
-        <h3>Więcej projektów wkrótce</h3>
-        <p>Kolejne własne narzędzia i eksperymenty pojawią się tutaj, gdy będą gotowe do publicznej prezentacji.</p>
+        <div class="card-meta-row"><span class="status-badge status-violet">Analiza wymagań</span></div>
+        <h3>Finance Manager</h3>
+        <p>Porządkuj finanse osobiste i dodatkowe źródła dochodu w jednym, prywatnym narzędziu.</p>
+        <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div>
+        <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
       </div>
     </article>
   </div>

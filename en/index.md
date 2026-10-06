@@ -71,14 +71,16 @@ image_alt: VeltoWeb logo on a dark blue background
       </div>
     </article>
 
-    <article class="project-card project-card-upcoming">
-      <div class="upcoming-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-upcoming.jpg' | relative_url }}" alt="" loading="lazy" width="1200" height="751">
+    <article class="project-card">
+      <div class="project-card-visual">
+        <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Finance Manager dashboard with balances, spending, budgets, and a savings goal" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
-        <span class="status-badge status-muted">In development</span>
-        <h3>More projects coming soon</h3>
-        <p>New tools and experiments will appear here when they are ready to share.</p>
+        <div class="card-meta-row"><span class="status-badge status-violet">Requirements analysis</span></div>
+        <h3>Finance Manager</h3>
+        <p>Organize personal finances and side income in one private desktop tool.</p>
+        <div class="tag-row" aria-label="Project type and focus areas"><span>Desktop app</span><span>Finance</span><span>Automation</span></div>
+        <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
       </div>
     </article>
   </div>

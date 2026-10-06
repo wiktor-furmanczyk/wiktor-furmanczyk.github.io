@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projekty
-description: Opisy projektów VeltoWeb. LinguaPilot i AI Writing Assistant wraz z technologiami i aktualnym etapem prac.
+description: Opisy projektów VeltoWeb. LinguaPilot, AI Writing Assistant i Finance Manager wraz z technologiami i aktualnym etapem prac.
 permalink: /projects/
 body_class: projects-page
 image: /assets/images/veltoweb-og.jpg
@@ -46,6 +46,23 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant działający przy klawiaturze oraz widoki poprawiania i tłumaczenia wiadomości" loading="lazy" width="1448" height="1086" decoding="async">
+    </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-finance">
+    <div class="showcase-copy">
+      <span class="showcase-type">Aplikacja desktopowa</span>
+      <h2>Finance <span>Manager</span></h2>
+      <p class="showcase-lead">Finanse, które pomagają podejmować decyzje</p>
+      <p>Jedno prywatne miejsce do kontroli transakcji, budżetów, oszczędności oraz opłacalności dodatkowych zleceń.</p>
+      <div class="showcase-tags" aria-label="Obszary projektu">
+        <span>Finanse</span><span>Automatyzacje</span><span>AI</span>
+      </div>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Analiza potrzeb i wymagań</strong><small>Trwa porządkowanie wymagań. Następne etapy to projekt architektury, import transakcji i automatyczna kategoryzacja.</small></p>
+      <a class="showcase-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art">
+      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Wizualizacja Finance Manager z pulpitem finansowym, budżetem miesięcznym i celem oszczędnościowym" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
   </article>
 
