@@ -86,11 +86,8 @@ image_alt: VeltoWeb logo on a dark blue background
 </section>
 
 <section class="roadmap-banner section-shell" aria-labelledby="roadmap-banner-title">
-  <div class="roadmap-banner-icon" aria-hidden="true">
-    <svg viewBox="0 0 24 24" focusable="false"><path d="M5 6.5h14M5 12h14M5 17.5h14M3 6.5h.01M3 12h.01M3 17.5h.01"/></svg>
-  </div>
   <div class="roadmap-banner-copy">
-    <p class="section-kicker">Project development</p>
+    <p class="eyebrow"><span></span> Project development</p>
     <h2 id="roadmap-banner-title">Plans, progress, and <span class="text-gradient">updates</span></h2>
     <p>See what I am working on now, what comes next, and the most important changes across my projects.</p>
   </div>

@@ -18,6 +18,7 @@
       {% assign footer_description = 'I build, learn, and turn ideas into working solutions.' %}
       {% assign linkedin_aria = 'LinkedIn profile of Wiktor Furmańczyk, opens in a new tab' %}
       {% assign skip_label = 'Skip to content' %}
+      {% assign back_to_top_label = 'Back to top' %}
       {% assign og_locale = 'en_US' %}
     {% else %}
       {% assign language_url = page.url | prepend: '/en' %}
@@ -29,6 +30,7 @@
       {% assign footer_description = 'Tworzę, uczę się i rozwijam pomysły w działające rozwiązania.' %}
       {% assign linkedin_aria = 'Profil Wiktora Furmańczyka na LinkedIn, otwiera się w nowej karcie' %}
       {% assign skip_label = 'Przejdź do treści' %}
+      {% assign back_to_top_label = 'Wróć na górę strony' %}
       {% assign og_locale = 'pl_PL' %}
     {% endif %}
     <title>{{ page_title | escape }}{% if page.title and page.title != site.title %} · VeltoWeb{% endif %}</title>
@@ -95,11 +97,15 @@
         <small>© {{ site.time | date: '%Y' }} Wiktor Furmańczyk · VeltoWeb</small>
       </div>
     </footer>
+    <a class="back-to-top" href="#content" aria-label="{{ back_to_top_label }}" title="{{ back_to_top_label }}">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="m6 14 6-6 6 6"/></svg>
+    </a>
     <script>
       let lastScrollY = Math.max(0, window.scrollY);
       let lastDirection = 0;
       let directionStartY = lastScrollY;
       let headerHidden = false;
+      const backToTop = document.querySelector('.back-to-top');
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
         if (scrollY <= 12) {
@@ -122,6 +128,7 @@
           }
         }
         if (scrollY <= 12 || Math.abs(scrollY - lastScrollY) >= 1) lastScrollY = scrollY;
+        backToTop.classList.toggle('is-visible', scrollY > Math.max(480, window.innerHeight * .75));
       }
       let scrollFrame = 0;
       window.addEventListener('scroll', () => {
