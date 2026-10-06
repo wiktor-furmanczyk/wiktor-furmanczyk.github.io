@@ -84,6 +84,18 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
 </section>
 
+<section class="roadmap-banner section-shell" aria-labelledby="roadmap-banner-title">
+  <div class="roadmap-banner-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" focusable="false"><path d="M5 6.5h14M5 12h14M5 17.5h14M3 6.5h.01M3 12h.01M3 17.5h.01"/></svg>
+  </div>
+  <div class="roadmap-banner-copy">
+    <p class="section-kicker">Rozwój projektów</p>
+    <h2 id="roadmap-banner-title">Plany, postępy i <span class="text-gradient">zmiany</span></h2>
+    <p>Sprawdź, nad czym obecnie pracuję, co planuję dalej i jakie najważniejsze zmiany pojawiły się w moich projektach.</p>
+  </div>
+  <a class="button button-primary roadmap-banner-link" href="{{ '/roadmap/' | relative_url }}">Zobacz roadmapę <span aria-hidden="true">→</span></a>
+</section>
+
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
     <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
