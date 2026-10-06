@@ -106,19 +106,36 @@
       let directionStartY = lastScrollY;
       let headerHidden = false;
       let backToTopVisible = false;
+      let mobileBackgroundOffset = 28;
+      let mobileBackgroundTarget = 28;
+      let mobileBackgroundFrame = 0;
       const backToTop = document.querySelector('.back-to-top');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      function renderMobileBackground() {
+        mobileBackgroundFrame = 0;
+        if (reducedMotion.matches) {
+          mobileBackgroundOffset = mobileBackgroundTarget;
+        } else {
+          mobileBackgroundOffset += (mobileBackgroundTarget - mobileBackgroundOffset) * .14;
+        }
+        document.documentElement.style.setProperty('--mobile-bg-offset', `${mobileBackgroundOffset.toFixed(2)}px`);
+        if (Math.abs(mobileBackgroundTarget - mobileBackgroundOffset) > .08) {
+          mobileBackgroundFrame = requestAnimationFrame(renderMobileBackground);
+        }
+      }
       function updateMobileBackgroundPosition(scrollY) {
         const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
         const progress = Math.min(1, Math.max(0, scrollY / maxScroll));
-        document.documentElement.style.setProperty('--mobile-bg-position', `${(progress * 100).toFixed(2)}%`);
+        mobileBackgroundTarget = 28 - (progress * 56);
+        if (!mobileBackgroundFrame) mobileBackgroundFrame = requestAnimationFrame(renderMobileBackground);
       }
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
         const scrollDelta = scrollY - lastScrollY;
         const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
-        if (scrollDelta < 0 || scrollY <= maxScroll * .5) {
+        if (scrollDelta < 0 || scrollY <= maxScroll * .75) {
           backToTopVisible = false;
-        } else if (scrollDelta > 0 && scrollY > maxScroll * .5) {
+        } else if (scrollDelta > 0 && scrollY > maxScroll * .75) {
           backToTopVisible = true;
         }
         if (scrollY <= 12) {
@@ -155,6 +172,10 @@
       document.querySelector('.site-header').addEventListener('focusin', () => {
         headerHidden = false;
         document.body.classList.remove('header-hidden');
+      });
+      backToTop.addEventListener('click', () => {
+        backToTopVisible = false;
+        backToTop.classList.remove('is-visible');
       });
       window.addEventListener('resize', () => updateMobileBackgroundPosition(Math.max(0, window.scrollY)), { passive: true });
       updateHeaderVisibility();
