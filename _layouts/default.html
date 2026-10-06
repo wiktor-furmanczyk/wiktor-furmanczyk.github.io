@@ -106,30 +106,7 @@
       let directionStartY = lastScrollY;
       let headerHidden = false;
       let backToTopVisible = false;
-      let mobileBackgroundOffset = 24;
-      let mobileBackgroundTarget = 24;
-      let mobileBackgroundFrame = 0;
       const backToTop = document.querySelector('.back-to-top');
-      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-      const mobileViewport = window.matchMedia('(max-width: 760px)');
-      function renderMobileBackground() {
-        mobileBackgroundFrame = 0;
-        if (!mobileViewport.matches) return;
-        if (reducedMotion.matches) {
-          mobileBackgroundOffset = mobileBackgroundTarget;
-        } else {
-          mobileBackgroundOffset += (mobileBackgroundTarget - mobileBackgroundOffset) * .1;
-        }
-        document.documentElement.style.setProperty('--mobile-bg-offset', `${mobileBackgroundOffset.toFixed(2)}px`);
-        if (Math.abs(mobileBackgroundTarget - mobileBackgroundOffset) > .08) {
-          mobileBackgroundFrame = requestAnimationFrame(renderMobileBackground);
-        }
-      }
-      function updateMobileBackgroundPosition(scrollY) {
-        if (!mobileViewport.matches) return;
-        mobileBackgroundTarget = Math.max(-24, 24 - (scrollY * .012));
-        if (!mobileBackgroundFrame) mobileBackgroundFrame = requestAnimationFrame(renderMobileBackground);
-      }
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
         const scrollDelta = scrollY - lastScrollY;
@@ -159,7 +136,6 @@
           }
         }
         if (scrollY <= 12 || Math.abs(scrollY - lastScrollY) >= 1) lastScrollY = scrollY;
-        updateMobileBackgroundPosition(scrollY);
         backToTop.classList.toggle('is-visible', backToTopVisible);
       }
       let scrollFrame = 0;
@@ -178,7 +154,6 @@
         backToTopVisible = false;
         backToTop.classList.remove('is-visible');
       });
-      window.addEventListener('resize', () => updateMobileBackgroundPosition(Math.max(0, window.scrollY)), { passive: true });
       updateHeaderVisibility();
     </script>
   </body>
