@@ -85,11 +85,8 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
 </section>
 
 <section class="roadmap-banner section-shell" aria-labelledby="roadmap-banner-title">
-  <div class="roadmap-banner-icon" aria-hidden="true">
-    <svg viewBox="0 0 24 24" focusable="false"><path d="M5 6.5h14M5 12h14M5 17.5h14M3 6.5h.01M3 12h.01M3 17.5h.01"/></svg>
-  </div>
   <div class="roadmap-banner-copy">
-    <p class="section-kicker">Rozwój projektów</p>
+    <p class="eyebrow"><span></span> Rozwój projektów</p>
     <h2 id="roadmap-banner-title">Plany, postępy i <span class="text-gradient">zmiany</span></h2>
     <p>Sprawdź, nad czym obecnie pracuję, co planuję dalej i jakie najważniejsze zmiany pojawiły się w moich projektach.</p>
   </div>

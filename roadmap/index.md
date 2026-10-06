@@ -19,10 +19,10 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
 </header>
 
 <div class="roadmap-layout section-shell">
-  <aside class="roadmap-periods" aria-label="Okres roadmapy">
+  <aside class="roadmap-periods" aria-label="Okres changelogu">
     <strong>2026</strong>
-    <a class="is-current" href="#roadmap">Październik</a>
-    <span>Wrzesień</span>
+    <a class="is-current" href="#zmiany-pazdziernik" aria-current="date">Październik</a>
+    <a href="#zmiany-wrzesien">Wrzesień</a>
     <span>Sierpień</span>
     <span class="roadmap-older">Starsze</span>
   </aside>
@@ -37,7 +37,6 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
       <div class="roadmap-projects">
         <article class="roadmap-project">
           <div class="roadmap-project-intro">
-            <span class="roadmap-project-icon icon-blue" aria-hidden="true">LP</span>
             <div><h3>Lingua<span>Pilot</span></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
           </div>
           <ul class="roadmap-tasks">
@@ -50,7 +49,6 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
 
         <article class="roadmap-project">
           <div class="roadmap-project-intro">
-            <span class="roadmap-project-icon icon-violet" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h8l4 4v14H7V3Zm8 0v5h5M10 12h6m-6 4h6"/></svg></span>
             <div><h3>AI Writing Assistant</h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
           <ul class="roadmap-tasks">
@@ -63,7 +61,6 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
 
         <article class="roadmap-project">
           <div class="roadmap-project-intro">
-            <span class="roadmap-project-icon icon-cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6c0-1.7 3.1-3 7-3s7 1.3 7 3-3.1 3-7 3-7-1.3-7-3Zm0 0v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span>
             <div><h3>System finansowy</h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja</span><span>Finanse</span><span>Automatyzacje</span></div></div>
           </div>
           <ul class="roadmap-tasks">
@@ -82,7 +79,7 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
         <p>Najważniejsze aktualizacje w moich projektach.</p>
       </div>
 
-      <div class="change-month">
+      <div id="zmiany-pazdziernik" class="change-month">
         <h3>Październik 2026</h3>
         <ol class="change-list">
           <li class="is-current"><time datetime="2026-10-06">06.10.2026</time><div><span class="change-project">LinguaPilot</span><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div><span class="change-type">Optymalizacja</span></li>
@@ -91,11 +88,11 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
         </ol>
       </div>
 
-      <div class="change-month">
+      <div id="zmiany-wrzesien" class="change-month">
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
-          <li><time datetime="2026-09-23">23.09.2026</time><div><span class="change-project">LinguaPilot</span><h4>Plan kolejnych funkcji</h4><p>Dopracowano założenia dla systemu nagród i rankingu oraz dodania nowych języków. Zaktualizowano roadmapę projektu.</p></div><span class="change-type is-muted">Planowanie</span></li>
-          <li><time datetime="2026-09-17">17.09.2026</time><div><span class="change-project">System finansowy</span><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div><span class="change-type is-muted">Planowanie</span></li>
+          <li><time datetime="2026-09-23">23.09.2026</time><div><span class="change-project">LinguaPilot</span><h4>Plan kolejnych funkcji</h4><p>Dopracowano założenia dla systemu nagród i rankingu oraz dodania nowych języków. Zaktualizowano roadmapę projektu.</p></div><span class="change-type">Roadmapa</span></li>
+          <li><time datetime="2026-09-17">17.09.2026</time><div><span class="change-project">System finansowy</span><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div><span class="change-type">Analiza</span></li>
         </ol>
       </div>
     </section>
