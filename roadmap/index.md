@@ -23,7 +23,6 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
     <strong>2026</strong>
     <a class="is-current" href="#zmiany-pazdziernik" aria-current="date">Październik</a>
     <a href="#zmiany-wrzesien">Wrzesień</a>
-    <span>Sierpień</span>
     <span class="roadmap-older">Starsze</span>
   </aside>
 
@@ -82,18 +81,18 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
       <div id="zmiany-pazdziernik" class="change-month">
         <h3>Październik 2026</h3>
         <ol class="change-list">
-          <li class="is-current"><time datetime="2026-10-06">06.10.2026</time><div><span class="change-project">LinguaPilot</span><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div><span class="change-type">Optymalizacja</span></li>
-          <li><time datetime="2026-10-04">04.10.2026</time><div><span class="change-project">LinguaPilot</span><h4>Zabezpieczenie kluczy API</h4><p>Dodano dodatkowe zabezpieczenia przechowywania kluczy API oraz poprawiono sposób ich obsługi w aplikacji.</p></div><span class="change-type">Security</span></li>
-          <li><time datetime="2026-10-02">02.10.2026</time><div><span class="change-project change-project-violet">AI Writing Assistant</span><h4>Poprawa działania w różnych aplikacjach</h4><p>Usprawniono działanie narzędzia w różnych polach tekstowych oraz poprawiono kompatybilność z popularnymi aplikacjami.</p></div><span class="change-type">Improvement</span></li>
+          <li class="is-current"><time datetime="2026-10-06">06.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Optymalizacja</span></div><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div></li>
+          <li><time datetime="2026-10-04">04.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Security</span></div><h4>Zabezpieczenie kluczy API</h4><p>Dodano dodatkowe zabezpieczenia przechowywania kluczy API oraz poprawiono sposób ich obsługi w aplikacji.</p></div></li>
+          <li><time datetime="2026-10-02">02.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Improvement</span></div><h4>Poprawa działania w różnych aplikacjach</h4><p>Usprawniono działanie narzędzia w różnych polach tekstowych oraz poprawiono kompatybilność z popularnymi aplikacjami.</p></div></li>
         </ol>
       </div>
 
       <div id="zmiany-wrzesien" class="change-month">
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
-          <li><time datetime="2026-09-23">23.09.2026</time><div><span class="change-project">LinguaPilot</span><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą — na przykład do Włoch lub Rumunii.</p></div><span class="change-type">Rozwój</span></li>
-          <li><time datetime="2026-09-17">17.09.2026</time><div><span class="change-project">System finansowy</span><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div><span class="change-type">Analiza</span></li>
-          <li><time datetime="2026-09-12">12.09.2026</time><div><span class="change-project change-project-violet">AI Writing Assistant</span><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div><span class="change-type">Kompatybilność</span></li>
+          <li><time datetime="2026-09-23">23.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Rozwój</span></div><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą — na przykład do Włoch lub Rumunii.</p></div></li>
+          <li><time datetime="2026-09-17">17.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">System finansowy</span><span class="change-type">Analiza</span></div><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div></li>
+          <li><time datetime="2026-09-12">12.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Kompatybilność</span></div><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div></li>
         </ol>
       </div>
     </section>

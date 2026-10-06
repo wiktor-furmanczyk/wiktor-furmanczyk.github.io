@@ -95,6 +95,9 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="roadmap-banner-secondary" href="{{ '/en/roadmap/#changelog' | relative_url }}">Latest updates <span aria-hidden="true">→</span></a>
     </div>
   </div>
+  <figure class="roadmap-banner-art">
+    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" alt="Neon changelog interface showing new features, improvements, and fixes" width="1448" height="1086" loading="lazy" decoding="async">
+  </figure>
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
