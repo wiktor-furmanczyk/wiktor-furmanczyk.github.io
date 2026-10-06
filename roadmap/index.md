@@ -5,7 +5,7 @@ description: Roadmapa projektów VeltoWeb oraz historia najważniejszych zmian w
 permalink: /roadmap/
 body_class: roadmap-page
 image: /assets/images/portfolio-og.png
-image_alt: VeltoWeb — roadmapa projektów i historia zmian
+image_alt: VeltoWeb - roadmapa projektów i historia zmian
 ---
 
 <header class="roadmap-hero section-shell">
@@ -90,7 +90,7 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
       <div id="zmiany-wrzesien" class="change-month">
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
-          <li><time datetime="2026-09-23">23.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Rozwój</span></div><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą — na przykład do Włoch lub Rumunii.</p></div></li>
+          <li><time datetime="2026-09-23">23.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Rozwój</span></div><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą, na przykład do Włoch lub Rumunii.</p></div></li>
           <li><time datetime="2026-09-17">17.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">System finansowy</span><span class="change-type">Analiza</span></div><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div></li>
           <li><time datetime="2026-09-12">12.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Kompatybilność</span></div><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div></li>
         </ol>
