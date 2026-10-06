@@ -90,8 +90,11 @@ image_alt: VeltoWeb logo on a dark blue background
     <p class="eyebrow"><span></span> Project development</p>
     <h2 id="roadmap-banner-title">Plans, progress, and <span class="text-gradient">updates</span></h2>
     <p>See what I am working on now, what comes next, and the most important changes across my projects.</p>
+    <div class="roadmap-banner-actions">
+      <a class="button button-primary" href="{{ '/en/roadmap/' | relative_url }}">View the roadmap <span aria-hidden="true">→</span></a>
+      <a class="roadmap-banner-secondary" href="{{ '/en/roadmap/#changelog' | relative_url }}">Latest updates <span aria-hidden="true">→</span></a>
+    </div>
   </div>
-  <a class="button button-primary roadmap-banner-link" href="{{ '/en/roadmap/' | relative_url }}">View the roadmap <span aria-hidden="true">→</span></a>
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
