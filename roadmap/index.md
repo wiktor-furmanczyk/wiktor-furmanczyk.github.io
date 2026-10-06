@@ -40,9 +40,9 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
             <div><h3>Lingua<span>Pilot</span></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
           </div>
           <ul class="roadmap-tasks">
-            <li class="is-progress"><span>Optymalizacja kosztów generowania fiszek</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Optymalizacja kosztów generowania fiszek dla wielu użytkowników</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Baza poznanych fiszek, która zapobiega powtórzeniom, oraz krótsze polecenia dla AI obniżające koszt generowania nowych materiałów</span><em>W trakcie</em></li>
             <li><span>System nagród i ranking</span><em>Planowane</em></li>
-            <li><span>Więcej języków</span><em>Planowane</em></li>
             <li><span>Nowe tryby nauki</span><em>Planowane</em></li>
           </ul>
         </article>
@@ -52,9 +52,9 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
             <div><h3>AI Writing Assistant</h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
           <ul class="roadmap-tasks">
-            <li><span>Przebudowa interfejsu</span><em>Planowane</em></li>
-            <li><span>Więcej trybów poprawy</span><em>Planowane</em></li>
-            <li><span>Więcej języków</span><em>Planowane</em></li>
+            <li class="is-progress"><span>Przebudowa interfejsu</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Więcej trybów poprawy</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Więcej języków</span><em>W trakcie</em></li>
             <li class="is-progress"><span>Lepsza kompatybilność z aplikacjami</span><em>W trakcie</em></li>
           </ul>
         </article>
@@ -91,8 +91,9 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
       <div id="zmiany-wrzesien" class="change-month">
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
-          <li><time datetime="2026-09-23">23.09.2026</time><div><span class="change-project">LinguaPilot</span><h4>Plan kolejnych funkcji</h4><p>Dopracowano założenia dla systemu nagród i rankingu oraz dodania nowych języków. Zaktualizowano roadmapę projektu.</p></div><span class="change-type">Roadmapa</span></li>
+          <li><time datetime="2026-09-23">23.09.2026</time><div><span class="change-project">LinguaPilot</span><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą — na przykład do Włoch lub Rumunii.</p></div><span class="change-type">Rozwój</span></li>
           <li><time datetime="2026-09-17">17.09.2026</time><div><span class="change-project">System finansowy</span><h4>Analiza wymagań</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div><span class="change-type">Analiza</span></li>
+          <li><time datetime="2026-09-12">12.09.2026</time><div><span class="change-project change-project-violet">AI Writing Assistant</span><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div><span class="change-type">Kompatybilność</span></li>
         </ol>
       </div>
     </section>

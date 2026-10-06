@@ -89,8 +89,11 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     <p class="eyebrow"><span></span> Rozwój projektów</p>
     <h2 id="roadmap-banner-title">Plany, postępy i <span class="text-gradient">zmiany</span></h2>
     <p>Sprawdź, nad czym obecnie pracuję, co planuję dalej i jakie najważniejsze zmiany pojawiły się w moich projektach.</p>
+    <div class="roadmap-banner-actions">
+      <a class="button button-primary" href="{{ '/roadmap/' | relative_url }}">Zobacz roadmapę <span aria-hidden="true">→</span></a>
+      <a class="roadmap-banner-secondary" href="{{ '/roadmap/#changelog' | relative_url }}">Ostatnie zmiany <span aria-hidden="true">→</span></a>
+    </div>
   </div>
-  <a class="button button-primary roadmap-banner-link" href="{{ '/roadmap/' | relative_url }}">Zobacz roadmapę <span aria-hidden="true">→</span></a>
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">

@@ -106,6 +106,11 @@
       let directionStartY = lastScrollY;
       let headerHidden = false;
       const backToTop = document.querySelector('.back-to-top');
+      function updateMobileBackgroundPosition(scrollY) {
+        const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+        const progress = Math.min(1, Math.max(0, scrollY / maxScroll));
+        document.documentElement.style.setProperty('--mobile-bg-position', `${(progress * 100).toFixed(2)}%`);
+      }
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
         if (scrollY <= 12) {
@@ -128,6 +133,7 @@
           }
         }
         if (scrollY <= 12 || Math.abs(scrollY - lastScrollY) >= 1) lastScrollY = scrollY;
+        updateMobileBackgroundPosition(scrollY);
         backToTop.classList.toggle('is-visible', scrollY > Math.max(480, window.innerHeight * .75));
       }
       let scrollFrame = 0;
@@ -142,6 +148,7 @@
         headerHidden = false;
         document.body.classList.remove('header-hidden');
       });
+      window.addEventListener('resize', () => updateMobileBackgroundPosition(Math.max(0, window.scrollY)), { passive: true });
       updateHeaderVisibility();
     </script>
   </body>
