@@ -56,6 +56,29 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
     </ul>
   </section>
 
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Planowane możliwości</p>
+      <h2 id="features-title">Zobacz nie tylko, ile wydajesz. Zrozum, co zrobić dalej.</h2>
+      <p>Finance Manager ma przejąć powtarzalną pracę z danymi i zamieniać ją w informacje, które realnie pomagają kontrolować budżet, oszczędzać i oceniać opłacalność dodatkowej działalności.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>Automatyczna klasyfikacja transakcji</strong>Rozpoznawanie sprzedawców i zapamiętywanie własnych reguł kategorii.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Kontrola planowanych wydatków</strong>Informacja, które zobowiązania zostały już opłacone, a które nadal czekają.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Miesięczne budżety</strong>Czytelna odpowiedź, ile można jeszcze bezpiecznie wydać w danym miesiącu.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Szczegółowa analiza wydatków</strong>Podział według kategorii, sklepów i usług.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Porównania miesiąc do miesiąca</strong>Wykrywanie kosztów, które zaczynają rosnąć.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Cele oszczędnościowe</strong>Planowanie środków na wakacje, sprzęt lub poduszkę finansową.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Finanse prywatne i działalność</strong>Oddzielne dane, budżety i podsumowania w jednej aplikacji.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Realna opłacalność zleceń</strong>Przychód, koszty i faktyczny zysk dla konkretnych projektów.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Ogólny stan finansów</strong>Jedno podsumowanie pokazujące, czy sytuacja rzeczywiście się poprawia.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Sugestie AI</strong>Wskazanie rosnących kosztów, potencjalnych oszczędności i zmian w budżecie.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Kontrola zgodności salda</strong>Porównanie stanu wynikającego z transakcji z faktycznym saldem konta.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Raporty miesięczne i roczne</strong>Gotowe podsumowania przychodów, wydatków, budżetów i oszczędności.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Eksport dla księgowej</strong>Ewidencja przychodów, zestawienie usług, koszty działalności i inne dokumenty w odpowiednim formacie.</p></li>
+    </ul>
+  </section>
+
   <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
       <div><p class="section-kicker">Jak ma działać</p><h2 id="process-title">Od historii bankowej do konkretnych wniosków</h2></div>
@@ -72,12 +95,12 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
       <div><p class="section-kicker">Koncepcja interfejsu</p><h2 id="gallery-title">Planowane obszary aplikacji</h2></div>
     </div>
     <div class="finance-gallery-grid">
-      <figure><img src="{{ '/assets/projects/finance-manager/dashboard.jpg' | relative_url }}" alt="Koncepcja pulpitu Finance Manager z bilansem, wykresami, budżetami i celami" loading="lazy" width="1200" height="900"><figcaption><strong>Pulpit finansowy</strong><small>Najważniejsze liczby i cele w jednym widoku.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/transactions.jpg' | relative_url }}" alt="Koncepcja listy transakcji z kategoriami, kontami, statusem i filtrami" loading="lazy" width="1200" height="900"><figcaption><strong>Transakcje</strong><small>Import, filtrowanie i automatyczna kategoryzacja.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/planned-expenses.jpg' | relative_url }}" alt="Koncepcja widoku planowanych wydatków i statusów płatności" loading="lazy" width="1200" height="900"><figcaption><strong>Planowane wydatki</strong><small>Kontrola opłaconych i nadchodzących zobowiązań.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/budgets.jpg' | relative_url }}" alt="Koncepcja miesięcznych budżetów według kategorii" loading="lazy" width="1200" height="900"><figcaption><strong>Budżety</strong><small>Limity, bezpieczna kwota do wydania i prognoza miesiąca.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/expense-analysis.jpg' | relative_url }}" alt="Koncepcja analizy wydatków według kategorii, miesięcy, miejsc i metod płatności" loading="lazy" width="1200" height="900"><figcaption><strong>Analiza wydatków</strong><small>Trendy, rosnące koszty i możliwe oszczędności.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/side-income.jpg' | relative_url }}" alt="Koncepcja analizy przychodów, kosztów i zysku z dodatkowych zleceń" loading="lazy" width="1200" height="900"><figcaption><strong>Działalność i zlecenia</strong><small>Realny zysk po uwzględnieniu kosztów projektu.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/dashboard.jpg' | relative_url }}" alt="Koncepcja pulpitu Finance Manager z bilansem, wykresami, budżetami i celami" loading="lazy" width="1200" height="900"></div><figcaption><strong>Pulpit finansowy</strong><small>Najważniejsze liczby i cele w jednym widoku.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/transactions.jpg' | relative_url }}" alt="Koncepcja listy transakcji z kategoriami, kontami, statusem i filtrami" loading="lazy" width="1200" height="900"></div><figcaption><strong>Transakcje</strong><small>Import, filtrowanie i automatyczna kategoryzacja.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/planned-expenses.jpg' | relative_url }}" alt="Koncepcja widoku planowanych wydatków i statusów płatności" loading="lazy" width="1200" height="900"></div><figcaption><strong>Planowane wydatki</strong><small>Kontrola opłaconych i nadchodzących zobowiązań.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/budgets.jpg' | relative_url }}" alt="Koncepcja miesięcznych budżetów według kategorii" loading="lazy" width="1200" height="900"></div><figcaption><strong>Budżety</strong><small>Limity, bezpieczna kwota do wydania i prognoza miesiąca.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/expense-analysis.jpg' | relative_url }}" alt="Koncepcja analizy wydatków według kategorii, miesięcy, miejsc i metod płatności" loading="lazy" width="1200" height="900"></div><figcaption><strong>Analiza wydatków</strong><small>Trendy, rosnące koszty i możliwe oszczędności.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/side-income.jpg' | relative_url }}" alt="Koncepcja analizy przychodów, kosztów i zysku z dodatkowych zleceń" loading="lazy" width="1200" height="900"></div><figcaption><strong>Działalność i zlecenia</strong><small>Realny zysk po uwzględnieniu kosztów projektu.</small></figcaption></figure>
     </div>
   </section>
 

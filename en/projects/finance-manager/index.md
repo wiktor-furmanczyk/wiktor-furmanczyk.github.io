@@ -57,6 +57,29 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </ul>
   </section>
 
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Planned capabilities</p>
+      <h2 id="features-title">See more than how much you spend. Understand what to do next.</h2>
+      <p>Finance Manager is designed to take over repetitive data work and turn it into information that helps control the budget, build savings, and evaluate the real profitability of side work.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>Automatic transaction classification</strong>Merchant recognition and custom category rules that the app remembers.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Planned expense tracking</strong>See which commitments have been paid and which are still outstanding.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Monthly budgets</strong>A clear answer to how much is still safe to spend during the month.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Detailed expense analysis</strong>Breakdowns by category, merchant, and service.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Month-to-month comparisons</strong>Detect costs that are beginning to rise.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Savings goals</strong>Plan for a holiday, new equipment, or an emergency fund.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Personal and business finances</strong>Separate data, budgets, and summaries within one app.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Real project profitability</strong>Revenue, costs, and actual profit for individual jobs.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Overall financial health</strong>One overview showing whether the situation is genuinely improving.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>AI suggestions</strong>Identify rising costs, potential savings, and useful budget changes.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Balance reconciliation</strong>Compare the balance calculated from transactions with the actual account balance.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Monthly and annual reports</strong>Ready summaries of income, expenses, budgets, and savings.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Accountant-ready exports</strong>Revenue records, completed service summaries, business costs, and other documents in the required format.</p></li>
+    </ul>
+  </section>
+
   <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
       <div><p class="section-kicker">How it should work</p><h2 id="process-title">From bank history to useful insight</h2></div>
@@ -73,12 +96,12 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
       <div><p class="section-kicker">Interface concept</p><h2 id="gallery-title">Planned areas of the app</h2></div>
     </div>
     <div class="finance-gallery-grid">
-      <figure><img src="{{ '/assets/projects/finance-manager/dashboard.jpg' | relative_url }}" alt="Finance Manager dashboard concept with balances, charts, budgets, and goals" loading="lazy" width="1200" height="900"><figcaption><strong>Financial dashboard</strong><small>Key numbers and goals in one view.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/transactions.jpg' | relative_url }}" alt="Transaction list concept with categories, accounts, statuses, and filters" loading="lazy" width="1200" height="900"><figcaption><strong>Transactions</strong><small>Import, filtering, and automatic categorization.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/planned-expenses.jpg' | relative_url }}" alt="Planned expenses concept with payment status tracking" loading="lazy" width="1200" height="900"><figcaption><strong>Planned expenses</strong><small>Track paid and upcoming commitments.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/budgets.jpg' | relative_url }}" alt="Monthly budget concept organized by category" loading="lazy" width="1200" height="900"><figcaption><strong>Budgets</strong><small>Limits, safe-to-spend amounts, and month-end forecasts.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/expense-analysis.jpg' | relative_url }}" alt="Expense analysis concept by category, month, location, and payment method" loading="lazy" width="1200" height="900"><figcaption><strong>Expense analysis</strong><small>Trends, growing costs, and potential savings.</small></figcaption></figure>
-      <figure><img src="{{ '/assets/projects/finance-manager/side-income.jpg' | relative_url }}" alt="Side income analysis concept showing revenue, costs, and net profit" loading="lazy" width="1200" height="900"><figcaption><strong>Business and side projects</strong><small>Real profit after project costs.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/dashboard.jpg' | relative_url }}" alt="Finance Manager dashboard concept with balances, charts, budgets, and goals" loading="lazy" width="1200" height="900"></div><figcaption><strong>Financial dashboard</strong><small>Key numbers and goals in one view.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/transactions.jpg' | relative_url }}" alt="Transaction list concept with categories, accounts, statuses, and filters" loading="lazy" width="1200" height="900"></div><figcaption><strong>Transactions</strong><small>Import, filtering, and automatic categorization.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/planned-expenses.jpg' | relative_url }}" alt="Planned expenses concept with payment status tracking" loading="lazy" width="1200" height="900"></div><figcaption><strong>Planned expenses</strong><small>Track paid and upcoming commitments.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/budgets.jpg' | relative_url }}" alt="Monthly budget concept organized by category" loading="lazy" width="1200" height="900"></div><figcaption><strong>Budgets</strong><small>Limits, safe-to-spend amounts, and month-end forecasts.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/expense-analysis.jpg' | relative_url }}" alt="Expense analysis concept by category, month, location, and payment method" loading="lazy" width="1200" height="900"></div><figcaption><strong>Expense analysis</strong><small>Trends, growing costs, and potential savings.</small></figcaption></figure>
+      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/side-income.jpg' | relative_url }}" alt="Side income analysis concept showing revenue, costs, and net profit" loading="lazy" width="1200" height="900"></div><figcaption><strong>Business and side projects</strong><small>Real profit after project costs.</small></figcaption></figure>
     </div>
   </section>
 
