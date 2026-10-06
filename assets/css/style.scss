@@ -571,7 +571,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 @media (max-width: 760px) {
   .site-background { display: block; }
   .site-background > div { inset: -5% -3%; }
-  .background-art { opacity: .48; background-image: url("../images/mobile-background.webp"); background-position: center center; background-size: 112% auto; filter: saturate(.88) contrast(.98); transform: translate3d(0, var(--mobile-bg-offset, 28px), 0) scale(1.08); transform-origin: center; will-change: transform; }
+  .background-art { opacity: .48; background-image: url("../images/mobile-background.webp"); background-position: center center; background-size: 116% auto; filter: none; transform: translate3d(0, var(--mobile-bg-offset, 24px), 0) scale(1.1); transform-origin: center; will-change: transform; }
   .background-glow { background: linear-gradient(180deg, rgba(1,7,18,.28), rgba(1,7,18,.52) 42%, rgba(1,5,13,.58)); }
   .background-vignette { background: linear-gradient(90deg, rgba(0,4,13,.24), transparent 25%, transparent 75%, rgba(0,4,13,.24)), linear-gradient(180deg, rgba(0,4,13,.06), rgba(0,4,13,.16) 55%, rgba(0,4,13,.28)); }
   .site-header::after { height: 60px; }
