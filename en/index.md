@@ -96,7 +96,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
   </div>
   <figure class="roadmap-banner-art">
-    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" alt="Neon changelog interface showing new features, improvements, and fixes" width="1448" height="1086" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" srcset="{{ '/assets/images/roadmap-changelog-card-724.webp' | relative_url }} 724w, {{ '/assets/images/roadmap-changelog-card.webp' | relative_url }} 1448w" sizes="(max-width: 760px) calc(100vw - 28px), 410px" alt="Neon project roadmap dashboard for LinguaPilot, AI Writing Assistant, and a finance system" width="1448" height="1086" loading="lazy" decoding="async">
   </figure>
 </section>
 
