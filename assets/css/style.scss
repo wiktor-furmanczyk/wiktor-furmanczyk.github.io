@@ -260,6 +260,8 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .finance-project .product-tags { margin-top: 17px; }
 .finance-project .product-actions { gap: 10px; margin-top: 20px; }
 .finance-project .product-actions .button { min-height: 44px; padding-inline: 16px; font-size: .76rem; }
+.concept-badge { display: inline-flex; min-height: 29px; align-items: center; gap: 7px; margin: 0 0 12px; padding: 4px 11px; color: #8be9ff; background: rgba(7,65,99,.48); border: 1px solid rgba(67,201,237,.38); border-radius: 999px; font-size: .66rem; font-weight: 750; letter-spacing: .02em; }
+.concept-badge > span { color: #47cfff; }
 .finance-hero-visual { position: relative; display: grid; width: 100%; min-width: 0; aspect-ratio: 1; place-items: center; margin: 0; isolation: isolate; }
 .finance-hero-visual::before { position: absolute; z-index: -1; inset: 14%; content: ""; background: radial-gradient(ellipse, rgba(55,72,255,.27), rgba(0,170,255,.12) 45%, transparent 72%); filter: blur(24px); }
 .finance-hero-visual img { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 24px 38px rgba(0,0,0,.5)); }
@@ -270,6 +272,14 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .finance-project .content-panel .section-kicker { margin-bottom: 8px; font-size: .62rem; }
 .finance-project .content-panel h2 { margin-bottom: 8px; font-size: 1.14rem; }
 .finance-project .content-panel p:last-child { font-size: .78rem; line-height: 1.55; }
+.finance-decisions .section-heading { margin-bottom: 20px; }
+.finance-decisions .section-heading h2 { margin-bottom: 0; font-size: clamp(1.45rem, 2.7vw, 2.05rem); }
+.finance-decision-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid rgba(70,157,219,.25); }
+.finance-decision-grid article { position: relative; min-width: 0; padding: 21px 24px 21px 48px; border-bottom: 1px solid rgba(70,157,219,.18); }
+.finance-decision-grid article:nth-child(odd) { border-right: 1px solid rgba(70,157,219,.18); }
+.finance-decision-grid article > span { position: absolute; top: 23px; left: 0; color: #43ddff; font-size: .66rem; font-weight: 800; letter-spacing: .08em; }
+.finance-decision-grid h3 { margin-bottom: 8px; color: #eef8ff; font-size: .92rem; line-height: 1.35; }
+.finance-decision-grid p { margin: 0; color: #a5b8ce; font-size: .76rem; line-height: 1.6; }
 .finance-features { display: grid; grid-template-columns: minmax(260px, .72fr) minmax(0, 1.28fr); align-items: start; gap: clamp(34px, 5vw, 72px); padding-block: 8px 12px; }
 .finance-features-heading { position: sticky; top: 92px; }
 .finance-features-heading .section-kicker { margin-bottom: 9px; font-size: .61rem; }
@@ -300,7 +310,6 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .finance-gallery-grid figcaption { display: grid; gap: 4px; width: 100%; text-align: center; }
 .finance-gallery-grid figcaption strong { color: #edf7ff; font-size: .82rem; }
 .finance-gallery-grid figcaption small { color: var(--muted); font-size: .7rem; line-height: 1.45; }
-.finance-project .finance-principles li:first-child svg { color: #45d8ff; }
 .finance-project .project-footer-link { margin-bottom: 28px; padding-top: 4px; border-top: 0; }
 .lingua-project .phones-showcase { gap: 8px; margin: 24px auto 0; padding-block: 24px 8px; }
 .lingua-project .phone { max-width: 176px; border-color: rgba(88,138,184,.72); box-shadow: 0 22px 45px rgba(0,0,0,.5), 0 0 18px rgba(0,151,255,.1); transition: border-color .2s ease; }
@@ -381,6 +390,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .finance-project .content-panel { padding: 20px; }
   .finance-project .content-panel h2 { font-size: 1.08rem; }
   .finance-project .content-panel p:last-child { font-size: .82rem; }
+  .finance-decision-grid p { font-size: .84rem; }
   .finance-features { grid-template-columns: 1fr; gap: 24px; }
   .finance-features-heading { position: static; }
   .finance-features-heading > p:last-child { font-size: .88rem; }
@@ -435,6 +445,13 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .finance-project .product-description { font-size: .88rem; line-height: 1.58; }
   .finance-project .product-actions { display: grid; grid-template-columns: 1fr; }
   .finance-project .product-actions .button { width: 100%; }
+  .concept-badge { font-size: .72rem; }
+  .finance-decision-grid { grid-template-columns: 1fr; }
+  .finance-decision-grid article { padding: 18px 0 18px 40px; }
+  .finance-decision-grid article:nth-child(odd) { border-right: 0; }
+  .finance-decision-grid article > span { top: 20px; }
+  .finance-decision-grid h3 { font-size: .96rem; }
+  .finance-decision-grid p { font-size: .88rem; }
   .finance-feature-list { grid-template-columns: 1fr; }
   .finance-feature-list li:nth-child(odd) { margin-right: 0; }
   .finance-feature-list p { font-size: .8rem; }
@@ -516,6 +533,9 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .roadmap-project { display: grid; grid-template-columns: minmax(260px, .82fr) minmax(320px, 1.18fr); gap: 28px; padding: 25px 8px; border-bottom: 1px solid transparent; border-image: var(--divider-gradient) 1; }
 .roadmap-project-intro { min-width: 0; }
 .roadmap-project-intro h3 { margin: 1px 0 7px; font-size: 1.42rem; }.roadmap-project-intro h3 span { color: #2ad9ff; }
+.roadmap-project-intro h3 a { color: inherit; text-decoration: none; transition: color .2s ease, text-shadow .2s ease; }
+.roadmap-project-intro h3 a::after { margin-left: 6px; content: "↗"; color: #55dfff; font-size: .62em; vertical-align: .15em; opacity: .72; }
+.roadmap-project-intro h3 a:hover { color: #dffaff; text-shadow: 0 0 16px rgba(42,217,255,.28); }
 .roadmap-project-intro p { max-width: 330px; margin: 0; color: #aebed1; font-size: .78rem; line-height: 1.52; }
 .roadmap-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
 .roadmap-tags span, .change-type { display: inline-flex; min-height: 26px; align-items: center; padding: 2px 10px; color: #bfe2f5; background: rgba(8,45,80,.66); border: 1px solid rgba(57,136,196,.44); border-radius: 999px; font-size: .62rem; font-style: normal; white-space: nowrap; }
@@ -524,8 +544,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .roadmap-tasks li > span, .change-list h4, .change-list p { overflow-wrap: anywhere; }
 .roadmap-tasks li::before { position: absolute; width: 10px; height: 10px; left: -31px; content: ""; background: #041126; border: 1px solid #80a9ca; border-radius: 50%; }
 .roadmap-tasks li.is-progress::before { background: #35dfff; border-color: #8cf1ff; box-shadow: 0 0 12px rgba(32,217,255,.82); }
+.roadmap-tasks li.is-complete::before { background: #42e5ae; border-color: #8fffd8; box-shadow: 0 0 10px rgba(66,229,174,.56); }
 .roadmap-tasks em { min-width: 78px; padding: 3px 9px; color: #b5c4d5; background: rgba(19,45,73,.7); border: 1px solid rgba(78,132,180,.44); border-radius: 999px; font-size: .58rem; font-style: normal; text-align: center; }
 .roadmap-tasks .is-progress em { color: #37ddff; background: rgba(0,73,137,.5); border-color: rgba(22,171,255,.85); }
+.roadmap-tasks .is-complete em { color: #66efc4; background: rgba(5,86,67,.42); border-color: rgba(63,218,172,.56); }
 .changelog-section { margin-top: 42px; }
 .change-month { margin-top: 23px; scroll-margin-top: 88px; }.change-month > h3 { margin-bottom: 8px; color: #55dfff; font-size: .94rem; }
 .change-list { margin: 0; padding: 0; list-style: none; }
@@ -627,7 +649,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .projects-section { padding-block: 36px 0; }.project-card-visual, .upcoming-visual { height: 300px; flex-basis: 300px; }.project-card-upcoming { min-height: 0; padding: 0; }.project-card-body, .project-card-upcoming .project-card-body { margin-top: -114px; padding: 0 20px 20px; }.project-card-upcoming .upcoming-visual { height: 210px; flex-basis: 210px; }.project-card-upcoming .project-card-body { margin-top: -68px; }.project-card-body > p { font-size: .94rem; }
   .blog-section { gap: 24px; padding-block: 36px 42px; }.blog-art { width: 100%; max-width: 100%; margin-left: 0; }.blog-copy h2 { margin-top: 18px; font-size: clamp(2.45rem, 12vw, 3.4rem); }.blog-copy > p:not(.section-kicker) { margin-top: 20px; font-size: .97rem; }.blog-topics { gap: 8px; margin-top: 22px; }.blog-topics > span { min-height: 43px; padding-inline: 13px; font-size: .72rem; }.blog-topics svg { width: 17px; height: 17px; }.blog-cta { margin-top: 0; }
   .roadmap-banner { gap: 12px; padding-block: 4px 14px; }.roadmap-banner-actions { display: grid; grid-template-columns: 1fr; gap: 5px; margin-top: 22px; }.roadmap-banner-actions .button { width: 100%; }.roadmap-banner-secondary { width: fit-content; }.roadmap-banner-copy h2 { font-size: clamp(2rem, 10.8vw, 2.8rem); }.roadmap-banner-copy > p:not(.eyebrow) { font-size: .94rem; }.roadmap-banner-art { width: min(100%, 390px); margin-inline: auto; }
-  .roadmap-hero h1 { font-size: clamp(2.7rem, 13.2vw, 3.7rem); }.roadmap-tabs { display: grid; grid-template-columns: 1fr 1fr; }.roadmap-tab { min-width: 0; }.roadmap-project-intro h3 { font-size: 1.18rem; }.roadmap-tasks { padding-left: 24px; }.roadmap-tasks li { align-items: start; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; padding-block: 3px; }.roadmap-tasks li::before { left: -29px; }.roadmap-tasks em { min-width: 0; max-width: 78px; justify-self: end; padding-inline: 7px; font-size: .53rem; }.change-list li { grid-template-columns: 1fr; gap: 4px; padding-left: 24px; }.change-list li::before { left: 0; }.change-list li::after { left: 5px; }.change-list time { min-height: 22px; padding-right: 46%; color: #94a9c0; line-height: 22px; }.change-meta { justify-content: flex-start; gap: 8px; }.change-project { min-width: 0; overflow-wrap: anywhere; }.change-type { position: absolute; top: 14px; right: 0; max-width: 44%; padding-inline: 7px; overflow: hidden; text-overflow: ellipsis; }
+  .roadmap-hero h1 { font-size: clamp(2.7rem, 13.2vw, 3.7rem); }.roadmap-tabs { display: grid; grid-template-columns: 1fr 1fr; }.roadmap-tab { min-width: 0; }.roadmap-project-intro h3 { font-size: 1.18rem; }.roadmap-tasks { padding-left: 24px; }.roadmap-tasks li { align-items: start; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; padding-block: 3px; }.roadmap-tasks li::before { left: -29px; }.roadmap-tasks em { min-width: 0; max-width: 86px; min-height: 23px; justify-self: end; padding-inline: 7px; font-size: .68rem; line-height: 1.35; }.change-list li { grid-template-columns: 1fr; gap: 4px; padding-left: 24px; }.change-list li::before { left: 0; }.change-list li::after { left: 5px; }.change-list time { min-height: 22px; padding-right: 46%; color: #94a9c0; line-height: 22px; }.change-meta { justify-content: flex-start; gap: 8px; }.change-project { min-width: 0; overflow-wrap: anywhere; }.change-type { position: absolute; top: 14px; right: 0; max-width: 44%; padding-inline: 7px; overflow: hidden; text-overflow: ellipsis; }.change-list p { font-size: .8rem; line-height: 1.55; }.finance-gallery-grid figcaption strong { font-size: .86rem; }.finance-gallery-grid figcaption small { font-size: .78rem; line-height: 1.5; }
   .projects-page .page-content { padding-top: 54px; }.projects-hero { padding-block: 34px 32px; }.projects-hero h1 { font-size: clamp(3rem, 17vw, 4.5rem); }.projects-showcase { gap: 20px; padding-bottom: 60px; }.showcase-project { border-radius: 16px; }.showcase-copy { padding: 25px 20px; }.showcase-copy h2 { font-size: 2.15rem; }.showcase-art { min-height: 295px; }.showcase-art img, .showcase-project-writing .showcase-art img { width: 96%; height: 96%; inset: 2%; }.showcase-project-writing .showcase-art img { width: 88%; height: 88%; inset: 6%; }.showcase-link { width: 100%; }.projects-upcoming { grid-template-columns: 1fr; gap: 12px; padding: 22px 20px; }.projects-upcoming-icon { width: 46px; height: 46px; }.projects-upcoming h2 { font-size: 1rem; }
   .product-title-row { align-items: flex-start; }.product-title-row .product-icon { flex-basis: 42px; height: 42px; }.product-lead { font-size: 1.2rem; }.product-description { font-size: .96rem; }
   .phones-showcase { gap: 5px; margin-top: 30px; padding-inline: 0; }.phone { max-width: 112px; padding: 3px; border-width: 3px; border-radius: 19px; }.phone img { border-radius: 13px; }.phone-center { transform: translateY(-12px); }.phone-left { transform: rotate(-2deg); }.phone-right { transform: rotate(2deg); }

@@ -4,13 +4,14 @@ title: Finance Manager
 description: Desktopowa aplikacja do zarządzania finansami osobistymi, budżetami, oszczędnościami i opłacalnością dodatkowych zleceń.
 permalink: /projects/finance-manager/
 body_class: project-body finance-project
-image: /assets/projects/finance-manager/finance-manager-hero.png
+image: /assets/projects/finance-manager/finance-manager-hero.webp
 image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i budżetem miesięcznym
 ---
 
 <section class="product-hero finance-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / Finance Manager</p>
+    <p class="concept-badge">Case study koncepcyjne <span aria-hidden="true">·</span> etap projektowania architektury</p>
     <h1 id="product-title">Finance <span class="text-gradient">Manager</span></h1>
     <p class="product-lead">Jedno miejsce do porządkowania finansów i podejmowania lepszych decyzji.</p>
     <p class="product-description">Desktopowa aplikacja ma łączyć finanse osobiste i dodatkowe źródła dochodu, automatyzować pracę z transakcjami oraz pokazywać, co naprawdę dzieje się z budżetem.</p>
@@ -25,7 +26,7 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
   </div>
 
   <figure class="finance-hero-visual">
-    <img src="{{ '/assets/projects/finance-manager/finance-manager-hero.png' | relative_url }}" alt="Koncepcja aplikacji Finance Manager z ekranem finansów, kartą budżetu, celem oszczędnościowym i wskazówką dotyczącą wydatków" width="1254" height="1254" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/finance-manager/finance-manager-hero.webp' | relative_url }}" srcset="{{ '/assets/projects/finance-manager/finance-manager-hero-724.webp' | relative_url }} 724w, {{ '/assets/projects/finance-manager/finance-manager-hero.webp' | relative_url }} 1254w" sizes="(max-width: 760px) calc(100vw - 28px), 610px" alt="Koncepcja aplikacji Finance Manager z ekranem finansów, kartą budżetu, celem oszczędnościowym i wskazówką dotyczącą wydatków" width="1254" height="1254" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -43,24 +44,23 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
     </article>
   </section>
 
-  <section class="project-tech-section" aria-labelledby="principles-title">
-    <div class="project-tech-heading">
-      <p class="section-kicker">Główne założenia</p>
-      <h2 id="principles-title">Projektowany z myślą o kontroli i prywatności</h2>
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
     </div>
-    <ul class="project-tech-list finance-principles" aria-label="Główne założenia projektu">
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h18v13H3V4Zm2 2v9h14V6H5Zm3 14h8v2H8v-2Z"/></svg><span>Aplikacja desktopowa</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2 20 5v6c0 5.2-3.4 9.3-8 11-4.6-1.7-8-5.8-8-11V5l8-3Zm0 3.1L7 7v4c0 3.6 2.1 6.5 5 7.8 2.9-1.3 5-4.2 5-7.8V7l-5-1.9Z"/></svg><span>Lokalne dane</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h10v4h4v10h-4v4H7v-4H3V7h4V3Zm2 2v2h6V5H9Zm0 12v2h6v-2H9ZM5 9v6h14V9H5Zm3 2h2v2H8v-2Zm6 0h2v2h-2v-2Z"/></svg><span>Automatyzacja reguł</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 2 1.5 5.1L18 4l-1.1 5.2L22 10l-4.8 2.2L21 16l-5.2-.6L16 21l-4-3.8L8 21l.2-5.6L3 16l3.8-3.8L2 10l5.1-.8L6 4l4.5 3.1L12 2Z"/></svg><span>Analizy i sugestie AI</span></li>
-    </ul>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>Aplikacja desktopowa zamiast kolejnego arkusza online</h3><p>Finanse są prowadzone w jednym narzędziu przeznaczonym do regularnej pracy, bez uzależniania podstawowych funkcji od przeglądarki i wielu rozproszonych plików.</p></article>
+      <article><span>02</span><h3>Dane finansowe przechowywane lokalnie</h3><p>Prywatność ma pierwszeństwo przed wygodą obowiązkowej chmury. Aplikacja nie wymaga konta ani automatycznego wysyłania historii finansowej do zewnętrznej usługi.</p></article>
+      <article><span>03</span><h3>Reguły użytkownika przed sugestiami AI</h3><p>Kategoryzacja ma opierać się na zapamiętywanych, możliwych do skorygowania regułach. AI wspiera analizę trendów i decyzji, ale nie odbiera użytkownikowi kontroli nad danymi.</p></article>
+      <article><span>04</span><h3>Jeden model danych, dwa konteksty finansowe</h3><p>Finanse prywatne i działalność pozostają rozdzielone, ale korzystają ze wspólnego importu oraz mechanizmu kategorii. Ten sam sprzedawca może mieć inne znaczenie zależnie od konta lub zlecenia.</p></article>
+    </div>
   </section>
 
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
-      <p class="section-kicker">Planowane możliwości</p>
-      <h2 id="features-title">Zobacz nie tylko, ile wydajesz. Zrozum, co zrobić dalej.</h2>
-      <p>Finance Manager ma przejąć powtarzalną pracę z danymi i zamieniać ją w informacje, które realnie pomagają kontrolować budżet, oszczędzać i oceniać opłacalność dodatkowej działalności.</p>
+      <p class="section-kicker">Problemy do rozwiązania</p>
+      <h2 id="features-title">Od ręcznego pilnowania liczb do konkretnych odpowiedzi</h2>
+      <p>Każde planowane rozwiązanie odpowiada na powtarzający się problem: rozproszone dane, brak pewności co zostało opłacone, trudność w ocenie kosztów i brak jasnej informacji, czy sytuacja finansowa naprawdę się poprawia.</p>
     </div>
     <ul class="finance-feature-list">
       <li><span aria-hidden="true">✓</span><p><strong>Automatyczna klasyfikacja transakcji</strong>Rozpoznawanie sprzedawców i zapamiętywanie własnych reguł kategorii.</p></li>
@@ -105,7 +105,7 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
   </section>
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Analiza potrzeb i wymagań</h2></div></div>
-    <p>Projekt jest w fazie planowania. Obecnie porządkuję potrzeby i wymagania; kolejne etapy roadmapy to projekt architektury, import transakcji i automatyczna kategoryzacja.</p>
+    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Dopracowanie architektury</h2></div></div>
+    <p>Analiza potrzeb i wymagań jest zakończona, a wstępna architektura została przygotowana. Obecnie dopracowuję model danych, import transakcji i reguły kategoryzacji przed rozpoczęciem implementacji.</p>
   </section>
 </div>

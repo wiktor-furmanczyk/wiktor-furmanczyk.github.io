@@ -5,13 +5,14 @@ description: A desktop app for managing personal finances, budgets, savings goal
 permalink: /en/projects/finance-manager/
 lang: en-US
 body_class: project-body finance-project
-image: /assets/projects/finance-manager/finance-manager-hero.png
+image: /assets/projects/finance-manager/finance-manager-hero.webp
 image_alt: Finance Manager interface concept with balances, spending analysis, and a monthly budget
 ---
 
 <section class="product-hero finance-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / Finance Manager</p>
+    <p class="concept-badge">Concept case study <span aria-hidden="true">·</span> architecture design stage</p>
     <h1 id="product-title">Finance <span class="text-gradient">Manager</span></h1>
     <p class="product-lead">One place to organize finances and make better decisions.</p>
     <p class="product-description">The desktop app is designed to bring personal finances and side income together, automate transaction work, and explain what is really happening with the budget.</p>
@@ -26,7 +27,7 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
   </div>
 
   <figure class="finance-hero-visual">
-    <img src="{{ '/assets/projects/finance-manager/finance-manager-hero.png' | relative_url }}" alt="Finance Manager concept showing a financial overview, budget card, savings goal, and spending insight" width="1254" height="1254" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/finance-manager/finance-manager-hero.webp' | relative_url }}" srcset="{{ '/assets/projects/finance-manager/finance-manager-hero-724.webp' | relative_url }} 724w, {{ '/assets/projects/finance-manager/finance-manager-hero.webp' | relative_url }} 1254w" sizes="(max-width: 760px) calc(100vw - 28px), 610px" alt="Finance Manager concept showing a financial overview, budget card, savings goal, and spending insight" width="1254" height="1254" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -44,24 +45,23 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </article>
   </section>
 
-  <section class="project-tech-section" aria-labelledby="principles-title">
-    <div class="project-tech-heading">
-      <p class="section-kicker">Core principles</p>
-      <h2 id="principles-title">Designed for control and privacy</h2>
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Design decisions</p><h2 id="decisions-title">Choices driven by the problem, not technology alone</h2></div>
     </div>
-    <ul class="project-tech-list finance-principles" aria-label="Core project principles">
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h18v13H3V4Zm2 2v9h14V6H5Zm3 14h8v2H8v-2Z"/></svg><span>Desktop app</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2 20 5v6c0 5.2-3.4 9.3-8 11-4.6-1.7-8-5.8-8-11V5l8-3Zm0 3.1L7 7v4c0 3.6 2.1 6.5 5 7.8 2.9-1.3 5-4.2 5-7.8V7l-5-1.9Z"/></svg><span>Local data</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h10v4h4v10h-4v4H7v-4H3V7h4V3Zm2 2v2h6V5H9Zm0 12v2h6v-2H9ZM5 9v6h14V9H5Zm3 2h2v2H8v-2Zm6 0h2v2h-2v-2Z"/></svg><span>Rule automation</span></li>
-      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 2 1.5 5.1L18 4l-1.1 5.2L22 10l-4.8 2.2L21 16l-5.2-.6L16 21l-4-3.8L8 21l.2-5.6L3 16l3.8-3.8L2 10l5.1-.8L6 4l4.5 3.1L12 2Z"/></svg><span>AI analysis and insights</span></li>
-    </ul>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>A desktop app instead of another online spreadsheet</h3><p>Finances stay in one tool designed for regular work, without making core features dependent on a browser and multiple scattered files.</p></article>
+      <article><span>02</span><h3>Financial data stored locally</h3><p>Privacy takes priority over the convenience of mandatory cloud storage. The app does not require an account or automatically send financial history to an external service.</p></article>
+      <article><span>03</span><h3>User rules before AI suggestions</h3><p>Categorization is based on remembered, correctable rules. AI supports trend analysis and decisions without taking control of the underlying data away from the user.</p></article>
+      <article><span>04</span><h3>One data model, two financial contexts</h3><p>Personal and business finances remain separate while sharing import and categorization mechanisms. The same merchant can mean something different depending on the account or project.</p></article>
+    </div>
   </section>
 
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
-      <p class="section-kicker">Planned capabilities</p>
-      <h2 id="features-title">See more than how much you spend. Understand what to do next.</h2>
-      <p>Finance Manager is designed to take over repetitive data work and turn it into information that helps control the budget, build savings, and evaluate the real profitability of side work.</p>
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">From manually tracking numbers to clear answers</h2>
+      <p>Every planned capability addresses a recurring problem: scattered data, uncertainty about what has been paid, difficulty evaluating costs, and no clear view of whether the financial situation is genuinely improving.</p>
     </div>
     <ul class="finance-feature-list">
       <li><span aria-hidden="true">✓</span><p><strong>Automatic transaction classification</strong>Merchant recognition and custom category rules that the app remembers.</p></li>
@@ -106,7 +106,7 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
   </section>
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Needs and requirements analysis</h2></div></div>
-    <p>The project is in planning. I am currently organizing needs and requirements; the next roadmap stages are architecture design, transaction import, and automatic categorization.</p>
+    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Architecture refinement</h2></div></div>
+    <p>Needs and requirements analysis is complete, and the initial architecture has been prepared. I am now refining the data model, transaction import, and categorization rules before implementation begins.</p>
   </section>
 </div>

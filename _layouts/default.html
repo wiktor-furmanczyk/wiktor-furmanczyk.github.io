@@ -107,6 +107,18 @@
       let headerHidden = false;
       let backToTopVisible = false;
       const backToTop = document.querySelector('.back-to-top');
+      const roadmapTabs = [...document.querySelectorAll('.roadmap-tab')];
+      function updateRoadmapTabs() {
+        if (!roadmapTabs.length) return;
+        const hash = window.location.hash;
+        const changelogActive = hash === '#changelog' || hash.startsWith('#zmiany-') || hash.startsWith('#changes-');
+        roadmapTabs.forEach((tab) => {
+          const active = changelogActive ? tab.hash === '#changelog' : tab.hash === '#roadmap';
+          tab.classList.toggle('is-active', active);
+          if (active) tab.setAttribute('aria-current', 'location');
+          else tab.removeAttribute('aria-current');
+        });
+      }
       function updateHeaderVisibility() {
         const scrollY = Math.max(0, window.scrollY);
         const scrollDelta = scrollY - lastScrollY;
@@ -154,6 +166,8 @@
         backToTopVisible = false;
         backToTop.classList.remove('is-visible');
       });
+      window.addEventListener('hashchange', updateRoadmapTabs);
+      updateRoadmapTabs();
       updateHeaderVisibility();
     </script>
   </body>

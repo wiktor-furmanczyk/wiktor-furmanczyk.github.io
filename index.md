@@ -75,7 +75,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Panel Finance Manager z podsumowaniem salda, wydatków, budżetów i celu oszczędnościowego" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Analiza wymagań</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">Projektowanie architektury</span></div>
         <h3>Finance Manager</h3>
         <p>Porządkuj finanse osobiste i dodatkowe źródła dochodu w jednym, prywatnym narzędziu.</p>
         <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div>
