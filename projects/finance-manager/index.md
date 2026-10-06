@@ -11,7 +11,6 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
 <section class="product-hero finance-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / Finance Manager</p>
-    <p class="concept-badge">Case study koncepcyjne <span aria-hidden="true">·</span> etap analizy i wstępnej architektury</p>
     <h1 id="product-title">Finance <span class="text-gradient">Manager</span></h1>
     <p class="product-lead">Jedno miejsce do porządkowania finansów i podejmowania lepszych decyzji.</p>
     <p class="product-description">Desktopowa aplikacja ma łączyć finanse osobiste i dodatkowe źródła dochodu, automatyzować pracę z transakcjami oraz pokazywać, co naprawdę dzieje się z budżetem.</p>
@@ -105,7 +104,7 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
   </section>
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Analiza potrzeb i wstępna architektura</h2></div></div>
-    <p>Trwa zbieranie i porządkowanie wymagań oraz przygotowywanie wstępnej architektury systemu. Kolejnym etapem będzie implementacja importu transakcji i reguł automatycznej kategoryzacji.</p>
+    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Analiza potrzeb i wymagań</h2></div></div>
+    <p>Nadal analizuję i porządkuję potrzeby oraz wymagania projektu. Na tej podstawie dobiorę technologie i przygotuję odpowiednią architekturę systemu przed rozpoczęciem implementacji.</p>
   </section>
 </div>
