@@ -58,7 +58,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <div class="showcase-tags" aria-label="Obszary projektu">
         <span>Finanse</span><span>Automatyzacje</span><span>AI</span>
       </div>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Dopracowanie architektury</strong><small>Wymagania i wstępna architektura są przygotowane. Trwa dopracowanie modelu danych przed implementacją importu i kategoryzacji.</small></p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Analiza potrzeb i wstępna architektura</strong><small>Trwa zbieranie i porządkowanie wymagań oraz przygotowywanie wstępnej architektury systemu.</small></p>
       <a class="showcase-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">

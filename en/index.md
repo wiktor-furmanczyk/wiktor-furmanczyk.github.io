@@ -76,7 +76,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Finance Manager dashboard with balances, spending, budgets, and a savings goal" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Architecture design</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">Analysis and architecture</span></div>
         <h3>Finance Manager</h3>
         <p>Organize personal finances and side income in one private desktop tool.</p>
         <div class="tag-row" aria-label="Project type and focus areas"><span>Desktop app</span><span>Finance</span><span>Automation</span></div>

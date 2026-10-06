@@ -12,11 +12,11 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
 <section class="product-hero finance-hero section-shell" aria-labelledby="product-title">
   <div class="product-copy">
     <p class="product-eyebrow"><span aria-hidden="true"></span> Portfolio / Finance Manager</p>
-    <p class="concept-badge">Concept case study <span aria-hidden="true">·</span> architecture design stage</p>
+    <p class="concept-badge">Concept case study <span aria-hidden="true">·</span> analysis and initial architecture stage</p>
     <h1 id="product-title">Finance <span class="text-gradient">Manager</span></h1>
     <p class="product-lead">One place to organize finances and make better decisions.</p>
     <p class="product-description">The desktop app is designed to bring personal finances and side income together, automate transaction work, and explain what is really happening with the budget.</p>
-    <p class="project-role">My role: needs analysis, product concept, interface design, and implementation planning.</p>
+    <p class="project-role">My role: needs analysis, product concept, interface design, followed by implementation and continued development of the app.</p>
     <div class="tag-row product-tags" aria-label="Project focus areas">
       <span>Desktop app</span><span>Finance</span><span>Automation</span><span>AI</span>
     </div>
@@ -106,7 +106,7 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
   </section>
 
   <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Architecture refinement</h2></div></div>
-    <p>Needs and requirements analysis is complete, and the initial architecture has been prepared. I am now refining the data model, transaction import, and categorization rules before implementation begins.</p>
+    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Needs analysis and initial architecture</h2></div></div>
+    <p>Requirements are being collected and organized while the initial system architecture is being prepared. The next stage will implement transaction import and automatic categorization rules.</p>
   </section>
 </div>

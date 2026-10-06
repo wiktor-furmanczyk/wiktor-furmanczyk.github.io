@@ -59,7 +59,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <div class="showcase-tags" aria-label="Project focus areas">
         <span>Finance</span><span>Automation</span><span>AI</span>
       </div>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Architecture refinement</strong><small>Requirements and the initial architecture are prepared. The data model is being refined before import and categorization implementation.</small></p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Needs analysis and initial architecture</strong><small>Requirements are being collected and organized while the initial system architecture is being prepared.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">

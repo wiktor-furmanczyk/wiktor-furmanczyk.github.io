@@ -63,9 +63,8 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance Manager</a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
           </div>
           <ul class="roadmap-tasks">
-            <li class="is-complete"><span>Analiza potrzeb i wymagań</span><em>Zakończone</em></li>
-            <li class="is-complete"><span>Wstępna architektura systemu</span><em>Zakończone</em></li>
-            <li class="is-progress"><span>Dopracowanie architektury i modelu danych</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Analiza potrzeb i wymagań</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Wstępna architektura systemu</span><em>W trakcie</em></li>
             <li><span>Import transakcji</span><em>Planowane</em></li>
             <li><span>Automatyczna kategoryzacja</span><em>Planowane</em></li>
           </ul>
@@ -92,7 +91,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
           <li><time datetime="2026-09-23">23.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Rozwój</span></div><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą, na przykład do Włoch lub Rumunii.</p></div></li>
-          <li><time datetime="2026-09-17">17.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">Finance Manager</span><span class="change-type">Analiza</span></div><h4>Analiza wymagań i wstępna architektura</h4><p>Zebrano wymagania i przygotowano wstępną architekturę systemu.</p></div></li>
+          <li><time datetime="2026-09-17">17.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">Finance Manager</span><span class="change-type">Analiza</span></div><h4>Rozpoczęcie analizy i prac nad architekturą</h4><p>Rozpoczęto zbieranie wymagań oraz przygotowywanie wstępnej architektury systemu.</p></div></li>
           <li><time datetime="2026-09-12">12.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Kompatybilność</span></div><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div></li>
         </ol>
       </div>
