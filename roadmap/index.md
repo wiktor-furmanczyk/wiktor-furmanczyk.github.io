@@ -48,7 +48,7 @@ image_alt: VeltoWeb — roadmapa projektów i historia zmian
 
         <article class="roadmap-project">
           <div class="roadmap-project-intro">
-            <div><h3>AI Writing Assistant</h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja</span><span>AI</span><span>Produktywność</span></div></div>
+            <div><h3>AI Writing Assistant</h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
           <ul class="roadmap-tasks">
             <li class="is-progress"><span>Przebudowa interfejsu</span><em>W trakcie</em></li>
