@@ -43,6 +43,36 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     </article>
   </section>
 
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
+    </div>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>Jedno działanie zamiast wieloetapowej korekty</h3><p>Długą wiadomość, post lub inną treść można poprawić jednym poleceniem. Użytkownik nie musi samodzielnie wyszukiwać błędów ani prowadzić osobnej rozmowy z narzędziem AI.</p></article>
+      <article><span>02</span><h3>Tłumaczenie gotowej treści bez pisania jej od początku</h3><p>Przygotowaną wiadomość można przełożyć na wybrany język z zachowaniem jej znaczenia. Ten sam przepływ obsługuje korektę i tłumaczenie, bez zmiany aplikacji.</p></article>
+      <article><span>03</span><h3>Narzędzia dostępne bezpośrednio przy klawiaturze</h3><p>Tekst pozostaje w aplikacji, w której powstaje. Nie trzeba go kopiować do osobnego czatu, czekać na odpowiedź i ponownie wklejać poprawionej wersji.</p></article>
+      <article><span>04</span><h3>Minimalny interfejs, który nie zasłania rozmowy</h3><p>Asystent zajmuje tylko tyle miejsca, ile potrzeba do wyboru działania i sprawdzenia wyniku. Wiadomość oraz kontekst rozmowy pozostają widoczne podczas pracy.</p></article>
+    </div>
+  </section>
+
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problemy do rozwiązania</p>
+      <h2 id="features-title">Od surowej wiadomości do gotowego tekstu bez przerywania pracy</h2>
+      <p>AI Writing Assistant ma usuwać dodatkowe kroki między napisaniem lub podyktowaniem treści a jej użyciem. Korekta, zmiana stylu i tłumaczenie pozostają częścią tego samego przepływu, niezależnie od aplikacji, w której użytkownik pisze.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>Korekta jednym działaniem</strong>Szybkie poprawianie wiadomości, postów i dłuższych tekstów bez ręcznego wyszukiwania każdego błędu.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Działanie w różnych aplikacjach</strong>Dostęp do asystenta wszędzie tam, gdzie można pisać za pomocą klawiatury Androida.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Poprawa tekstu z dyktowania</strong>Korygowanie błędów rozpoznawania mowy po wprowadzeniu wiadomości mikrofonem.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Wybór sposobu poprawy</strong>Dopasowanie działania do potrzeby: korekta, skrócenie, rozwinięcie, uproszczenie lub tłumaczenie.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Style dopasowane do odbiorcy</strong>Zmiana tonu wiadomości na przykład na biznesowy, swobodny, koleżeński lub bardziej bezpośredni.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Tłumaczenie na wybrany język</strong>Przygotowanie obcojęzycznej wersji tekstu bez otwierania osobnego translatora.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Jeden kontrolowany przepływ treści</strong>Wiadomości trafiają do jednego asystenta zamiast być kopiowane między wieloma otwartymi czatami i narzędziami.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Kontrola kosztu użycia AI</strong>Krótkie, konkretne operacje ograniczają zbędny kontekst i pozwalają korzystać z asystenta tylko wtedy, gdy jest potrzebny.</p></li>
+    </ul>
+  </section>
+
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>

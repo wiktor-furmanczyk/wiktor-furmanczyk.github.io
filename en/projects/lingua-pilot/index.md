@@ -43,6 +43,36 @@ image_alt: LinguaPilot identity on a dark blue background
     </article>
   </section>
 
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Design decisions</p><h2 id="decisions-title">Choices driven by the problem, not technology alone</h2></div>
+    </div>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>Mobile practice instead of materials scattered across many places</h3><p>Flashcards are available on the phone whenever there is a moment to study. There is no need to prepare a notebook, find the right course, or switch between several sources.</p></article>
+      <article><span>02</span><h3>Sets created for a specific topic or situation</h3><p>The learner decides what they need right now, and the app prepares material around that goal instead of requiring them to work through unrelated vocabulary first.</p></article>
+      <article><span>03</span><h3>Simple customization instead of one fixed study mode</h3><p>Learners can choose words, sentences, or a mixed format, along with language level and set size. Each session can match the time available and the learner's current ability.</p></article>
+      <article><span>04</span><h3>Listening practice built into every session</h3><p>Flashcard content can be read aloud with correct pronunciation, so practice goes beyond recognizing written text. Learners also train listening comprehension and become familiar with how the language sounds.</p></article>
+    </div>
+  </section>
+
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">From random vocabulary to learning that matters right now</h2>
+      <p>LinguaPilot is designed to shorten the path from “I need to improve” to a focused study session. Instead of browsing general lessons, learners choose a current goal and practice material suited to the situation, their level, and the time available.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>Flashcards for specific situations</strong>Dynamic sets of words and sentences useful for travel, work, or everyday conversations.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Short study sessions</strong>Make use of a few free minutes without starting a long lesson.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Words, sentences, or a mixed format</strong>Choose the type of material that best fits the learning goal.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Adjustable level and set size</strong>Control both the difficulty and length of each session.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Listening comprehension practice</strong>Hear flashcard content to learn pronunciation and the natural sound of the language.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Multiple languages</strong>Create sets for different languages without changing tools or learning methods.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Reverse-direction review</strong>Practice both recognizing meaning and actively recalling the translation.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Session summary</strong>Review the result and task completion to evaluate progress and decide what to repeat.</p></li>
+    </ul>
+  </section>
+
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>

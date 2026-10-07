@@ -44,6 +44,36 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </article>
   </section>
 
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Design decisions</p><h2 id="decisions-title">Choices driven by the problem, not technology alone</h2></div>
+    </div>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>One action instead of a multi-step editing process</h3><p>A long message, post, or other text can be improved with one command. The user does not have to find every error manually or start a separate conversation with an AI tool.</p></article>
+      <article><span>02</span><h3>Translate finished text without writing it again</h3><p>A prepared message can be translated into the selected language while preserving its meaning. Editing and translation share the same flow without requiring another app.</p></article>
+      <article><span>03</span><h3>Tools available directly at the keyboard</h3><p>The text stays in the app where it was written. There is no need to copy it into a separate chat, wait for a response, and paste the edited version back.</p></article>
+      <article><span>04</span><h3>A minimal interface that keeps the conversation visible</h3><p>The assistant uses only the space needed to choose an action and review the result. The message and surrounding conversation remain visible while the user works.</p></article>
+    </div>
+  </section>
+
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">From rough input to a finished message without breaking the flow</h2>
+      <p>AI Writing Assistant is designed to remove the extra steps between writing or dictating text and using it. Editing, tone changes, and translation remain part of the same workflow, regardless of the app in which the user is typing.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>One-action editing</strong>Quickly improve messages, posts, and longer text without finding every error manually.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Works across different apps</strong>Access the assistant wherever text can be entered with the Android keyboard.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Fix dictated text</strong>Correct speech recognition errors after entering a message with the microphone.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Choose how the text should change</strong>Edit, shorten, expand, simplify, or translate the text depending on the task.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Tone matched to the audience</strong>Make a message more professional, casual, friendly, or direct.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Translate into a selected language</strong>Prepare a foreign-language version without opening a separate translator.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>One controlled content flow</strong>Messages go through one assistant instead of being copied between multiple open chats and tools.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Control AI usage costs</strong>Short, focused operations avoid unnecessary context and use the assistant only when it is needed.</p></li>
+    </ul>
+  </section>
+
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>

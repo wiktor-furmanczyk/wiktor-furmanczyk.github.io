@@ -42,6 +42,36 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </article>
   </section>
 
+  <section class="finance-decisions" aria-labelledby="decisions-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
+    </div>
+    <div class="finance-decision-grid">
+      <article><span>01</span><h3>Mobilna nauka zamiast materiałów rozproszonych w wielu miejscach</h3><p>Fiszki są dostępne w telefonie wtedy, gdy pojawia się chwila na naukę. Nie trzeba przygotowywać zeszytu, szukać odpowiedniego kursu ani przełączać się między kilkoma źródłami.</p></article>
+      <article><span>02</span><h3>Zestawy tworzone pod konkretny temat lub sytuację</h3><p>Użytkownik określa, czego potrzebuje w danym momencie, a aplikacja przygotowuje materiał związany z tym celem — bez przerabiania przypadkowego słownictwa, które nie przyda się teraz.</p></article>
+      <article><span>03</span><h3>Prosta personalizacja zamiast jednego narzuconego trybu</h3><p>Zakres nauki można dopasować przez wybór słów, zdań lub trybu mieszanego, poziomu języka i liczby fiszek. Sesja ma odpowiadać dostępnemu czasowi oraz aktualnym umiejętnościom.</p></article>
+      <article><span>04</span><h3>Odsłuch jako część każdej sesji</h3><p>Treść fiszek może być odczytywana z prawidłową wymową, aby nauka nie kończyła się na rozpoznawaniu tekstu. Użytkownik jednocześnie ćwiczy rozumienie ze słuchu i oswaja się z brzmieniem języka.</p></article>
+    </div>
+  </section>
+
+  <section class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problemy do rozwiązania</p>
+      <h2 id="features-title">Od przypadkowych słówek do nauki potrzebnej tu i teraz</h2>
+      <p>LinguaPilot ma skrócić drogę od decyzji „chcę się podszkolić” do konkretnej sesji. Zamiast przeglądać ogólne lekcje, użytkownik wybiera bieżący cel i ćwiczy materiał dopasowany do sytuacji, poziomu oraz dostępnego czasu.</p>
+    </div>
+    <ul class="finance-feature-list">
+      <li><span aria-hidden="true">✓</span><p><strong>Fiszki do konkretnych sytuacji</strong>Dynamiczne zestawy słów i zdań przydatnych na przykład w podróży, pracy lub rozmowie.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Nauka w krótkich sesjach</strong>Możliwość wykorzystania kilku wolnych minut bez rozpoczynania długiej lekcji.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Słowa, zdania lub tryb mieszany</strong>Wybór formatu materiału odpowiedniego do celu nauki.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Dopasowanie poziomu i liczby fiszek</strong>Kontrola trudności oraz długości pojedynczej sesji.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Ćwiczenie rozumienia ze słuchu</strong>Odsłuchiwanie treści fiszek pomaga poznawać wymowę i naturalne brzmienie języka.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Wiele języków do wyboru</strong>Tworzenie zestawów dla różnych języków bez zmiany narzędzia i sposobu nauki.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Powtórka w odwrotnym kierunku</strong>Ćwiczenie zarówno rozpoznawania znaczenia, jak i samodzielnego przypominania tłumaczenia.</p></li>
+      <li><span aria-hidden="true">✓</span><p><strong>Podsumowanie sesji</strong>Informacja o wyniku i realizacji zadania pomaga ocenić postęp oraz zdecydować, co warto powtórzyć.</p></li>
+    </ul>
+  </section>
+
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>
