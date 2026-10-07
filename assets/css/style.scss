@@ -286,6 +286,13 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .finance-feature-list li > span { display: grid; width: 22px; height: 22px; place-items: center; color: #57e8d0; background: rgba(26,190,166,.1); border: 1px solid rgba(62,229,203,.25); border-radius: 50%; font-size: .69rem; font-weight: 800; }
 .finance-feature-list p { margin: 0; color: #9fb2c9; font-size: .72rem; line-height: 1.5; }
 .finance-feature-list strong { display: block; margin-bottom: 3px; color: #edf7ff; font-size: .78rem; line-height: 1.35; }
+.writing-problem-list li { grid-template-columns: 32px minmax(0, 1fr); gap: 12px; padding: 20px 18px; }
+.writing-problem-list li > span { width: 28px; height: 28px; color: #43ddff; background: rgba(0,126,202,.13); border-color: rgba(67,221,255,.28); font-size: .6rem; letter-spacing: .04em; }
+.problem-response-copy { display: grid; min-width: 0; gap: 9px; }
+.problem-response-copy h3 { margin: 0 0 2px; color: #edf7ff; font-size: .84rem; line-height: 1.4; }
+.finance-feature-list .problem-response-copy p { color: #9fb2c9; font-size: .7rem; line-height: 1.55; }
+.finance-feature-list .problem-response-copy p strong { margin-bottom: 2px; color: #68dfff; font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
+.finance-feature-list .problem-response-copy .problem-effect { color: #bdcad9; }
 .finance-project .project-process { padding-block: 0; }
 .finance-project .project-process .section-heading, .finance-project .finance-gallery .section-heading { margin-bottom: 20px; }
 .finance-project .project-process .section-heading h2, .finance-project .finance-gallery .section-heading h2 { margin-bottom: 0; font-size: clamp(1.4rem, 2.7vw, 2rem); }
@@ -396,6 +403,12 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .finance-features { grid-template-columns: 1fr; gap: 24px; }
   .finance-features-heading { position: static; }
   .finance-features-heading > p:last-child { font-size: .88rem; }
+  .writing-problem-list { grid-template-columns: 1fr; }
+  .writing-problem-list li::before { display: none !important; }
+  .writing-problem-list li { padding: 19px 14px 19px 0; }
+  .problem-response-copy h3 { font-size: .92rem; }
+  .finance-feature-list .problem-response-copy p { font-size: .8rem; }
+  .finance-feature-list .problem-response-copy p strong { font-size: .64rem; }
   .finance-project .project-process .process-steps { grid-template-columns: 1fr; gap: 9px; }
   .finance-project .project-process .process-steps li { min-height: 0; }
   .finance-project .project-process .process-steps small { font-size: .8125rem; line-height: 1.5; }
@@ -456,6 +469,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .finance-feature-list { grid-template-columns: 1fr; }
   .finance-feature-list p { font-size: .8rem; }
   .finance-feature-list strong { font-size: .86rem; }
+  .writing-problem-list li { padding: 18px 10px 18px 0; }
+  .problem-response-copy h3 { font-size: .96rem; }
+  .finance-feature-list .problem-response-copy p { font-size: .82rem; }
+  .finance-feature-list .problem-response-copy p strong { font-size: .66rem; }
   .writing-project .product-copy h1 { font-size: clamp(2.35rem, 11vw, 3.2rem); }
   .writing-project .product-lead { margin-top: 10px; font-size: 1.04rem; }
   .writing-project .product-description { font-size: .88rem; line-height: 1.58; }

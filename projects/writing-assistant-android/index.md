@@ -43,33 +43,19 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     </article>
   </section>
 
-  <section class="finance-decisions" aria-labelledby="decisions-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
-    </div>
-    <div class="finance-decision-grid">
-      <article><span>01</span><h3>Jedno działanie zamiast wieloetapowej korekty</h3><p>Długą wiadomość, post lub inną treść można poprawić jednym poleceniem. Użytkownik nie musi samodzielnie wyszukiwać błędów ani prowadzić osobnej rozmowy z narzędziem AI.</p></article>
-      <article><span>02</span><h3>Tłumaczenie gotowej treści bez pisania jej od początku</h3><p>Przygotowaną wiadomość można przełożyć na wybrany język z zachowaniem jej znaczenia. Ten sam przepływ obsługuje korektę i tłumaczenie, bez zmiany aplikacji.</p></article>
-      <article><span>03</span><h3>Narzędzia dostępne bezpośrednio przy klawiaturze</h3><p>Tekst pozostaje w aplikacji, w której powstaje. Nie trzeba go kopiować do osobnego czatu, czekać na odpowiedź i ponownie wklejać poprawionej wersji.</p></article>
-      <article><span>04</span><h3>Minimalny interfejs, który nie zasłania rozmowy</h3><p>Asystent zajmuje tylko tyle miejsca, ile potrzeba do wyboru działania i sprawdzenia wyniku. Wiadomość oraz kontekst rozmowy pozostają widoczne podczas pracy.</p></article>
-    </div>
-  </section>
-
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
       <p class="section-kicker">Problemy do rozwiązania</p>
-      <h2 id="features-title">Od surowej wiadomości do gotowego tekstu bez przerywania pracy</h2>
-      <p>AI Writing Assistant ma usuwać dodatkowe kroki między napisaniem lub podyktowaniem treści a jej użyciem. Korekta, zmiana stylu i tłumaczenie pozostają częścią tego samego przepływu, niezależnie od aplikacji, w której użytkownik pisze.</p>
+      <h2 id="features-title">Co utrudnia przygotowanie wiadomości i jak odpowiada na to aplikacja</h2>
+      <p>Każdy element aplikacji wynika z konkretnej trudności pojawiającej się podczas pisania. Poniższe zestawienie pokazuje problem, sposób jego rozwiązania oraz efekt, który otrzymuje użytkownik.</p>
     </div>
-    <ul class="finance-feature-list">
-      <li><span aria-hidden="true">✓</span><p><strong>Korekta jednym działaniem</strong>Szybkie poprawianie wiadomości, postów i dłuższych tekstów bez ręcznego wyszukiwania każdego błędu.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Działanie w różnych aplikacjach</strong>Dostęp do asystenta wszędzie tam, gdzie można pisać za pomocą klawiatury Androida.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Poprawa tekstu z dyktowania</strong>Korygowanie błędów rozpoznawania mowy po wprowadzeniu wiadomości mikrofonem.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Wybór sposobu poprawy</strong>Dopasowanie działania do potrzeby: korekta, skrócenie, rozwinięcie, uproszczenie lub tłumaczenie.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Style dopasowane do odbiorcy</strong>Zmiana tonu wiadomości na przykład na biznesowy, swobodny, koleżeński lub bardziej bezpośredni.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Tłumaczenie na wybrany język</strong>Przygotowanie obcojęzycznej wersji tekstu bez otwierania osobnego translatora.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Jeden kontrolowany przepływ treści</strong>Wiadomości trafiają do jednego asystenta zamiast być kopiowane między wieloma otwartymi czatami i narzędziami.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Kontrola kosztu użycia AI</strong>Krótkie, konkretne operacje ograniczają zbędny kontekst i pozwalają korzystać z asystenta tylko wtedy, gdy jest potrzebny.</p></li>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Kopiowanie tekstu tworzy niepotrzebne kroki</h3><p><strong>Problem</strong>Poprawa wiadomości w osobnym narzędziu wymaga skopiowania treści, opisania zadania i ponownego wklejenia wyniku.</p><p><strong>Odpowiedź aplikacji</strong>Asystent jest dostępny bezpośrednio przy klawiaturze i pracuje na tekście w aktualnie używanej aplikacji.</p><p class="problem-effect"><strong>Efekt</strong>Krótszy przepływ pracy i mniejsze ryzyko wklejenia niewłaściwej wersji wiadomości.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Dyktowanie nie daje od razu gotowej wiadomości</h3><p><strong>Problem</strong>Rozpoznawanie mowy może pomijać interpunkcję, błędnie zapisywać słowa lub tworzyć zdania wymagające uporządkowania.</p><p><strong>Odpowiedź aplikacji</strong>Jedno działanie poprawia tekst wprowadzony mikrofonem i przygotowuje czytelną wersję.</p><p class="problem-effect"><strong>Efekt</strong>Użytkownik zachowuje szybkość dyktowania i otrzymuje wiadomość gotową do sprawdzenia.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Opisanie oczekiwanej poprawy bywa trudne</h3><p><strong>Problem</strong>W ogólnym narzędziu AI użytkownik musi samodzielnie przygotować polecenie i wyjaśnić, jak tekst powinien zostać zmieniony.</p><p><strong>Odpowiedź aplikacji</strong>Gotowe działania pozwalają wybrać korektę, skrócenie, rozwinięcie, uproszczenie lub tłumaczenie.</p><p class="problem-effect"><strong>Efekt</strong>Przewidywalny wynik bez konieczności każdorazowego układania nowego polecenia.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Ten sam tekst nie pasuje do każdego odbiorcy</h3><p><strong>Problem</strong>Wiadomość do klienta, znajomego lub osoby mówiącej innym językiem wymaga innego tonu i sposobu sformułowania.</p><p><strong>Odpowiedź aplikacji</strong>Użytkownik wybiera styl wypowiedzi oraz język, na który ma zostać przetłumaczona przygotowana treść.</p><p class="problem-effect"><strong>Efekt</strong>Jedna wiadomość może zostać szybko dopasowana do odbiorcy i sytuacji.</p></div></li>
+      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Rozbudowany panel zasłania kontekst rozmowy</h3><p><strong>Problem</strong>Na ekranie telefonu dodatkowe okno może ograniczyć widoczność wiadomości i utrudnić ocenę przygotowanej odpowiedzi.</p><p><strong>Odpowiedź aplikacji</strong>Minimalistyczny interfejs pokazuje tylko wybór działania oraz wynik potrzebny w danym momencie.</p><p class="problem-effect"><strong>Efekt</strong>Treść rozmowy pozostaje widoczna podczas poprawiania tekstu.</p></div></li>
+      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Wiele narzędzi rozprasza treść i zwiększa koszt</h3><p><strong>Problem</strong>Kopiowanie wiadomości między różnymi czatami utrudnia kontrolę nad treścią i może tworzyć niepotrzebnie długie rozmowy z AI.</p><p><strong>Odpowiedź aplikacji</strong>Jeden asystent wykonuje krótkie, konkretne operacje tylko wtedy, gdy użytkownik ich potrzebuje.</p><p class="problem-effect"><strong>Efekt</strong>Bardziej uporządkowany przepływ treści i lepsza kontrola kosztu użycia AI.</p></div></li>
     </ul>
   </section>
 
@@ -87,12 +73,12 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
 
   <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
-      <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Trzy kroki do gotowej wiadomości</h2></div>
+      <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Od wpisanego tekstu do gotowej wiadomości</h2></div>
     </div>
     <ol class="process-steps">
-      <li><span>1</span><strong>Podyktuj wiadomość</strong><small>Użyj mikrofonu klawiatury, aby wprowadzić tekst głosem.</small></li>
-      <li><span>2</span><strong>Popraw rozpoznany tekst</strong><small>Asystent skoryguje błędy, które pojawiły się podczas dyktowania.</small></li>
-      <li><span>3</span><strong>Wstaw poprawioną wersję</strong><small>Sprawdź wiadomość i zastosuj ją w miejscu pisania.</small></li>
+      <li><span>1</span><strong>Napisz lub podyktuj tekst</strong><small>Wprowadź treść w dowolnej aplikacji za pomocą klawiatury albo mikrofonu.</small></li>
+      <li><span>2</span><strong>Wybierz potrzebne działanie</strong><small>Otwórz asystenta i zdecyduj, czy chcesz poprawić, przetłumaczyć lub zmienić styl tekstu.</small></li>
+      <li><span>3</span><strong>Sprawdź i zastosuj wynik</strong><small>Porównaj przygotowaną wersję z oryginałem, a następnie wstaw ją do tego samego pola tekstowego.</small></li>
     </ol>
   </section>
 

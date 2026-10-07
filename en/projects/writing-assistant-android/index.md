@@ -44,33 +44,19 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </article>
   </section>
 
-  <section class="finance-decisions" aria-labelledby="decisions-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Design decisions</p><h2 id="decisions-title">Choices driven by the problem, not technology alone</h2></div>
-    </div>
-    <div class="finance-decision-grid">
-      <article><span>01</span><h3>One action instead of a multi-step editing process</h3><p>A long message, post, or other text can be improved with one command. The user does not have to find every error manually or start a separate conversation with an AI tool.</p></article>
-      <article><span>02</span><h3>Translate finished text without writing it again</h3><p>A prepared message can be translated into the selected language while preserving its meaning. Editing and translation share the same flow without requiring another app.</p></article>
-      <article><span>03</span><h3>Tools available directly at the keyboard</h3><p>The text stays in the app where it was written. There is no need to copy it into a separate chat, wait for a response, and paste the edited version back.</p></article>
-      <article><span>04</span><h3>A minimal interface that keeps the conversation visible</h3><p>The assistant uses only the space needed to choose an action and review the result. The message and surrounding conversation remain visible while the user works.</p></article>
-    </div>
-  </section>
-
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
       <p class="section-kicker">Problems to solve</p>
-      <h2 id="features-title">From rough input to a finished message without breaking the flow</h2>
-      <p>AI Writing Assistant is designed to remove the extra steps between writing or dictating text and using it. Editing, tone changes, and translation remain part of the same workflow, regardless of the app in which the user is typing.</p>
+      <h2 id="features-title">What makes preparing a message difficult and how the app responds</h2>
+      <p>Every part of the app addresses a specific difficulty that appears while writing. The examples below show the problem, the response provided by the app, and the result for the user.</p>
     </div>
-    <ul class="finance-feature-list">
-      <li><span aria-hidden="true">✓</span><p><strong>One-action editing</strong>Quickly improve messages, posts, and longer text without finding every error manually.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Works across different apps</strong>Access the assistant wherever text can be entered with the Android keyboard.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Fix dictated text</strong>Correct speech recognition errors after entering a message with the microphone.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Choose how the text should change</strong>Edit, shorten, expand, simplify, or translate the text depending on the task.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Tone matched to the audience</strong>Make a message more professional, casual, friendly, or direct.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Translate into a selected language</strong>Prepare a foreign-language version without opening a separate translator.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>One controlled content flow</strong>Messages go through one assistant instead of being copied between multiple open chats and tools.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Control AI usage costs</strong>Short, focused operations avoid unnecessary context and use the assistant only when it is needed.</p></li>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Copying text creates unnecessary steps</h3><p><strong>Problem</strong>Editing a message in a separate tool requires copying the text, explaining the task, and pasting the result back.</p><p><strong>App response</strong>The assistant is available directly at the keyboard and works with text in the app currently being used.</p><p class="problem-effect"><strong>Result</strong>A shorter workflow with less risk of pasting the wrong version of the message.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Dictation does not immediately produce a finished message</h3><p><strong>Problem</strong>Speech recognition can miss punctuation, record the wrong words, or create sentences that need to be reorganized.</p><p><strong>App response</strong>One action edits the dictated text and prepares a clear version.</p><p class="problem-effect"><strong>Result</strong>The user keeps the speed of voice input and receives a message that is ready to review.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Describing the expected edit can be difficult</h3><p><strong>Problem</strong>In a general AI tool, the user has to write an instruction and explain how the text should change.</p><p><strong>App response</strong>Ready actions make it possible to edit, shorten, expand, simplify, or translate the text.</p><p class="problem-effect"><strong>Result</strong>A predictable outcome without writing a new instruction for every message.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>The same text does not suit every recipient</h3><p><strong>Problem</strong>A message to a client, a friend, or someone who speaks another language requires a different tone and wording.</p><p><strong>App response</strong>The user chooses the writing style and the language for the prepared text.</p><p class="problem-effect"><strong>Result</strong>One message can be quickly adapted to the recipient and situation.</p></div></li>
+      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>A large panel can hide the conversation context</h3><p><strong>Problem</strong>On a phone screen, another window can reduce message visibility and make it harder to evaluate the prepared response.</p><p><strong>App response</strong>The minimal interface shows only the selected action and the result needed at that moment.</p><p class="problem-effect"><strong>Result</strong>The conversation remains visible while the text is being edited.</p></div></li>
+      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Using many tools fragments content and increases cost</h3><p><strong>Problem</strong>Copying messages between different chats makes the content harder to control and can create unnecessarily long AI conversations.</p><p><strong>App response</strong>One assistant performs short, focused operations only when the user needs them.</p><p class="problem-effect"><strong>Result</strong>A more organized content flow and better control over AI usage costs.</p></div></li>
     </ul>
   </section>
 
@@ -88,12 +74,12 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
 
   <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
-      <div><p class="section-kicker">How it works</p><h2 id="process-title">Three steps to a ready-to-send message</h2></div>
+      <div><p class="section-kicker">How it works</p><h2 id="process-title">From entered text to a finished message</h2></div>
     </div>
     <ol class="process-steps">
-      <li><span>1</span><strong>Dictate your message</strong><small>Use your keyboard microphone to enter text by voice.</small></li>
-      <li><span>2</span><strong>Fix the recognized text</strong><small>The assistant corrects errors from speech recognition.</small></li>
-      <li><span>3</span><strong>Use the edited version</strong><small>Review the message and apply it where you are writing.</small></li>
+      <li><span>1</span><strong>Write or dictate the text</strong><small>Enter the content in any app with the keyboard or microphone.</small></li>
+      <li><span>2</span><strong>Choose the required action</strong><small>Open the assistant and decide whether to edit, translate, or change the style of the text.</small></li>
+      <li><span>3</span><strong>Review and apply the result</strong><small>Compare the prepared version with the original, then insert it into the same text field.</small></li>
     </ol>
   </section>
 
