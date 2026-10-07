@@ -291,8 +291,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .problem-response-copy { display: grid; min-width: 0; gap: 9px; }
 .problem-response-copy h3 { margin: 0 0 2px; color: #edf7ff; font-size: .84rem; line-height: 1.4; }
 .finance-feature-list .problem-response-copy p { color: #9fb2c9; font-size: .7rem; line-height: 1.55; }
-.finance-feature-list .problem-response-copy p strong { margin-bottom: 2px; color: #68dfff; font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
-.finance-feature-list .problem-response-copy .problem-effect { color: #bdcad9; }
+.finance-feature-list .problem-response-copy p strong { margin-bottom: 3px; font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
+.finance-feature-list .problem-statement strong { color: #ff8598; }
+.finance-feature-list .solution-statement strong { display: flex; align-items: center; gap: 6px; color: #57e8d0; }
+.solution-check { display: inline-grid; width: 17px; height: 17px; place-items: center; color: #57e8d0; background: rgba(26,190,166,.1); border: 1px solid rgba(62,229,203,.34); border-radius: 50%; font-size: .58rem; line-height: 1; }
 .finance-project .project-process { padding-block: 0; }
 .finance-project .project-process .section-heading, .finance-project .finance-gallery .section-heading { margin-bottom: 20px; }
 .finance-project .project-process .section-heading h2, .finance-project .finance-gallery .section-heading h2 { margin-bottom: 0; font-size: clamp(1.4rem, 2.7vw, 2rem); }
