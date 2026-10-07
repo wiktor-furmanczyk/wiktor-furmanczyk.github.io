@@ -123,9 +123,9 @@
         const scrollY = Math.max(0, window.scrollY);
         const scrollDelta = scrollY - lastScrollY;
         const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
-        if (scrollDelta < 0 || scrollY <= maxScroll * .5) {
+        if (scrollDelta < 0 || scrollY <= maxScroll * .4) {
           backToTopVisible = false;
-        } else if (scrollDelta > 0 && scrollY > maxScroll * .5) {
+        } else if (scrollDelta > 0 && scrollY > maxScroll * .4) {
           backToTopVisible = true;
         }
         if (scrollY <= 12) {
@@ -162,9 +162,15 @@
         headerHidden = false;
         document.body.classList.remove('header-hidden');
       });
-      backToTop.addEventListener('click', () => {
+      backToTop.addEventListener('click', (event) => {
+        event.preventDefault();
         backToTopVisible = false;
         backToTop.classList.remove('is-visible');
+        backToTop.blur();
+        window.scrollTo({
+          top: 0,
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+        });
       });
       window.addEventListener('hashchange', updateRoadmapTabs);
       updateRoadmapTabs();
