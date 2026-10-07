@@ -302,7 +302,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .monitor-frame { position: relative; width: 100%; margin-bottom: 13px; padding: 5px 5px 8px; background: linear-gradient(145deg, #20374f, #081523 46%, #172c41); border: 1px solid rgba(112,174,216,.42); border-radius: 11px; box-shadow: 0 19px 34px rgba(0,0,0,.34), 0 0 22px rgba(0,139,255,.06); }
 .monitor-frame::before { position: absolute; width: 15%; height: 17px; top: 100%; left: 42.5%; content: ""; background: linear-gradient(90deg, #0a1724, #29445d 50%, #0a1724); clip-path: polygon(28% 0, 72% 0, 100% 100%, 0 100%); }
 .monitor-frame::after { position: absolute; width: 29%; height: 4px; top: calc(100% + 15px); left: 35.5%; content: ""; background: linear-gradient(90deg, transparent, #51738f 18%, #1b3349 50%, #51738f 82%, transparent); border-radius: 50%; box-shadow: 0 5px 12px rgba(0,0,0,.32); }
-.monitor-frame img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
+.monitor-frame img { display: block; width: 100%; height: auto; border-radius: 6px; }
 .finance-gallery-grid figcaption { display: grid; gap: 4px; width: 100%; text-align: center; }
 .finance-gallery-grid figcaption strong { color: #edf7ff; font-size: .82rem; }
 .finance-gallery-grid figcaption small { color: var(--muted); font-size: .7rem; line-height: 1.45; }
