@@ -44,38 +44,19 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </article>
   </section>
 
-  <section class="finance-decisions" aria-labelledby="decisions-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Design decisions</p><h2 id="decisions-title">Choices driven by the problem, not technology alone</h2></div>
-    </div>
-    <div class="finance-decision-grid">
-      <article><span>01</span><h3>A desktop app instead of another online spreadsheet</h3><p>Finances stay in one tool designed for regular work, without making core features dependent on a browser and multiple scattered files.</p></article>
-      <article><span>02</span><h3>Financial data stored locally</h3><p>Privacy takes priority over the convenience of mandatory cloud storage. The app does not require an account or automatically send financial history to an external service.</p></article>
-      <article><span>03</span><h3>User rules before AI suggestions</h3><p>Categorization is based on remembered, correctable rules. AI supports trend analysis and decisions without taking control of the underlying data away from the user.</p></article>
-      <article><span>04</span><h3>One data model, two financial contexts</h3><p>Personal and business finances remain separate while sharing import and categorization mechanisms. The same merchant can mean something different depending on the account or project.</p></article>
-    </div>
-  </section>
-
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
       <p class="section-kicker">Problems to solve</p>
-      <h2 id="features-title">From manually tracking numbers to clear answers</h2>
-      <p>Every planned capability addresses a recurring problem: scattered data, uncertainty about what has been paid, difficulty evaluating costs, and no clear view of whether the financial situation is genuinely improving.</p>
+      <h2 id="features-title">What makes finances difficult to control and how the app solves it</h2>
+      <p>Each point shows a specific difficulty and a simple response from the app.</p>
     </div>
-    <ul class="finance-feature-list">
-      <li><span aria-hidden="true">✓</span><p><strong>Automatic transaction classification</strong>Merchant recognition and custom category rules that the app remembers.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Planned expense tracking</strong>See which commitments have been paid and which are still outstanding.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Monthly budgets</strong>A clear answer to how much is still safe to spend during the month.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Detailed expense analysis</strong>Breakdowns by category, merchant, and service.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Month-to-month comparisons</strong>Detect costs that are beginning to rise.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Savings goals</strong>Plan for a holiday, new equipment, or an emergency fund.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Personal and business finances</strong>Separate data, budgets, and summaries within one app.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Real project profitability</strong>Revenue, costs, and actual profit for individual jobs.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Overall financial health</strong>One overview showing whether the situation is genuinely improving.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>AI suggestions</strong>Identify rising costs, potential savings, and useful budget changes.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Balance reconciliation</strong>Compare the balance calculated from transactions with the actual account balance.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Monthly and annual reports</strong>Ready summaries of income, expenses, budgets, and savings.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Accountant-ready exports</strong>Revenue records, completed service summaries, business costs, and other documents in the required format.</p></li>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Organizing transactions by hand</h3><p class="problem-statement"><strong>Problem</strong>Copying bank history and assigning every payment to a category takes time and easily leads to mistakes.</p><p class="solution-statement"><strong>Solution</strong>The app imports transactions, recognizes merchants, and remembers category rules that the user can correct.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Not knowing how much is still safe to spend</h3><p class="problem-statement"><strong>Problem</strong>An account balance does not show which commitments are still unpaid or how much money is genuinely available.</p><p class="solution-statement"><strong>Solution</strong>Budgets and planned expenses show paid commitments and the amount that can be safely used during the month.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Rising costs noticed too late</h3><p class="problem-statement"><strong>Problem</strong>A long list of numbers makes it difficult to see which category, service, or merchant is beginning to consume more money.</p><p class="solution-statement"><strong>Solution</strong>Analysis and monthly comparisons reveal cost changes, while AI suggestions point to areas worth reviewing.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Goals disconnected from the real situation</h3><p class="problem-statement"><strong>Problem</strong>Planning savings is difficult when transaction data does not match the balance and there is no single view of financial health.</p><p class="solution-statement"><strong>Solution</strong>Balance reconciliation, savings goals, and one overview show progress and the overall state of the finances.</p></div></li>
+      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Mixing personal and business finances</h3><p class="problem-statement"><strong>Problem</strong>One shared expense list makes it difficult to assess business costs, project profitability, and the true household budget.</p><p class="solution-statement"><strong>Solution</strong>The app separates both contexts, calculates project revenue, costs, and profit, and prepares reports and accountant-ready data.</p></div></li>
+      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Losing control of sensitive data</h3><p class="problem-statement"><strong>Problem</strong>Financial history requires privacy, and automated decisions should not change data without the user's knowledge.</p><p class="solution-statement"><strong>Solution</strong>Data stays local, while rules and suggestions remain visible, correctable, and under the user's control.</p></div></li>
     </ul>
   </section>
 

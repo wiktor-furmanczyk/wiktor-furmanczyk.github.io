@@ -43,38 +43,19 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
     </article>
   </section>
 
-  <section class="finance-decisions" aria-labelledby="decisions-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
-    </div>
-    <div class="finance-decision-grid">
-      <article><span>01</span><h3>Aplikacja desktopowa zamiast kolejnego arkusza online</h3><p>Finanse są prowadzone w jednym narzędziu przeznaczonym do regularnej pracy, bez uzależniania podstawowych funkcji od przeglądarki i wielu rozproszonych plików.</p></article>
-      <article><span>02</span><h3>Dane finansowe przechowywane lokalnie</h3><p>Prywatność ma pierwszeństwo przed wygodą obowiązkowej chmury. Aplikacja nie wymaga konta ani automatycznego wysyłania historii finansowej do zewnętrznej usługi.</p></article>
-      <article><span>03</span><h3>Reguły użytkownika przed sugestiami AI</h3><p>Kategoryzacja ma opierać się na zapamiętywanych, możliwych do skorygowania regułach. AI wspiera analizę trendów i decyzji, ale nie odbiera użytkownikowi kontroli nad danymi.</p></article>
-      <article><span>04</span><h3>Jeden model danych, dwa konteksty finansowe</h3><p>Finanse prywatne i działalność pozostają rozdzielone, ale korzystają ze wspólnego importu oraz mechanizmu kategorii. Ten sam sprzedawca może mieć inne znaczenie zależnie od konta lub zlecenia.</p></article>
-    </div>
-  </section>
-
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
       <p class="section-kicker">Problemy do rozwiązania</p>
-      <h2 id="features-title">Od ręcznego pilnowania liczb do konkretnych odpowiedzi</h2>
-      <p>Każde planowane rozwiązanie odpowiada na powtarzający się problem: rozproszone dane, brak pewności co zostało opłacone, trudność w ocenie kosztów i brak jasnej informacji, czy sytuacja finansowa naprawdę się poprawia.</p>
+      <h2 id="features-title">Co utrudnia kontrolę finansów i jak aplikacja to rozwiązuje</h2>
+      <p>Każdy punkt pokazuje konkretną trudność oraz prostą odpowiedź aplikacji.</p>
     </div>
-    <ul class="finance-feature-list">
-      <li><span aria-hidden="true">✓</span><p><strong>Automatyczna klasyfikacja transakcji</strong>Rozpoznawanie sprzedawców i zapamiętywanie własnych reguł kategorii.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Kontrola planowanych wydatków</strong>Informacja, które zobowiązania zostały już opłacone, a które nadal czekają.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Miesięczne budżety</strong>Czytelna odpowiedź, ile można jeszcze bezpiecznie wydać w danym miesiącu.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Szczegółowa analiza wydatków</strong>Podział według kategorii, sklepów i usług.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Porównania miesiąc do miesiąca</strong>Wykrywanie kosztów, które zaczynają rosnąć.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Cele oszczędnościowe</strong>Planowanie środków na wakacje, sprzęt lub poduszkę finansową.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Finanse prywatne i działalność</strong>Oddzielne dane, budżety i podsumowania w jednej aplikacji.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Realna opłacalność zleceń</strong>Przychód, koszty i faktyczny zysk dla konkretnych projektów.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Ogólny stan finansów</strong>Jedno podsumowanie pokazujące, czy sytuacja rzeczywiście się poprawia.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Sugestie AI</strong>Wskazanie rosnących kosztów, potencjalnych oszczędności i zmian w budżecie.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Kontrola zgodności salda</strong>Porównanie stanu wynikającego z transakcji z faktycznym saldem konta.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Raporty miesięczne i roczne</strong>Gotowe podsumowania przychodów, wydatków, budżetów i oszczędności.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Eksport dla księgowej</strong>Ewidencja przychodów, zestawienie usług, koszty działalności i inne dokumenty w odpowiednim formacie.</p></li>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Ręczne porządkowanie transakcji</h3><p class="problem-statement"><strong>Problem</strong>Przepisywanie historii bankowej i przypisywanie każdej płatności do kategorii zabiera czas oraz łatwo prowadzi do pomyłek.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Aplikacja importuje transakcje, rozpoznaje sprzedawców i zapamiętuje reguły kategorii, które użytkownik może poprawić.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Brak pewności, ile można jeszcze wydać</h3><p class="problem-statement"><strong>Problem</strong>Saldo konta nie pokazuje, które zobowiązania czekają na opłacenie i jaka część pieniędzy jest naprawdę dostępna.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Budżety i planowane wydatki pokazują opłacone zobowiązania oraz kwotę, którą można bezpiecznie wykorzystać w danym miesiącu.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Rosnące koszty widoczne zbyt późno</h3><p class="problem-statement"><strong>Problem</strong>Długa lista liczb utrudnia zauważenie, która kategoria, usługa lub sklep zaczyna pochłaniać coraz więcej pieniędzy.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Analizy i porównania miesięcy pokazują zmiany kosztów, a sugestie AI wskazują obszary warte sprawdzenia.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Cele oderwane od rzeczywistej sytuacji</h3><p class="problem-statement"><strong>Problem</strong>Trudno planować oszczędności, gdy dane z transakcji nie zgadzają się z saldem i brakuje jednego obrazu finansów.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Kontrola salda, cele oszczędnościowe i wspólne podsumowanie pokazują postęp oraz ogólny stan finansów.</p></div></li>
+      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Mieszanie finansów prywatnych i działalności</h3><p class="problem-statement"><strong>Problem</strong>Wspólna lista wydatków utrudnia ocenę kosztów firmy, rentowności zleceń i rzeczywistego budżetu domowego.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Aplikacja rozdziela oba konteksty, liczy przychód, koszty i zysk projektów oraz przygotowuje raporty i dane dla księgowej.</p></div></li>
+      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Brak kontroli nad wrażliwymi danymi</h3><p class="problem-statement"><strong>Problem</strong>Historia finansowa wymaga prywatności, a automatyczne decyzje nie powinny zmieniać danych bez wiedzy użytkownika.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Dane są przechowywane lokalnie, a reguły i sugestie pozostają widoczne, możliwe do poprawienia i pod kontrolą użytkownika.</p></div></li>
     </ul>
   </section>
 

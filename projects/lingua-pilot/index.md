@@ -42,33 +42,19 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </article>
   </section>
 
-  <section class="finance-decisions" aria-labelledby="decisions-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Decyzje projektowe</p><h2 id="decisions-title">Założenia wynikające z problemu, nie z samej technologii</h2></div>
-    </div>
-    <div class="finance-decision-grid">
-      <article><span>01</span><h3>Mobilna nauka zamiast materiałów rozproszonych w wielu miejscach</h3><p>Fiszki są dostępne w telefonie wtedy, gdy pojawia się chwila na naukę. Nie trzeba przygotowywać zeszytu, szukać odpowiedniego kursu ani przełączać się między kilkoma źródłami.</p></article>
-      <article><span>02</span><h3>Zestawy tworzone pod konkretny temat lub sytuację</h3><p>Użytkownik określa, czego potrzebuje w danym momencie, a aplikacja przygotowuje materiał związany z tym celem — bez przerabiania przypadkowego słownictwa, które nie przyda się teraz.</p></article>
-      <article><span>03</span><h3>Prosta personalizacja zamiast jednego narzuconego trybu</h3><p>Zakres nauki można dopasować przez wybór słów, zdań lub trybu mieszanego, poziomu języka i liczby fiszek. Sesja ma odpowiadać dostępnemu czasowi oraz aktualnym umiejętnościom.</p></article>
-      <article><span>04</span><h3>Odsłuch jako część każdej sesji</h3><p>Treść fiszek może być odczytywana z prawidłową wymową, aby nauka nie kończyła się na rozpoznawaniu tekstu. Użytkownik jednocześnie ćwiczy rozumienie ze słuchu i oswaja się z brzmieniem języka.</p></article>
-    </div>
-  </section>
-
   <section class="finance-features" aria-labelledby="features-title">
     <div class="finance-features-heading">
       <p class="section-kicker">Problemy do rozwiązania</p>
-      <h2 id="features-title">Od przypadkowych słówek do nauki potrzebnej tu i teraz</h2>
-      <p>LinguaPilot ma skrócić drogę od decyzji „chcę się podszkolić” do konkretnej sesji. Zamiast przeglądać ogólne lekcje, użytkownik wybiera bieżący cel i ćwiczy materiał dopasowany do sytuacji, poziomu oraz dostępnego czasu.</p>
+      <h2 id="features-title">Co utrudnia naukę i jak aplikacja to rozwiązuje</h2>
+      <p>Każdy punkt pokazuje konkretną trudność oraz prostą odpowiedź aplikacji.</p>
     </div>
-    <ul class="finance-feature-list">
-      <li><span aria-hidden="true">✓</span><p><strong>Fiszki do konkretnych sytuacji</strong>Dynamiczne zestawy słów i zdań przydatnych na przykład w podróży, pracy lub rozmowie.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Nauka w krótkich sesjach</strong>Możliwość wykorzystania kilku wolnych minut bez rozpoczynania długiej lekcji.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Słowa, zdania lub tryb mieszany</strong>Wybór formatu materiału odpowiedniego do celu nauki.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Dopasowanie poziomu i liczby fiszek</strong>Kontrola trudności oraz długości pojedynczej sesji.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Ćwiczenie rozumienia ze słuchu</strong>Odsłuchiwanie treści fiszek pomaga poznawać wymowę i naturalne brzmienie języka.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Wiele języków do wyboru</strong>Tworzenie zestawów dla różnych języków bez zmiany narzędzia i sposobu nauki.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Powtórka w odwrotnym kierunku</strong>Ćwiczenie zarówno rozpoznawania znaczenia, jak i samodzielnego przypominania tłumaczenia.</p></li>
-      <li><span aria-hidden="true">✓</span><p><strong>Podsumowanie sesji</strong>Informacja o wyniku i realizacji zadania pomaga ocenić postęp oraz zdecydować, co warto powtórzyć.</p></li>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Nauka słów, które nie są teraz potrzebne</h3><p class="problem-statement"><strong>Problem</strong>Gotowe kursy często narzucają kolejność tematów i słownictwo niezwiązane z aktualną sytuacją użytkownika.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Użytkownik podaje temat lub sytuację, a aplikacja tworzy zestaw słów i zdań przydatnych właśnie w tym obszarze.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Brak czasu na długą lekcję</h3><p class="problem-statement"><strong>Problem</strong>Rozbudowana lekcja wymaga czasu i przygotowania, przez co trudno rozpocząć naukę w krótkiej wolnej chwili.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Mobilne fiszki pozwalają przejść krótką sesję bez przygotowywania zeszytu, kursu ani dodatkowych materiałów.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Materiał niedopasowany do poziomu</h3><p class="problem-statement"><strong>Problem</strong>Ten sam zestaw może być zbyt prosty, zbyt trudny albo za długi w stosunku do dostępnego czasu.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Przed rozpoczęciem można wybrać poziom języka, liczbę fiszek oraz słowa, zdania lub tryb mieszany.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Znajomość zapisu bez osłuchania z językiem</h3><p class="problem-statement"><strong>Problem</strong>Samo czytanie fiszek nie uczy rozpoznawania słów wypowiadanych z naturalnym akcentem.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Aplikacja odczytuje treść fiszek, dzięki czemu użytkownik ćwiczy wymowę i rozumienie ze słuchu podczas tej samej sesji.</p></div></li>
+      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Pamiętanie odpowiedzi tylko w jednym kierunku</h3><p class="problem-statement"><strong>Problem</strong>Rozpoznanie gotowego tłumaczenia jest łatwiejsze niż samodzielne przypomnienie właściwego słowa lub zdania.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Fiszki można powtarzać w odwrotnym kierunku, a podsumowanie pokazuje wynik i materiał wymagający kolejnej powtórki.</p></div></li>
+      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Materiały rozproszone między językami</h3><p class="problem-statement"><strong>Problem</strong>Nauka kilku języków może wymagać różnych aplikacji, zestawów i sposobów organizowania materiału.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Jedna aplikacja generuje fiszki dla wielu języków i zachowuje ten sam prosty sposób przygotowania sesji.</p></div></li>
     </ul>
   </section>
 
