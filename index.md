@@ -44,7 +44,6 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     <p>W home.pl, IdoSell i Base.com zajmowałem się problemami technicznymi sklepów i integracji. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem też własną sprzedaż online, więc znam ten proces od strony sprzedawcy.</p>
     <p>W VeltoWeb rozwijam własne aplikacje i automatyzacje. Określam, komu mają pomóc, sprawdzam zakres rozwiązania i buduję działającą wersję. AI wspiera mnie w analizie i pracy nad projektami.</p>
   </div>
-  <p class="site-choice">To portfolio działa na GitHub Pages, bo jest statyczną stroną bez zaplecza serwerowego. Taki hosting wystarcza do szybkiego i prostego udostępnienia projektów.</p>
   <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Poznaj moje doświadczenie na LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 

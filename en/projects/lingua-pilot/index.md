@@ -18,7 +18,6 @@ image_alt: LinguaPilot identity on a dark blue background
     <p class="project-role">My role: concept, interface design, implementation, and ongoing development.</p>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
-      <span class="project-availability"><span aria-hidden="true"></span>Coming to Google Play</span>
       <a class="button button-secondary" href="#status">Project status <span aria-hidden="true">↓</span></a>
     </div>
   </div>

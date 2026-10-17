@@ -45,7 +45,6 @@ image_alt: VeltoWeb logo on a dark blue background
     <p>At home.pl, IdoSell, and Base.com, I worked on technical issues affecting online stores and integrations. Today at Dealavo, I work on implementations and product data analysis. I have also run my own online sales, so I know these processes from a seller's perspective.</p>
     <p>At VeltoWeb, I develop my own apps and automation tools. I define who they help, choose a practical scope, and build a working version. AI supports my analysis and project work.</p>
   </div>
-  <p class="site-choice">This portfolio runs on GitHub Pages because it is a static site with no server-side features. It is a simple fit for presenting projects.</p>
   <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Explore my experience on LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 

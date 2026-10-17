@@ -17,7 +17,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <p class="project-role">Moja rola: koncepcja, projekt interfejsu, implementacja i dalszy rozwój aplikacji.</p>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
-      <span class="project-availability"><span aria-hidden="true"></span>Wkrótce w Google Play</span>
       <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>
     </div>
   </div>
