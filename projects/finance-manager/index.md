@@ -75,21 +75,10 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
       <p>Po powstaniu działającej wersji dodam nagranie pokazujące import, porządkowanie i analizę wydatków.</p>
     </div>
     <div class="video-device video-device--monitor" data-video-slot="finance-manager">
-      <div class="video-screen">
+      <div class="video-screen video-screen--pending">
         <img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Koncepcja pulpitu Finance Manager" loading="lazy">
+        <span class="video-pending">Wkrótce nagranie</span>
       </div>
-    </div>
-  </section>
-
-  <section id="widoki" class="finance-gallery" aria-labelledby="gallery-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Koncepcja interfejsu</p><h2 id="gallery-title">Planowane obszary aplikacji</h2><p>Wizualizacje przedstawiają kierunek projektu. Aplikacja jest na etapie analizy potrzeb.</p></div>
-    </div>
-    <div class="finance-gallery-grid">
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Koncepcja pulpitu Finance Manager z bilansem, wykresami, budżetami i celami" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Pulpit finansowy</strong><small>Najważniejsze liczby i cele w jednym widoku.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/transactions.webp' | relative_url }}" alt="Koncepcja listy transakcji z kategoriami, kontami, statusem i filtrami" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Transakcje</strong><small>Import, filtrowanie i automatyczna kategoryzacja.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/planned-expenses.webp' | relative_url }}" alt="Koncepcja widoku planowanych wydatków i statusów płatności" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Planowane wydatki</strong><small>Kontrola opłaconych i nadchodzących zobowiązań.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/expense-analysis.webp' | relative_url }}" alt="Koncepcja analizy wydatków według kategorii, miesięcy, miejsc i metod płatności" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Analiza wydatków</strong><small>Trendy, rosnące koszty i możliwe oszczędności.</small></figcaption></figure>
     </div>
   </section>
 

@@ -87,22 +87,10 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
       <p>Przygotowuję nagranie pokazujące dyktowanie, poprawę tekstu i powrót do rozmowy.</p>
     </div>
     <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
-      <div class="video-screen">
+      <div class="video-screen video-screen--pending">
         <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="Ekran AI Writing Assistant z narzędziami korekty tekstu" loading="lazy">
+        <span class="video-pending">Wkrótce nagranie</span>
       </div>
-    </div>
-  </section>
-
-  <section class="writing-gallery" aria-labelledby="writing-gallery-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="writing-gallery-title">Dyktowanie i korekta tekstu</h2></div>
-    </div>
-    <p class="gallery-hint">Przesuń, aby zobaczyć więcej</p>
-    <div class="lingua-gallery-grid writing-gallery-grid" role="region" aria-label="Przewijana galeria ekranów AI Writing Assistant" tabindex="0">
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/voice-dictation.jfif' | relative_url }}" alt="Klawiatura Androida w trybie dyktowania głosowego" loading="lazy" width="922" height="2049"></div><figcaption><strong>Dyktowanie głosem</strong><small>Powiedz wiadomość do mikrofonu klawiatury.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/recognized-text.jfif' | relative_url }}" alt="Wiadomość wpisana przez dyktowanie z błędami rozpoznawania mowy" loading="lazy" width="922" height="2049"></div><figcaption><strong>Tekst przed korektą</strong><small>Rozpoznana wypowiedź trafia do pola tekstowego.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="Wiadomość z błędami gotowa do poprawienia przy użyciu asystenta" loading="lazy" width="922" height="2049"></div><figcaption><strong>Korekta przy klawiaturze</strong><small>Popraw tekst bez przełączania aplikacji.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/corrected-message.jfif' | relative_url }}" alt="Poprawiona wiadomość gotowa do wysłania" loading="lazy" width="922" height="2049"></div><figcaption><strong>Gotowa wiadomość</strong><small>Poprawiona wersja jest od razu gotowa do wysłania.</small></figcaption></figure>
     </div>
   </section>
 

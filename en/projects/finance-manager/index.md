@@ -76,21 +76,10 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
       <p>Once there is a working version, I will add a recording of import, organization, and spending analysis.</p>
     </div>
     <div class="video-device video-device--monitor" data-video-slot="finance-manager">
-      <div class="video-screen">
+      <div class="video-screen video-screen--pending">
         <img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Finance Manager dashboard concept" loading="lazy">
+        <span class="video-pending">Video coming soon</span>
       </div>
-    </div>
-  </section>
-
-  <section id="views" class="finance-gallery" aria-labelledby="gallery-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Interface concept</p><h2 id="gallery-title">Planned areas of the app</h2><p>These visuals show the direction of the concept. The app is still in needs analysis.</p></div>
-    </div>
-    <div class="finance-gallery-grid">
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Finance Manager dashboard concept with balances, charts, budgets, and goals" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Financial dashboard</strong><small>Key numbers and goals in one view.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/transactions.webp' | relative_url }}" alt="Transaction list concept with categories, accounts, statuses, and filters" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Transactions</strong><small>Import, filtering, and automatic categorization.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/planned-expenses.webp' | relative_url }}" alt="Planned expenses concept with payment status tracking" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Planned expenses</strong><small>Track paid and upcoming commitments.</small></figcaption></figure>
-      <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/expense-analysis.webp' | relative_url }}" alt="Expense analysis concept by category, month, location, and payment method" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Expense analysis</strong><small>Trends, growing costs, and potential savings.</small></figcaption></figure>
     </div>
   </section>
 

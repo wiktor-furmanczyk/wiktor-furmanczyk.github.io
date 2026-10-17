@@ -88,22 +88,10 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
       <p>I am preparing a walkthrough of dictation, correction, and returning to the conversation.</p>
     </div>
     <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
-      <div class="video-screen">
+      <div class="video-screen video-screen--pending">
         <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="AI Writing Assistant screen with text correction tools" loading="lazy">
+        <span class="video-pending">Video coming soon</span>
       </div>
-    </div>
-  </section>
-
-  <section class="writing-gallery" aria-labelledby="writing-gallery-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Example screens</p><h2 id="writing-gallery-title">Dictation and text editing</h2></div>
-    </div>
-    <p class="gallery-hint">Swipe to see more</p>
-    <div class="lingua-gallery-grid writing-gallery-grid" role="region" aria-label="Scrollable gallery of AI Writing Assistant screens" tabindex="0">
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/voice-dictation.jfif' | relative_url }}" alt="Android keyboard in voice dictation mode" loading="lazy" width="922" height="2049"></div><figcaption><strong>Voice dictation</strong><small>Speak your message into the keyboard microphone.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/recognized-text.jfif' | relative_url }}" alt="Dictated message with speech recognition errors" loading="lazy" width="922" height="2049"></div><figcaption><strong>Text before editing</strong><small>Your spoken words appear in the message field.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="Message ready for editing with the assistant at the keyboard" loading="lazy" width="922" height="2049"></div><figcaption><strong>Editing at the keyboard</strong><small>Fix the text without switching apps.</small></figcaption></figure>
-      <figure><div class="screen-frame"><img src="{{ '/assets/projects/writing-assistant-android/corrected-message.jfif' | relative_url }}" alt="Edited message ready to send" loading="lazy" width="922" height="2049"></div><figcaption><strong>Ready to send</strong><small>The edited version is immediately ready to send.</small></figcaption></figure>
     </div>
   </section>
 
