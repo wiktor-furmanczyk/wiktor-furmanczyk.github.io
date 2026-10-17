@@ -1,10 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0a2855"/><stop offset="1" stop-color="#020817"/>
+    <linearGradient id="surface" x1="5" y1="4" x2="57" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10345f"/>
+      <stop offset=".55" stop-color="#071b38"/>
+      <stop offset="1" stop-color="#020b1d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="30" y1="48" x2="52" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c9eff"/>
+      <stop offset="1" stop-color="#36e6f4"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#bg)" stroke="#159bea" stroke-width="2"/>
-  <path d="m11 19 6 24h5l5-15 5 15h5l6-24h-6l-3 15-5-15h-5l-5 15-3-15z" fill="#f4f8ff"/>
-  <path d="m42 19-6 24h6l2-8 6 8h7l-8-10 7-14h-7l-5 10 2-10z" fill="#29d9f5"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#surface)" stroke="#2b8fca" stroke-width="1.5"/>
+  <path d="M10 16h11l11 27 11-27h11L38 52H26L10 16Z" fill="#f5f9ff"/>
+  <path d="M43 16h11L38 52H26l6-9 11-27Z" fill="url(#accent)"/>
 </svg>
