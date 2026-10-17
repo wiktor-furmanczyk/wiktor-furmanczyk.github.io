@@ -70,6 +70,17 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <li><span>Automatyczna kategoryzacja</span><em>Planowane</em></li>
           </ul>
         </article>
+        <article id="roadmap-hunter" class="roadmap-project">
+          <div class="roadmap-project-intro">
+            <div><h3><a href="{{ '/projects/youtube-hunter/' | relative_url }}">YouTube <span>Hunter</span></a></h3><p>Aplikacja porządkująca wyszukiwanie filmów i zapisywanie własnych ocen.</p><div class="roadmap-tags"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div></div>
+          </div>
+          <ul class="roadmap-tasks">
+            <li class="is-complete"><span>Pierwsza działająca wersja, 16 października 2026</span><em>Zrobione</em></li>
+            <li><span>Testowanie pełnego przebiegu pracy</span><em>Planowane</em></li>
+            <li><span>Usuwanie błędów związanych z analizą filmów</span><em>Planowane</em></li>
+            <li><span>Sprawdzenie alternatywnych metod zbierania danych z YouTube</span><em>Planowane</em></li>
+          </ul>
+        </article>
       </div>
     </section>
 
@@ -82,7 +93,8 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
       <div id="zmiany-pazdziernik" class="change-month">
         <h3>Październik 2026</h3>
         <ol class="change-list">
-          <li class="is-current"><time datetime="2026-10-06">06.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Optymalizacja</span></div><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div></li>
+          <li class="is-current"><time datetime="2026-10-16">16.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Pierwsza wersja</span></div><h4>Pierwsza działająca wersja aplikacji</h4><p>Powstała działająca wersja YouTube Hunter. Kolejne kroki to testy, usuwanie błędów analizy filmów i sprawdzenie innych sposobów zbierania danych z YouTube.</p></div></li>
+          <li><time datetime="2026-10-06">06.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Optymalizacja</span></div><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div></li>
           <li><time datetime="2026-10-04">04.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Security</span></div><h4>Zabezpieczenie kluczy API</h4><p>Dodano dodatkowe zabezpieczenia przechowywania kluczy API oraz poprawiono sposób ich obsługi w aplikacji.</p></div></li>
           <li><time datetime="2026-10-02">02.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Improvement</span></div><h4>Poprawa działania w różnych aplikacjach</h4><p>Usprawniono działanie narzędzia w różnych polach tekstowych oraz poprawiono kompatybilność z popularnymi aplikacjami.</p></div></li>
         </ol>

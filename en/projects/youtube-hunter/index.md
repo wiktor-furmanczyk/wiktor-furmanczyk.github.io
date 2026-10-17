@@ -55,7 +55,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
     <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
-    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Working app for personal use</h3></div></div><p>I use the app through the full workflow and keep improving its usability and result quality through hands-on testing. Results are suggestions for manual review.</p></div>
+    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Working app for personal use</h3></div></div><p>The first working version was created on 16 October 2026. I plan further tests, fixes for video analysis errors, and a review of other ways to collect YouTube data.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and scope</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Working workflow</strong><small>Done</small></li>
@@ -63,5 +63,6 @@ image_alt: VeltoWeb logo on a dark blue background
       <li class="milestone--done"><span class="milestone-number">04</span><strong>Separate work areas</strong><small>Done</small></li>
       <li class="milestone--current"><span class="milestone-number">05</span><strong>Usability and result quality</strong><small>In progress</small></li>
     </ol>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-hunter' | relative_url }}">See the roadmap plan <span aria-hidden="true">→</span></a>
   </section>
 </div>
