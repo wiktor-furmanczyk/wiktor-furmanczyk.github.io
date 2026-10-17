@@ -58,7 +58,8 @@ image_alt: VeltoWeb logo on a dark blue background
     <a class="text-link projects-desktop-link" href="{{ '/en/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="project-grid project-grid-four">
+  <div class="project-carousel" data-project-carousel>
+    <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="carousel" aria-label="My projects" tabindex="0">
     <article class="project-card project-card-featured">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="LinguaPilot screens for creating flashcards and learning vocabulary" loading="lazy" width="1200" height="900">
@@ -108,6 +109,12 @@ image_alt: VeltoWeb logo on a dark blue background
         <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
+    </div>
+    <div class="project-carousel-controls">
+      <span class="project-carousel-count" aria-live="polite">1–3 of 4</span>
+      <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="Previous projects" disabled>←</button>
+      <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Next projects">→</button>
+    </div>
   </div>
   <a class="text-link projects-mobile-link" href="{{ '/en/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
 </section>

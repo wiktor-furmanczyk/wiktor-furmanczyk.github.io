@@ -43,19 +43,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Problem i rozwiązanie">
-    <article class="content-panel">
-      <p class="section-kicker">Wyzwanie</p>
-      <h2>Materiały, które pasują do Twojego celu</h2>
-      <p>Gotowe materiały nie zawsze odpowiadają temu, czego potrzebujesz w danym momencie. Samodzielne wyszukiwanie i układanie ćwiczeń zabiera czas i utrudnia regularną naukę.</p>
-    </article>
-    <article class="content-panel">
-      <p class="section-kicker">Rozwiązanie</p>
-      <h2>Krótka sesja skupiona na temacie</h2>
-      <p>LinguaPilot pomaga wybrać temat lub sytuację, a potem przejść przez serię praktycznych ćwiczeń we własnym tempie.</p>
-    </article>
-  </section>
-
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologie</p>
@@ -67,17 +54,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#4285F4" d="m12 2 9 5.1v9.8L12 22l-9-5.1V7.1L12 2Zm0 2.5L5.2 8.3v7.4l6.8 3.9 6.8-3.9V8.3L12 4.5Z"/><path fill="#34A853" d="m12 5.1 6 3.4v6.9l-6 3.5-6-3.5V8.5l6-3.4Zm0 3-3.4 1.9v3.9l3.4 1.9 3.4-1.9V10L12 8.1Z"/><path fill="#FBBC04" d="m12 8.1 3.4 1.9v3.9L12 15.8l-3.4-1.9V10L12 8.1Z"/></svg><span>Jetpack Compose</span></li>
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#FFCA28" d="M12.8 1.5c.35 3.1-1.55 4.95-3.2 6.6-1.2 1.2-2.3 2.3-2.3 4.15 0 1.05.42 1.9 1.15 2.5-.08-1.45.65-2.45 1.55-3.4.75-.8 1.6-1.7 1.95-3.05 2.9 2.05 5.25 4.7 5.25 8.1a6.7 6.7 0 0 1-13.4 0c0-3.1 1.65-5.45 4.1-7.8 2.05-1.95 4.3-4.05 4.9-7.1Z"/><path fill="#F57C00" d="M12.2 12c-.2 1.25-.85 2-1.45 2.7-.65.75-1.25 1.45-1.25 2.6a2.5 2.5 0 0 0 5 0c0-1.85-1.05-3.55-2.3-5.3Z"/></svg><span>Firebase</span></li>
     </ul>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Trzy kroki do skutecznej nauki</h2></div>
-    </div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Wybierz temat</strong><small>Określ, na czym chcesz się skupić podczas nauki.</small></li>
-      <li><span>2</span><strong>Przygotuj zestaw</strong><small>Aplikacja przygotowuje materiał do krótkiej sesji.</small></li>
-      <li><span>3</span><strong>Ćwicz i sprawdź wynik</strong><small>Przejdź ćwiczenia we własnym tempie i zobacz podsumowanie.</small></li>
-    </ol>
   </section>
 
   <section class="video-section" aria-labelledby="video-title">

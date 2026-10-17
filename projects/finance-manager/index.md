@@ -44,30 +44,6 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Problem i rozwiązanie">
-    <article class="content-panel">
-      <p class="section-kicker">Wyzwanie</p>
-      <h2>Dane rozproszone między arkuszami i kontami</h2>
-      <p>Ręczne przepisywanie historii bankowej, pilnowanie opłat, kategoryzowanie zakupów i osobne liczenie zysków ze zleceń zabiera czas. Dane łatwo się rozjeżdżają, a arkusz pokazuje liczby bez pełnego kontekstu.</p>
-    </article>
-    <article class="content-panel">
-      <p class="section-kicker">Rozwiązanie</p>
-      <h2>Finanse zebrane, uporządkowane i wyjaśnione</h2>
-      <p>Finance Manager ma importować transakcje, rozpoznawać sprzedawców, zapamiętywać reguły kategorii i łączyć bieżące wydatki z budżetami, celami oraz rzeczywistą opłacalnością dodatkowych zleceń.</p>
-    </article>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Jak ma działać</p><h2 id="process-title">Od historii bankowej do konkretnych wniosków</h2></div>
-    </div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Importuj dane</strong><small>Dodaj historię transakcji z banku bez ręcznego przepisywania.</small></li>
-      <li><span>2</span><strong>Uporządkuj automatycznie</strong><small>Reguły rozpoznają sprzedawców i przypiszą właściwe kategorie.</small></li>
-      <li><span>3</span><strong>Analizuj i planuj</strong><small>Kontroluj budżety, koszty, cele i zmiany miesiąc do miesiąca.</small></li>
-    </ol>
-  </section>
-
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy">
       <p class="section-kicker">Prezentacja działania</p>

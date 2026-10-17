@@ -42,21 +42,6 @@ image_alt: Logo VeltoWeb na granatowym tle
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Wyzwanie i rozwiązanie">
-    <article class="content-panel"><p class="section-kicker">Wyzwanie</p><h2>Wartościowy film ukryty w długiej liście</h2><p>Najwięcej czasu zajmowało mi sprawdzanie wyników, które tylko z pozoru pasowały do tematu. Po kilku sesjach zdarzało się ponownie otwierać te same filmy.</p></article>
-    <article class="content-panel"><p class="section-kicker">Rozwiązanie</p><h2>Jeden uporządkowany proces</h2><p>YouTube Hunter zbiera kryteria, kandydatów, przesłanki ich wyboru i moje oceny. Mogę zacząć od obiecujących materiałów, odłożyć niepewne przypadki i wrócić do historii bez zaczynania od zera.</p></article>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading"><div><p class="section-kicker">Jak to działa</p><h2 id="process-title">Od tematu do własnej oceny</h2></div></div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Określ temat</strong><small>Wybierz profil wyszukiwania, frazy i potrzebne filtry.</small></li>
-      <li><span>2</span><strong>Przejrzyj kandydatów</strong><small>Zobacz przesłanki i otwórz film, który chcesz sprawdzić.</small></li>
-      <li><span>3</span><strong>Zapisz decyzję</strong><small>Oceń materiał lub odłóż go na później. Historia zachowa tę decyzję.</small></li>
-    </ol>
-    <p class="hunter-process-note">Konta aplikacji rozdzielają obszary pracy i historię. Profile wyszukiwania porządkują tematy wewnątrz wybranego konta.</p>
-  </section>
-
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy"><p class="section-kicker">Prezentacja działania</p><h2 id="video-title">Wyszukiwanie, przegląd, decyzja</h2><p>Przygotuję krótkie nagranie pokazujące pełny przebieg pracy w aplikacji.</p></div>
     <div class="video-device video-device--monitor" data-video-slot="youtube-hunter">

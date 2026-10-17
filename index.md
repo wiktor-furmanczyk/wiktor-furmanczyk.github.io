@@ -57,7 +57,8 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="project-grid project-grid-four">
+  <div class="project-carousel" data-project-carousel>
+    <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="karuzela" aria-label="Moje projekty" tabindex="0">
     <article class="project-card project-card-featured">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="900">
@@ -107,6 +108,12 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <a class="card-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
+    </div>
+    <div class="project-carousel-controls">
+      <span class="project-carousel-count" aria-live="polite">1–3 z 4</span>
+      <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="Poprzednie projekty" disabled>←</button>
+      <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Następne projekty">→</button>
+    </div>
   </div>
   <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
 </section>

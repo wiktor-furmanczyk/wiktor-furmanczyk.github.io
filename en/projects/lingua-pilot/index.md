@@ -44,19 +44,6 @@ image_alt: LinguaPilot identity on a dark blue background
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Challenge and solution">
-    <article class="content-panel">
-      <p class="section-kicker">The challenge</p>
-      <h2>Study materials that fit your goals</h2>
-      <p>Ready-made materials do not always match what you want to learn. Finding and arranging exercises takes time and can make it harder to study regularly.</p>
-    </article>
-    <article class="content-panel">
-      <p class="section-kicker">The solution</p>
-      <h2>A short session focused on one topic</h2>
-      <p>LinguaPilot helps you choose a topic or situation, then practice with a short set of exercises at your own pace.</p>
-    </article>
-  </section>
-
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>
@@ -68,17 +55,6 @@ image_alt: LinguaPilot identity on a dark blue background
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#4285F4" d="m12 2 9 5.1v9.8L12 22l-9-5.1V7.1L12 2Zm0 2.5L5.2 8.3v7.4l6.8 3.9 6.8-3.9V8.3L12 4.5Z"/><path fill="#34A853" d="m12 5.1 6 3.4v6.9l-6 3.5-6-3.5V8.5l6-3.4Zm0 3-3.4 1.9v3.9l3.4 1.9 3.4-1.9V10L12 8.1Z"/><path fill="#FBBC04" d="m12 8.1 3.4 1.9v3.9L12 15.8l-3.4-1.9V10L12 8.1Z"/></svg><span>Jetpack Compose</span></li>
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#FFCA28" d="M12.8 1.5c.35 3.1-1.55 4.95-3.2 6.6-1.2 1.2-2.3 2.3-2.3 4.15 0 1.05.42 1.9 1.15 2.5-.08-1.45.65-2.45 1.55-3.4.75-.8 1.6-1.7 1.95-3.05 2.9 2.05 5.25 4.7 5.25 8.1a6.7 6.7 0 0 1-13.4 0c0-3.1 1.65-5.45 4.1-7.8 2.05-1.95 4.3-4.05 4.9-7.1Z"/><path fill="#F57C00" d="M12.2 12c-.2 1.25-.85 2-1.45 2.7-.65.75-1.25 1.45-1.25 2.6a2.5 2.5 0 0 0 5 0c0-1.85-1.05-3.55-2.3-5.3Z"/></svg><span>Firebase</span></li>
     </ul>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">How it works</p><h2 id="process-title">Three steps to a useful study session</h2></div>
-    </div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Choose a topic</strong><small>Pick what you want to focus on.</small></li>
-      <li><span>2</span><strong>Prepare a set</strong><small>The app creates material for a short session.</small></li>
-      <li><span>3</span><strong>Practice and review</strong><small>Work at your own pace and check your results.</small></li>
-    </ol>
   </section>
 
   <section class="video-section" aria-labelledby="video-title">

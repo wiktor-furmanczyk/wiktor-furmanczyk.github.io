@@ -43,21 +43,6 @@ image_alt: VeltoWeb logo on a dark blue background
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Challenge and solution">
-    <article class="content-panel"><p class="section-kicker">Challenge</p><h2>Useful videos buried in a long list</h2><p>I spent the most time checking results that only appeared relevant. After several sessions, I sometimes opened the same videos again.</p></article>
-    <article class="content-panel"><p class="section-kicker">Solution</p><h2>One organized process</h2><p>YouTube Hunter brings criteria, candidates, reasons for highlighting them, and my reviews together. I can begin with promising videos, set uncertain ones aside, and resume from the saved history.</p></article>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading"><div><p class="section-kicker">How it works</p><h2 id="process-title">From a topic to your own review</h2></div></div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Define the topic</strong><small>Choose a search profile, phrases, and useful filters.</small></li>
-      <li><span>2</span><strong>Review candidates</strong><small>See the clues and open the video you want to check.</small></li>
-      <li><span>3</span><strong>Save your decision</strong><small>Review the video or set it aside for later. The decision stays in your history.</small></li>
-    </ol>
-    <p class="hunter-process-note">App accounts separate work areas and histories. Search profiles organize topics within the selected account.</p>
-  </section>
-
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy"><p class="section-kicker">Walkthrough</p><h2 id="video-title">Search, review, decide</h2><p>I am preparing a short recording of the complete workflow in the app.</p></div>
     <div class="video-device video-device--monitor" data-video-slot="youtube-hunter">

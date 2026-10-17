@@ -45,30 +45,6 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Problem and solution">
-    <article class="content-panel">
-      <p class="section-kicker">Challenge</p>
-      <h2>Data scattered across spreadsheets and accounts</h2>
-      <p>Copying bank history, tracking bills, categorizing purchases, and separately calculating profit from side projects takes time. The data drifts out of sync, while a spreadsheet shows numbers without the full context.</p>
-    </article>
-    <article class="content-panel">
-      <p class="section-kicker">Solution</p>
-      <h2>Financial data collected, organized, and explained</h2>
-      <p>Finance Manager is designed to import transactions, recognize merchants, remember category rules, and connect everyday spending with budgets, goals, and the real profitability of side projects.</p>
-    </article>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">How it should work</p><h2 id="process-title">From bank history to useful insight</h2></div>
-    </div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Import data</strong><small>Add bank transaction history without manual copying.</small></li>
-      <li><span>2</span><strong>Organize automatically</strong><small>Rules recognize merchants and assign the right categories.</small></li>
-      <li><span>3</span><strong>Analyze and plan</strong><small>Track budgets, costs, goals, and month-to-month changes.</small></li>
-    </ol>
-  </section>
-
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy">
       <p class="section-kicker">Walkthrough</p>

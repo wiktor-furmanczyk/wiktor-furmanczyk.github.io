@@ -176,5 +176,8 @@
       updateRoadmapTabs();
       updateHeaderVisibility();
     </script>
+    {% if page.url == '/' or page.url == '/en/' %}
+      <script src="{{ '/assets/js/project-carousel.js' | relative_url }}" defer></script>
+    {% endif %}
   </body>
 </html>

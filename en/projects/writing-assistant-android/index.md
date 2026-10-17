@@ -45,19 +45,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </ul>
   </section>
 
-  <section class="problem-grid" aria-label="Challenge and solution">
-    <article class="content-panel">
-      <p class="section-kicker">The challenge</p>
-      <h2>Fixing dictated text can interrupt your flow</h2>
-      <p>Voice input makes writing faster, but speech recognition can get words wrong. Copying the text into another tool breaks your flow and adds extra steps.</p>
-    </article>
-    <article class="content-panel">
-      <p class="section-kicker">The solution</p>
-      <h2>Writing help right at the keyboard</h2>
-      <p>AI Writing Assistant edits and translates text from the keyboard. Use it in different apps and fix a dictated message without opening a separate editor.</p>
-    </article>
-  </section>
-
   <section class="project-tech-section" aria-labelledby="tech-title">
     <div class="project-tech-heading">
       <p class="section-kicker">Technologies</p>
@@ -68,17 +55,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><defs><linearGradient id="writing-kotlin-mark-en" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse"><stop stop-color="#E44857"/><stop offset=".48" stop-color="#7F52FF"/><stop offset="1" stop-color="#0095D5"/></linearGradient></defs><path fill="url(#writing-kotlin-mark-en)" d="M3 3h18L3 21V3Zm9 9h9v9H3l9-9Z"/></svg><span>Kotlin</span></li>
       <li><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#4285F4" d="m12 2 9 5.1v9.8L12 22l-9-5.1V7.1L12 2Zm0 2.5L5.2 8.3v7.4l6.8 3.9 6.8-3.9V8.3L12 4.5Z"/><path fill="#34A853" d="m12 5.1 6 3.4v6.9l-6 3.5-6-3.5V8.5l6-3.4Zm0 3-3.4 1.9v3.9l3.4 1.9 3.4-1.9V10L12 8.1Z"/><path fill="#FBBC04" d="m12 8.1 3.4 1.9v3.9L12 15.8l-3.4-1.9V10L12 8.1Z"/></svg><span>Jetpack Compose</span></li>
     </ul>
-  </section>
-
-  <section class="process-section project-process" aria-labelledby="process-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">How it works</p><h2 id="process-title">From entered text to a finished message</h2></div>
-    </div>
-    <ol class="process-steps">
-      <li><span>1</span><strong>Write or dictate the text</strong><small>Enter the content in any app with the keyboard or microphone.</small></li>
-      <li><span>2</span><strong>Choose the required action</strong><small>Open the assistant and decide whether to edit, translate, or change the style of the text.</small></li>
-      <li><span>3</span><strong>Send the finished message</strong><small>The corrected text returns to the same field and is immediately ready to send.</small></li>
-    </ol>
   </section>
 
   <section class="video-section" aria-labelledby="video-title">
