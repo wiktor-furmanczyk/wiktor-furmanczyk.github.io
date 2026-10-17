@@ -134,13 +134,15 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
+  <div class="blog-heading">
+    <p class="section-kicker">Blog VeltoWeb</p>
+    <h2 id="blog-title">Kulisy pracy i rozwój <span class="text-gradient">projektów</span></h2>
+  </div>
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
     <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
   </a>
 
-  <div class="blog-copy">
-    <p class="section-kicker">Blog VeltoWeb</p>
-    <h2 id="blog-title">Kulisy pracy i rozwój <span class="text-gradient">projektów</span></h2>
+  <div class="blog-details">
     <p>Na VeltoWeb dzielę się postępami prac, pomysłami, eksperymentami i krótkimi wnioskami z rozwijania własnych projektów. Pokazuję, nad czym aktualnie pracuję i jak moje rozwiązania powstają krok po kroku.</p>
     <div class="blog-topics" aria-label="Tematy bloga">
       <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 20V10m7 10V4m7 16v-7"/></svg>Rozwój</span>
