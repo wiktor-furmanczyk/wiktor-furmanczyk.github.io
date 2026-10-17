@@ -20,7 +20,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
       <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
     </div>
     <div class="button-row product-actions">
-      <a class="button button-primary" href="https://www.facebook.com/reel/2406684763155156" target="_blank" rel="noopener noreferrer">Watch the demo <span aria-hidden="true">↗</span></a>
+      <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Project status <span aria-hidden="true">↓</span></a>
     </div>
   </div>
@@ -31,6 +31,20 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
 </section>
 
 <div class="product-content section-shell writing-content">
+  <section id="problemy" class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">What interrupts writing a message</h2>
+      <p>Problems I noticed while dictating and editing text on a phone.</p>
+    </div>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Switching apps</h3><p class="problem-statement">Editing a message in another tool means copying text back and forth.</p><p class="solution-statement">The assistant works beside the keyboard in the current app.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Dictation errors</h3><p class="problem-statement">Speech recognition leaves wrong words, punctuation, and hard-to-read sentences.</p><p class="solution-statement">One action corrects the text in the same field.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Repeated instructions</h3><p class="problem-statement">Every edit requires explaining the desired result again.</p><p class="solution-statement">Ready-made actions handle correction, tone, and translation.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Limited screen space</h3><p class="problem-statement">A large panel hides the conversation and makes the revised message harder to review.</p><p class="solution-statement">A simple interface keeps the conversation visible.</p></div></li>
+    </ul>
+  </section>
+
   <section class="problem-grid" aria-label="Challenge and solution">
     <article class="content-panel">
       <p class="section-kicker">The challenge</p>
@@ -42,22 +56,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
       <h2>Writing help right at the keyboard</h2>
       <p>AI Writing Assistant edits and translates text from the keyboard. Use it in different apps and fix a dictated message without opening a separate editor.</p>
     </article>
-  </section>
-
-  <section class="finance-features" aria-labelledby="features-title">
-    <div class="finance-features-heading">
-      <p class="section-kicker">Problems to solve</p>
-      <h2 id="features-title">What makes writing difficult and how the app solves it</h2>
-      <p>Each point shows a specific difficulty and a simple response from the app.</p>
-    </div>
-    <ul class="finance-feature-list writing-problem-list">
-      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Copying between apps</h3><p class="problem-statement"><strong>Problem</strong>Editing a message in a separate tool requires copying the text, explaining the task, and pasting the finished text back.</p><p class="solution-statement"><strong>Solution</strong>The assistant works directly at the keyboard and edits the text in the app currently being used.</p></div></li>
-      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Errors after dictation</h3><p class="problem-statement"><strong>Problem</strong>Text entered with the microphone can contain incorrect words, missing punctuation, and unclear sentences.</p><p class="solution-statement"><strong>Solution</strong>One action organizes the dictated text. The corrected message returns to the text field and is immediately ready to send.</p></div></li>
-      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Explaining every edit from the beginning</h3><p class="problem-statement"><strong>Problem</strong>In a general chat, the user has to explain each time what should be changed and what the result should look like.</p><p class="solution-statement"><strong>Solution</strong>Ready actions make it possible to immediately choose editing, shortening, expanding, simplifying, or translating.</p></div></li>
-      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Matching the tone and language</h3><p class="problem-statement"><strong>Problem</strong>A message to a client, a friend, or someone who speaks another language requires a different style and wording.</p><p class="solution-statement"><strong>Solution</strong>The user chooses the writing style and translation language, and the app prepares the finished text.</p></div></li>
-      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Keeping the conversation visible on a small screen</h3><p class="problem-statement"><strong>Problem</strong>A large tool panel can hide the message and make it harder to relate the edited text to the full conversation.</p><p class="solution-statement"><strong>Solution</strong>The minimal interface shows only the required actions and keeps the conversation context visible.</p></div></li>
-      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Fragmented content and AI usage costs</h3><p class="problem-statement"><strong>Problem</strong>Copying messages between many chats makes the content harder to control and creates unnecessarily long AI conversations.</p><p class="solution-statement"><strong>Solution</strong>One assistant performs short, focused operations only when the user needs them.</p></div></li>
-    </ul>
   </section>
 
   <section class="project-tech-section" aria-labelledby="tech-title">
@@ -83,6 +81,19 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </ol>
   </section>
 
+  <section class="video-section" aria-labelledby="video-title">
+    <div class="video-copy">
+      <p class="section-kicker">Walkthrough</p>
+      <h2 id="video-title">From dictation to a finished message</h2>
+      <p>I am preparing a walkthrough of dictation, correction, and returning to the conversation.</p>
+    </div>
+    <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
+      <div class="video-screen">
+        <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="AI Writing Assistant screen with text correction tools" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section class="writing-gallery" aria-labelledby="writing-gallery-title">
     <div class="section-heading">
       <div><p class="section-kicker">Example screens</p><h2 id="writing-gallery-title">Dictation and text editing</h2></div>
@@ -96,8 +107,19 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </div>
   </section>
 
-  <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">For personal use</h2></div></div>
-    <p>The app is currently for personal use, and I continue to refine it based on my day-to-day needs.</p>
+  <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-status-bar">
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">For personal use</h2></div></div>
+      <p>I use the app myself and am improving the interface, adding modes, and checking compatibility with other apps.</p>
+    </div>
+    <div class="milestone-heading"><h3>Key stages</h3><p>A working personal-use version and the current development areas.</p></div>
+    <ol class="milestone-list">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and concept</strong><small>Completed</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Personal-use version</strong><small>Completed</small></li>
+      <li class="milestone--current"><span class="milestone-number">03</span><strong>Interface redesign</strong><small>In progress</small></li>
+      <li class="milestone--current"><span class="milestone-number">04</span><strong>More modes and languages</strong><small>In progress</small></li>
+      <li class="milestone--current"><span class="milestone-number">05</span><strong>Compatibility with apps</strong><small>In progress</small></li>
+    </ol>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-writing' | relative_url }}">Detailed AI Writing Assistant roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>

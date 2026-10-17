@@ -16,8 +16,9 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     <p class="product-description">Mobilna aplikacja pomaga skupić naukę na wybranym temacie lub sytuacji i prowadzi przez prostą sesję ćwiczeń. Sprawdza się w nauce, pracy, podróży i codziennych rozmowach.</p>
     <p class="project-role">Moja rola: koncepcja, projekt interfejsu, implementacja i dalszy rozwój aplikacji.</p>
     <div class="button-row product-actions">
+      <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
       <span class="project-availability"><span aria-hidden="true"></span>Wkrótce w Google Play</span>
-      <a class="button button-secondary" href="#status">Aktualny etap <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>
     </div>
   </div>
 
@@ -29,6 +30,20 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
 </section>
 
 <div class="product-content section-shell lingua-content">
+  <section id="problemy" class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problemy do rozwiązania</p>
+      <h2 id="features-title">Co dziś utrudnia naukę języka</h2>
+      <p>Najważniejsze trudności, od których zacząłem projektowanie aplikacji.</p>
+    </div>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Niepotrzebne słownictwo</h3><p class="problem-statement">Gotowe kursy uczą słów niezwiązanych z sytuacją, do której użytkownik chce się przygotować.</p><p class="solution-statement">Użytkownik wybiera temat, a aplikacja przygotowuje dopasowany zestaw.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Za długie lekcje</h3><p class="problem-statement">Brak czasu na pełną lekcję utrudnia regularne ćwiczenie.</p><p class="solution-statement">Krótką sesję fiszek można rozpocząć bez przygotowań.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Niedopasowany poziom</h3><p class="problem-statement">Ten sam zestaw może być zbyt łatwy, zbyt trudny lub za długi.</p><p class="solution-statement">Przed sesją można wybrać poziom, rodzaj materiału i liczbę fiszek.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Słaba pamięć aktywna</h3><p class="problem-statement">Rozpoznanie tłumaczenia nie oznacza, że potrafimy samodzielnie przypomnieć sobie słowo.</p><p class="solution-statement">Fiszki można ćwiczyć w obu kierunkach i sprawdzić wynik.</p></div></li>
+    </ul>
+  </section>
+
   <section class="problem-grid" aria-label="Problem i rozwiązanie">
     <article class="content-panel">
       <p class="section-kicker">Wyzwanie</p>
@@ -40,22 +55,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
       <h2>Krótka sesja skupiona na temacie</h2>
       <p>LinguaPilot pomaga wybrać temat lub sytuację, a potem przejść przez serię praktycznych ćwiczeń we własnym tempie.</p>
     </article>
-  </section>
-
-  <section class="finance-features" aria-labelledby="features-title">
-    <div class="finance-features-heading">
-      <p class="section-kicker">Problemy do rozwiązania</p>
-      <h2 id="features-title">Co utrudnia naukę i jak aplikacja to rozwiązuje</h2>
-      <p>Każdy punkt pokazuje konkretną trudność oraz prostą odpowiedź aplikacji.</p>
-    </div>
-    <ul class="finance-feature-list writing-problem-list">
-      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Nauka słów, które nie są teraz potrzebne</h3><p class="problem-statement"><strong>Problem</strong>Gotowe kursy często narzucają kolejność tematów i słownictwo niezwiązane z aktualną sytuacją użytkownika.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Użytkownik podaje temat lub sytuację, a aplikacja tworzy zestaw słów i zdań przydatnych właśnie w tym obszarze.</p></div></li>
-      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Brak czasu na długą lekcję</h3><p class="problem-statement"><strong>Problem</strong>Rozbudowana lekcja wymaga czasu i przygotowania, przez co trudno rozpocząć naukę w krótkiej wolnej chwili.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Mobilne fiszki pozwalają przejść krótką sesję bez przygotowywania zeszytu, kursu ani dodatkowych materiałów.</p></div></li>
-      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Materiał niedopasowany do poziomu</h3><p class="problem-statement"><strong>Problem</strong>Ten sam zestaw może być zbyt prosty, zbyt trudny albo za długi w stosunku do dostępnego czasu.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Przed rozpoczęciem można wybrać poziom języka, liczbę fiszek oraz słowa, zdania lub tryb mieszany.</p></div></li>
-      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Znajomość zapisu bez osłuchania z językiem</h3><p class="problem-statement"><strong>Problem</strong>Samo czytanie fiszek nie uczy rozpoznawania słów wypowiadanych z naturalnym akcentem.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Aplikacja odczytuje treść fiszek, dzięki czemu użytkownik ćwiczy wymowę i rozumienie ze słuchu podczas tej samej sesji.</p></div></li>
-      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Pamiętanie odpowiedzi tylko w jednym kierunku</h3><p class="problem-statement"><strong>Problem</strong>Rozpoznanie gotowego tłumaczenia jest łatwiejsze niż samodzielne przypomnienie właściwego słowa lub zdania.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Fiszki można powtarzać w odwrotnym kierunku, a podsumowanie pokazuje wynik i materiał wymagający kolejnej powtórki.</p></div></li>
-      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Materiały rozproszone między językami</h3><p class="problem-statement"><strong>Problem</strong>Nauka kilku języków może wymagać różnych aplikacji, zestawów i sposobów organizowania materiału.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Jedna aplikacja generuje fiszki dla wielu języków i zachowuje ten sam prosty sposób przygotowania sesji.</p></div></li>
-    </ul>
   </section>
 
   <section class="project-tech-section" aria-labelledby="tech-title">
@@ -82,6 +81,19 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </ol>
   </section>
 
+  <section class="video-section" aria-labelledby="video-title">
+    <div class="video-copy">
+      <p class="section-kicker">Prezentacja działania</p>
+      <h2 id="video-title">Nauka w krótkiej sesji</h2>
+      <p>Przygotowuję nagranie pokazujące wybór tematu, ćwiczenie z fiszkami i podsumowanie.</p>
+    </div>
+    <div class="video-device video-device--phone" data-video-slot="lingua-pilot">
+      <div class="video-screen">
+        <img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="Ekran główny działającej aplikacji LinguaPilot" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section id="ekrany" class="lingua-gallery" aria-labelledby="gallery-title">
     <div class="section-heading">
       <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="gallery-title">LinguaPilot w praktyce</h2></div>
@@ -96,8 +108,19 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
     </div>
   </section>
 
-  <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
-    <p>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</p>
+  <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-status-bar">
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
+      <p>Korzystam z aplikacji i pracuję nad kosztami generowania fiszek oraz ograniczeniem powtórzeń przed planowaną publikacją.</p>
+    </div>
+    <div class="milestone-heading"><h3>Kamienie milowe</h3><p>Od działającej wersji do planowanej publikacji.</p></div>
+    <ol class="milestone-list">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Koncepcja i zakres nauki</strong><small>Zrobione</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Wersja do własnego użytku</strong><small>Zrobione</small></li>
+      <li class="milestone--current"><span class="milestone-number">03</span><strong>Koszt generowania i powtórki</strong><small>W trakcie</small></li>
+      <li class="milestone--planned"><span class="milestone-number">04</span><strong>Dopracowanie przed publikacją</strong><small>Planowane</small></li>
+      <li class="milestone--planned"><span class="milestone-number">05</span><strong>Publikacja w Google Play</strong><small>Planowane</small></li>
+    </ol>
+    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-lingua' | relative_url }}">Szczegółowy plan LinguaPilot <span aria-hidden="true">→</span></a>
   </section>
 </div>

@@ -19,8 +19,8 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
       <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
     </div>
     <div class="button-row product-actions">
-      <a class="button button-primary" href="https://www.facebook.com/reel/2406684763155156" target="_blank" rel="noopener noreferrer">Zobacz prezentację <span aria-hidden="true">↗</span></a>
-      <a class="button button-secondary" href="#status">Aktualny etap <span aria-hidden="true">↓</span></a>
+      <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>
     </div>
   </div>
 
@@ -30,6 +30,20 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
 </section>
 
 <div class="product-content section-shell writing-content">
+  <section id="problemy" class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problemy do rozwiązania</p>
+      <h2 id="features-title">Co przerywa pisanie wiadomości</h2>
+      <p>Problemy, które zauważyłem podczas dyktowania i poprawiania tekstu na telefonie.</p>
+    </div>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Przełączanie aplikacji</h3><p class="problem-statement">Poprawa wiadomości w osobnym narzędziu wymaga kopiowania tekstu tam i z powrotem.</p><p class="solution-statement">Asystent działa przy klawiaturze w aktualnie używanej aplikacji.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Błędy po dyktowaniu</h3><p class="problem-statement">Rozpoznawanie mowy zostawia błędne słowa, interpunkcję i nieczytelne zdania.</p><p class="solution-statement">Jedno działanie poprawia tekst w tym samym polu.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Powtarzanie poleceń</h3><p class="problem-statement">Za każdym razem trzeba od nowa opisywać, jak poprawić tekst.</p><p class="solution-statement">Gotowe działania pozwalają wybrać korektę, zmianę stylu lub tłumaczenie.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Mało miejsca na ekranie</h3><p class="problem-statement">Duży panel zasłania rozmowę i utrudnia ocenę poprawionej wiadomości.</p><p class="solution-statement">Prosty interfejs zostawia widoczny kontekst rozmowy.</p></div></li>
+    </ul>
+  </section>
+
   <section class="problem-grid" aria-label="Problem i rozwiązanie">
     <article class="content-panel">
       <p class="section-kicker">Wyzwanie</p>
@@ -41,22 +55,6 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
       <h2>Pomoc dostępna przy klawiaturze</h2>
       <p>AI Writing Assistant poprawia i tłumaczy tekst bezpośrednio przy klawiaturze. Działa w różnych aplikacjach, więc możesz skorygować podyktowaną wiadomość bez przechodzenia do osobnego edytora.</p>
     </article>
-  </section>
-
-  <section class="finance-features" aria-labelledby="features-title">
-    <div class="finance-features-heading">
-      <p class="section-kicker">Problemy do rozwiązania</p>
-      <h2 id="features-title">Co utrudnia pisanie i jak aplikacja to rozwiązuje</h2>
-      <p>Każdy punkt pokazuje konkretną trudność oraz prostą odpowiedź aplikacji.</p>
-    </div>
-    <ul class="finance-feature-list writing-problem-list">
-      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Kopiowanie między aplikacjami</h3><p class="problem-statement"><strong>Problem</strong>Aby poprawić wiadomość w osobnym narzędziu, trzeba ją skopiować, opisać zadanie i ponownie wkleić gotowy tekst.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Asystent działa bezpośrednio przy klawiaturze i poprawia tekst w aktualnie używanej aplikacji.</p></div></li>
-      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Błędy po dyktowaniu</h3><p class="problem-statement"><strong>Problem</strong>Tekst wprowadzony mikrofonem może zawierać błędne słowa, brakującą interpunkcję i nieczytelne zdania.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Jedno działanie porządkuje podyktowany tekst. Poprawiona wiadomość wraca do pola tekstowego i jest od razu gotowa do wysłania.</p></div></li>
-      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Opisywanie każdej poprawy od początku</h3><p class="problem-statement"><strong>Problem</strong>W zwykłym czacie trzeba za każdym razem wyjaśnić, co ma zostać poprawione i jaki powinien być wynik.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Gotowe działania pozwalają od razu wybrać korektę, skrócenie, rozwinięcie, uproszczenie lub tłumaczenie.</p></div></li>
-      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Dopasowanie tonu i języka</h3><p class="problem-statement"><strong>Problem</strong>Wiadomość do klienta, znajomego lub osoby mówiącej innym językiem wymaga innego stylu i sposobu sformułowania.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Użytkownik wybiera odpowiedni styl wypowiedzi oraz język tłumaczenia, a aplikacja przygotowuje gotową treść.</p></div></li>
-      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Widoczność rozmowy na małym ekranie</h3><p class="problem-statement"><strong>Problem</strong>Duży panel narzędzia może zasłonić wiadomość i utrudnić odniesienie poprawionej treści do całej rozmowy.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Minimalistyczny interfejs pokazuje tylko potrzebne działania i pozostawia widoczny kontekst rozmowy.</p></div></li>
-      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Rozproszenie treści i koszt użycia AI</h3><p class="problem-statement"><strong>Problem</strong>Kopiowanie wiadomości między wieloma czatami utrudnia kontrolę nad treścią i tworzy niepotrzebnie długie rozmowy z AI.</p><p class="solution-statement"><strong>Rozwiązanie</strong>Jeden asystent wykonuje krótkie, konkretne operacje tylko wtedy, gdy użytkownik ich potrzebuje.</p></div></li>
-    </ul>
   </section>
 
   <section class="project-tech-section" aria-labelledby="tech-title">
@@ -82,6 +80,19 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     </ol>
   </section>
 
+  <section class="video-section" aria-labelledby="video-title">
+    <div class="video-copy">
+      <p class="section-kicker">Prezentacja działania</p>
+      <h2 id="video-title">Od dyktowania do gotowej wiadomości</h2>
+      <p>Przygotowuję nagranie pokazujące dyktowanie, poprawę tekstu i powrót do rozmowy.</p>
+    </div>
+    <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
+      <div class="video-screen">
+        <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="Ekran AI Writing Assistant z narzędziami korekty tekstu" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section class="writing-gallery" aria-labelledby="writing-gallery-title">
     <div class="section-heading">
       <div><p class="section-kicker">Przykładowe ekrany</p><h2 id="writing-gallery-title">Dyktowanie i korekta tekstu</h2></div>
@@ -95,8 +106,19 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     </div>
   </section>
 
-  <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Do użytku własnego</h2></div></div>
-    <p>Aplikację stworzyłem do własnego użytku i nadal rozwijam ją o nowe funkcje oraz usprawnienia.</p>
+  <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-status-bar">
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Do użytku własnego</h2></div></div>
+      <p>Aplikacja działa do mojego użytku. Pracuję nad interfejsem, dodatkowymi trybami i zgodnością z innymi aplikacjami.</p>
+    </div>
+    <div class="milestone-heading"><h3>Kamienie milowe</h3><p>Działająca wersja do własnego użytku i obecne kierunki rozwoju.</p></div>
+    <ol class="milestone-list">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem i koncepcja</strong><small>Zrobione</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Wersja do własnego użytku</strong><small>Zrobione</small></li>
+      <li class="milestone--current"><span class="milestone-number">03</span><strong>Przebudowa interfejsu</strong><small>W trakcie</small></li>
+      <li class="milestone--current"><span class="milestone-number">04</span><strong>Więcej trybów i języków</strong><small>W trakcie</small></li>
+      <li class="milestone--current"><span class="milestone-number">05</span><strong>Zgodność z aplikacjami</strong><small>W trakcie</small></li>
+    </ol>
+    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-writing' | relative_url }}">Szczegółowy plan AI Writing Assistant <span aria-hidden="true">→</span></a>
   </section>
 </div>

@@ -15,13 +15,13 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     <h1 id="product-title">Finance <span class="text-gradient">Manager</span></h1>
     <p class="product-lead">One place to organize finances and make better decisions.</p>
     <p class="product-description">The desktop app is designed to bring personal finances and side income together, automate transaction work, and explain what is really happening with the budget.</p>
-    <p class="project-role">My role: needs analysis, product concept, interface design, followed by implementation and continued development of the app.</p>
+    <p class="project-role">My role at this stage: needs analysis and product concept. The interface designs show the intended direction.</p>
     <div class="tag-row product-tags" aria-label="Project focus areas">
       <span>Desktop app</span><span>Finance</span><span>Automation</span><span>AI</span>
     </div>
     <div class="button-row product-actions">
-      <a class="button button-primary" href="#views">Explore planned views <span aria-hidden="true">↓</span></a>
-      <a class="button button-secondary" href="#status">Current stage <span aria-hidden="true">↓</span></a>
+      <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="#status">Development stages <span aria-hidden="true">↓</span></a>
     </div>
   </div>
 
@@ -31,6 +31,20 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
 </section>
 
 <div class="product-content section-shell finance-content">
+  <section id="problemy" class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">What Finance Manager aims to solve</h2>
+      <p>I am reviewing these assumptions at the current stage of the project.</p>
+    </div>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Manual sorting</h3><p class="problem-statement">Entering and categorizing transactions takes time and invites errors.</p><p class="solution-statement">Planned import and rules would reduce manual work.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>An incomplete budget view</h3><p class="problem-statement">An account balance does not account for upcoming bills and planned expenses.</p><p class="solution-statement">A planned budget view would put available funds in context.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Costs noticed too late</h3><p class="problem-statement">A transaction list makes growing expenses hard to spot.</p><p class="solution-statement">Planned comparisons would highlight month-to-month changes.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Personal finances and side work</h3><p class="problem-statement">Mixed data makes household budgeting and job profitability hard to assess.</p><p class="solution-statement">The concept separates these areas and presents clear summaries.</p></div></li>
+    </ul>
+  </section>
+
   <section class="problem-grid" aria-label="Problem and solution">
     <article class="content-panel">
       <p class="section-kicker">Challenge</p>
@@ -44,22 +58,6 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </article>
   </section>
 
-  <section class="finance-features" aria-labelledby="features-title">
-    <div class="finance-features-heading">
-      <p class="section-kicker">Problems to solve</p>
-      <h2 id="features-title">What makes finances difficult to control and how the app solves it</h2>
-      <p>Each point shows a specific difficulty and a simple response from the app.</p>
-    </div>
-    <ul class="finance-feature-list writing-problem-list">
-      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Organizing transactions by hand</h3><p class="problem-statement"><strong>Problem</strong>Copying bank history and assigning every payment to a category takes time and easily leads to mistakes.</p><p class="solution-statement"><strong>Solution</strong>The app imports transactions, recognizes merchants, and remembers category rules that the user can correct.</p></div></li>
-      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Not knowing how much is still safe to spend</h3><p class="problem-statement"><strong>Problem</strong>An account balance does not show which commitments are still unpaid or how much money is genuinely available.</p><p class="solution-statement"><strong>Solution</strong>Budgets and planned expenses show paid commitments and the amount that can be safely used during the month.</p></div></li>
-      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Rising costs noticed too late</h3><p class="problem-statement"><strong>Problem</strong>A long list of numbers makes it difficult to see which category, service, or merchant is beginning to consume more money.</p><p class="solution-statement"><strong>Solution</strong>Analysis and monthly comparisons reveal cost changes, while AI suggestions point to areas worth reviewing.</p></div></li>
-      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Goals disconnected from the real situation</h3><p class="problem-statement"><strong>Problem</strong>Planning savings is difficult when transaction data does not match the balance and there is no single view of financial health.</p><p class="solution-statement"><strong>Solution</strong>Balance reconciliation, savings goals, and one overview show progress and the overall state of the finances.</p></div></li>
-      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Mixing personal and business finances</h3><p class="problem-statement"><strong>Problem</strong>One shared expense list makes it difficult to assess business costs, project profitability, and the true household budget.</p><p class="solution-statement"><strong>Solution</strong>The app separates both contexts, calculates project revenue, costs, and profit, and prepares reports and accountant-ready data.</p></div></li>
-      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Losing control of sensitive data</h3><p class="problem-statement"><strong>Problem</strong>Financial history requires privacy, and automated decisions should not change data without the user's knowledge.</p><p class="solution-statement"><strong>Solution</strong>Data stays local, while rules and suggestions remain visible, correctable, and under the user's control.</p></div></li>
-    </ul>
-  </section>
-
   <section class="process-section project-process" aria-labelledby="process-title">
     <div class="section-heading">
       <div><p class="section-kicker">How it should work</p><h2 id="process-title">From bank history to useful insight</h2></div>
@@ -71,9 +69,22 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </ol>
   </section>
 
+  <section class="video-section" aria-labelledby="video-title">
+    <div class="video-copy">
+      <p class="section-kicker">Walkthrough</p>
+      <h2 id="video-title">Planned finance workflow</h2>
+      <p>Once there is a working version, I will add a recording of import, organization, and spending analysis.</p>
+    </div>
+    <div class="video-device video-device--monitor" data-video-slot="finance-manager">
+      <div class="video-screen">
+        <img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Finance Manager dashboard concept" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section id="views" class="finance-gallery" aria-labelledby="gallery-title">
     <div class="section-heading">
-      <div><p class="section-kicker">Interface concept</p><h2 id="gallery-title">Planned areas of the app</h2></div>
+      <div><p class="section-kicker">Interface concept</p><h2 id="gallery-title">Planned areas of the app</h2><p>These visuals show the direction of the concept. The app is still in needs analysis.</p></div>
     </div>
     <div class="finance-gallery-grid">
       <figure><div class="monitor-frame"><img src="{{ '/assets/projects/finance-manager/dashboard.webp' | relative_url }}" alt="Finance Manager dashboard concept with balances, charts, budgets, and goals" loading="lazy" width="1484" height="1060"></div><figcaption><strong>Financial dashboard</strong><small>Key numbers and goals in one view.</small></figcaption></figure>
@@ -83,8 +94,19 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     </div>
   </section>
 
-  <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Needs and requirements analysis</h2></div></div>
-    <p>I am still analyzing and organizing the project's needs and requirements. Based on that work, I will select the technologies and prepare a suitable system architecture before implementation begins.</p>
+  <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-status-bar">
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Needs and requirements analysis</h2></div></div>
+      <p>I am organizing the needs and requirements. Once verified, I will choose the technology and design the system architecture.</p>
+    </div>
+    <div class="milestone-heading"><h3>Key stages</h3><p>These stages are a development plan, not completed features.</p></div>
+    <ol class="milestone-list">
+      <li class="milestone--current"><span class="milestone-number">01</span><strong>Needs analysis</strong><small>In progress</small></li>
+      <li class="milestone--planned"><span class="milestone-number">02</span><strong>Technology selection</strong><small>Planned</small></li>
+      <li class="milestone--planned"><span class="milestone-number">03</span><strong>Architecture design</strong><small>Planned</small></li>
+      <li class="milestone--planned"><span class="milestone-number">04</span><strong>Transaction import</strong><small>Planned</small></li>
+      <li class="milestone--planned"><span class="milestone-number">05</span><strong>Automatic categorization</strong><small>Planned</small></li>
+    </ol>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-finance' | relative_url }}">Detailed Finance Manager roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>

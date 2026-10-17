@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiktor Furmańczyk
-description: VeltoWeb portfolio featuring mobile and desktop apps, browser extensions, web tools, automation, and AI integrations.
+description: Wiktor Furmańczyk. IT and e-commerce experience, problem analysis, integrations, and independent VeltoWeb projects.
 permalink: /en/
 lang: en-US
 body_class: home-page
@@ -13,8 +13,8 @@ image_alt: VeltoWeb logo on a dark blue background
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Welcome to my portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">I design and build practical digital products</p>
-    <p class="hero-description">I independently develop mobile and desktop apps, web tools, automation, and AI integrations. I take each project from the initial idea and interface design through to a working solution.</p>
+    <p class="hero-lead">I understand the problem, choose a solution, and make it work</p>
+    <p class="hero-description">Since 2019, I have worked on the technical side of e-commerce: stores, integrations, and data flows. My own VeltoWeb projects let me apply that experience from the first idea to a useful product.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Explore projects <span aria-hidden="true">→</span></a>
     </div>
@@ -34,12 +34,27 @@ image_alt: VeltoWeb logo on a dark blue background
   <div><img src="{{ '/assets/images/expertise-ai.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI integrations</div>
 </section>
 
+<section class="about-section section-shell" aria-labelledby="about-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Experience and approach</p>
+      <h2 id="about-title">The <span class="text-gradient">problem</span> comes first</h2>
+    </div>
+  </div>
+  <div class="about-grid">
+    <p>At home.pl, IdoSell, and Base.com, I worked on technical issues affecting online stores and integrations. Today at Dealavo, I work on implementations and product data analysis. I have also run my own online sales, so I know these processes from a seller's perspective.</p>
+    <p>At VeltoWeb, I develop my own apps and automation tools. I define who they help, choose a practical scope, and build a working version. AI supports my analysis and project work.</p>
+  </div>
+  <p class="site-choice">This portfolio runs on GitHub Pages because it is a static site with no server-side features. It is a simple fit for presenting projects.</p>
+  <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Explore my experience on LinkedIn <span aria-hidden="true">↗</span></a>
+</section>
+
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">
   <div class="section-heading">
     <div>
       <p class="section-kicker">Selected work</p>
       <h2 id="projects-title">My <span class="text-gradient">projects</span></h2>
-      <p>Selected projects I independently develop from the initial idea to a working application.</p>
+      <p>My own projects show how I turn a specific problem into a solution and improve it through use.</p>
     </div>
     <a class="text-link projects-desktop-link" href="{{ '/en/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
   </div>
@@ -78,7 +93,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">Needs analysis</span></div>
         <h3>Finance Manager</h3>
-        <p>Organize personal finances and side income in one private desktop tool.</p>
+        <p>A concept for a private desktop tool to organize personal finances and side income.</p>
         <div class="tag-row" aria-label="Project type and focus areas"><span>Desktop app</span><span>Finance</span><span>Automation</span></div>
         <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
       </div>

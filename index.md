@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiktor Furmańczyk
-description: Portfolio VeltoWeb. Aplikacje mobilne i desktopowe, rozszerzenia, narzędzia webowe, automatyzacje i integracje AI.
+description: Wiktor Furmańczyk. Doświadczenie w IT i e-commerce, analiza problemów, integracje oraz własne projekty VeltoWeb.
 permalink: /
 body_class: home-page
 image: /assets/images/portfolio-og.png
@@ -12,8 +12,8 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Witam w moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">Projektuję i tworzę praktyczne produkty cyfrowe</p>
-    <p class="hero-description">Samodzielnie rozwijam aplikacje mobilne i desktopowe, narzędzia webowe, automatyzacje oraz integracje AI. Zajmuję się każdym etapem, od pomysłu i projektu interfejsu po działające rozwiązanie.</p>
+    <p class="hero-lead">Rozumiem problem, dobieram rozwiązanie i doprowadzam je do działania</p>
+    <p class="hero-description">Od 2019 roku pracuję z techniczną stroną e-commerce: sklepami, integracjami i przepływem danych. Własne projekty VeltoWeb pozwalają mi wykorzystać to doświadczenie od pomysłu po użyteczny produkt.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
     </div>
@@ -33,12 +33,27 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   <div><img src="{{ '/assets/images/expertise-ai.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI i integracje</div>
 </section>
 
+<section class="about-section section-shell" aria-labelledby="about-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Doświadczenie i sposób pracy</p>
+      <h2 id="about-title">Najpierw <span class="text-gradient">problem</span>, potem technologia</h2>
+    </div>
+  </div>
+  <div class="about-grid">
+    <p>W home.pl, IdoSell i Base.com zajmowałem się problemami technicznymi sklepów i integracji. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem też własną sprzedaż online, więc znam ten proces od strony sprzedawcy.</p>
+    <p>W VeltoWeb rozwijam własne aplikacje i automatyzacje. Określam, komu mają pomóc, sprawdzam zakres rozwiązania i buduję działającą wersję. AI wspiera mnie w analizie i pracy nad projektami.</p>
+  </div>
+  <p class="site-choice">To portfolio działa na GitHub Pages, bo jest statyczną stroną bez zaplecza serwerowego. Taki hosting wystarcza do szybkiego i prostego udostępnienia projektów.</p>
+  <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Poznaj moje doświadczenie na LinkedIn <span aria-hidden="true">↗</span></a>
+</section>
+
 <section id="projekty" class="projects-section section-shell" aria-labelledby="projects-title">
   <div class="section-heading">
     <div>
       <p class="section-kicker">Realne projekty</p>
       <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
-      <p>Wybrane projekty, które samodzielnie rozwijam od pomysłu po działającą aplikację.</p>
+      <p>Własne projekty pokazujące, jak przekładam konkretny problem na rozwiązanie i rozwijam je w praktyce.</p>
     </div>
     <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
@@ -77,7 +92,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">Analiza potrzeb</span></div>
         <h3>Finance Manager</h3>
-        <p>Porządkuj finanse osobiste i dodatkowe źródła dochodu w jednym, prywatnym narzędziu.</p>
+        <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
         <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div>
         <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
       </div>

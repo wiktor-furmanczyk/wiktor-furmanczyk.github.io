@@ -12,7 +12,7 @@ image_alt: VeltoWeb logo on a dark blue background
 <header class="projects-hero section-shell">
   <p class="eyebrow"><span></span> VeltoWeb portfolio</p>
   <h1>Projects</h1>
-  <p>Explore the apps I independently designed and built, from the first idea to a working product.</p>
+  <p>Explore the problems I identified, the solutions I chose, and the current stage of each project.</p>
 </header>
 
 <section class="projects-showcase section-shell" aria-label="Project list">

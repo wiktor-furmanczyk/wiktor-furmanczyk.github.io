@@ -34,7 +34,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
       </div>
 
       <div class="roadmap-projects">
-        <article class="roadmap-project">
+        <article id="roadmap-lingua" class="roadmap-project">
           <div class="roadmap-project-intro">
             <div><h3><a href="{{ '/projects/lingua-pilot/' | relative_url }}">Lingua<span>Pilot</span></a></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
           </div>
@@ -46,7 +46,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
           </ul>
         </article>
 
-        <article class="roadmap-project">
+        <article id="roadmap-writing" class="roadmap-project">
           <div class="roadmap-project-intro">
             <div><h3><a href="{{ '/projects/writing-assistant-android/' | relative_url }}">AI Writing Assistant</a></h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
@@ -58,7 +58,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
           </ul>
         </article>
 
-        <article class="roadmap-project">
+        <article id="roadmap-finance" class="roadmap-project">
           <div class="roadmap-project-intro">
             <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance Manager</a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
           </div>

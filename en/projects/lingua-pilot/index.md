@@ -17,6 +17,7 @@ image_alt: LinguaPilot identity on a dark blue background
     <p class="product-description">Choose a topic or situation and work through a short set of practical exercises. Use LinguaPilot for learning, work, travel, and everyday conversations.</p>
     <p class="project-role">My role: concept, interface design, implementation, and ongoing development.</p>
     <div class="button-row product-actions">
+      <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
       <span class="project-availability"><span aria-hidden="true"></span>Coming to Google Play</span>
       <a class="button button-secondary" href="#status">Project status <span aria-hidden="true">↓</span></a>
     </div>
@@ -30,6 +31,20 @@ image_alt: LinguaPilot identity on a dark blue background
 </section>
 
 <div class="product-content section-shell lingua-content">
+  <section id="problemy" class="finance-features" aria-labelledby="features-title">
+    <div class="finance-features-heading">
+      <p class="section-kicker">Problems to solve</p>
+      <h2 id="features-title">What makes language learning harder today</h2>
+      <p>The main difficulties that shaped the app.</p>
+    </div>
+    <ul class="finance-feature-list writing-problem-list">
+      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Irrelevant vocabulary</h3><p class="problem-statement">Fixed courses teach words unrelated to the situation the learner is preparing for.</p><p class="solution-statement">The learner chooses a topic and the app prepares a relevant set.</p></div></li>
+      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>Lessons that take too long</h3><p class="problem-statement">Finding time for a full lesson makes regular practice harder.</p><p class="solution-statement">A short flashcard session starts without preparation.</p></div></li>
+      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>The wrong level</h3><p class="problem-statement">The same set can be too easy, too hard, or too long.</p><p class="solution-statement">The learner chooses the level, material type, and number of flashcards.</p></div></li>
+      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Weak active recall</h3><p class="problem-statement">Recognizing a translation does not mean being able to recall the word unaided.</p><p class="solution-statement">Flashcards can be practiced in both directions, with results afterward.</p></div></li>
+    </ul>
+  </section>
+
   <section class="problem-grid" aria-label="Challenge and solution">
     <article class="content-panel">
       <p class="section-kicker">The challenge</p>
@@ -41,22 +56,6 @@ image_alt: LinguaPilot identity on a dark blue background
       <h2>A short session focused on one topic</h2>
       <p>LinguaPilot helps you choose a topic or situation, then practice with a short set of exercises at your own pace.</p>
     </article>
-  </section>
-
-  <section class="finance-features" aria-labelledby="features-title">
-    <div class="finance-features-heading">
-      <p class="section-kicker">Problems to solve</p>
-      <h2 id="features-title">What makes learning difficult and how the app solves it</h2>
-      <p>Each point shows a specific difficulty and a simple response from the app.</p>
-    </div>
-    <ul class="finance-feature-list writing-problem-list">
-      <li><span aria-hidden="true">01</span><div class="problem-response-copy"><h3>Learning words that are not needed right now</h3><p class="problem-statement"><strong>Problem</strong>Ready-made courses often impose a topic order and vocabulary unrelated to the learner's current situation.</p><p class="solution-statement"><strong>Solution</strong>The learner enters a topic or situation, and the app creates a set of words and sentences useful in that specific area.</p></div></li>
-      <li><span aria-hidden="true">02</span><div class="problem-response-copy"><h3>No time for a long lesson</h3><p class="problem-statement"><strong>Problem</strong>A full lesson requires time and preparation, making it difficult to start studying during a short break.</p><p class="solution-statement"><strong>Solution</strong>Mobile flashcards make it possible to complete a short session without preparing a notebook, course, or extra materials.</p></div></li>
-      <li><span aria-hidden="true">03</span><div class="problem-response-copy"><h3>Material that does not match the learner's level</h3><p class="problem-statement"><strong>Problem</strong>The same set can be too easy, too difficult, or too long for the time available.</p><p class="solution-statement"><strong>Solution</strong>Before starting, the learner can choose the language level, number of flashcards, and words, sentences, or a mixed format.</p></div></li>
-      <li><span aria-hidden="true">04</span><div class="problem-response-copy"><h3>Knowing the spelling without recognizing the sound</h3><p class="problem-statement"><strong>Problem</strong>Reading flashcards alone does not teach learners to recognize words spoken with natural pronunciation.</p><p class="solution-statement"><strong>Solution</strong>The app reads flashcard content aloud, so pronunciation and listening comprehension are practiced during the same session.</p></div></li>
-      <li><span aria-hidden="true">05</span><div class="problem-response-copy"><h3>Remembering answers in only one direction</h3><p class="problem-statement"><strong>Problem</strong>Recognizing a displayed translation is easier than recalling the correct word or sentence independently.</p><p class="solution-statement"><strong>Solution</strong>Flashcards can be reviewed in reverse, while the summary shows the result and material that needs another repetition.</p></div></li>
-      <li><span aria-hidden="true">06</span><div class="problem-response-copy"><h3>Materials scattered across languages</h3><p class="problem-statement"><strong>Problem</strong>Learning several languages can require different apps, sets, and ways of organizing material.</p><p class="solution-statement"><strong>Solution</strong>One app generates flashcards for multiple languages and keeps the same simple session setup process.</p></div></li>
-    </ul>
   </section>
 
   <section class="project-tech-section" aria-labelledby="tech-title">
@@ -83,6 +82,19 @@ image_alt: LinguaPilot identity on a dark blue background
     </ol>
   </section>
 
+  <section class="video-section" aria-labelledby="video-title">
+    <div class="video-copy">
+      <p class="section-kicker">Walkthrough</p>
+      <h2 id="video-title">A short learning session</h2>
+      <p>I am preparing a walkthrough of choosing a topic, practicing flashcards, and reviewing the result.</p>
+    </div>
+    <div class="video-device video-device--phone" data-video-slot="lingua-pilot">
+      <div class="video-screen">
+        <img src="{{ '/assets/projects/lingua-pilot/linguapilot-home.jpg' | relative_url }}" alt="Home screen of the working LinguaPilot app" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section id="screens" class="lingua-gallery" aria-labelledby="gallery-title">
     <div class="section-heading">
       <div><p class="section-kicker">Example screens</p><h2 id="gallery-title">LinguaPilot in practice</h2></div>
@@ -97,8 +109,19 @@ image_alt: LinguaPilot identity on a dark blue background
     </div>
   </section>
 
-  <section id="status" class="project-status-bar" aria-labelledby="status-title">
-    <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Preparing for Google Play</h2></div></div>
-    <p>I use the app myself while refining it ahead of a planned Google Play release.</p>
+  <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-status-bar">
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Preparing for Google Play</h2></div></div>
+      <p>I use the app and am working on flashcard generation costs and reducing repetition before a planned release.</p>
+    </div>
+    <div class="milestone-heading"><h3>Key stages</h3><p>From a working version to a planned release.</p></div>
+    <ol class="milestone-list">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Learning concept and scope</strong><small>Completed</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Personal-use version</strong><small>Completed</small></li>
+      <li class="milestone--current"><span class="milestone-number">03</span><strong>Generation costs and review</strong><small>In progress</small></li>
+      <li class="milestone--planned"><span class="milestone-number">04</span><strong>Pre-release refinement</strong><small>Planned</small></li>
+      <li class="milestone--planned"><span class="milestone-number">05</span><strong>Google Play release</strong><small>Planned</small></li>
+    </ol>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-lingua' | relative_url }}">Detailed LinguaPilot roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>
