@@ -15,7 +15,7 @@ image_alt: Logo VeltoWeb na granatowym tle
     <p class="product-lead">Mniej przypadkowego przeglądania, więcej świadomych decyzji.</p>
     <p class="product-description">Szukanie konkretnego materiału często kończy się długą listą podobnych filmów. Zbudowałem YouTube Hunter, aby zebrać kryteria wyszukiwania, kandydatów do obejrzenia i historię własnych ocen w jednym miejscu. Aplikacja pomaga wybrać, od czego zacząć, a ostateczną decyzję pozostawia użytkownikowi.</p>
     <p class="project-role">Moja rola: rozpoznanie problemu we własnej pracy, określenie zakresu, projekt doświadczenia użytkownika, zbudowanie aplikacji i dalsze doskonalenie.</p>
-    <div class="tag-row product-tags" aria-label="Obszary projektu"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div>
+    <div class="tag-row product-tags" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>

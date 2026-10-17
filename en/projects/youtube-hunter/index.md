@@ -16,7 +16,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <p class="product-lead">Less aimless browsing, more informed decisions.</p>
     <p class="product-description">Finding a specific video often means working through a long list of similar results. I built YouTube Hunter to bring search criteria, videos worth checking, and the history of my own reviews into one place. The app helps decide where to start, while leaving the final judgment to the user.</p>
     <p class="project-role">My role: identifying the problem in my own workflow, defining the scope, designing the user experience, building the app, and refining it through use.</p>
-    <div class="tag-row product-tags" aria-label="Project areas"><span>Windows app</span><span>Search</span><span>Workflow</span></div>
+    <div class="tag-row product-tags" aria-label="Project type"><span>Windows app</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problems">Explore the problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Development stages <span aria-hidden="true">↓</span></a>

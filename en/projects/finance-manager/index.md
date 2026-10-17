@@ -16,9 +16,7 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
     <p class="product-lead">One place to organize finances and make better decisions.</p>
     <p class="product-description">The desktop app is designed to bring personal finances and side income together, automate transaction work, and explain what is really happening with the budget.</p>
     <p class="project-role">My role at this stage: needs analysis and product concept. The interface designs show the intended direction.</p>
-    <div class="tag-row product-tags" aria-label="Project focus areas">
-      <span>Desktop app</span><span>Finance</span><span>Automation</span><span>AI</span>
-    </div>
+    <div class="tag-row product-tags" aria-label="Project type"><span>Desktop app</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Development stages <span aria-hidden="true">↓</span></a>

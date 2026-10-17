@@ -68,7 +68,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <div class="card-meta-row"><span class="status-badge">Preparing for Google Play</span></div>
         <h3>LinguaPilot</h3>
         <p>Learn languages in short sessions with flashcards tailored to your goals.</p>
-        <div class="tag-row" aria-label="Project type and technologies"><span>Mobile app</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+        <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
         <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -81,7 +81,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
-        <div class="tag-row" aria-label="Project type and technologies"><span>Mobile app</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+        <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
         <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -94,7 +94,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <div class="card-meta-row"><span class="status-badge status-violet">Needs analysis</span></div>
         <h3>Finance Manager</h3>
         <p>A concept for a private desktop tool to organize personal finances and side income.</p>
-        <div class="tag-row" aria-label="Project type and focus areas"><span>Desktop app</span><span>Finance</span><span>Automation</span></div>
+        <div class="tag-row" aria-label="Project type"><span>Desktop app</span></div>
         <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -105,7 +105,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
         <h3>YouTube Hunter</h3>
         <p>Organizes video searches, highlights candidates to review, and keeps your own decisions.</p>
-        <div class="tag-row" aria-label="Project type and focus areas"><span>Windows app</span><span>Search</span><span>Workflow</span></div>
+        <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
         <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>

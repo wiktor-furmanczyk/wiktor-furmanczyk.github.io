@@ -21,9 +21,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>Lingua<span>Pilot</span></h2>
       <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
       <p>Twórz własne zestawy fiszek i ucz się języków w krótkich sesjach dopasowanych do codziennych sytuacji.</p>
-      <div class="showcase-tags" aria-label="Technologie projektu">
-        <span>Kotlin</span><span>Jetpack Compose</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</small></p>
       <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
@@ -38,9 +35,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
       <p>Dyktuj wiadomości, poprawiaj rozpoznany tekst i tłumacz go przy klawiaturze w różnych aplikacjach.</p>
-      <div class="showcase-tags" aria-label="Technologie projektu">
-        <span>Kotlin</span><span>Jetpack Compose</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Aplikację stworzyłem do własnego użytku i nadal rozwijam ją o nowe funkcje oraz usprawnienia.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
@@ -55,9 +49,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>Finance <span>Manager</span></h2>
       <p class="showcase-lead">Finanse, które pomagają podejmować decyzje</p>
       <p>Jedno prywatne miejsce do kontroli transakcji, budżetów, oszczędności oraz opłacalności dodatkowych zleceń.</p>
-      <div class="showcase-tags" aria-label="Obszary projektu">
-        <span>Finanse</span><span>Automatyzacje</span><span>AI</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Analiza potrzeb i wymagań</strong><small>Trwa analiza potrzeb i wymagań. Kolejnym krokiem będzie dobór technologii i przygotowanie architektury systemu.</small></p>
       <a class="showcase-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
     </div>
@@ -72,7 +63,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>YouTube <span>Hunter</span></h2>
       <p class="showcase-lead">Filmy warte sprawdzenia, decyzje w jednym miejscu</p>
       <p>Ustal temat i kryteria, przejrzyj kandydatów z przesłankami wyboru, a potem zapisz własną ocenę.</p>
-      <div class="showcase-tags" aria-label="Obszary projektu"><span>Wyszukiwanie</span><span>Organizacja pracy</span><span>Windows</span></div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Działająca aplikacja, którą nadal doskonalę na podstawie prób użytkowych.</small></p>
       <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>

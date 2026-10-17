@@ -22,9 +22,6 @@ image_alt: VeltoWeb logo on a dark blue background
       <h2>Lingua<span>Pilot</span></h2>
       <p class="showcase-lead">AI flashcards for everyday situations</p>
       <p>Create your own flashcard sets and learn languages in short sessions built around real situations.</p>
-      <div class="showcase-tags" aria-label="Project technologies">
-        <span>Kotlin</span><span>Jetpack Compose</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Preparing for Google Play</strong><small>I use the app myself while refining it for a planned Google Play release.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
@@ -39,9 +36,6 @@ image_alt: VeltoWeb logo on a dark blue background
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Clearer messages in less time</p>
       <p>Dictate messages, fix speech recognition errors, and translate text at the keyboard in different apps.</p>
-      <div class="showcase-tags" aria-label="Project technologies">
-        <span>Kotlin</span><span>Jetpack Compose</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>The app is currently for personal use, and I continue to refine it based on my day-to-day needs.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
@@ -56,9 +50,6 @@ image_alt: VeltoWeb logo on a dark blue background
       <h2>Finance <span>Manager</span></h2>
       <p class="showcase-lead">Financial data that supports better decisions</p>
       <p>One private place for tracking transactions, budgets, savings, and the real profitability of side projects.</p>
-      <div class="showcase-tags" aria-label="Project focus areas">
-        <span>Finance</span><span>Automation</span><span>AI</span>
-      </div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Needs and requirements analysis</strong><small>Needs and requirements are still being analyzed. Technology selection and system architecture will follow.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
     </div>
@@ -73,7 +64,6 @@ image_alt: VeltoWeb logo on a dark blue background
       <h2>YouTube <span>Hunter</span></h2>
       <p class="showcase-lead">Videos to review, decisions in one place</p>
       <p>Define the topic and criteria, review candidates with supporting clues, and save your own judgment.</p>
-      <div class="showcase-tags" aria-label="Project focus areas"><span>Search</span><span>Workflow</span><span>Windows</span></div>
       <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>A working app that I keep refining through hands-on testing.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>

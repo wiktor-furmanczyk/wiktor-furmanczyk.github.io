@@ -67,7 +67,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <div class="card-meta-row"><span class="status-badge">W przygotowaniu do Google Play</span></div>
         <h3>LinguaPilot</h3>
         <p>Ucz się języków w krótkich sesjach z fiszkami dopasowanymi do Twojego celu.</p>
-        <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja mobilna</span></div>
         <a class="card-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -80,7 +80,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dyktuj, poprawiaj i tłumacz wiadomości przy klawiaturze w różnych aplikacjach.</p>
-        <div class="tag-row" aria-label="Typ i technologie projektu"><span>Aplikacja mobilna</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja mobilna</span></div>
         <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -93,7 +93,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <div class="card-meta-row"><span class="status-badge status-violet">Analiza potrzeb</span></div>
         <h3>Finance Manager</h3>
         <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
-        <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div>
+        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja desktopowa</span></div>
         <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -104,7 +104,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
         <h3>YouTube Hunter</h3>
         <p>Porządkuje poszukiwanie filmów, podpowiada kandydatów do sprawdzenia i zachowuje Twoje oceny.</p>
-        <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div>
+        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
         <a class="card-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>

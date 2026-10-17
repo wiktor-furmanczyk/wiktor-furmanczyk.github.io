@@ -15,9 +15,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     <p class="product-lead">Dyktuj, poprawiaj i tłumacz tekst bezpośrednio przy klawiaturze.</p>
     <p class="product-description">Podyktuj wiadomość mikrofonem klawiatury, a asystent pomoże poprawić tekst rozpoznany z mowy. Możesz korzystać z tych funkcji w różnych aplikacjach, wszędzie tam, gdzie piszesz na klawiaturze Androida.</p>
     <p class="project-role">Moja rola: koncepcja, projekt interfejsu, implementacja i dalszy rozwój aplikacji.</p>
-    <div class="tag-row product-tags" aria-label="Technologie">
-      <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
-    </div>
+    <div class="tag-row product-tags" aria-label="Typ projektu"><span>Aplikacja mobilna</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>

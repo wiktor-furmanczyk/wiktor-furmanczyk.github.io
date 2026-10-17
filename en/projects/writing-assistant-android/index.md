@@ -16,9 +16,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     <p class="product-lead">Dictate, edit, and translate text right from your keyboard.</p>
     <p class="product-description">Dictate a message with your keyboard microphone, then use the assistant to fix speech recognition errors. The tools work in different apps wherever you can type with the Android keyboard.</p>
     <p class="project-role">My role: concept, interface design, implementation, and ongoing development.</p>
-    <div class="tag-row product-tags" aria-label="Technologies">
-      <span>Android</span><span>Kotlin</span><span>Jetpack Compose</span>
-    </div>
+    <div class="tag-row product-tags" aria-label="Project type"><span>Mobile app</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Explore the problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Project status <span aria-hidden="true">↓</span></a>
