@@ -93,7 +93,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <div class="card-meta-row"><span class="status-badge status-violet">Analiza potrzeb</span></div>
         <h3>Finance Manager</h3>
         <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
-        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja desktopowa</span></div>
+        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
         <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -134,13 +134,13 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
+  <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
+  </a>
   <div class="blog-heading">
     <p class="section-kicker">Blog VeltoWeb</p>
     <h2 id="blog-title">Kulisy pracy i rozwój <span class="text-gradient">projektów</span></h2>
   </div>
-  <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
-  </a>
 
   <div class="blog-details">
     <p>Na VeltoWeb dzielę się postępami prac, pomysłami, eksperymentami i krótkimi wnioskami z rozwijania własnych projektów. Pokazuję, nad czym aktualnie pracuję i jak moje rozwiązania powstają krok po kroku.</p>

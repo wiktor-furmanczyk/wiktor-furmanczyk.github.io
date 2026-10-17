@@ -94,7 +94,7 @@ image_alt: VeltoWeb logo on a dark blue background
         <div class="card-meta-row"><span class="status-badge status-violet">Needs analysis</span></div>
         <h3>Finance Manager</h3>
         <p>A concept for a private desktop tool to organize personal finances and side income.</p>
-        <div class="tag-row" aria-label="Project type"><span>Desktop app</span></div>
+        <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
         <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
       </div>
     </article>
@@ -135,13 +135,13 @@ image_alt: VeltoWeb logo on a dark blue background
 </section>
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
+  <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Visit the VeltoWeb blog on Facebook, opens in a new tab">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="VeltoWeb blog with posts about LinguaPilot, AI automation, and project development" loading="lazy" width="1448" height="1086" decoding="async">
+  </a>
   <div class="blog-heading">
     <p class="section-kicker">VeltoWeb blog</p>
     <h2 id="blog-title">How I work and build <span class="text-gradient">projects</span></h2>
   </div>
-  <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Visit the VeltoWeb blog on Facebook, opens in a new tab">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="VeltoWeb blog with posts about LinguaPilot, AI automation, and project development" loading="lazy" width="1448" height="1086" decoding="async">
-  </a>
 
   <div class="blog-details">
     <p>I share progress, ideas, experiments, and lessons from building my own projects. Follow what I am working on and see how each solution takes shape.</p>

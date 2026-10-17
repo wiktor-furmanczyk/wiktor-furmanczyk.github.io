@@ -46,7 +46,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
   <article class="showcase-project showcase-project-finance">
     <div class="showcase-copy">
-      <span class="showcase-type">Desktop app</span>
+      <span class="showcase-type">Windows app</span>
       <h2>Finance <span>Manager</span></h2>
       <p class="showcase-lead">Financial data that supports better decisions</p>
       <p>One private place for tracking transactions, budgets, savings, and the real profitability of side projects.</p>

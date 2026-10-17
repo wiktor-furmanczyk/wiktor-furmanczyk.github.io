@@ -45,7 +45,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 
   <article class="showcase-project showcase-project-finance">
     <div class="showcase-copy">
-      <span class="showcase-type">Aplikacja desktopowa</span>
+      <span class="showcase-type">Aplikacja Windows</span>
       <h2>Finance <span>Manager</span></h2>
       <p class="showcase-lead">Finanse, które pomagają podejmować decyzje</p>
       <p>Jedno prywatne miejsce do kontroli transakcji, budżetów, oszczędności oraz opłacalności dodatkowych zleceń.</p>

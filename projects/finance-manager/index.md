@@ -15,7 +15,7 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
     <p class="product-lead">Jedno miejsce do porządkowania finansów i podejmowania lepszych decyzji.</p>
     <p class="product-description">Desktopowa aplikacja ma łączyć finanse osobiste i dodatkowe źródła dochodu, automatyzować pracę z transakcjami oraz pokazywać, co naprawdę dzieje się z budżetem.</p>
     <p class="project-role">Moja rola na obecnym etapie: analiza potrzeb i koncepcja produktu. Projekt interfejsu przedstawia planowany kierunek.</p>
-    <div class="tag-row product-tags" aria-label="Typ projektu"><span>Aplikacja desktopowa</span></div>
+    <div class="tag-row product-tags" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
     <div class="button-row product-actions">
       <a class="button button-primary" href="#problemy">Poznaj problem <span aria-hidden="true">↓</span></a>
       <a class="button button-secondary" href="#status">Etapy rozwoju <span aria-hidden="true">↓</span></a>
