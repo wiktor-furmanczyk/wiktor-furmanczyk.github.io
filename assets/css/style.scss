@@ -755,7 +755,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .project-progress .project-status-indicator { width: 17px; height: 17px; flex-basis: 17px; background: var(--cyan); border: 3px solid #063452; box-shadow: 0 0 0 1px rgba(32,217,255,.55), 0 0 16px rgba(32,217,255,.42); }
 .project-progress .project-status-bar > p { max-width: none; padding-left: 26px; border-left: 1px solid rgba(73,172,219,.32); color: #c2d2e3; font-size: .94rem; line-height: 1.6; }
 .milestone-list { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; margin: 46px 0 26px; padding: 0; list-style: none; }
-.milestone-list li { position: relative; display: flex; min-width: 0; min-height: 160px; flex-direction: column; align-items: center; gap: 9px; padding: 34px 14px 0; border-top: 2px solid rgba(102,146,185,.35); text-align: center; }
+.milestone-list li { position: relative; display: flex; min-width: 0; min-height: 150px; flex-direction: column; align-items: center; gap: 9px; padding: 34px 14px 0; border-top: 2px solid rgba(102,146,185,.35); text-align: center; }
 .milestone-list li::before { position: absolute; top: -16px; left: 50%; width: 30px; height: 30px; content: ''; background: #071b33; border: 3px solid #83a8c7; border-radius: 50%; transform: translateX(-50%); }
 .milestone-list li::after { position: absolute; top: -15px; left: 50%; width: 30px; height: 30px; display: grid; place-items: center; color: #032934; font-size: 1rem; font-weight: 900; transform: translateX(-50%); }
 .milestone-list .milestone--done { border-top-color: #2bd6af; }
@@ -765,7 +765,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .milestone-list .milestone--current::before { background: #25cef0; border: 5px solid #05223b; box-shadow: 0 0 0 2px #35dfff, 0 0 20px rgba(37,206,240,.45); }
 .milestone-number { color: #a6c6df; font-size: .86rem; font-weight: 800; letter-spacing: .06em; }
 .milestone-list strong { max-width: 220px; color: #eaf4ff; font-size: .9rem; line-height: 1.45; }
-.milestone-list small { display: inline-flex; min-height: 31px; align-items: center; justify-content: center; margin-top: 5px; padding: 4px 12px; color: #b7cbe0; background: rgba(11,31,55,.58); border: 1px solid rgba(106,153,192,.4); border-radius: 999px; font-size: .72rem; font-weight: 700; }
+.milestone-list small { display: inline-flex; min-height: 31px; align-items: center; justify-content: center; margin-top: auto; padding: 4px 12px; color: #b7cbe0; background: rgba(11,31,55,.58); border: 1px solid rgba(106,153,192,.4); border-radius: 999px; font-size: .72rem; font-weight: 700; }
 .milestone--done .milestone-number, .milestone--done small { color: #40e2ba; }
 .milestone--done small { background: rgba(8,67,58,.3); border-color: rgba(43,214,175,.55); }
 .milestone--current .milestone-number, .milestone--current small { color: #49e0f4; }
