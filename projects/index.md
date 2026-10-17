@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projekty
-description: Opisy projektów VeltoWeb. LinguaPilot, AI Writing Assistant i Finance Manager wraz z technologiami i aktualnym etapem prac.
+description: Projekty VeltoWeb. LinguaPilot, AI Writing Assistant, Finance Manager i YouTube Hunter wraz z problemami, rozwiązaniami i etapem prac.
 permalink: /projects/
 body_class: projects-page
 image: /assets/images/veltoweb-og.jpg
@@ -64,6 +64,19 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Wizualizacja Finance Manager z pulpitem finansowym, budżetem miesięcznym i celem oszczędnościowym" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-hunter">
+    <div class="showcase-copy">
+      <span class="showcase-type">Aplikacja Windows</span>
+      <h2>YouTube <span>Hunter</span></h2>
+      <p class="showcase-lead">Filmy warte sprawdzenia, decyzje w jednym miejscu</p>
+      <p>Ustal temat i kryteria, przejrzyj kandydatów z przesłankami wyboru, a potem zapisz własną ocenę.</p>
+      <div class="showcase-tags" aria-label="Obszary projektu"><span>Wyszukiwanie</span><span>Organizacja pracy</span><span>Windows</span></div>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Działająca aplikacja, którą nadal doskonalę na podstawie prób użytkowych.</small></p>
+      <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art hunter-showcase-art">{% include youtube-hunter-preview.html %}<figcaption>Wizualizacja sposobu pracy w aplikacji</figcaption></figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">

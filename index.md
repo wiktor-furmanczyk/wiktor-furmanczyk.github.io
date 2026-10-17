@@ -57,7 +57,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="project-grid">
+  <div class="project-grid project-grid-four">
     <article class="project-card project-card-featured">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="900">
@@ -94,6 +94,17 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
         <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div>
         <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article class="project-card project-card-hunter">
+      <div class="project-card-visual hunter-card-visual">{% include youtube-hunter-preview.html %}</div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
+        <h3>YouTube Hunter</h3>
+        <p>Porządkuje poszukiwanie filmów, podpowiada kandydatów do sprawdzenia i zachowuje Twoje oceny.</p>
+        <div class="tag-row" aria-label="Typ i obszary projektu"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div>
+        <a class="card-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
       </div>
     </article>
   </div>

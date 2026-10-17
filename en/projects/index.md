@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: VeltoWeb case studies for LinguaPilot, AI Writing Assistant, and Finance Manager, including focus areas and current project status.
+description: VeltoWeb projects: LinguaPilot, AI Writing Assistant, Finance Manager, and YouTube Hunter, with their problems, solutions, and current status.
 permalink: /en/projects/
 lang: en-US
 body_class: projects-page
@@ -65,6 +65,19 @@ image_alt: VeltoWeb logo on a dark blue background
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-hunter">
+    <div class="showcase-copy">
+      <span class="showcase-type">Windows app</span>
+      <h2>YouTube <span>Hunter</span></h2>
+      <p class="showcase-lead">Videos to review, decisions in one place</p>
+      <p>Define the topic and criteria, review candidates with supporting clues, and save your own judgment.</p>
+      <div class="showcase-tags" aria-label="Project focus areas"><span>Search</span><span>Workflow</span><span>Windows</span></div>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>A working app that I keep refining through hands-on testing.</small></p>
+      <a class="showcase-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art hunter-showcase-art">{% include youtube-hunter-preview.html %}<figcaption>Illustration of the app workflow</figcaption></figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="More projects coming soon">

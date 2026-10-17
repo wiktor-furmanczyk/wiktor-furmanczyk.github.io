@@ -58,7 +58,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <a class="text-link projects-desktop-link" href="{{ '/en/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="project-grid">
+  <div class="project-grid project-grid-four">
     <article class="project-card project-card-featured">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="LinguaPilot screens for creating flashcards and learning vocabulary" loading="lazy" width="1200" height="900">
@@ -95,6 +95,17 @@ image_alt: VeltoWeb logo on a dark blue background
         <p>A concept for a private desktop tool to organize personal finances and side income.</p>
         <div class="tag-row" aria-label="Project type and focus areas"><span>Desktop app</span><span>Finance</span><span>Automation</span></div>
         <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article class="project-card project-card-hunter">
+      <div class="project-card-visual hunter-card-visual">{% include youtube-hunter-preview.html %}</div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
+        <h3>YouTube Hunter</h3>
+        <p>Organizes video searches, highlights candidates to review, and keeps your own decisions.</p>
+        <div class="tag-row" aria-label="Project type and focus areas"><span>Windows app</span><span>Search</span><span>Workflow</span></div>
+        <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
   </div>
