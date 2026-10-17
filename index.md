@@ -110,7 +110,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     </article>
     </div>
     <div class="project-carousel-controls">
-      <span class="project-carousel-count" aria-live="polite">1–3 z 4</span>
+      <span class="project-carousel-count">1–3 z 4</span>
       <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="Poprzednie projekty" disabled>←</button>
       <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Następne projekty">→</button>
     </div>

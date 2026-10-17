@@ -71,11 +71,11 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-progress-intro"><p class="section-kicker">Postęp projektu</p><h2 id="status-title">Etapy <span class="text-gradient">rozwoju projektu</span></h2><p>Sprawdź, co już zostało zrobione, nad czym pracuję i jakie są kolejne kroki.</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">W przygotowaniu do Google Play</h2></div></div>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h3>W przygotowaniu do Google Play</h3></div></div>
       <p>Korzystam z aplikacji i pracuję nad kosztami generowania fiszek oraz ograniczeniem powtórzeń przed planowaną publikacją.</p>
     </div>
-    <div class="milestone-heading"><h3>Kamienie milowe</h3><p>Od działającej wersji do planowanej publikacji.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Koncepcja i zakres nauki</strong><small>Zrobione</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Wersja do własnego użytku</strong><small>Zrobione</small></li>
@@ -83,6 +83,6 @@ image_alt: Granatowa identyfikacja wizualna projektu LinguaPilot
       <li class="milestone--planned"><span class="milestone-number">04</span><strong>Dopracowanie przed publikacją</strong><small>Planowane</small></li>
       <li class="milestone--planned"><span class="milestone-number">05</span><strong>Publikacja w Google Play</strong><small>Planowane</small></li>
     </ol>
-    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-lingua' | relative_url }}">Szczegółowy plan LinguaPilot <span aria-hidden="true">→</span></a>
+    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-lingua' | relative_url }}">Zobacz plan na roadmapie <span aria-hidden="true">→</span></a>
   </section>
 </div>

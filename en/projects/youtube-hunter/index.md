@@ -54,8 +54,8 @@ image_alt: VeltoWeb logo on a dark blue background
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
-    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Working app for personal use</h2></div></div><p>I use the app through the full workflow and keep improving its usability and result quality through hands-on testing. Results are suggestions for manual review.</p></div>
-    <div class="milestone-heading"><h3>Key stages</h3><p>From identifying the problem to ongoing improvements.</p></div>
+    <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
+    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Working app for personal use</h3></div></div><p>I use the app through the full workflow and keep improving its usability and result quality through hands-on testing. Results are suggestions for manual review.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and scope</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Working workflow</strong><small>Done</small></li>

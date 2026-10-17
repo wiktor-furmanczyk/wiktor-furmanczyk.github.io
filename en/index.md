@@ -111,7 +111,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </article>
     </div>
     <div class="project-carousel-controls">
-      <span class="project-carousel-count" aria-live="polite">1–3 of 4</span>
+      <span class="project-carousel-count">1–3 of 4</span>
       <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="Previous projects" disabled>←</button>
       <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Next projects">→</button>
     </div>

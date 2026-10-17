@@ -59,11 +59,11 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-progress-intro"><p class="section-kicker">Postęp projektu</p><h2 id="status-title">Etapy <span class="text-gradient">rozwoju projektu</span></h2><p>Sprawdź, co już zostało zrobione, nad czym pracuję i jakie są kolejne kroki.</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h2 id="status-title">Analiza potrzeb i wymagań</h2></div></div>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h3>Analiza potrzeb i wymagań</h3></div></div>
       <p>Porządkuję potrzeby i wymagania. Po ich sprawdzeniu dobiorę technologie oraz zaprojektuję architekturę systemu.</p>
     </div>
-    <div class="milestone-heading"><h3>Kamienie milowe</h3><p>Kolejne etapy są planem rozwoju, a nie gotowymi funkcjami.</p></div>
     <ol class="milestone-list">
       <li class="milestone--current"><span class="milestone-number">01</span><strong>Analiza potrzeb</strong><small>W trakcie</small></li>
       <li class="milestone--planned"><span class="milestone-number">02</span><strong>Dobór technologii</strong><small>Planowane</small></li>
@@ -71,6 +71,6 @@ image_alt: Koncepcja interfejsu Finance Manager z bilansem, analizą wydatków i
       <li class="milestone--planned"><span class="milestone-number">04</span><strong>Import transakcji</strong><small>Planowane</small></li>
       <li class="milestone--planned"><span class="milestone-number">05</span><strong>Automatyczna kategoryzacja</strong><small>Planowane</small></li>
     </ol>
-    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-finance' | relative_url }}">Szczegółowy plan Finance Manager <span aria-hidden="true">→</span></a>
+    <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-finance' | relative_url }}">Zobacz plan na roadmapie <span aria-hidden="true">→</span></a>
   </section>
 </div>

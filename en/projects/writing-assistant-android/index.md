@@ -72,11 +72,11 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">For personal use</h2></div></div>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>For personal use</h3></div></div>
       <p>I use the app myself and am improving the interface, adding modes, and checking compatibility with other apps.</p>
     </div>
-    <div class="milestone-heading"><h3>Key stages</h3><p>A working personal-use version and the current development areas.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and concept</strong><small>Completed</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Personal-use version</strong><small>Completed</small></li>
@@ -84,6 +84,6 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
       <li class="milestone--current"><span class="milestone-number">04</span><strong>More modes and languages</strong><small>In progress</small></li>
       <li class="milestone--current"><span class="milestone-number">05</span><strong>Compatibility with apps</strong><small>In progress</small></li>
     </ol>
-    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-writing' | relative_url }}">Detailed AI Writing Assistant roadmap <span aria-hidden="true">→</span></a>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-writing' | relative_url }}">View the project roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>

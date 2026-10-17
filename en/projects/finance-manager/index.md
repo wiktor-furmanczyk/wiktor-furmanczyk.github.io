@@ -60,11 +60,11 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Needs and requirements analysis</h2></div></div>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Needs and requirements analysis</h3></div></div>
       <p>I am organizing the needs and requirements. Once verified, I will choose the technology and design the system architecture.</p>
     </div>
-    <div class="milestone-heading"><h3>Key stages</h3><p>These stages are a development plan, not completed features.</p></div>
     <ol class="milestone-list">
       <li class="milestone--current"><span class="milestone-number">01</span><strong>Needs analysis</strong><small>In progress</small></li>
       <li class="milestone--planned"><span class="milestone-number">02</span><strong>Technology selection</strong><small>Planned</small></li>
@@ -72,6 +72,6 @@ image_alt: Finance Manager interface concept with balances, spending analysis, a
       <li class="milestone--planned"><span class="milestone-number">04</span><strong>Transaction import</strong><small>Planned</small></li>
       <li class="milestone--planned"><span class="milestone-number">05</span><strong>Automatic categorization</strong><small>Planned</small></li>
     </ol>
-    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-finance' | relative_url }}">Detailed Finance Manager roadmap <span aria-hidden="true">→</span></a>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-finance' | relative_url }}">View the project roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>

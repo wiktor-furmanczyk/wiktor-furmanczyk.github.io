@@ -72,11 +72,11 @@ image_alt: LinguaPilot identity on a dark blue background
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
+    <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h2 id="status-title">Preparing for Google Play</h2></div></div>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Preparing for Google Play</h3></div></div>
       <p>I use the app and am working on flashcard generation costs and reducing repetition before a planned release.</p>
     </div>
-    <div class="milestone-heading"><h3>Key stages</h3><p>From a working version to a planned release.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Learning concept and scope</strong><small>Completed</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Personal-use version</strong><small>Completed</small></li>
@@ -84,6 +84,6 @@ image_alt: LinguaPilot identity on a dark blue background
       <li class="milestone--planned"><span class="milestone-number">04</span><strong>Pre-release refinement</strong><small>Planned</small></li>
       <li class="milestone--planned"><span class="milestone-number">05</span><strong>Google Play release</strong><small>Planned</small></li>
     </ol>
-    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-lingua' | relative_url }}">Detailed LinguaPilot roadmap <span aria-hidden="true">→</span></a>
+    <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-lingua' | relative_url }}">View the project roadmap <span aria-hidden="true">→</span></a>
   </section>
 </div>
