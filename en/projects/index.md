@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: VeltoWeb projects: LinguaPilot, AI Writing Assistant, Finance Manager, and YouTube Hunter, with their problems, solutions, and current status.
+description: "VeltoWeb projects: LinguaPilot, AI Writing Assistant, Finance Manager, and YouTube Hunter, with their problems, solutions, and current status."
 permalink: /en/projects/
 lang: en-US
 body_class: projects-page
