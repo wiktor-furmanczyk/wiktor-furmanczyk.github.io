@@ -4,8 +4,8 @@ title: AI Writing Assistant
 description: Asystent poprawiania i tłumaczenia tekstu na Androidzie, dostępny przy klawiaturze w różnych aplikacjach.
 permalink: /projects/writing-assistant-android/
 body_class: project-body writing-project
-image: /assets/images/project-writing-assistant.jpg
-image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości podczas pisania
+image: /assets/images/portfolio-og.png
+image_alt: Portfolio VeltoWeb prezentujące projekt AI Writing Assistant
 ---
 
 <section class="product-hero writing-hero section-shell" aria-labelledby="product-title">
@@ -23,7 +23,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant na ekranie telefonu z przykładami korekty i tłumaczenia wiadomości" width="1448" height="1086" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Przykładowy interfejs AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" width="1448" height="1086" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -62,7 +62,7 @@ image_alt: AI Writing Assistant pomagający poprawiać i tłumaczyć wiadomości
     </div>
     <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
       <div class="video-screen video-screen--pending">
-        <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="Ekran AI Writing Assistant z narzędziami korekty tekstu" loading="lazy">
+        <img src="{{ '/assets/images/writing-assistant-phone.svg' | relative_url }}" alt="Przykładowy ekran AI Writing Assistant bez danych osobowych" loading="lazy">
         <span class="video-pending">Wkrótce nagranie</span>
       </div>
     </div>

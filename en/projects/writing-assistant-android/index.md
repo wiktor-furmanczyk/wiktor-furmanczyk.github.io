@@ -5,8 +5,8 @@ description: An Android writing assistant for editing and translating text from 
 permalink: /en/projects/writing-assistant-android/
 lang: en-US
 body_class: project-body writing-project
-image: /assets/images/project-writing-assistant.jpg
-image_alt: AI Writing Assistant helping edit and translate messages while you write
+image: /assets/images/portfolio-og.png
+image_alt: VeltoWeb portfolio presenting AI Writing Assistant
 ---
 
 <section class="product-hero writing-hero section-shell" aria-labelledby="product-title">
@@ -24,7 +24,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant on a phone, showing message editing and translation" width="1448" height="1086" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Sample AI Writing Assistant interface for editing, rewriting, and translating messages" width="1448" height="1086" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -63,7 +63,7 @@ image_alt: AI Writing Assistant helping edit and translate messages while you wr
     </div>
     <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
       <div class="video-screen video-screen--pending">
-        <img src="{{ '/assets/projects/writing-assistant-android/correction-tools.jfif' | relative_url }}" alt="AI Writing Assistant screen with text correction tools" loading="lazy">
+        <img src="{{ '/assets/images/writing-assistant-phone.svg' | relative_url }}" alt="Sample AI Writing Assistant screen without personal data" loading="lazy">
         <span class="video-pending">Video coming soon</span>
       </div>
     </div>

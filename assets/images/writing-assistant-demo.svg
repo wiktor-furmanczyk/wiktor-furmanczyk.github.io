@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" role="img" aria-labelledby="title desc">
+  <title id="title">AI Writing Assistant</title>
+  <desc id="desc">Przykładowy ekran korekty wiadomości z panelami zmiany stylu i tłumaczenia.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7767ff"/><stop offset=".48" stop-color="#178df6"/><stop offset="1" stop-color="#23ddf4"/></linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#824cff"/><stop offset="1" stop-color="#14c7f1"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#112049"/><stop offset="1" stop-color="#07132d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#2269ef" stop-opacity=".42"/><stop offset="1" stop-color="#2269ef" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#020718" flood-opacity=".7"/></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="32"/></filter>
+  </defs>
+  <ellipse cx="740" cy="886" rx="620" ry="150" fill="url(#glow)"/>
+  <path d="M84 824C310 703 498 864 721 757s442-52 646-162" fill="none" stroke="#1b73ed" stroke-opacity=".35" stroke-width="3"/>
+  <g filter="url(#shadow)">
+    <rect x="75" y="281" width="397" height="424" rx="30" fill="url(#panel)" stroke="#366dca" stroke-width="2"/>
+    <rect x="101" y="308" width="49" height="49" rx="14" fill="#163ad3"/>
+    <path d="m124 318 4 12 12 4-12 4-4 12-4-12-12-4 12-4z" fill="#8beeff"/>
+    <text x="166" y="341" fill="#f4f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Popraw tekst</text>
+    <text x="105" y="411" fill="#8ab9e8" font-family="Segoe UI,Arial,sans-serif" font-size="20">Wiadomość przed korektą</text>
+    <rect x="101" y="431" width="345" height="82" rx="15" fill="#0a1836" stroke="#315282"/>
+    <text x="122" y="467" fill="#dce9ff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Jestem na spotkaniu</text>
+    <text x="122" y="497" fill="#dce9ff" font-family="Segoe UI,Arial,sans-serif" font-size="21">odezwe się później</text>
+    <text x="105" y="554" fill="#40dfff" font-family="Segoe UI,Arial,sans-serif" font-size="20">Po korekcie</text>
+    <rect x="101" y="573" width="345" height="92" rx="15" fill="#0b2145" stroke="#20ccef"/>
+    <text x="122" y="611" fill="#f1f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Jestem na spotkaniu.</text>
+    <text x="122" y="643" fill="#f1f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="21">Odezwę się później.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="492" y="36" width="474" height="1004" rx="62" fill="#071225" stroke="url(#frame)" stroke-width="9"/>
+    <rect x="513" y="60" width="432" height="956" rx="42" fill="#08152c"/>
+    <rect x="660" y="73" width="138" height="20" rx="10" fill="#020916"/>
+    <text x="548" y="149" fill="#f7fbff" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="750">AI Writing Assistant</text>
+    <text x="548" y="184" fill="#91a8c5" font-family="Segoe UI,Arial,sans-serif" font-size="19">Przykładowa wiadomość</text>
+    <path d="M541 210h376" stroke="#294369"/>
+    <rect x="548" y="246" width="365" height="118" rx="22" fill="#142342"/>
+    <text x="574" y="287" fill="#dce8fa" font-family="Segoe UI,Arial,sans-serif" font-size="22">Jestem na spotkaniu</text>
+    <text x="574" y="323" fill="#dce8fa" font-family="Segoe UI,Arial,sans-serif" font-size="22">odezwe się później</text>
+    <rect x="548" y="390" width="365" height="222" rx="23" fill="url(#panel)" stroke="#346fe1" stroke-width="2"/>
+    <rect x="574" y="417" width="39" height="39" rx="11" fill="#3d4eff"/>
+    <path d="m593 424 3 10 10 3-10 3-3 10-3-10-10-3 10-3z" fill="#a6f4ff"/>
+    <text x="630" y="444" fill="#68dfff" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">Poprawiona wersja</text>
+    <text x="573" y="501" fill="#f2f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="22">Jestem na spotkaniu.</text>
+    <text x="573" y="538" fill="#f2f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="22">Odezwę się później.</text>
+    <rect x="572" y="558" width="314" height="40" rx="13" fill="url(#button)"/>
+    <text x="729" y="585" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Użyj tej wersji</text>
+    <rect x="537" y="649" width="384" height="66" rx="22" fill="#18263c"/>
+    <text x="556" y="690" fill="#a6b7d0" font-family="Segoe UI,Arial,sans-serif" font-size="21">Napisz wiadomość...</text>
+    <rect x="543" y="731" width="370" height="241" rx="18" fill="#172238"/>
+    <g fill="#2f3a4d">
+      <rect x="555" y="747" width="48" height="47" rx="8"/><rect x="610" y="747" width="48" height="47" rx="8"/><rect x="665" y="747" width="48" height="47" rx="8"/><rect x="720" y="747" width="48" height="47" rx="8"/><rect x="775" y="747" width="48" height="47" rx="8"/><rect x="830" y="747" width="48" height="47" rx="8"/>
+      <rect x="555" y="804" width="48" height="47" rx="8"/><rect x="610" y="804" width="48" height="47" rx="8"/><rect x="665" y="804" width="48" height="47" rx="8"/><rect x="720" y="804" width="48" height="47" rx="8"/><rect x="775" y="804" width="48" height="47" rx="8"/><rect x="830" y="804" width="48" height="47" rx="8"/>
+      <rect x="555" y="861" width="68" height="47" rx="8"/><rect x="630" y="861" width="48" height="47" rx="8"/><rect x="685" y="861" width="48" height="47" rx="8"/><rect x="740" y="861" width="48" height="47" rx="8"/><rect x="795" y="861" width="83" height="47" rx="8"/>
+      <rect x="605" y="920" width="237" height="36" rx="8"/>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="991" y="192" width="372" height="288" rx="29" fill="url(#panel)" stroke="#685bda" stroke-width="2"/>
+    <circle cx="1034" cy="235" r="21" fill="#513bea"/><path d="m1024 245 20-20m-3 0 3 3" stroke="#b9efff" stroke-width="3" stroke-linecap="round"/>
+    <text x="1070" y="244" fill="#f4f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Zmień styl</text>
+    <rect x="1016" y="284" width="129" height="43" rx="18" fill="url(#button)"/><text x="1080" y="312" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="18" text-anchor="middle">Formalnie</text>
+    <rect x="1159" y="284" width="160" height="43" rx="18" fill="#17264b" stroke="#586a9b"/><text x="1239" y="312" fill="#cfdcf4" font-family="Segoe UI,Arial,sans-serif" font-size="18" text-anchor="middle">Swobodnie</text>
+    <text x="1019" y="382" fill="#dce8fa" font-family="Segoe UI,Arial,sans-serif" font-size="21">Dzień dobry, jestem obecnie</text>
+    <text x="1019" y="416" fill="#dce8fa" font-family="Segoe UI,Arial,sans-serif" font-size="21">na spotkaniu. Odezwę się później.</text>
+    <rect x="993" y="564" width="358" height="291" rx="29" fill="url(#panel)" stroke="#0cb6e0" stroke-width="2"/>
+    <circle cx="1037" cy="608" r="21" fill="#087aa9"/><text x="1037" y="617" fill="#e9faff" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" text-anchor="middle">文</text>
+    <text x="1071" y="616" fill="#f4f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Przetłumacz</text>
+    <text x="1021" y="677" fill="#68dfff" font-family="Segoe UI,Arial,sans-serif" font-size="18">Polski → Angielski</text>
+    <path d="M1019 699h306" stroke="#31547b"/>
+    <text x="1021" y="747" fill="#e3eeff" font-family="Segoe UI,Arial,sans-serif" font-size="21">I'm in a meeting now.</text>
+    <text x="1021" y="781" fill="#e3eeff" font-family="Segoe UI,Arial,sans-serif" font-size="21">I'll get back to you later.</text>
+  </g>
+</svg>

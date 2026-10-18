@@ -40,7 +40,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant at the keyboard, with examples of editing and translating messages" loading="lazy" width="1448" height="1086" decoding="async">
+      <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Sample AI Writing Assistant interface for editing, rewriting, and translating messages" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 

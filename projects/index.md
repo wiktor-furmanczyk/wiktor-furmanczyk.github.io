@@ -39,7 +39,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-writing-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-writing-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-writing-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="AI Writing Assistant działający przy klawiaturze oraz widoki poprawiania i tłumaczenia wiadomości" loading="lazy" width="1448" height="1086" decoding="async">
+      <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Przykładowy interfejs AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 

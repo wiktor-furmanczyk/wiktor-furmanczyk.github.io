@@ -75,7 +75,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
     <article class="project-card">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-writing-assistant.jpg' | relative_url }}" alt="AI Writing Assistant for editing, rewriting, and translating text" loading="lazy" width="1200" height="900">
+        <img class="project-card-image" src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Sample AI Writing Assistant interface for editing, rewriting, and translating messages" loading="lazy" width="1448" height="1086">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
