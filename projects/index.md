@@ -11,7 +11,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 <header class="projects-hero section-shell">
   <p class="eyebrow"><span></span> Portfolio VeltoWeb</p>
   <h1>Projekty</h1>
-  <p>Poznaj problemy, które zauważyłem, przyjęte rozwiązania i obecny etap każdego z moich projektów.</p>
+  <p>Poznaj problemy, które zauważyłem, narzędzia stworzone w odpowiedzi na nie oraz obecny etap każdego projektu.</p>
 </header>
 
 <section class="projects-showcase section-shell" aria-label="Lista projektów">

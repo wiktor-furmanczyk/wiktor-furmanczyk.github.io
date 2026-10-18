@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiktor Furmańczyk
-description: Wiktor Furmańczyk. Doświadczenie w IT i e-commerce, analiza problemów, integracje oraz własne projekty VeltoWeb.
+description: Wiktor Furmańczyk. Doświadczenie techniczne w e-commerce, rozwiązywanie problemów, analiza danych, automatyzacje i własne projekty VeltoWeb.
 permalink: /
 body_class: home-page
 image: /assets/images/portfolio-og.png
@@ -12,8 +12,8 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Witam w moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">Rozumiem problem, dobieram rozwiązanie i doprowadzam je do działania</p>
-    <p class="hero-description">Od 2019 roku pracuję z techniczną stroną e-commerce: sklepami, integracjami i przepływem danych. Własne projekty VeltoWeb pozwalają mi wykorzystać to doświadczenie od pomysłu po użyteczny produkt.</p>
+    <p class="hero-lead">Rozwiązuję problemy techniczne i usprawniam procesy</p>
+    <p class="hero-description">Od 2019 roku pracuję na styku e-commerce, systemów, integracji i danych. Łączę doświadczenie ze wsparcia technicznego, współpracy z zespołami IT oraz własnej sprzedaży online, by znajdować przyczyny problemów i tworzyć praktyczne rozwiązania.</p>
     <div class="button-row">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
     </div>
@@ -41,8 +41,8 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     </div>
   </div>
   <div class="about-grid">
-    <p>W home.pl, IdoSell i Base.com zajmowałem się problemami technicznymi sklepów i integracji. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem też własną sprzedaż online, więc znam ten proces od strony sprzedawcy.</p>
-    <p>W VeltoWeb rozwijam własne aplikacje i automatyzacje. Określam, komu mają pomóc, sprawdzam zakres rozwiązania i buduję działającą wersję. AI wspiera mnie w analizie i pracy nad projektami.</p>
+    <p>W home.pl, IdoSell i Base.com rozwiązywałem problemy techniczne sklepów i integracji. Współpracowałem z programistami, działami technicznymi i klientami. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Mam też komercyjne doświadczenie w pozyskiwaniu danych. Prowadziłem własną sprzedaż i przedsięwzięcia online, więc rozumiem zarówno potrzeby użytkowników, jak i ograniczenia systemów.</p>
+    <p>Potrafię przejąć problem od rozpoznania przyczyny po wdrożenie usprawnienia: uporządkować proces, przeanalizować dane, zaproponować automatyzację lub stworzyć potrzebne narzędzie. Nie jestem zawodowym programistą. Własne aplikacje tworzę z pomocą AI, opierając decyzje o ich działaniu na znajomości systemów i realnych potrzeb użytkowników.</p>
   </div>
   <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Poznaj moje doświadczenie na LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
@@ -52,7 +52,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     <div>
       <p class="section-kicker">Realne projekty</p>
       <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
-      <p>Własne projekty pokazujące, jak przekładam konkretny problem na rozwiązanie i rozwijam je w praktyce.</p>
+      <p>Przykłady narzędzi, które tworzę, by rozwiązywać konkretne problemy i usprawniać codzienną pracę.</p>
     </div>
     <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
   </div>
