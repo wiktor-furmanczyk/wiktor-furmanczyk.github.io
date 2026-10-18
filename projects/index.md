@@ -74,4 +74,5 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <div><h2>Więcej projektów wkrótce</h2><p>Kolejne aplikacje i narzędzia dodam, gdy będą gotowe do publicznej prezentacji.</p></div>
     <span class="projects-question" aria-hidden="true">?</span>
   </aside>
+  {% include project-access-note.html %}
 </section>

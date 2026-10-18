@@ -75,4 +75,5 @@ image_alt: VeltoWeb logo on a dark blue background
     <div><h2>More projects coming soon</h2><p>I will add more apps and tools when they are ready to be presented publicly.</p></div>
     <span class="projects-question" aria-hidden="true">?</span>
   </aside>
+  {% include project-access-note.html %}
 </section>

@@ -5,6 +5,7 @@ body_class: project-body
 
 <article class="project-page">
   {{ content }}
+  {% include project-access-note.html %}
   <div class="project-footer-link">
     {% if page.lang == 'en-US' %}
       <a href="{{ '/en/projects/' | relative_url }}">← Back to all projects</a>
