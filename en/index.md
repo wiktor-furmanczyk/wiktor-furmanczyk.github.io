@@ -65,11 +65,11 @@ image_alt: VeltoWeb logo on a dark blue background
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="LinguaPilot screens for creating flashcards and learning vocabulary" loading="lazy" width="1200" height="900">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge">Preparing for Google Play</span></div>
+        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
         <h3>LinguaPilot</h3>
         <p>Learn languages in short sessions with flashcards tailored to your goals.</p>
         <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
-        <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -78,11 +78,11 @@ image_alt: VeltoWeb logo on a dark blue background
         <img class="project-card-image" src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Sample AI Writing Assistant interface for editing, rewriting, and translating messages" loading="lazy" width="1448" height="1086">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
+        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
         <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
-        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -91,11 +91,11 @@ image_alt: VeltoWeb logo on a dark blue background
         <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Finance Manager dashboard with balances, spending, budgets, and a savings goal" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Needs analysis</span></div>
+        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
         <h3>Finance Manager</h3>
         <p>A concept for a private desktop tool to organize personal finances and side income.</p>
         <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
-        <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Explore the concept <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -109,9 +109,20 @@ image_alt: VeltoWeb logo on a dark blue background
         <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
       </div>
     </article>
+
+    <article class="project-card project-card-smoke-free">
+      <div class="project-card-visual smoke-free-visual" aria-hidden="true"><span>Dzisiaj<br><strong>nie palę</strong></span></div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">Concept in progress</span></div>
+        <h3>Dzisiaj nie palę</h3>
+        <p>When the urge to smoke appears, read a short motivational text and focus on today.</p>
+        <div class="tag-row" aria-label="Project type"><span>Personal project</span></div>
+        <a class="card-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
     </div>
     <div class="project-carousel-controls">
-      <span class="project-carousel-count">1–3 of 4</span>
+      <span class="project-carousel-count">1–3 of 5</span>
       <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="Previous projects" disabled>←</button>
       <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Next projects">→</button>
     </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projekty
-description: Projekty VeltoWeb. LinguaPilot, AI Writing Assistant, Finance Manager i YouTube Hunter wraz z problemami, rozwiązaniami i etapem prac.
+description: Projekty VeltoWeb, w tym LinguaPilot, AI Writing Assistant, Finance Manager, YouTube Hunter i Dzisiaj nie palę.
 permalink: /projects/
 body_class: projects-page
 image: /assets/images/veltoweb-og.jpg
@@ -21,8 +21,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>Lingua<span>Pilot</span></h2>
       <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
       <p>Twórz własne zestawy fiszek i ucz się języków w krótkich sesjach dopasowanych do codziennych sytuacji.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>W przygotowaniu do Google Play</strong><small>Obecnie korzystam z aplikacji na własny użytek i dopracowuję ją przed planowaną publikacją w Google Play.</small></p>
-      <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Dopracowuję projekt i jego prezentację.</small></p>
+      <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Trzy ekrany aplikacji LinguaPilot: ćwiczenie, ekran główny i tworzenie zestawu fiszek" width="1448" height="1086" fetchpriority="high" decoding="async">
@@ -35,8 +35,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
       <p>Dyktuj wiadomości, poprawiaj rozpoznany tekst i tłumacz go przy klawiaturze w różnych aplikacjach.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Aplikację stworzyłem do własnego użytku i nadal rozwijam ją o nowe funkcje oraz usprawnienia.</small></p>
-      <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Dopracowuję projekt i jego prezentację.</small></p>
+      <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Przykładowy interfejs AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" loading="lazy" width="1448" height="1086" decoding="async">
@@ -49,8 +49,8 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>Finance <span>Manager</span></h2>
       <p class="showcase-lead">Finanse, które pomagają podejmować decyzje</p>
       <p>Jedno prywatne miejsce do kontroli transakcji, budżetów, oszczędności oraz opłacalności dodatkowych zleceń.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Analiza potrzeb i wymagań</strong><small>Trwa analiza potrzeb i wymagań. Kolejnym krokiem będzie dobór technologii i przygotowanie architektury systemu.</small></p>
-      <a class="showcase-link" href="{{ '/projects/finance-manager/' | relative_url }}">Poznaj założenia <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Dopracowuję projekt i jego prezentację.</small></p>
+      <a class="showcase-link" href="{{ '/projects/finance-manager/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Wizualizacja Finance Manager z pulpitem finansowym, budżetem miesięcznym i celem oszczędnościowym" loading="lazy" width="1000" height="1000" decoding="async">
@@ -67,6 +67,18 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art hunter-showcase-art">{% include youtube-hunter-preview.html %}<figcaption>Wizualizacja sposobu pracy w aplikacji</figcaption></figure>
+  </article>
+
+  <article class="showcase-project showcase-project-smoke-free">
+    <div class="showcase-copy">
+      <span class="showcase-type">Projekt osobisty</span>
+      <h2>Dzisiaj <span>nie palę</span></h2>
+      <p class="showcase-lead">Motywacja na słabszą chwilę</p>
+      <p>Gdy pojawi się chęć zapalenia, sięgnij po krótkie motywujące treści.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Pomysł w przygotowaniu</strong><small>Projekt jest na etapie przygotowań.</small></p>
+      <a class="showcase-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="showcase-art smoke-free-visual" aria-hidden="true"><span>Dzisiaj<br><strong>nie palę</strong></span></div>
   </article>
 
   <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">

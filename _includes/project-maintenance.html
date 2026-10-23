@@ -1,0 +1,13 @@
+<section class="maintenance-panel section-shell" aria-labelledby="maintenance-title">
+  {% if page.lang == 'en-US' %}
+    <p class="section-kicker">{{ include.project_name | escape }}</p>
+    <h1 id="maintenance-title">This page is <span class="text-gradient">under construction</span></h1>
+    <p>I am refining this project and its presentation. Please come back later.</p>
+    <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Back to all projects <span aria-hidden="true">→</span></a>
+  {% else %}
+    <p class="section-kicker">{{ include.project_name | escape }}</p>
+    <h1 id="maintenance-title">Trwają prace <span class="text-gradient">nad stroną</span></h1>
+    <p>Dopracowuję projekt i jego prezentację. Zapraszam ponownie wkrótce.</p>
+    <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Wróć do projektów <span aria-hidden="true">→</span></a>
+  {% endif %}
+</section>

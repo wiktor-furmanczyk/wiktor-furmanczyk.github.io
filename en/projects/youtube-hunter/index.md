@@ -44,13 +44,11 @@ image_alt: VeltoWeb logo on a dark blue background
   </section>
 
   <section class="video-section" aria-labelledby="video-title">
-    <div class="video-copy"><p class="section-kicker">Walkthrough</p><h2 id="video-title">Search, review, decide</h2><p>I am preparing a short recording of the complete workflow in the app.</p></div>
-    <div class="video-device video-device--monitor" data-video-slot="youtube-hunter">
-      <div class="video-screen video-screen--pending">
-        {% include youtube-hunter-preview.html %}
-        <span class="video-pending">Video coming soon</span>
-      </div>
-    </div>
+    <div class="video-copy"><p class="section-kicker">Walkthrough</p><h2 id="video-title">Search, review, decide</h2><p>Watch a recording of the workflow in the app.</p></div>
+    <video class="hunter-demo-video" controls preload="metadata" playsinline aria-label="YouTube Hunter walkthrough">
+      <source src="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}" type="video/mp4">
+      Your browser cannot play this video. <a href="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}">Download the recording</a>.
+    </video>
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">

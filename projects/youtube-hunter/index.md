@@ -43,13 +43,11 @@ image_alt: Logo VeltoWeb na granatowym tle
   </section>
 
   <section class="video-section" aria-labelledby="video-title">
-    <div class="video-copy"><p class="section-kicker">Prezentacja działania</p><h2 id="video-title">Wyszukiwanie, przegląd, decyzja</h2><p>Przygotuję krótkie nagranie pokazujące pełny przebieg pracy w aplikacji.</p></div>
-    <div class="video-device video-device--monitor" data-video-slot="youtube-hunter">
-      <div class="video-screen video-screen--pending">
-        {% include youtube-hunter-preview.html %}
-        <span class="video-pending">Wkrótce nagranie</span>
-      </div>
-    </div>
+    <div class="video-copy"><p class="section-kicker">Prezentacja działania</p><h2 id="video-title">Wyszukiwanie, przegląd, decyzja</h2><p>Zobacz nagranie pokazujące przebieg pracy w aplikacji.</p></div>
+    <video class="hunter-demo-video" controls preload="metadata" playsinline aria-label="Prezentacja działania YouTube Hunter">
+      <source src="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}" type="video/mp4">
+      Twoja przeglądarka nie obsługuje odtwarzania wideo. <a href="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}">Pobierz nagranie</a>.
+    </video>
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">

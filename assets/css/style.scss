@@ -890,6 +890,19 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-showcase-art { display: grid; align-content: center; justify-items: center; gap: 15px; padding: 32px 30px; }
 .hunter-showcase-art .hunter-preview { position: relative; z-index: 1; max-width: 620px; transform: rotate(2deg); }
 .hunter-showcase-art figcaption { position: relative; z-index: 1; }
+.hunter-demo-video { display: block; width: 100%; max-width: 760px; height: auto; justify-self: center; aspect-ratio: 16 / 9; background: #020a16; border: 1px solid rgba(74, 185, 229, .58); border-radius: 14px; box-shadow: 0 22px 42px rgba(0, 0, 0, .35); }
+
+.maintenance-panel { display: flex; min-height: min(70vh, 680px); flex-direction: column; align-items: flex-start; justify-content: center; padding-block: 80px; }
+.maintenance-panel .section-kicker { margin-bottom: 16px; }
+.maintenance-panel h1 { max-width: 780px; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.08; }
+.maintenance-panel > p:not(.section-kicker) { max-width: 600px; margin: 22px 0 30px; color: #c0d0e1; font-size: clamp(1rem, 1.8vw, 1.18rem); line-height: 1.7; }
+
+.smoke-free-visual { display: grid; place-items: center; isolation: isolate; background: radial-gradient(circle at 50% 44%, rgba(36, 178, 177, .26), transparent 40%), linear-gradient(145deg, #0a3151, #091529 70%); }
+.smoke-free-visual::before { position: absolute; z-index: -1; width: min(64%, 240px); aspect-ratio: 1; inset: auto; content: ''; border: 1px solid rgba(110, 224, 217, .36); border-radius: 50%; box-shadow: 0 0 0 22px rgba(76, 205, 210, .04), 0 0 65px rgba(52, 218, 204, .12); }
+.smoke-free-visual span { position: relative; z-index: 1; color: #d9fbf4; font-size: clamp(1.45rem, 2.6vw, 2.5rem); font-weight: 500; line-height: 1.15; text-align: center; text-shadow: 0 2px 24px rgba(1, 26, 39, .8); }
+.smoke-free-visual strong { color: #7ff1dc; font-weight: 800; }
+.project-card-smoke-free .smoke-free-visual { -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 54%, transparent 96%); mask-image: linear-gradient(to bottom, #000 0%, #000 54%, transparent 96%); }
+.showcase-project-smoke-free .smoke-free-visual::before { width: min(44%, 280px); }
 
 @media (max-width: 760px) {
   .hunter-hero-visual { max-width: 620px; margin: 28px auto 0; }
