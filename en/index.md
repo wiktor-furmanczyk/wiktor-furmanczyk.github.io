@@ -60,7 +60,31 @@ image_alt: VeltoWeb logo on a dark blue background
 
   <div class="project-carousel" data-project-carousel>
     <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="carousel" aria-label="My projects" tabindex="0">
-    <article class="project-card project-card-featured">
+    <article class="project-card project-card-featured project-card-hunter">
+      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" loading="lazy" width="1672" height="941"></div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">In testing</span></div>
+        <h3>YouTube Hunter</h3>
+        <p>Organizes video searches, highlights candidates to review, and keeps your own decisions.</p>
+        <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
+        <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article class="project-card project-card-writing">
+      <div class="project-card-visual">
+        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="971" height="1620">
+      </div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
+        <h3>AI Writing Assistant</h3>
+        <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
+        <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
+        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article class="project-card">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="LinguaPilot screens for creating flashcards and learning vocabulary" loading="lazy" width="1200" height="900">
       </div>
@@ -70,19 +94,6 @@ image_alt: VeltoWeb logo on a dark blue background
         <p>Learn languages in short sessions with flashcards tailored to your goals.</p>
         <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
         <a class="card-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Sample AI Writing Assistant interface for editing, rewriting, and translating messages" loading="lazy" width="1448" height="1086">
-      </div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
-        <h3>AI Writing Assistant</h3>
-        <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
-        <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
-        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
@@ -99,24 +110,13 @@ image_alt: VeltoWeb logo on a dark blue background
       </div>
     </article>
 
-    <article class="project-card project-card-hunter">
-      <div class="project-card-visual hunter-card-visual">{% include youtube-hunter-preview.html %}</div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
-        <h3>YouTube Hunter</h3>
-        <p>Organizes video searches, highlights candidates to review, and keeps your own decisions.</p>
-        <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
-        <a class="card-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
     <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual smoke-free-visual" aria-hidden="true"><span>Dzisiaj<br><strong>nie palę</strong></span></div>
+      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619"></div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Concept in progress</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">Site in progress</span></div>
         <h3>Dzisiaj nie palę</h3>
-        <p>When the urge to smoke appears, read a short motivational text and focus on today.</p>
-        <div class="tag-row" aria-label="Project type"><span>Personal project</span></div>
+        <p>A mobile site with materials to turn to during difficult moments and help stay smoke free.</p>
+        <div class="tag-row" aria-label="Project type"><span>Mobile site</span></div>
         <a class="card-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
       </div>
     </article>

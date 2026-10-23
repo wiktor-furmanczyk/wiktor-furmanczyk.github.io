@@ -15,18 +15,16 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
 </header>
 
 <section class="projects-showcase section-shell" aria-label="Lista projektów">
-  <article class="showcase-project showcase-project-lingua">
+  <article class="showcase-project showcase-project-hunter">
     <div class="showcase-copy">
-      <span class="showcase-type">Aplikacja mobilna</span>
-      <h2>Lingua<span>Pilot</span></h2>
-      <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
-      <p>Twórz własne zestawy fiszek i ucz się języków w krótkich sesjach dopasowanych do codziennych sytuacji.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Dopracowuję projekt i jego prezentację.</small></p>
-      <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
+      <span class="showcase-type">Aplikacja Windows</span>
+      <h2>YouTube <span>Hunter</span></h2>
+      <p class="showcase-lead">Filmy warte sprawdzenia, decyzje w jednym miejscu</p>
+      <p>Ustal temat i kryteria, przejrzyj kandydatów z przesłankami wyboru, a potem zapisz własną ocenę.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>W fazie testów</strong><small>Poprawki analizy filmów są gotowe. Testuję teraz pełny przebieg pracy.</small></p>
+      <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Trzy ekrany aplikacji LinguaPilot: ćwiczenie, ekran główny i tworzenie zestawu fiszek" width="1448" height="1086" fetchpriority="high" decoding="async">
-    </figure>
+    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1672" height="941" fetchpriority="high" decoding="async"><figcaption>Wizualizacja interfejsu aplikacji</figcaption></figure>
   </article>
 
   <article class="showcase-project showcase-project-writing">
@@ -39,7 +37,21 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Przykładowy interfejs AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" loading="lazy" width="1448" height="1086" decoding="async">
+      <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="971" height="1620" decoding="async">
+    </figure>
+  </article>
+
+  <article class="showcase-project showcase-project-lingua">
+    <div class="showcase-copy">
+      <span class="showcase-type">Aplikacja mobilna</span>
+      <h2>Lingua<span>Pilot</span></h2>
+      <p class="showcase-lead">Fiszki AI na każdą sytuację</p>
+      <p>Twórz własne zestawy fiszek i ucz się języków w krótkich sesjach dopasowanych do codziennych sytuacji.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Dopracowuję projekt i jego prezentację.</small></p>
+      <a class="showcase-link" href="{{ '/projects/lingua-pilot/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art">
+      <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Trzy ekrany aplikacji LinguaPilot: ćwiczenie, ekran główny i tworzenie zestawu fiszek" width="1448" height="1086" loading="lazy" decoding="async">
     </figure>
   </article>
 
@@ -57,28 +69,16 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </figure>
   </article>
 
-  <article class="showcase-project showcase-project-hunter">
-    <div class="showcase-copy">
-      <span class="showcase-type">Aplikacja Windows</span>
-      <h2>YouTube <span>Hunter</span></h2>
-      <p class="showcase-lead">Filmy warte sprawdzenia, decyzje w jednym miejscu</p>
-      <p>Ustal temat i kryteria, przejrzyj kandydatów z przesłankami wyboru, a potem zapisz własną ocenę.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Działająca aplikacja, którą nadal doskonalę na podstawie prób użytkowych.</small></p>
-      <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art hunter-showcase-art">{% include youtube-hunter-preview.html %}<figcaption>Wizualizacja sposobu pracy w aplikacji</figcaption></figure>
-  </article>
-
   <article class="showcase-project showcase-project-smoke-free">
     <div class="showcase-copy">
-      <span class="showcase-type">Projekt osobisty</span>
+      <span class="showcase-type">Strona mobilna</span>
       <h2>Dzisiaj <span>nie palę</span></h2>
-      <p class="showcase-lead">Motywacja na słabszą chwilę</p>
-      <p>Gdy pojawi się chęć zapalenia, sięgnij po krótkie motywujące treści.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Pomysł w przygotowaniu</strong><small>Projekt jest na etapie przygotowań.</small></p>
+      <p class="showcase-lead">Prosta metoda jak rzucić palenie</p>
+      <p>Mobilna strona z materiałami motywującymi, które pomagają wytrwać bez papierosa w słabszej chwili.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Przygotowuję materiały i prezentację projektu.</small></p>
       <a class="showcase-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
     </div>
-    <div class="showcase-art smoke-free-visual" aria-hidden="true"><span>Dzisiaj<br><strong>nie palę</strong></span></div>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619" decoding="async"></figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">

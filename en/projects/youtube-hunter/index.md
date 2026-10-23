@@ -23,8 +23,8 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
   </div>
   <figure class="hunter-hero-visual">
-    {% include youtube-hunter-preview.html %}
-    <figcaption>Illustration of the workflow, without data from real searches.</figcaption>
+    <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1672" height="941" fetchpriority="high" decoding="async">
+    <figcaption>Illustration of the app interface.</figcaption>
   </figure>
 </section>
 
@@ -53,13 +53,14 @@ image_alt: VeltoWeb logo on a dark blue background
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
     <div class="project-progress-intro"><p class="section-kicker">Project progress</p><h2 id="status-title">Project <span class="text-gradient">development stages</span></h2><p>See what is complete, what I am working on now, and what comes next.</p></div>
-    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Working app for personal use</h3></div></div><p>The first working version was created on 16 October 2026. I plan further tests, fixes for video analysis errors, and a review of other ways to collect YouTube data.</p></div>
+    <div class="project-status-bar"><div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Testing</h3></div></div><p>The first working version was created on 16 October 2026. I fixed the video analysis errors and am now testing the complete workflow in the app.</p></div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and scope</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Working workflow</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">03</span><strong>Topic profiles</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">04</span><strong>Separate work areas</strong><small>Done</small></li>
-      <li class="milestone--current"><span class="milestone-number">05</span><strong>Usability and result quality</strong><small>In progress</small></li>
+      <li class="milestone--done"><span class="milestone-number">05</span><strong>Video analysis fixes</strong><small>Done</small></li>
+      <li class="milestone--current"><span class="milestone-number">06</span><strong>Complete workflow testing</strong><small>In progress</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-hunter' | relative_url }}">See the roadmap plan <span aria-hidden="true">→</span></a>
   </section>
