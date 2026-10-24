@@ -42,6 +42,18 @@ image_alt: VeltoWeb logo on a dark blue background
     </figure>
   </article>
 
+  <article class="showcase-project showcase-project-smoke-free">
+    <div class="showcase-copy">
+      <span class="showcase-type">Mobile site</span>
+      <h2>Dzisiaj <span>nie palę</span></h2>
+      <p class="showcase-lead">A simple way to quit smoking</p>
+      <p>A mobile site with motivational materials to turn to during difficult moments and help stay smoke free.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Site in progress</strong><small>I am preparing the materials and project presentation.</small></p>
+      <a class="showcase-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619" decoding="async"></figure>
+  </article>
+
   <article class="showcase-project showcase-project-lingua">
     <div class="showcase-copy">
       <span class="showcase-type">Mobile app</span>
@@ -68,18 +80,6 @@ image_alt: VeltoWeb logo on a dark blue background
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
-  </article>
-
-  <article class="showcase-project showcase-project-smoke-free">
-    <div class="showcase-copy">
-      <span class="showcase-type">Mobile site</span>
-      <h2>Dzisiaj <span>nie palę</span></h2>
-      <p class="showcase-lead">A simple way to quit smoking</p>
-      <p>A mobile site with motivational materials to turn to during difficult moments and help stay smoke free.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Site in progress</strong><small>I am preparing the materials and project presentation.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619" decoding="async"></figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="More projects coming soon">

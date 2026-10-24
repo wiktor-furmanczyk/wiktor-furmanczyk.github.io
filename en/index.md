@@ -84,6 +84,17 @@ image_alt: VeltoWeb logo on a dark blue background
       </div>
     </article>
 
+    <article class="project-card project-card-smoke-free">
+      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619"></div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">Site in progress</span></div>
+        <h3>Dzisiaj nie palę</h3>
+        <p>A mobile site with materials to turn to during difficult moments and help stay smoke free.</p>
+        <div class="tag-row" aria-label="Project type"><span>Mobile site</span></div>
+        <a class="card-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
     <article class="project-card">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="LinguaPilot screens for creating flashcards and learning vocabulary" loading="lazy" width="1200" height="900">
@@ -107,17 +118,6 @@ image_alt: VeltoWeb logo on a dark blue background
         <p>A concept for a private desktop tool to organize personal finances and side income.</p>
         <div class="tag-row" aria-label="Project type"><span>Windows app</span></div>
         <a class="card-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
-    <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619"></div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Site in progress</span></div>
-        <h3>Dzisiaj nie palę</h3>
-        <p>A mobile site with materials to turn to during difficult moments and help stay smoke free.</p>
-        <div class="tag-row" aria-label="Project type"><span>Mobile site</span></div>
-        <a class="card-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
       </div>
     </article>
     </div>

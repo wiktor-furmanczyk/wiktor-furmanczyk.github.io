@@ -24,7 +24,6 @@ image_alt: VeltoWeb logo on a dark blue background
   </div>
   <figure class="hunter-hero-visual">
     <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1672" height="941" fetchpriority="high" decoding="async">
-    <figcaption>Illustration of the app interface.</figcaption>
   </figure>
 </section>
 

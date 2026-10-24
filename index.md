@@ -83,6 +83,17 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
       </div>
     </article>
 
+    <article class="project-card project-card-smoke-free">
+      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619"></div>
+      <div class="project-card-body">
+        <div class="card-meta-row"><span class="status-badge status-violet">Strona w przygotowaniu</span></div>
+        <h3>Dzisiaj nie palę</h3>
+        <p>Mobilna strona z materiałami, po które można sięgnąć w słabszej chwili, aby wytrwać bez papierosa.</p>
+        <div class="tag-row" aria-label="Typ projektu"><span>Strona mobilna</span></div>
+        <a class="card-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
     <article class="project-card">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="Ekrany aplikacji LinguaPilot do tworzenia fiszek i nauki słownictwa" loading="lazy" width="1200" height="900">
@@ -106,17 +117,6 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
         <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
         <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
         <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
-    <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619"></div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">Strona w przygotowaniu</span></div>
-        <h3>Dzisiaj nie palę</h3>
-        <p>Mobilna strona z materiałami, po które można sięgnąć w słabszej chwili, aby wytrwać bez papierosa.</p>
-        <div class="tag-row" aria-label="Typ projektu"><span>Strona mobilna</span></div>
-        <a class="card-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
       </div>
     </article>
     </div>

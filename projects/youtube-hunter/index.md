@@ -23,7 +23,6 @@ image_alt: Logo VeltoWeb na granatowym tle
   </div>
   <figure class="hunter-hero-visual">
     <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1672" height="941" fetchpriority="high" decoding="async">
-    <figcaption>Wizualizacja interfejsu aplikacji.</figcaption>
   </figure>
 </section>
 

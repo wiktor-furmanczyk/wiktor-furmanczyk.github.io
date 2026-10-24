@@ -12,6 +12,8 @@
   let frame = 0;
   let mouseOver = false;
   let pauseUntil = 0;
+  let drag = null;
+  let suppressClickUntil = 0;
 
   function dimensions() {
     const step = cards.length > 1
@@ -46,7 +48,44 @@
   next.addEventListener('click', () => move(1));
   carousel.addEventListener('mouseenter', () => { mouseOver = true; });
   carousel.addEventListener('mouseleave', () => { mouseOver = false; });
-  track.addEventListener('pointerdown', () => { pauseUntil = Date.now() + 12000; });
+  track.addEventListener('dragstart', (event) => event.preventDefault());
+  track.addEventListener('pointerdown', (event) => {
+    pauseUntil = Date.now() + 12000;
+    if (event.pointerType !== 'mouse' || event.button !== 0) return;
+    drag = { id: event.pointerId, x: event.clientX, scrollLeft: track.scrollLeft, moved: false };
+  });
+  track.addEventListener('pointermove', (event) => {
+    if (!drag || event.pointerId !== drag.id) return;
+    const distance = event.clientX - drag.x;
+    if (!drag.moved && Math.abs(distance) < 6) return;
+    if (!drag.moved) {
+      drag.moved = true;
+      track.classList.add('is-dragging');
+      track.setPointerCapture(event.pointerId);
+    }
+    event.preventDefault();
+    track.scrollLeft = drag.scrollLeft - distance;
+  });
+  function endDrag(event) {
+    if (!drag || event.pointerId !== drag.id) return;
+    if (drag.moved) {
+      suppressClickUntil = Date.now() + 350;
+      track.classList.remove('is-dragging');
+      const { step, last } = dimensions();
+      const first = Math.min(last, Math.max(0, Math.round(track.scrollLeft / step)));
+      track.scrollTo({ left: first * step, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+      if (track.hasPointerCapture(event.pointerId)) track.releasePointerCapture(event.pointerId);
+    }
+    drag = null;
+  }
+  track.addEventListener('pointerup', endDrag);
+  track.addEventListener('pointercancel', endDrag);
+  track.addEventListener('click', (event) => {
+    if (Date.now() >= suppressClickUntil) return;
+    event.preventDefault();
+    event.stopPropagation();
+    suppressClickUntil = 0;
+  }, true);
   track.addEventListener('keydown', () => { pauseUntil = Date.now() + 12000; });
   track.addEventListener('scroll', () => {
     if (frame) return;

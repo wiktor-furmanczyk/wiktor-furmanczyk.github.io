@@ -13,6 +13,7 @@ body_class: project-body smoke-free-project
     <h1 id="project-title">Dzisiaj <span class="text-gradient">nie palę</span></h1>
     <p class="product-lead">A simple way to quit smoking</p>
     <p>I am preparing a mobile site with materials to turn to during difficult moments. Short reads are intended to help sustain motivation and stay smoke free, one day at a time.</p>
+    <p class="smoke-free-status"><strong>This page is under construction.</strong> I am refining the project and its presentation. Please check back soon.</p>
     <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Back to all projects <span aria-hidden="true">→</span></a>
   </div>
   <figure class="smoke-free-hero-visual">

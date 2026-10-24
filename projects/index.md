@@ -41,6 +41,18 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </figure>
   </article>
 
+  <article class="showcase-project showcase-project-smoke-free">
+    <div class="showcase-copy">
+      <span class="showcase-type">Strona mobilna</span>
+      <h2>Dzisiaj <span>nie palę</span></h2>
+      <p class="showcase-lead">Prosta metoda jak rzucić palenie</p>
+      <p>Mobilna strona z materiałami motywującymi, które pomagają wytrwać bez papierosa w słabszej chwili.</p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Przygotowuję materiały i prezentację projektu.</small></p>
+      <a class="showcase-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619" decoding="async"></figure>
+  </article>
+
   <article class="showcase-project showcase-project-lingua">
     <div class="showcase-copy">
       <span class="showcase-type">Aplikacja mobilna</span>
@@ -67,18 +79,6 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Wizualizacja Finance Manager z pulpitem finansowym, budżetem miesięcznym i celem oszczędnościowym" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
-  </article>
-
-  <article class="showcase-project showcase-project-smoke-free">
-    <div class="showcase-copy">
-      <span class="showcase-type">Strona mobilna</span>
-      <h2>Dzisiaj <span>nie palę</span></h2>
-      <p class="showcase-lead">Prosta metoda jak rzucić palenie</p>
-      <p>Mobilna strona z materiałami motywującymi, które pomagają wytrwać bez papierosa w słabszej chwili.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Przygotowuję materiały i prezentację projektu.</small></p>
-      <a class="showcase-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619" decoding="async"></figure>
   </article>
 
   <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">

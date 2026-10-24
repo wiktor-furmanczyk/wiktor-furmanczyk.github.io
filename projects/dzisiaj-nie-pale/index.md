@@ -12,6 +12,7 @@ body_class: project-body smoke-free-project
     <h1 id="project-title">Dzisiaj <span class="text-gradient">nie palę</span></h1>
     <p class="product-lead">Prosta metoda jak rzucić palenie</p>
     <p>Przygotowuję mobilną stronę z materiałami, po które będzie można sięgnąć w słabszej chwili. Krótkie treści mają pomagać utrzymać motywację i wytrwać bez papierosa, dzień po dniu.</p>
+    <p class="smoke-free-status"><strong>Trwają prace nad stroną.</strong> Dopracowuję projekt i jego prezentację. Zapraszam ponownie wkrótce.</p>
     <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Wróć do projektów <span aria-hidden="true">→</span></a>
   </div>
   <figure class="smoke-free-hero-visual">
