@@ -24,7 +24,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <p class="showcase-status"><span aria-hidden="true"></span><strong>W fazie testów</strong><small>Poprawki analizy filmów są gotowe. Testuję teraz pełny przebieg pracy.</small></p>
       <a class="showcase-link" href="{{ '/projects/youtube-hunter/' | relative_url }}">Zobacz, jak działa <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1672" height="941" fetchpriority="high" decoding="async"><figcaption>Wizualizacja interfejsu aplikacji</figcaption></figure>
+    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1448" height="1086" fetchpriority="high" decoding="async"><figcaption>Wizualizacja interfejsu aplikacji</figcaption></figure>
   </article>
 
   <article class="showcase-project showcase-project-writing">

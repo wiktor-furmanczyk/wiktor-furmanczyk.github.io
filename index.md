@@ -60,7 +60,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   <div class="project-carousel" data-project-carousel>
     <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="karuzela" aria-label="Moje projekty" tabindex="0">
     <article class="project-card project-card-featured project-card-hunter">
-      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" loading="lazy" width="1672" height="941"></div>
+      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" loading="lazy" width="1448" height="1086"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">W fazie testów</span></div>
         <h3>YouTube Hunter</h3>

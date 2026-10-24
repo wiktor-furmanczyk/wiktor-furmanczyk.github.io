@@ -61,7 +61,7 @@ image_alt: VeltoWeb logo on a dark blue background
   <div class="project-carousel" data-project-carousel>
     <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="carousel" aria-label="My projects" tabindex="0">
     <article class="project-card project-card-featured project-card-hunter">
-      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" loading="lazy" width="1672" height="941"></div>
+      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" loading="lazy" width="1448" height="1086"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">In testing</span></div>
         <h3>YouTube Hunter</h3>
