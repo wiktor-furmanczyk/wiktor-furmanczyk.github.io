@@ -24,7 +24,7 @@ image_alt: VeltoWeb portfolio presenting AI Writing Assistant
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="AI Writing Assistant concept for editing, rewriting, and translating messages" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}?v=20261024" alt="AI Writing Assistant concept for editing, rewriting, and translating messages" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 

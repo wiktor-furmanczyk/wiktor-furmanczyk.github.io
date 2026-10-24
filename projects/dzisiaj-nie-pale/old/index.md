@@ -16,7 +16,7 @@ body_class: project-body smoke-free-project
     <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Wróć do projektów <span aria-hidden="true">→</span></a>
   </div>
   <figure class="smoke-free-hero-visual">
-    <img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}?v=20261024" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" width="1672" height="941" fetchpriority="high" decoding="async">
     <figcaption>Wizualizacja projektu strony mobilnej.</figcaption>
   </figure>
 </section>
