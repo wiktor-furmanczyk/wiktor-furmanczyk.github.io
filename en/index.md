@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wiktor Furmańczyk
+title: Portfolio
 description: Wiktor Furmańczyk. Technical e-commerce experience, problem solving, data analysis, automation, and independent VeltoWeb projects.
 permalink: /en/
 lang: en-US

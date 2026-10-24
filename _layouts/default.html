@@ -33,7 +33,7 @@
       {% assign back_to_top_label = 'Wróć na górę strony' %}
       {% assign og_locale = 'pl_PL' %}
     {% endif %}
-    <title>{{ page_title | escape }}{% if page.title and page.title != site.title %} · VeltoWeb{% endif %}</title>
+    <title>{{ page_title | escape }}{% if page.title and page.title != site.title and page.body_class != 'home-page' %} · VeltoWeb{% endif %}</title>
     <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
     <meta name="author" content="{{ site.author | escape }}">
     <meta property="og:locale" content="{{ og_locale }}">
