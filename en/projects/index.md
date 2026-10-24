@@ -25,7 +25,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <p class="showcase-status"><span aria-hidden="true"></span><strong>In testing</strong><small>Video analysis fixes are complete. I am testing the full workflow.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1448" height="1086" fetchpriority="high" decoding="async"><figcaption>Illustration of the app interface</figcaption></figure>
+    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1448" height="1086" fetchpriority="high" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-writing">

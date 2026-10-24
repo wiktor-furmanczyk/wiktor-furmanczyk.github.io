@@ -21,7 +21,7 @@ image_alt: VeltoWeb logo on a dark blue background
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-workstation-crown.png' | relative_url }}" alt="Neon developer desk with three screens, a microphone, and a chair" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation-crown.png' | relative_url }}" alt="Neon desk setup with a crown on the main monitor, a microphone, and a chair" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 

@@ -885,7 +885,6 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-project .product-actions { margin-top: 42px; }
 .hunter-hero-visual { display: grid; align-items: center; margin: 0; }
 .hunter-hero-image { display: block; width: 100%; height: auto; filter: drop-shadow(0 20px 28px rgba(0, 0, 0, .3)); }
-.hunter-showcase-art figcaption { color: #8da9c0; font-size: .7rem; text-align: center; }
 .hunter-content { display: grid; min-width: 0; gap: clamp(44px, 4.5vw, 56px); padding-bottom: 48px; }
 .hunter-content > * { min-width: 0; }
 .hunter-project .project-process { padding-block: 0; }
@@ -901,7 +900,6 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-showcase-art { display: grid; align-content: center; justify-items: center; gap: 15px; padding: 32px 30px; }
 .hunter-showcase-art img { position: relative; width: 100%; height: auto; inset: auto; object-fit: contain; -webkit-mask-image: none; mask-image: none; }
 .hunter-showcase-art .hunter-preview { position: relative; z-index: 1; max-width: 620px; transform: rotate(2deg); }
-.hunter-showcase-art figcaption { position: relative; z-index: 1; }
 .showcase-project-writing .showcase-art img, .showcase-art-smoke-free img { width: 100%; height: 100%; inset: 0; object-fit: contain; -webkit-mask-image: none; mask-image: none; }
 .hunter-demo-video { display: block; width: 100%; max-width: 760px; height: auto; justify-self: center; aspect-ratio: 16 / 9; background: #020a16; border: 1px solid rgba(74, 185, 229, .58); border-radius: 14px; box-shadow: 0 22px 42px rgba(0, 0, 0, .35); }
 
@@ -947,6 +945,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .change-list p { font-size: .88rem; }
 }
 
+.home-page .hero-art { align-self: stretch; min-height: 0; }
 .home-page .hero-art img { width: auto; max-width: 100%; max-height: 560px; filter: none; transform: none; }
 .home-page .roadmap-banner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .home-page .roadmap-banner-art { width: min(620px, 100%); justify-self: end; }

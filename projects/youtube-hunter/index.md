@@ -55,10 +55,9 @@ image_alt: Logo VeltoWeb na granatowym tle
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem i zakres</strong><small>Zrobione</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Działający obieg pracy</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">03</span><strong>Profile tematyczne</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">04</span><strong>Osobne obszary pracy</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">05</span><strong>Poprawki analizy filmów</strong><small>Zrobione</small></li>
-      <li class="milestone--current"><span class="milestone-number">06</span><strong>Testy pełnego przebiegu pracy</strong><small>W trakcie</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>Profile tematyczne i osobne obszary pracy</strong><small>Zrobione</small></li>
+      <li class="milestone--done"><span class="milestone-number">04</span><strong>Poprawki analizy filmów</strong><small>Zrobione</small></li>
+      <li class="milestone--current"><span class="milestone-number">05</span><strong>Testy pełnego przebiegu pracy</strong><small>W trakcie</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-hunter' | relative_url }}">Zobacz plan na roadmapie <span aria-hidden="true">→</span></a>
   </section>

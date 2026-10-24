@@ -56,10 +56,9 @@ image_alt: VeltoWeb logo on a dark blue background
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and scope</strong><small>Done</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>Working workflow</strong><small>Done</small></li>
-      <li class="milestone--done"><span class="milestone-number">03</span><strong>Topic profiles</strong><small>Done</small></li>
-      <li class="milestone--done"><span class="milestone-number">04</span><strong>Separate work areas</strong><small>Done</small></li>
-      <li class="milestone--done"><span class="milestone-number">05</span><strong>Video analysis fixes</strong><small>Done</small></li>
-      <li class="milestone--current"><span class="milestone-number">06</span><strong>Complete workflow testing</strong><small>In progress</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>Topic profiles and separate work areas</strong><small>Done</small></li>
+      <li class="milestone--done"><span class="milestone-number">04</span><strong>Video analysis fixes</strong><small>Done</small></li>
+      <li class="milestone--current"><span class="milestone-number">05</span><strong>Complete workflow testing</strong><small>In progress</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-hunter' | relative_url }}">See the roadmap plan <span aria-hidden="true">→</span></a>
   </section>
