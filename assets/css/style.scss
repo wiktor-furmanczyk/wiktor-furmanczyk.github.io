@@ -880,7 +880,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .product-hero .product-tags { margin-top: 23px; }
 .hunter-project .product-actions { margin-top: 42px; }
 .hunter-hero-visual { display: grid; align-items: center; margin: 0; }
-.hunter-hero-image { display: block; width: 100%; height: auto; filter: drop-shadow(0 20px 28px rgba(0, 0, 0, .3)); transform: scale(1.1); }
+.hunter-hero-image { display: block; width: 100%; height: auto; filter: drop-shadow(0 20px 28px rgba(0, 0, 0, .3)); }
 .hunter-showcase-art figcaption { color: #8da9c0; font-size: .7rem; text-align: center; }
 .hunter-content { display: grid; min-width: 0; gap: clamp(44px, 4.5vw, 56px); padding-bottom: 48px; }
 .hunter-content > * { min-width: 0; }
@@ -891,7 +891,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-project .project-process .process-steps small { grid-column: 2; }
 .hunter-process-note { margin: 16px 0 0; color: #9fb8cf; font-size: .8rem; line-height: 1.6; }
 .hunter-project .video-screen--pending .hunter-preview { height: 100%; aspect-ratio: auto; border: 0; border-radius: 0; box-shadow: none; filter: blur(2px) brightness(.5); transform: scale(1.02); }
-.project-card-hunter .project-card-image { object-position: 45% top; }
+.project-card-hunter .project-card-image { object-position: center top; }
 .project-card-writing .project-card-image, .project-card-smoke-free .project-card-image { object-fit: contain; object-position: center top; }
 .hunter-card-visual .hunter-preview { transform: rotate(-3deg); -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 100%); }
 .hunter-showcase-art { display: grid; align-content: center; justify-items: center; gap: 15px; padding: 32px 30px; }
@@ -920,7 +920,6 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 @media (max-width: 1050px) {
   .hunter-hero { grid-template-columns: 1fr; }
   .hunter-hero-visual { width: min(100%, 800px); margin: 28px auto 0; }
-  .hunter-hero-image { transform: none; }
 }
 @media (max-width: 760px) {
   .hunter-hero { width: min(calc(100% - 28px), var(--content-width)); }

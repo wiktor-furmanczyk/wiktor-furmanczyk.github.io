@@ -23,7 +23,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
   </div>
   <figure class="hunter-hero-visual">
-    <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1586" height="992" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
