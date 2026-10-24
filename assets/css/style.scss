@@ -952,6 +952,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .home-page .roadmap-banner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .home-page .roadmap-banner-art { width: min(620px, 100%); justify-self: end; }
 
+@media (min-width: 1051px) and (max-width: 1270px) {
+  .home-page .hero-art img { width: 118%; }
+}
+
 @media (min-width: 761px) and (max-width: 1050px) {
   .home-page .hero { display: block; min-height: 0; }
   .home-page .hero-copy { max-width: 620px; }
