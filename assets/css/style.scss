@@ -535,9 +535,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .roadmap-hero h1 { max-width: 930px; font-size: clamp(3.1rem, 6.6vw, 5.5rem); }
 .roadmap-hero > p:not(.eyebrow) { max-width: 750px; margin: 16px 0 0; color: #b7c7da; font-size: 1rem; line-height: 1.58; }
 .roadmap-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
-.roadmap-tab { display: inline-flex; min-width: 180px; min-height: 48px; align-items: center; justify-content: center; gap: 10px; color: #c6d4e7; background: rgba(4,17,39,.72); border: 1px solid rgba(55,135,203,.34); border-radius: 10px; font-size: .82rem; font-weight: 700; text-decoration: none; }
+.roadmap-tab { display: inline-flex; min-width: 180px; min-height: 48px; align-items: center; justify-content: center; gap: 10px; padding: 0 21px; color: #f8fbff; background: rgba(3,17,40,.72); border: 1px solid rgba(41,152,231,.5); border-radius: 11px; font-size: .87rem; font-weight: 750; text-decoration: none; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease; }
+.roadmap-tab:hover { border-color: var(--cyan); box-shadow: 0 0 24px rgba(12,173,255,.17); transform: translateY(-2px); }
 .roadmap-tab svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
-.roadmap-tab.is-active { color: #fff; background: linear-gradient(180deg, rgba(13,119,217,.74), rgba(5,55,121,.74)); border-color: #18cfff; box-shadow: 0 0 24px rgba(0,161,255,.23), inset 0 1px rgba(255,255,255,.12); }
+.roadmap-tab.is-active { color: #fff; background: linear-gradient(180deg, #16cfff, #0875ef); border-color: #4adfff; box-shadow: inset 0 1px rgba(255,255,255,.28), 0 10px 28px rgba(0,119,255,.26); }
 .roadmap-layout { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 26px; padding: 28px 0 72px; }
 .roadmap-section[hidden], .roadmap-periods[hidden] { display: none; }
 .roadmap-layout.is-roadmap { grid-template-columns: minmax(0, 1fr); }
@@ -879,12 +880,12 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-preview-detail b, .hunter-preview-detail span { width: 92%; height: 3px; background: #9bcce3; border-radius: 2px; }
 .hunter-preview-detail span { width: 70%; background: #5a91b5; }
 .hunter-preview-detail small { width: 45%; height: 7px; background: #31c5d7; border-radius: 3px; }
-.hunter-hero { width: min(calc(100% - 48px), 1360px); grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); align-items: stretch; gap: clamp(20px, 3vw, 42px); }
+.hunter-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: stretch; gap: clamp(20px, 3vw, 42px); }
 .hunter-project .product-copy h1 { font-size: clamp(3rem, 4.4vw, 4.3rem); }
 .product-hero .product-tags { margin-top: 23px; }
 .hunter-project .product-actions { margin-top: 42px; }
-.hunter-hero-visual { display: grid; align-items: center; margin: 0; }
-.hunter-hero-image { display: block; width: 100%; height: auto; filter: drop-shadow(0 20px 28px rgba(0, 0, 0, .3)); }
+.hunter-hero-visual { display: grid; min-height: 0; align-items: center; margin: 0; }
+.hunter-hero-image { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 20px 28px rgba(0, 0, 0, .3)); }
 .hunter-content { display: grid; min-width: 0; gap: clamp(44px, 4.5vw, 56px); padding-bottom: 48px; }
 .hunter-content > * { min-width: 0; }
 .hunter-project .project-process { padding-block: 0; }
@@ -945,16 +946,21 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .change-list p { font-size: .88rem; }
 }
 
-.home-page .hero-art { align-self: stretch; min-height: 0; }
-.home-page .hero-art img { width: auto; max-width: 100%; max-height: 560px; filter: none; transform: none; }
+.home-page .hero-art { align-self: stretch; min-height: 0; overflow: clip; }
+.home-page .hero-art img { flex: 0 0 auto; width: 108%; max-width: none; max-height: 560px; filter: none; transform: none; }
 .home-page .roadmap-banner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .home-page .roadmap-banner-art { width: min(620px, 100%); justify-self: end; }
 
 @media (max-width: 760px) {
   .home-page .hero-art { min-height: 0; margin-top: 20px; }
-  .home-page .hero-art img { max-height: 420px; }
+  .home-page .hero-art img { width: 100%; max-width: 100%; max-height: 420px; }
   .home-page .roadmap-banner { grid-template-columns: 1fr; }
   .home-page .roadmap-banner-art { display: block; width: min(560px, 100%); justify-self: center; margin-top: 4px; }
+  .home-page .blog-section { grid-template-areas: "heading" "details" "art" "cta"; }
+  .project-footer-link { margin-bottom: 32px; padding-top: 12px; }
+  .roadmap-layout { padding-bottom: 28px; }
+  .roadmap-project:last-child { padding-bottom: 8px; }
+  .projects-showcase { padding-bottom: 32px; }
 }
 
 @media (max-width: 480px) {
