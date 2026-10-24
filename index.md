@@ -20,7 +20,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-workstation-crown.png' | relative_url }}" alt="Neonowe stanowisko pracy z koroną na monitorze, mikrofonem i fotelem" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation-rgb.png' | relative_url }}" alt="Neonowe stanowisko pracy z koroną na monitorze, mikrofonem i fotelem" width="1536" height="1024" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
