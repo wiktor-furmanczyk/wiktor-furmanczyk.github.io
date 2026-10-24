@@ -23,7 +23,7 @@ image_alt: Portfolio VeltoWeb prezentujące projekt AI Writing Assistant
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/images/writing-assistant-demo.svg' | relative_url }}" alt="Przykładowy interfejs AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" width="1448" height="1086" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 

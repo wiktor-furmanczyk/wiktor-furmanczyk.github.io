@@ -896,7 +896,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-process-note { margin: 16px 0 0; color: #9fb8cf; font-size: .8rem; line-height: 1.6; }
 .hunter-project .video-screen--pending .hunter-preview { height: 100%; aspect-ratio: auto; border: 0; border-radius: 0; box-shadow: none; filter: blur(2px) brightness(.5); transform: scale(1.02); }
 .project-card-hunter .project-card-image { object-position: center top; }
-.project-card-writing .project-card-image, .project-card-smoke-free .project-card-image { object-fit: contain; object-position: center top; }
+.project-card-writing .project-card-image, .project-card-smoke-free .project-card-image { object-fit: cover; object-position: center top; }
 .hunter-card-visual .hunter-preview { transform: rotate(-3deg); -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 100%); }
 .hunter-showcase-art { display: grid; align-content: center; justify-items: center; gap: 15px; padding: 32px 30px; }
 .hunter-showcase-art img { position: relative; width: 100%; height: auto; inset: auto; object-fit: contain; -webkit-mask-image: none; mask-image: none; }
@@ -918,7 +918,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .smoke-free-copy > p.smoke-free-status { max-width: 570px; margin: 20px 0 0; padding: 14px 16px; color: #c4d6e8; background: rgba(7, 33, 67, .72); border: 1px solid rgba(73, 164, 232, .4); border-radius: 12px; }
 .smoke-free-status strong { display: block; margin-bottom: 4px; color: #f5f9ff; }
 .smoke-free-hero-visual { display: grid; justify-items: center; gap: 10px; margin: 0; }
-.smoke-free-hero-visual img { display: block; width: auto; max-width: 100%; max-height: min(72vh, 650px); object-fit: contain; }
+.smoke-free-hero-visual img { display: block; width: 100%; height: auto; object-fit: contain; }
 .smoke-free-hero-visual figcaption { color: #8da9c0; font-size: .7rem; text-align: center; }
 
 @media (max-width: 1050px) {

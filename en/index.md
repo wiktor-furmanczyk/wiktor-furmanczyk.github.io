@@ -73,7 +73,7 @@ image_alt: VeltoWeb logo on a dark blue background
 
     <article class="project-card project-card-writing">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="971" height="1620">
+        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
@@ -85,7 +85,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </article>
 
     <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="971" height="1619"></div>
+      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/box.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="1086" height="1448"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">Site in progress</span></div>
         <h3>Dzisiaj nie palę</h3>

@@ -37,7 +37,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="971" height="1620" decoding="async">
+      <img src="{{ '/assets/projects/writing-assistant-android/list.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 
@@ -50,7 +50,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Strona w przygotowaniu</strong><small>Przygotowuję materiały i prezentację projektu.</small></p>
       <a class="showcase-link" href="{{ '/projects/dzisiaj-nie-pale/' | relative_url }}">Poznaj pomysł <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619" decoding="async"></figure>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="1448" height="1086" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-lingua">

@@ -72,7 +72,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
 
     <article class="project-card project-card-writing">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="971" height="1620">
+        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-muted">Strona w przygotowaniu</span></div>
@@ -84,7 +84,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     </article>
 
     <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/hero.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="971" height="1619"></div>
+      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/box.png' | relative_url }}" alt="Wizualizacja mobilnej strony Dzisiaj nie palę z materiałami motywującymi" loading="lazy" width="1086" height="1448"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">Strona w przygotowaniu</span></div>
         <h3>Dzisiaj nie palę</h3>
