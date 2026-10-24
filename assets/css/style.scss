@@ -946,9 +946,9 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .change-list p { font-size: .88rem; }
 }
 
-.home-page .hero-art { align-self: stretch; min-height: 0; overflow: clip; }
+.home-page .hero-art { align-self: stretch; min-height: 0; overflow: visible; }
 .home-page .hero-art::before { display: none; }
-.home-page .hero-art img { flex: 0 0 auto; width: 122%; max-width: none; max-height: 560px; filter: none; transform: none; }
+.home-page .hero-art img { flex: 0 0 auto; width: 125%; max-width: none; max-height: 560px; filter: none; transform: none; -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 100%); }
 .home-page .roadmap-banner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .home-page .roadmap-banner-art { width: min(620px, 100%); justify-self: end; }
 
@@ -956,12 +956,12 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
   .home-page .hero { display: block; min-height: 0; }
   .home-page .hero-copy { max-width: 620px; }
   .home-page .hero-art { min-height: 0; margin-top: 24px; }
-  .home-page .hero-art img { width: min(720px, 110%); max-width: none; max-height: none; }
+  .home-page .hero-art img { width: min(720px, 100%); max-width: none; max-height: none; }
 }
 
 @media (max-width: 760px) {
   .home-page .hero-art { min-height: 0; margin-top: 20px; }
-  .home-page .hero-art img { width: 110%; max-width: none; max-height: 420px; }
+  .home-page .hero-art img { width: 100%; max-width: none; max-height: 420px; }
   .home-page .roadmap-banner { grid-template-columns: 1fr; }
   .home-page .roadmap-banner-art { display: block; width: min(560px, 100%); justify-self: center; margin-top: 4px; }
   .home-page .blog-section { grid-template-areas: "heading" "details" "art" "cta"; }
