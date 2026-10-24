@@ -879,7 +879,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .hunter-preview-detail b, .hunter-preview-detail span { width: 92%; height: 3px; background: #9bcce3; border-radius: 2px; }
 .hunter-preview-detail span { width: 70%; background: #5a91b5; }
 .hunter-preview-detail small { width: 45%; height: 7px; background: #31c5d7; border-radius: 3px; }
-.hunter-hero { width: min(calc(100% - 48px), 1360px); grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); align-items: center; gap: clamp(20px, 3vw, 42px); }
+.hunter-hero { width: min(calc(100% - 48px), 1360px); grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); align-items: stretch; gap: clamp(20px, 3vw, 42px); }
 .hunter-project .product-copy h1 { font-size: clamp(3rem, 4.4vw, 4.3rem); }
 .product-hero .product-tags { margin-top: 23px; }
 .hunter-project .product-actions { margin-top: 42px; }
