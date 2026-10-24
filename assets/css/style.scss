@@ -539,6 +539,10 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 .roadmap-tab svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
 .roadmap-tab.is-active { color: #fff; background: linear-gradient(180deg, rgba(13,119,217,.74), rgba(5,55,121,.74)); border-color: #18cfff; box-shadow: 0 0 24px rgba(0,161,255,.23), inset 0 1px rgba(255,255,255,.12); }
 .roadmap-layout { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 26px; padding: 28px 0 72px; }
+.roadmap-section[hidden], .roadmap-periods[hidden] { display: none; }
+.roadmap-layout.is-roadmap { grid-template-columns: minmax(0, 1fr); }
+.roadmap-layout.is-roadmap .roadmap-main { border-left: 0; padding-left: 0; }
+.roadmap-layout.is-changelog .changelog-section { margin-top: 0; }
 .roadmap-periods { position: sticky; top: 86px; align-self: start; display: grid; gap: 0; padding: 7px 0 0; }
 .roadmap-periods strong { margin-bottom: 8px; color: #dce8f6; font-size: .84rem; }
 .roadmap-periods a, .roadmap-periods span { position: relative; min-height: 38px; padding-left: 26px; color: #9eb0c7; font-size: .77rem; line-height: 38px; text-decoration: none; }

@@ -13,8 +13,8 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
   <h1>Plany, postępy i <span class="text-gradient">zmiany</span></h1>
   <p>Tutaj znajdziesz roadmapę moich projektów oraz historię najważniejszych zmian. Regularnie aktualizuję tę stronę, aby pokazać, nad czym pracuję i jak projekty się rozwijają.</p>
   <nav class="roadmap-tabs" aria-label="Sekcje strony">
-    <a class="roadmap-tab is-active" href="#roadmap" aria-current="location"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Roadmap</a>
-    <a class="roadmap-tab" href="#changelog"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 7v5l3 2m6-2a9 9 0 1 1-9-9 9 9 0 0 1 9 9Z"/></svg>Changelog</a>
+    <a class="roadmap-tab is-active" href="#roadmap" aria-current="location" aria-controls="roadmap"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Roadmap</a>
+    <a class="roadmap-tab" href="#changelog" aria-controls="changelog"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 7v5l3 2m6-2a9 9 0 1 1-9-9 9 9 0 0 1 9 9Z"/></svg>Changelog</a>
   </nav>
 </header>
 

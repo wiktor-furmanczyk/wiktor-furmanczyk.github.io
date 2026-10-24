@@ -108,10 +108,19 @@
       let backToTopVisible = false;
       const backToTop = document.querySelector('.back-to-top');
       const roadmapTabs = [...document.querySelectorAll('.roadmap-tab')];
+      const roadmapLayout = document.querySelector('.roadmap-layout');
       function updateRoadmapTabs() {
-        if (!roadmapTabs.length) return;
+        if (!roadmapTabs.length || !roadmapLayout) return;
         const hash = window.location.hash;
         const changelogActive = hash === '#changelog' || hash.startsWith('#zmiany-') || hash.startsWith('#changes-');
+        const roadmapSection = document.getElementById('roadmap');
+        const changelogSection = document.getElementById('changelog');
+        const changelogPeriods = roadmapLayout.querySelector('.roadmap-periods');
+        roadmapSection.hidden = changelogActive;
+        changelogSection.hidden = !changelogActive;
+        changelogPeriods.hidden = !changelogActive;
+        roadmapLayout.classList.toggle('is-roadmap', !changelogActive);
+        roadmapLayout.classList.toggle('is-changelog', changelogActive);
         roadmapTabs.forEach((tab) => {
           const active = changelogActive ? tab.hash === '#changelog' : tab.hash === '#roadmap';
           tab.classList.toggle('is-active', active);

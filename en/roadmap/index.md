@@ -14,8 +14,8 @@ image_alt: VeltoWeb project roadmap and changelog
   <h1>Plans, progress, and <span class="text-gradient">updates</span></h1>
   <p>Explore the roadmap for my projects and a history of their most important updates. I keep this page current to show what I am building and how each project is evolving.</p>
   <nav class="roadmap-tabs" aria-label="Page sections">
-    <a class="roadmap-tab is-active" href="#roadmap" aria-current="location"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Roadmap</a>
-    <a class="roadmap-tab" href="#changelog"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 7v5l3 2m6-2a9 9 0 1 1-9-9 9 9 0 0 1 9 9Z"/></svg>Changelog</a>
+    <a class="roadmap-tab is-active" href="#roadmap" aria-current="location" aria-controls="roadmap"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Roadmap</a>
+    <a class="roadmap-tab" href="#changelog" aria-controls="changelog"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 7v5l3 2m6-2a9 9 0 1 1-9-9 9 9 0 0 1 9 9Z"/></svg>Changelog</a>
   </nav>
 </header>
 
