@@ -20,7 +20,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-devices.webp' | relative_url }}" srcset="{{ '/assets/images/hero-devices-724.webp' | relative_url }} 724w, {{ '/assets/images/hero-devices.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Laptop z portfolio VeltoWeb oraz telefon z aplikacją LinguaPilot" width="1448" height="1086" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation.png' | relative_url }}" alt="Neonowe stanowisko pracy z ekranami, mikrofonem i laptopem VeltoWeb" width="1209" height="1300" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -140,7 +140,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     </div>
   </div>
   <figure class="roadmap-banner-art">
-    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" srcset="{{ '/assets/images/roadmap-changelog-card-724.webp' | relative_url }} 724w, {{ '/assets/images/roadmap-changelog-card.webp' | relative_url }} 1448w" sizes="(max-width: 760px) calc(100vw - 28px), 410px" alt="Neonowy panel roadmapy projektów LinguaPilot, AI Writing Assistant i systemu finansowego" width="1448" height="1086" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/roadmap-dashboard.png' | relative_url }}" alt="Neonowa ilustracja pięciu etapów rozwoju projektu: pomysł, planowanie, tworzenie, testowanie i wdrożenie" width="1664" height="945" loading="lazy" decoding="async">
   </figure>
 </section>
 

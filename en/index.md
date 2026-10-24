@@ -21,7 +21,7 @@ image_alt: VeltoWeb logo on a dark blue background
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-devices.webp' | relative_url }}" srcset="{{ '/assets/images/hero-devices-724.webp' | relative_url }} 724w, {{ '/assets/images/hero-devices.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="VeltoWeb portfolio on a laptop and the LinguaPilot app on a phone" width="1448" height="1086" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation.png' | relative_url }}" alt="Neon workstation with monitors, a microphone, and a VeltoWeb laptop" width="1209" height="1300" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -141,7 +141,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
   </div>
   <figure class="roadmap-banner-art">
-    <img src="{{ '/assets/images/roadmap-changelog-card.webp' | relative_url }}" srcset="{{ '/assets/images/roadmap-changelog-card-724.webp' | relative_url }} 724w, {{ '/assets/images/roadmap-changelog-card.webp' | relative_url }} 1448w" sizes="(max-width: 760px) calc(100vw - 28px), 410px" alt="Neon project roadmap dashboard for LinguaPilot, AI Writing Assistant, and a finance system" width="1448" height="1086" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/roadmap-dashboard.png' | relative_url }}" alt="Neon illustration of five project stages: idea, planning, creation, testing, and launch" width="1664" height="945" loading="lazy" decoding="async">
   </figure>
 </section>
 
