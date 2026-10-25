@@ -42,7 +42,7 @@ image_alt: VeltoWeb logo on a dark blue background
     </div>
   </div>
   <div class="about-grid">
-    <p>At home.pl, IdoSell, and Base.com, I solved technical issues affecting online stores and integrations. I worked with developers, technical teams, and clients. Today at Dealavo, I work on implementations and product data analysis. I also have commercial experience collecting data. I have run my own online sales and ventures, so I understand both user needs and system constraints.</p>
+    <p>At home.pl, IdoSell, and Base.com, I solved technical issues affecting online stores and integrations. I worked with developers, technical teams, and clients. Today at Dealavo, I work on implementations and product data analysis. I have run my own online sales and ventures, so I understand both user needs and system constraints.</p>
     <p>I can take a problem from diagnosis to improvement: streamline a process, analyze data, propose an automation, or build a useful tool. I am not a professional software developer. I create my own apps with AI assistance, basing decisions about how they work on my understanding of systems and real user needs.</p>
   </div>
   <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Explore my experience on LinkedIn <span aria-hidden="true">↗</span></a>

@@ -41,7 +41,7 @@ image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje 
     </div>
   </div>
   <div class="about-grid">
-    <p>W home.pl, IdoSell i Base.com rozwiązywałem problemy techniczne sklepów i integracji. Współpracowałem z programistami, działami technicznymi i klientami. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Mam też komercyjne doświadczenie w pozyskiwaniu danych. Prowadziłem własną sprzedaż i przedsięwzięcia online, więc rozumiem zarówno potrzeby użytkowników, jak i ograniczenia systemów.</p>
+    <p>W home.pl, IdoSell i Base.com rozwiązywałem problemy techniczne sklepów i integracji. Współpracowałem z programistami, działami technicznymi i klientami. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem własną sprzedaż i przedsięwzięcia online, więc rozumiem zarówno potrzeby użytkowników, jak i ograniczenia systemów.</p>
     <p>Potrafię przejąć problem od rozpoznania przyczyny po wdrożenie usprawnienia: uporządkować proces, przeanalizować dane, zaproponować automatyzację lub stworzyć potrzebne narzędzie. Nie jestem zawodowym programistą. Własne aplikacje tworzę z pomocą AI, opierając decyzje o ich działaniu na znajomości systemów i realnych potrzeb użytkowników.</p>
   </div>
   <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Poznaj moje doświadczenie na LinkedIn <span aria-hidden="true">↗</span></a>

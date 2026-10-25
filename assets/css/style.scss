@@ -948,6 +948,7 @@ body.header-hidden .site-header:not(:focus-within) { transform: translate3d(0, -
 
 .home-page .hero-art { align-self: stretch; min-height: 0; overflow: visible; }
 .home-page .hero-art::before { display: none; }
+.home-page #hero-title .text-gradient { padding-right: .08em; }
 .home-page .hero-art img { flex: 0 0 auto; width: 125%; max-width: none; max-height: 560px; filter: none; transform: none; -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 100%); }
 .home-page .roadmap-banner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .home-page .roadmap-banner-art { width: min(620px, 100%); justify-self: end; }
