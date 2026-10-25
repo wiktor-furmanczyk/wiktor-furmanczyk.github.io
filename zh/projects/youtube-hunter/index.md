@@ -44,9 +44,9 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
 
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy"><p class="section-kicker">操作演示</p><h2 id="video-title">搜索、查看、判断</h2><p>观看应用工作流程的录屏。</p></div>
-    <video class="hunter-demo-video" controls preload="metadata" playsinline aria-label="YouTube Hunter 操作演示">
-      <source src="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}" type="video/mp4">
-      你的浏览器无法播放此视频。<a href="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}">下载录屏</a>。
+    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="zh-CN" aria-label="YouTube Hunter 操作演示">
+      <source src="{{ '/assets/projects/youtube-hunter/demo-zh.mp4' | relative_url }}" type="video/mp4">
+      你的浏览器无法播放此视频。<a href="{{ '/assets/projects/youtube-hunter/demo-zh.mp4' | relative_url }}">下载录屏</a>。
     </video>
   </section>
 
