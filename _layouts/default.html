@@ -9,23 +9,29 @@
     {% assign social_image = page.image | default: '/assets/images/veltoweb-og.jpg' %}
     {% assign current_lang = page.lang | default: site.lang %}
     {% if current_lang == 'en-US' %}
-      {% assign language_url = page.url | remove_first: '/en' %}
-      {% assign language_label = 'PL' %}
-      {% assign language_aria = 'Switch to Polish' %}
       {% assign home_url = '/en/' %}
       {% assign home_aria = 'VeltoWeb home page' %}
+      {% assign language_aria = 'Choose language' %}
       {% assign social_image_alt = 'VeltoWeb portfolio of Wiktor Furmańczyk' %}
       {% assign footer_description = 'I solve technical problems, analyze data, and improve processes.' %}
       {% assign linkedin_aria = 'LinkedIn profile of Wiktor Furmańczyk, opens in a new tab' %}
       {% assign skip_label = 'Skip to content' %}
       {% assign back_to_top_label = 'Back to top' %}
       {% assign og_locale = 'en_US' %}
+    {% elsif current_lang == 'zh-CN' %}
+      {% assign home_url = '/zh/' %}
+      {% assign home_aria = 'VeltoWeb 首页' %}
+      {% assign language_aria = '选择语言' %}
+      {% assign social_image_alt = 'Wiktor Furmańczyk 的 VeltoWeb 作品集' %}
+      {% assign footer_description = '我解决技术问题、分析数据并改进工作流程。' %}
+      {% assign linkedin_aria = 'Wiktor Furmańczyk 的 LinkedIn 个人资料，在新标签页中打开' %}
+      {% assign skip_label = '跳转到正文' %}
+      {% assign back_to_top_label = '返回顶部' %}
+      {% assign og_locale = 'zh_CN' %}
     {% else %}
-      {% assign language_url = page.url | prepend: '/en' %}
-      {% assign language_label = 'EN' %}
-      {% assign language_aria = 'Zmień język na angielski' %}
       {% assign home_url = '/' %}
       {% assign home_aria = 'VeltoWeb, strona główna' %}
+      {% assign language_aria = 'Wybierz język' %}
       {% assign social_image_alt = 'Portfolio VeltoWeb Wiktora Furmańczyka' %}
       {% assign footer_description = 'Rozwiązuję problemy techniczne, analizuję dane i usprawniam procesy.' %}
       {% assign linkedin_aria = 'Profil Wiktora Furmańczyka na LinkedIn, otwiera się w nowej karcie' %}
@@ -50,16 +56,19 @@
     <meta name="twitter:image" content="{{ social_image | absolute_url }}">
     <meta name="twitter:image:alt" content="{{ page.image_alt | default: social_image_alt | escape }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
-    {% unless page.url == '/404.html' or page.url == '/en/404.html' %}
-      {% if current_lang == 'en-US' %}
-        {% assign polish_url = page.url | remove_first: '/en' %}
-        {% assign english_url = page.url %}
-      {% else %}
-        {% assign polish_url = page.url %}
-        {% assign english_url = page.url | prepend: '/en' %}
-      {% endif %}
+    {% if current_lang == 'en-US' %}
+      {% assign polish_url = page.url | remove_first: '/en' %}
+    {% elsif current_lang == 'zh-CN' %}
+      {% assign polish_url = page.url | remove_first: '/zh' %}
+    {% else %}
+      {% assign polish_url = page.url %}
+    {% endif %}
+    {% assign english_url = polish_url | prepend: '/en' %}
+    {% assign chinese_url = polish_url | prepend: '/zh' %}
+    {% unless polish_url == '/404.html' %}
       <link rel="alternate" hreflang="pl" href="{{ polish_url | absolute_url }}">
       <link rel="alternate" hreflang="en" href="{{ english_url | absolute_url }}">
+      <link rel="alternate" hreflang="zh-Hans" href="{{ chinese_url | absolute_url }}">
       <link rel="alternate" hreflang="x-default" href="{{ polish_url | absolute_url }}">
     {% endunless %}
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v=2" sizes="any">
@@ -80,7 +89,11 @@
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href="{{ home_url | relative_url }}" aria-label="{{ home_aria }}">Velto<span>Web</span></a>
-        <a class="language-switch" href="{{ language_url | relative_url }}" lang="{% if current_lang == 'en-US' %}pl{% else %}en{% endif %}" hreflang="{% if current_lang == 'en-US' %}pl{% else %}en{% endif %}" aria-label="{{ language_aria }}">{{ language_label }}</a>
+        <nav class="language-switcher" aria-label="{{ language_aria }}">
+          <a class="language-switch{% if current_lang == 'pl-PL' %} is-active{% endif %}" href="{{ polish_url | relative_url }}" lang="pl" hreflang="pl"{% if current_lang == 'pl-PL' %} aria-current="page"{% endif %}>PL</a>
+          <a class="language-switch{% if current_lang == 'en-US' %} is-active{% endif %}" href="{{ english_url | relative_url }}" lang="en" hreflang="en"{% if current_lang == 'en-US' %} aria-current="page"{% endif %}>EN</a>
+          <a class="language-switch{% if current_lang == 'zh-CN' %} is-active{% endif %}" href="{{ chinese_url | relative_url }}" lang="zh-CN" hreflang="zh-Hans"{% if current_lang == 'zh-CN' %} aria-current="page"{% endif %}>中文</a>
+        </nav>
       </div>
     </header>
 
@@ -185,7 +198,7 @@
       updateRoadmapTabs();
       updateHeaderVisibility();
     </script>
-    {% if page.url == '/' or page.url == '/en/' %}
+    {% if page.url == '/' or page.url == '/en/' or page.url == '/zh/' %}
       <script src="{{ '/assets/js/project-carousel.js' | relative_url }}" defer></script>
     {% endif %}
   </body>

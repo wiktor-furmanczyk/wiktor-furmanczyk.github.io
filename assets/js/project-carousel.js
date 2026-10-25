@@ -7,7 +7,8 @@
   const previous = carousel.querySelector('[data-carousel-prev]');
   const next = carousel.querySelector('[data-carousel-next]');
   const count = carousel.querySelector('.project-carousel-count');
-  const separator = document.documentElement.lang.startsWith('pl') ? ' z ' : ' of ';
+  const language = document.documentElement.lang;
+  const separator = language.startsWith('pl') ? ' z ' : language.startsWith('zh') ? '，共 ' : ' of ';
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let frame = 0;
   let mouseOver = false;
@@ -28,7 +29,9 @@
     const first = Math.min(last, Math.max(0, Math.round(track.scrollLeft / step)));
     previous.disabled = first === 0;
     next.disabled = first === last;
-    count.textContent = `${first + 1}–${Math.min(cards.length, first + visible)}${separator}${cards.length}`;
+    count.textContent = language.startsWith('zh')
+      ? `第 ${first + 1}–${Math.min(cards.length, first + visible)} 个${separator}${cards.length} 个`
+      : `${first + 1}–${Math.min(cards.length, first + visible)}${separator}${cards.length}`;
   }
 
   function move(direction, automatic = false) {

@@ -9,6 +9,8 @@ body_class: project-body
   <div class="project-footer-link">
     {% if page.lang == 'en-US' %}
       <a href="{{ '/en/projects/' | relative_url }}">← Back to all projects</a>
+    {% elsif page.lang == 'zh-CN' %}
+      <a href="{{ '/zh/projects/' | relative_url }}">← 返回所有项目</a>
     {% else %}
       <a href="{{ '/projects/' | relative_url }}">← Wróć do wszystkich projektów</a>
     {% endif %}
