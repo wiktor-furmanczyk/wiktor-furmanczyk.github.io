@@ -5,8 +5,8 @@ description: Wiktor Furmańczyk. Technical e-commerce experience, problem solvin
 permalink: /en/
 lang: en-US
 body_class: home-page
-image: /assets/images/veltoweb-og.jpg
-image_alt: VeltoWeb logo on a dark blue background
+image: /assets/images/veltoweb-social-2026-10-26.png
+image_alt: VeltoWeb - solving technical problems and improving processes
 ---
 
 <section class="hero section-shell" aria-labelledby="hero-title">

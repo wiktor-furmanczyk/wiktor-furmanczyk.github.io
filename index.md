@@ -4,8 +4,8 @@ title: Portfolio
 description: Wiktor Furmańczyk. Doświadczenie techniczne w e-commerce, rozwiązywanie problemów, analiza danych, automatyzacje i własne projekty VeltoWeb.
 permalink: /
 body_class: home-page
-image: /assets/images/portfolio-og.png
-image_alt: VeltoWeb - praktyczne rozwiązania cyfrowe, aplikacje, automatyzacje i AI
+image: /assets/images/veltoweb-social-2026-10-26.png
+image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
 ---
 
 <section class="hero section-shell" aria-labelledby="hero-title">

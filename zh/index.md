@@ -5,8 +5,8 @@ description: Wiktor Furmańczyk 的作品集：电子商务技术经验、问题
 permalink: /zh/
 lang: zh-CN
 body_class: home-page
-image: /assets/images/veltoweb-og.jpg
-image_alt: 深蓝色背景上的 VeltoWeb 标志
+image: /assets/images/veltoweb-social-2026-10-26.png
+image_alt: VeltoWeb：解决技术问题并改进工作流程
 ---
 
 <section class="hero section-shell" aria-labelledby="hero-title">
