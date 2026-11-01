@@ -76,7 +76,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
         <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">个人使用中</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">测试中</span></div>
         <h3>AI Writing Assistant</h3>
         <p>在不同应用中通过键盘听写、修改和翻译消息。</p>
         <div class="tag-row" aria-label="项目类型"><span>移动应用</span></div>

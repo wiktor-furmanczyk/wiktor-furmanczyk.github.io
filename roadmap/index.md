@@ -51,8 +51,10 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <div><h3><a href="{{ '/projects/writing-assistant-android/' | relative_url }}">AI Writing Assistant</a></h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
           <ul class="roadmap-tasks">
-            <li class="is-progress"><span>Przebudowa interfejsu</span><em>W trakcie</em></li>
-            <li class="is-progress"><span>Więcej trybów poprawy</span><em>W trakcie</em></li>
+            <li class="is-complete"><span>Poprawa interfejsu, 31 października 2026</span><em>Zrobione</em></li>
+            <li class="is-complete"><span>Tryby poprawy tekstu</span><em>Zrobione</em></li>
+            <li class="is-complete"><span>Odsłuch przygotowanych nagrań</span><em>Zrobione</em></li>
+            <li class="is-progress"><span>Testowanie nowych funkcji</span><em>W trakcie</em></li>
             <li class="is-progress"><span>Więcej języków</span><em>W trakcie</em></li>
             <li class="is-progress"><span>Lepsza kompatybilność z aplikacjami</span><em>W trakcie</em></li>
           </ul>
@@ -94,7 +96,8 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
       <div id="zmiany-pazdziernik" class="change-month">
         <h3>Październik 2026</h3>
         <ol class="change-list">
-          <li class="is-current"><time datetime="2026-10-24">24.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Testy</span></div><h4>Poprawki analizy filmów zakończone</h4><p>Usunąłem błędy analizy filmów. Obecnie testuję pełny przebieg pracy w aplikacji.</p></div></li>
+          <li class="is-current"><time datetime="2026-10-31">31.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Testy</span></div><h4>Nowy interfejs i funkcje gotowe do testów</h4><p>Wdrożyłem poprawę interfejsu, tryby poprawy tekstu i odsłuch przygotowanych nagrań. Obecnie testuję nowe funkcje.</p></div></li>
+          <li><time datetime="2026-10-24">24.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Testy</span></div><h4>Poprawki analizy filmów zakończone</h4><p>Usunąłem błędy analizy filmów. Obecnie testuję pełny przebieg pracy w aplikacji.</p></div></li>
           <li><time datetime="2026-10-16">16.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Pierwsza wersja</span></div><h4>Pierwsza działająca wersja aplikacji</h4><p>Powstała działająca wersja YouTube Hunter. Zaplanowałem testy, poprawki analizy filmów i sprawdzenie innych sposobów zbierania danych z YouTube.</p></div></li>
           <li><time datetime="2026-10-06">06.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Optymalizacja</span></div><h4>Optymalizacja kosztów generowania fiszek</h4><p>Wprowadzono mechanizm ograniczający ponowne generowanie tych samych materiałów, co zmniejsza zużycie tokenów i obniża koszty.</p></div></li>
           <li><time datetime="2026-10-04">04.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Security</span></div><h4>Zabezpieczenie kluczy API</h4><p>Dodano dodatkowe zabezpieczenia przechowywania kluczy API oraz poprawiono sposób ich obsługi w aplikacji.</p></div></li>

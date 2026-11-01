@@ -72,15 +72,16 @@ image_alt: 展示 AI Writing Assistant 手机应用的示意图
   <section id="status" class="project-progress" aria-labelledby="status-title">
     <div class="project-progress-intro"><p class="section-kicker">项目进展</p><h2 id="status-title">项目<span class="text-gradient">开发阶段</span></h2><p>了解已完成的工作、当前进展以及下一步计划。</p></div>
     <div class="project-status-bar">
-      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">当前阶段</p><h3>供个人使用</h3></div></div>
-      <p>我自己正在使用这款应用，并持续改进界面、增加模式、检查与其他应用的兼容性。</p>
+      <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">当前阶段</p><h3>测试中</h3></div></div>
+      <p>2026 年 10 月 31 日，我完成了界面改进、新增文本修改模式及已准备录音的播放功能。目前正在测试这些功能。</p>
     </div>
     <ol class="milestone-list">
       <li class="milestone--done"><span class="milestone-number">01</span><strong>问题与构想</strong><small>已完成</small></li>
       <li class="milestone--done"><span class="milestone-number">02</span><strong>个人使用版本</strong><small>已完成</small></li>
-      <li class="milestone--current"><span class="milestone-number">03</span><strong>重新设计界面</strong><small>进行中</small></li>
-      <li class="milestone--current"><span class="milestone-number">04</span><strong>更多模式与语言</strong><small>进行中</small></li>
-      <li class="milestone--current"><span class="milestone-number">05</span><strong>与其他应用的兼容性</strong><small>进行中</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>改进界面</strong><small>已完成</small></li>
+      <li class="milestone--done"><span class="milestone-number">04</span><strong>文本修改模式</strong><small>已完成</small></li>
+      <li class="milestone--done"><span class="milestone-number">05</span><strong>播放已准备的录音</strong><small>已完成</small></li>
+      <li class="milestone--current"><span class="milestone-number">06</span><strong>测试新功能</strong><small>进行中</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/zh/roadmap/#roadmap-writing' | relative_url }}">查看项目路线图 <span aria-hidden="true">→</span></a>
   </section>

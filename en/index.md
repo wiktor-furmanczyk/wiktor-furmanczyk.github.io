@@ -76,7 +76,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
         <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">In testing</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
         <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>

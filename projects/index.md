@@ -33,7 +33,7 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Lepsze wiadomości w kilka sekund</p>
       <p>Dyktuj wiadomości, poprawiaj rozpoznany tekst i tłumacz go przy klawiaturze w różnych aplikacjach.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Do użytku własnego</strong><small>Aplikacja działa. Przygotowuję nagranie prezentujące jej działanie.</small></p>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>W fazie testów</strong><small>Interfejs, tryby poprawy i odsłuch nagrań są gotowe. Testuję nowe funkcje.</small></p>
       <a class="showcase-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Poznaj projekt <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
