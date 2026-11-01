@@ -34,8 +34,8 @@ image_alt: VeltoWeb logo on a dark blue background
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">Clearer messages in less time</p>
       <p>Dictate messages, fix speech recognition errors, and translate text at the keyboard in different apps.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Page under construction</strong><small>I am refining the project and its presentation.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>For personal use</strong><small>The app works. I am preparing a video walkthrough.</small></p>
+      <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Explore the project <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/writing-assistant-android/list.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1448" height="1086" decoding="async">

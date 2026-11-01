@@ -34,8 +34,8 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
       <h2>AI Writing <span>Assistant</span></h2>
       <p class="showcase-lead">更快写出清晰的消息</p>
       <p>在不同应用中通过键盘听写消息、修正语音识别错误并翻译文字。</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>页面正在建设中</strong><small>我正在完善项目及其介绍。</small></p>
-      <a class="showcase-link" href="{{ '/zh/projects/writing-assistant-android/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
+      <p class="showcase-status"><span aria-hidden="true"></span><strong>个人使用中</strong><small>应用已可使用，演示视频正在准备中。</small></p>
+      <a class="showcase-link" href="{{ '/zh/projects/writing-assistant-android/' | relative_url }}">了解项目 <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
       <img src="{{ '/assets/projects/writing-assistant-android/list.png' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1448" height="1086" decoding="async">

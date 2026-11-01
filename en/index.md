@@ -76,11 +76,11 @@ image_alt: VeltoWeb - solving technical problems and improving processes
         <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">For personal use</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dictate, edit, and translate messages from the keyboard in different apps.</p>
         <div class="tag-row" aria-label="Project type"><span>Mobile app</span></div>
-        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Explore the project <span aria-hidden="true">→</span></a>
       </div>
     </article>
 

@@ -75,11 +75,11 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
         <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="Wizualizacja AI Writing Assistant na telefonie z narzędziami do poprawiania i tłumaczenia tekstu" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">Strona w przygotowaniu</span></div>
+        <div class="card-meta-row"><span class="status-badge status-violet">Do użytku własnego</span></div>
         <h3>AI Writing Assistant</h3>
         <p>Dyktuj, poprawiaj i tłumacz wiadomości przy klawiaturze w różnych aplikacjach.</p>
         <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja mobilna</span></div>
-        <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
+        <a class="card-link" href="{{ '/projects/writing-assistant-android/' | relative_url }}">Poznaj projekt <span aria-hidden="true">→</span></a>
       </div>
     </article>
 

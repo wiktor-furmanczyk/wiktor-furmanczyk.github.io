@@ -34,15 +34,15 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
       </div>
 
       <div class="roadmap-projects">
-        <article id="roadmap-lingua" class="roadmap-project">
+        <article id="roadmap-hunter" class="roadmap-project">
           <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/lingua-pilot/' | relative_url }}">Lingua<span>Pilot</span></a></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
+            <div><h3><a href="{{ '/projects/youtube-hunter/' | relative_url }}">YouTube <span>Hunter</span></a></h3><p>Aplikacja porządkująca wyszukiwanie filmów i zapisywanie własnych ocen.</p><div class="roadmap-tags"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div></div>
           </div>
           <ul class="roadmap-tasks">
-            <li class="is-progress"><span>Optymalizacja kosztów generowania fiszek dla wielu użytkowników</span><em>W trakcie</em></li>
-            <li class="is-progress"><span>Baza poznanych fiszek, która zapobiega powtórzeniom, oraz krótsze polecenia dla AI obniżające koszt generowania nowych materiałów</span><em>W trakcie</em></li>
-            <li><span>System nagród i ranking</span><em>Planowane</em></li>
-            <li><span>Nowe tryby nauki</span><em>Planowane</em></li>
+            <li class="is-complete"><span>Pierwsza działająca wersja, 16 października 2026</span><em>Zrobione</em></li>
+            <li class="is-complete"><span>Usuwanie błędów związanych z analizą filmów</span><em>Zrobione</em></li>
+            <li class="is-progress"><span>Testowanie pełnego przebiegu pracy</span><em>W trakcie</em></li>
+            <li><span>Sprawdzenie alternatywnych metod zbierania danych z YouTube</span><em>Planowane</em></li>
           </ul>
         </article>
 
@@ -58,6 +58,18 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
           </ul>
         </article>
 
+        <article id="roadmap-lingua" class="roadmap-project">
+          <div class="roadmap-project-intro">
+            <div><h3><a href="{{ '/projects/lingua-pilot/' | relative_url }}">Lingua<span>Pilot</span></a></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
+          </div>
+          <ul class="roadmap-tasks">
+            <li class="is-progress"><span>Optymalizacja kosztów generowania fiszek dla wielu użytkowników</span><em>W trakcie</em></li>
+            <li class="is-progress"><span>Baza poznanych fiszek, która zapobiega powtórzeniom, oraz krótsze polecenia dla AI obniżające koszt generowania nowych materiałów</span><em>W trakcie</em></li>
+            <li><span>System nagród i ranking</span><em>Planowane</em></li>
+            <li><span>Nowe tryby nauki</span><em>Planowane</em></li>
+          </ul>
+        </article>
+
         <article id="roadmap-finance" class="roadmap-project">
           <div class="roadmap-project-intro">
             <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance Manager</a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
@@ -68,17 +80,6 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <li><span>Projekt architektury systemu</span><em>Planowane</em></li>
             <li><span>Import transakcji</span><em>Planowane</em></li>
             <li><span>Automatyczna kategoryzacja</span><em>Planowane</em></li>
-          </ul>
-        </article>
-        <article id="roadmap-hunter" class="roadmap-project">
-          <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/youtube-hunter/' | relative_url }}">YouTube <span>Hunter</span></a></h3><p>Aplikacja porządkująca wyszukiwanie filmów i zapisywanie własnych ocen.</p><div class="roadmap-tags"><span>Aplikacja Windows</span><span>Wyszukiwanie</span><span>Organizacja pracy</span></div></div>
-          </div>
-          <ul class="roadmap-tasks">
-            <li class="is-complete"><span>Pierwsza działająca wersja, 16 października 2026</span><em>Zrobione</em></li>
-            <li class="is-complete"><span>Usuwanie błędów związanych z analizą filmów</span><em>Zrobione</em></li>
-            <li class="is-progress"><span>Testowanie pełnego przebiegu pracy</span><em>W trakcie</em></li>
-            <li><span>Sprawdzenie alternatywnych metod zbierania danych z YouTube</span><em>Planowane</em></li>
           </ul>
         </article>
       </div>
