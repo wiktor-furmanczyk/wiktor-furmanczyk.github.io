@@ -736,7 +736,22 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .about-section .section-heading { margin-bottom: 20px; }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(18px, 3vw, 42px); margin-bottom: 22px; }
 .about-grid p { margin: 0; color: #c4d5e8; font-size: 1rem; line-height: 1.7; }
-.about-section > .text-link { display: inline-flex; white-space: normal; }
+.about-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.about-actions .button { min-height: 52px; text-align: center; }
+
+.experience-section { scroll-margin-top: 88px; }
+.experience-section .section-heading { margin-bottom: 26px; }
+.experience-section .section-heading p:last-child { max-width: 760px; }
+.experience-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
+.experience-card { position: relative; min-width: 0; padding: 25px 27px 26px; background: linear-gradient(150deg, rgba(7, 31, 61, .9), rgba(3, 14, 33, .88)); border: 1px solid rgba(60, 158, 220, .34); border-radius: 16px; box-shadow: inset 0 1px rgba(255, 255, 255, .04); }
+.experience-card::before { position: absolute; top: 26px; left: 0; width: 3px; height: 38px; content: ''; background: linear-gradient(var(--cyan), var(--blue)); border-radius: 0 3px 3px 0; }
+.experience-period { display: block; margin-bottom: 13px; color: #70dfff; font-size: .73rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.experience-card h3 { max-width: 470px; color: #f2f8ff; font-size: clamp(1.08rem, 1.7vw, 1.28rem); line-height: 1.32; }
+.experience-card .experience-company { margin: 5px 0 13px; color: #8cbcff; font-size: .89rem; font-weight: 700; }
+.experience-card p:last-child { margin: 0; color: #bdcfe2; font-size: .93rem; line-height: 1.65; }
+.experience-card-secondary { background: linear-gradient(150deg, rgba(8, 25, 49, .75), rgba(3, 13, 29, .72)); border-color: var(--border-soft); }
+.experience-card-secondary::before { background: linear-gradient(#85b8d9, #507eaa); }
+.experience-source { max-width: 100%; margin-top: 22px; white-space: normal; }
 
 .finance-feature-list .problem-response-copy .problem-statement { color: #d7e6f5; }
 .finance-feature-list .problem-response-copy .solution-statement { padding-left: 10px; color: #a9d6cb; border-left: 2px solid rgba(78,220,193,.7); }
@@ -809,6 +824,7 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 
 @media (max-width: 760px) {
   .about-grid, .video-section { grid-template-columns: 1fr; }
+  .experience-list { grid-template-columns: 1fr; }
   .video-section { gap: 20px; }
   .video-section::before { top: auto; right: 0; bottom: 3%; width: 100%; height: 55%; }
   .video-copy { position: static; max-width: 600px; padding-top: 0; }
@@ -824,6 +840,9 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 @media (max-width: 480px) {
   .about-section { padding: 24px 19px; }
   .about-grid p { font-size: 1rem; }
+  .about-actions { display: grid; }
+  .about-actions .button { width: 100%; }
+  .experience-card { padding: 22px 21px; }
   .video-section { gap: 18px; }
   .video-copy > p:last-child { font-size: .94rem; }
   .project-progress .project-status-bar { padding: 23px 20px; }

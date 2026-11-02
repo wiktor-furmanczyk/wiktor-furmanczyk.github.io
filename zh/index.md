@@ -45,7 +45,28 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
     <p>我曾在 home.pl、IdoSell 和 Base.com 处理网店与系统集成方面的技术问题，并与开发人员、技术团队及客户协作。如今我在 Dealavo 从事实施和产品数据分析工作。我也经营过自己的线上销售业务，因此理解用户需求和系统限制。</p>
     <p>我能够从诊断问题着手，推进到实际改进：梳理流程、分析数据、提出自动化方案，或开发实用工具。我并非职业软件开发者；开发个人应用时会借助 AI，同时依据对系统和真实用户需求的理解，决定应用如何工作。</p>
   </div>
-  <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">在 LinkedIn 了解我的经历 <span aria-hidden="true">↗</span></a>
+  <div class="about-actions">
+    <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">通过 LinkedIn 联系我 <span aria-hidden="true">↗</span></a>
+    <a class="button button-secondary" href="#experience">我的工作经历 <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<section id="experience" class="experience-section section-shell" aria-labelledby="experience-title">
+  <div class="section-heading"><div>
+    <p class="section-kicker">职业经历</p>
+    <h2 id="experience-title">技术支持、问题诊断与<span class="text-gradient">实施</span></h2>
+    <p>我与客户和技术团队合作，处理网店、系统集成及数据问题。每段经历都让我能够更深入地分析问题并推动解决。</p>
+  </div></div>
+  <ol class="experience-list">
+    <li class="experience-card"><span class="experience-period">2026 年 6 月至今</span><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p><p>配置价格监测平台的客户账户，分析商品数据源及 XML/JSON 数据，并排查数据获取和商品匹配问题。</p></li>
+    <li class="experience-card"><span class="experience-period">2025 年 7 月至 2026 年 4 月</span><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p><p>通过日志及 API 请求和响应诊断电商集成问题，检查数据同步，并将复杂问题提交给开发团队。</p></li>
+    <li class="experience-card"><span class="experience-period">2023 年 1 月至 2025 年 6 月</span><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p><p>协助客户配置网店、订单、支付、库存及系统集成；排查数据和配置错误，并与专业团队协作。</p></li>
+    <li class="experience-card"><span class="experience-period">2019 年 10 月至 2022 年 12 月</span><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p><p>帮助客户解决网站、网店、主机、域名、DNS 和邮件问题，并配置服务、SSL 及基础集成。</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">2021 年 10 月至 2022 年 8 月</span><h3>自主线上销售</h3><p class="experience-company">Allegro &amp; Shoper</p><p>经营线上销售，配置网店、支付、配送及订单流程，也因此了解卖家的实际需求。</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">2024 年 8 月至 11 月</span><h3>Magento 实习</h3><p class="experience-company">E-commerce</p><p>使用 HTML 和 CSS 修改网店模板的视觉细节，测试变更并与技术团队合作。</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">2024 年 12 月至今</span><h3>自主工具与自动化项目</h3><p class="experience-company">VeltoWeb</p><p>设计辅助日常工作的应用、扩展程序与工作流程，并借助 AI 工具创建和改进它们。</p></li>
+  </ol>
+  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">

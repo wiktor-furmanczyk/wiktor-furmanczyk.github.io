@@ -45,7 +45,28 @@ image_alt: VeltoWeb - solving technical problems and improving processes
     <p>At home.pl, IdoSell, and Base.com, I solved technical issues affecting online stores and integrations. I worked with developers, technical teams, and clients. Today at Dealavo, I work on implementations and product data analysis. I have run my own online sales and ventures, so I understand both user needs and system constraints.</p>
     <p>I can take a problem from diagnosis to improvement: streamline a process, analyze data, propose an automation, or build a useful tool. I am not a professional software developer. I create my own apps with AI assistance, basing decisions about how they work on my understanding of systems and real user needs.</p>
   </div>
-  <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Explore my experience on LinkedIn <span aria-hidden="true">↗</span></a>
+  <div class="about-actions">
+    <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn <span aria-hidden="true">↗</span></a>
+    <a class="button button-secondary" href="#experience">My experience <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<section id="experience" class="experience-section section-shell" aria-labelledby="experience-title">
+  <div class="section-heading"><div>
+    <p class="section-kicker">Career path</p>
+    <h2 id="experience-title">Support, diagnosis, <span class="text-gradient">implementation</span></h2>
+    <p>I have worked with clients and technical teams on issues involving online stores, integrations, and data. Each role expanded the range of problems I can investigate and help resolve.</p>
+  </div></div>
+  <ol class="experience-list">
+    <li class="experience-card"><span class="experience-period">Jun 2026 – present</span><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p><p>I configure customer accounts for a price monitoring platform, analyze product feeds and XML/JSON data, and investigate data collection and offer matching issues.</p></li>
+    <li class="experience-card"><span class="experience-period">Jul 2025 – Apr 2026</span><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p><p>I diagnosed e-commerce integrations using logs and API requests and responses, checked data synchronization, and escalated complex cases to developers.</p></li>
+    <li class="experience-card"><span class="experience-period">Jan 2023 – Jun 2025</span><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p><p>I supported customers with store, order, payment, inventory, and integration settings. I traced data and configuration errors and worked with specialist teams.</p></li>
+    <li class="experience-card"><span class="experience-period">Oct 2019 – Dec 2022</span><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p><p>I helped customers resolve issues with websites, stores, hosting, domains, DNS, and email. I configured services, SSL, and basic integrations.</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">Oct 2021 – Aug 2022</span><h3>Independent online sales</h3><p class="experience-company">Allegro &amp; Shoper</p><p>I ran online sales and configured a store, payments, delivery, and order processes. This gave me a seller's perspective.</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">Aug – Nov 2024</span><h3>Magento internship</h3><p class="experience-company">E-commerce</p><p>I made visual changes to store templates with HTML and CSS, tested them, and collaborated with the technical team.</p></li>
+    <li class="experience-card experience-card-secondary"><span class="experience-period">Dec 2024 – present</span><h3>Independent tools and automation</h3><p class="experience-company">VeltoWeb</p><p>I design apps, extensions, and workflows for everyday work, using AI tools to create and develop them.</p></li>
+  </ol>
+  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Full experience on LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">

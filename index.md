@@ -44,7 +44,65 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
     <p>W home.pl, IdoSell i Base.com rozwiązywałem problemy techniczne sklepów i integracji. Współpracowałem z programistami, działami technicznymi i klientami. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem własną sprzedaż i przedsięwzięcia online, więc rozumiem zarówno potrzeby użytkowników, jak i ograniczenia systemów.</p>
     <p>Potrafię przejąć problem od rozpoznania przyczyny po wdrożenie usprawnienia: uporządkować proces, przeanalizować dane, zaproponować automatyzację lub stworzyć potrzebne narzędzie. Nie jestem zawodowym programistą. Własne aplikacje tworzę z pomocą AI, opierając decyzje o ich działaniu na znajomości systemów i realnych potrzeb użytkowników.</p>
   </div>
-  <a class="text-link" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Poznaj moje doświadczenie na LinkedIn <span aria-hidden="true">↗</span></a>
+  <div class="about-actions">
+    <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Skontaktuj się na LinkedIn <span aria-hidden="true">↗</span></a>
+    <a class="button button-secondary" href="#doswiadczenie">Moje doświadczenie <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<section id="doswiadczenie" class="experience-section section-shell" aria-labelledby="experience-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Ścieżka zawodowa</p>
+      <h2 id="experience-title">Wsparcie, diagnoza, <span class="text-gradient">wdrożenia</span></h2>
+      <p>Pracowałem z klientami i zespołami technicznymi nad problemami sklepów, integracji i danych. Każda rola poszerzała zakres spraw, które potrafię samodzielnie rozpoznać i doprowadzić do rozwiązania.</p>
+    </div>
+  </div>
+  <ol class="experience-list">
+    <li class="experience-card">
+      <span class="experience-period">cze 2026 – obecnie</span>
+      <h3>Technical Implementation Specialist</h3>
+      <p class="experience-company">Dealavo</p>
+      <p>Konfiguruję konta klientów platformy do monitorowania cen. Analizuję feedy produktowe i dane XML/JSON, diagnozuję problemy z pobieraniem danych oraz matchingiem ofert.</p>
+    </li>
+    <li class="experience-card">
+      <span class="experience-period">lip 2025 – kwi 2026</span>
+      <h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3>
+      <p class="experience-company">Base.com</p>
+      <p>Diagnozowałem integracje e-commerce przez analizę logów oraz żądań i odpowiedzi API. Weryfikowałem synchronizację danych i przekazywałem złożone przypadki zespołom developerskim.</p>
+    </li>
+    <li class="experience-card">
+      <span class="experience-period">sty 2023 – cze 2025</span>
+      <h3>Technical Support Specialist · IdoSell</h3>
+      <p class="experience-company">IAI</p>
+      <p>Wspierałem klientów platformy IdoSell w konfiguracji sklepów, zamówień, płatności, magazynu i integracji. Rozpoznawałem błędy danych i konfiguracji oraz współpracowałem z zespołami specjalistycznymi.</p>
+    </li>
+    <li class="experience-card">
+      <span class="experience-period">paź 2019 – gru 2022</span>
+      <h3>IT Support Specialist · E-commerce &amp; Hosting</h3>
+      <p class="experience-company">home.pl</p>
+      <p>Pomagałem klientom rozwiązywać problemy ze stronami, sklepami, hostingiem, domenami, DNS i pocztą. Konfigurowałem usługi, SSL i podstawowe integracje.</p>
+    </li>
+    <li class="experience-card experience-card-secondary">
+      <span class="experience-period">paź 2021 – sie 2022</span>
+      <h3>Własna sprzedaż internetowa</h3>
+      <p class="experience-company">Allegro &amp; Shoper</p>
+      <p>Prowadziłem sprzedaż, konfigurowałem sklep, płatności, dostawy i proces zamówień. Dzięki temu znam także perspektywę sprzedawcy.</p>
+    </li>
+    <li class="experience-card experience-card-secondary">
+      <span class="experience-period">sie – lis 2024</span>
+      <h3>Praktyka · Magento</h3>
+      <p class="experience-company">E-commerce</p>
+      <p>Wprowadzałem poprawki wizualne w szablonach sklepów przy użyciu HTML i CSS, testowałem zmiany i współpracowałem z zespołem technicznym.</p>
+    </li>
+    <li class="experience-card experience-card-secondary">
+      <span class="experience-period">gru 2024 – obecnie</span>
+      <h3>Własne narzędzia i automatyzacje</h3>
+      <p class="experience-company">VeltoWeb</p>
+      <p>Projektuję aplikacje, rozszerzenia i workflow wspierające codzienną pracę. Przy ich tworzeniu i rozwijaniu korzystam z narzędzi AI.</p>
+    </li>
+  </ol>
+  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projekty" class="projects-section section-shell" aria-labelledby="projects-title">
