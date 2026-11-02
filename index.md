@@ -39,7 +39,7 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
       <p class="section-kicker">Doświadczenie i sposób pracy</p>
       <h2 id="about-title">Praktyczne doświadczenie<br><span class="text-gradient">w e-commerce i integracjach</span></h2>
     </div>
-    <p>Od 2019 roku pracuję przy systemach e-commerce, integracjach i danych. Analizuję problemy, wdrażam rozwiązania i usprawniam procesy — od obsługi klientów po własne narzędzia tworzone z pomocą AI.</p>
+    <p>Od 2019 roku pracuję przy systemach e-commerce, integracjach i danych. Analizuję problemy, wdrażam rozwiązania i usprawniam procesy. Doświadczenie z obsługi klientów wykorzystuję także przy tworzeniu własnych narzędzi z pomocą AI.</p>
   </div>
   <div class="about-strengths" aria-label="Moje obszary doświadczenia">
     <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="14" cy="14" r="9"/><path d="m21 21 7 7"/></svg><h3>Analiza i diagnostyka</h3><p>Identyfikacja problemów, logi, dane i integracje.</p></div>
@@ -62,56 +62,57 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
     <ol class="experience-list">
       <li class="experience-card">
         <span class="experience-period">cze 2026 – obecnie</span>
-        <span class="experience-mark" aria-hidden="true">D</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/dealavo.webp' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
         <p class="experience-summary">Konfiguruję konta klientów platformy do monitorowania cen. Analizuję feedy produktowe i dane XML/JSON, diagnozuję problemy z pobieraniem danych oraz matchingiem ofert.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">lip 2025 – kwi 2026</span>
-        <span class="experience-mark" aria-hidden="true">B</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/base.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
         <p class="experience-summary">Diagnozowałem integracje e-commerce przez analizę logów oraz żądań i odpowiedzi API. Weryfikowałem synchronizację danych i przekazywałem złożone przypadki zespołom developerskim.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">sty 2023 – cze 2025</span>
-        <span class="experience-mark" aria-hidden="true">Ido</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/idosell.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
         <p class="experience-summary">Wspierałem klientów platformy IdoSell w konfiguracji sklepów, zamówień, płatności, magazynu i integracji. Rozpoznawałem błędy danych i konfiguracji oraz współpracowałem z zespołami specjalistycznymi.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">paź 2019 – gru 2022</span>
-        <span class="experience-mark" aria-hidden="true">hp</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/home.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
         <p class="experience-summary">Pomagałem klientom rozwiązywać problemy ze stronami, sklepami, hostingiem, domenami, DNS i pocztą. Konfigurowałem usługi, SSL i podstawowe integracje.</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">paź 2021 – sie 2022</span>
-        <span class="experience-mark" aria-hidden="true">a</span>
+        <span class="experience-mark experience-mark--pair" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/allegro.png' | relative_url }}" alt="" width="18" height="24" loading="lazy"><img src="{{ '/assets/images/experience-logos/shoper.png' | relative_url }}" alt="" width="18" height="24" loading="lazy"></span>
         <div class="experience-role"><h3>Własna sprzedaż internetowa</h3><p class="experience-company">Allegro &amp; Shoper</p></div>
         <p class="experience-summary">Prowadziłem sprzedaż, konfigurowałem sklep, płatności, dostawy i proces zamówień. Dzięki temu znam także perspektywę sprzedawcy.</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">sie – lis 2024</span>
-        <span class="experience-mark" aria-hidden="true">M</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/magento.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Praktyka · Magento</h3><p class="experience-company">E-commerce</p></div>
         <p class="experience-summary">Wprowadzałem poprawki wizualne w szablonach sklepów przy użyciu HTML i CSS, testowałem zmiany i współpracowałem z zespołem technicznym.</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">gru 2024 – obecnie</span>
-        <span class="experience-mark" aria-hidden="true">V</span>
+        <span class="experience-mark experience-mark--velto" aria-hidden="true"><img src="{{ '/assets/images/favicon.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Własne narzędzia i automatyzacje</h3><p class="experience-company">VeltoWeb</p></div>
         <p class="experience-summary">Projektuję aplikacje, rozszerzenia i workflow wspierające codzienną pracę. Przy ich tworzeniu i rozwijaniu korzystam z narzędzi AI.</p>
       </li>
     </ol>
-    <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
     </div>
     <aside class="experience-contact" aria-label="Skontaktuj się na LinkedIn">
       <span class="experience-contact-icon" aria-hidden="true">in</span>
+      <span class="experience-contact-label">Porozmawiajmy</span>
       <h3>Skontaktuj się na LinkedIn</h3>
-      <p>Szczegółowy przebieg doświadczenia i opis moich ról.</p>
+      <p>Porozmawiajmy o wsparciu technicznym, wdrożeniach i usprawnianiu procesów.</p>
       <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Otwórz profil <span aria-hidden="true">↗</span></a>
     </aside>
   </div>
+  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projekty" class="projects-section section-shell" aria-labelledby="projects-title">

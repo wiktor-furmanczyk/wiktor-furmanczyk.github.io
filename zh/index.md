@@ -61,56 +61,57 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
     <ol class="experience-list">
       <li class="experience-card">
         <span class="experience-period">2026 年 6 月至今</span>
-        <span class="experience-mark" aria-hidden="true">D</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/dealavo.webp' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
         <p class="experience-summary">配置价格监测平台的客户账户，分析商品数据源及 XML/JSON 数据，并排查数据获取和商品匹配问题。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2025 年 7 月至 2026 年 4 月</span>
-        <span class="experience-mark" aria-hidden="true">B</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/base.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
         <p class="experience-summary">通过日志及 API 请求和响应诊断电商集成问题，检查数据同步，并将复杂问题提交给开发团队。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2023 年 1 月至 2025 年 6 月</span>
-        <span class="experience-mark" aria-hidden="true">Ido</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/idosell.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
         <p class="experience-summary">协助客户配置网店、订单、支付、库存及系统集成；排查数据和配置错误，并与专业团队协作。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2019 年 10 月至 2022 年 12 月</span>
-        <span class="experience-mark" aria-hidden="true">hp</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/home.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
         <p class="experience-summary">帮助客户解决网站、网店、主机、域名、DNS 和邮件问题，并配置服务、SSL 及基础集成。</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">2021 年 10 月至 2022 年 8 月</span>
-        <span class="experience-mark" aria-hidden="true">a</span>
+        <span class="experience-mark experience-mark--pair" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/allegro.png' | relative_url }}" alt="" width="18" height="24" loading="lazy"><img src="{{ '/assets/images/experience-logos/shoper.png' | relative_url }}" alt="" width="18" height="24" loading="lazy"></span>
         <div class="experience-role"><h3>自主线上销售</h3><p class="experience-company">Allegro &amp; Shoper</p></div>
         <p class="experience-summary">经营线上销售，配置网店、支付、配送及订单流程，也因此了解卖家的实际需求。</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">2024 年 8 月至 11 月</span>
-        <span class="experience-mark" aria-hidden="true">M</span>
+        <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/magento.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>Magento 实习</h3><p class="experience-company">E-commerce</p></div>
         <p class="experience-summary">使用 HTML 和 CSS 修改网店模板的视觉细节，测试变更并与技术团队合作。</p>
       </li>
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">2024 年 12 月至今</span>
-        <span class="experience-mark" aria-hidden="true">V</span>
+        <span class="experience-mark experience-mark--velto" aria-hidden="true"><img src="{{ '/assets/images/favicon.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
         <div class="experience-role"><h3>自主工具与自动化项目</h3><p class="experience-company">VeltoWeb</p></div>
         <p class="experience-summary">设计辅助日常工作的应用、扩展程序与工作流程，并借助 AI 工具创建和改进它们。</p>
       </li>
     </ol>
-    <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
     </div>
     <aside class="experience-contact" aria-label="通过 LinkedIn 联系我">
       <span class="experience-contact-icon" aria-hidden="true">in</span>
+      <span class="experience-contact-label">联系与合作</span>
       <h3>通过 LinkedIn 联系我</h3>
-      <p>查看完整工作经历和岗位介绍。</p>
+      <p>欢迎交流技术支持、系统实施和流程改进。</p>
       <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">打开个人资料 <span aria-hidden="true">↗</span></a>
     </aside>
   </div>
+  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">
