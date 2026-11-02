@@ -866,6 +866,15 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
   .milestone-list small { margin-top: 7px; }
   .milestone-list li:last-child { padding-bottom: 0; }
 }
+@media (max-width: 600px) {
+  .experience-list { margin-left: 5px; padding-left: 19px; }
+  .experience-card { grid-template-columns: 40px minmax(0, 1fr); gap: 10px 12px; padding: 16px; }
+  .experience-card::before { left: -26px; }
+  .experience-period { grid-column: 1 / -1; justify-self: start; padding-inline: 12px; }
+  .experience-mark { grid-column: 1; }
+  .experience-role { grid-column: 2; }
+  .experience-summary { grid-column: 1 / -1; }
+}
 @media (max-width: 480px) {
   .about-section { padding-block: 12px; }
   .about-intro h2 { font-size: clamp(2rem, 9.2vw, 2.6rem); }
@@ -875,13 +884,6 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
   .about-strength p { font-size: .75rem; }
   .about-actions { display: grid; }
   .about-actions .button { width: 100%; }
-  .experience-list { margin-left: 5px; padding-left: 19px; }
-  .experience-card { grid-template-columns: 40px minmax(0, 1fr); gap: 10px 12px; padding: 16px; }
-  .experience-card::before { left: -26px; }
-  .experience-period { grid-column: 1 / -1; justify-self: start; padding-inline: 12px; }
-  .experience-mark { grid-column: 1; }
-  .experience-role { grid-column: 2; }
-  .experience-summary { grid-column: 1 / -1; }
   .video-section { gap: 18px; }
   .video-copy > p:last-child { font-size: .94rem; }
   .project-progress .project-status-bar { padding: 23px 20px; }
