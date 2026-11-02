@@ -59,14 +59,12 @@ image_alt: 展示 AI Writing Assistant 手机应用的示意图
     <div class="video-copy">
       <p class="section-kicker">操作演示</p>
       <h2 id="video-title">从听写到完整消息</h2>
-      <p>我正在准备听写、修改并返回对话的操作演示。</p>
+      <p>观看听写、修改文本并返回对话的操作演示。</p>
     </div>
-    <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
-      <div class="video-screen video-screen--pending">
-        <img src="{{ '/assets/images/writing-assistant-phone.svg' | relative_url }}" alt="不含个人数据的 AI Writing Assistant 示例界面" loading="lazy">
-        <span class="video-pending">演示视频即将发布</span>
-      </div>
-    </div>
+    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="zh-CN" poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="AI Writing Assistant 操作演示">
+      <source src="{{ '/assets/projects/writing-assistant-android/demo-zh.mp4' | relative_url }}" type="video/mp4">
+      你的浏览器无法播放此视频。<a href="{{ '/assets/projects/writing-assistant-android/demo-zh.mp4' | relative_url }}">下载录屏</a>。
+    </video>
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">

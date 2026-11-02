@@ -58,14 +58,12 @@ image_alt: Wizualizacja aplikacji AI Writing Assistant na telefonach
     <div class="video-copy">
       <p class="section-kicker">Prezentacja działania</p>
       <h2 id="video-title">Od dyktowania do gotowej wiadomości</h2>
-      <p>Przygotowuję nagranie pokazujące dyktowanie, poprawę tekstu i powrót do rozmowy.</p>
+      <p>Zobacz nagranie pokazujące dyktowanie, poprawę tekstu i powrót do rozmowy.</p>
     </div>
-    <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
-      <div class="video-screen video-screen--pending">
-        <img src="{{ '/assets/images/writing-assistant-phone.svg' | relative_url }}" alt="Przykładowy ekran AI Writing Assistant bez danych osobowych" loading="lazy">
-        <span class="video-pending">Wkrótce nagranie</span>
-      </div>
-    </div>
+    <video class="hunter-demo-video" controls preload="metadata" playsinline poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="Prezentacja działania AI Writing Assistant">
+      <source src="{{ '/assets/projects/writing-assistant-android/demo.mp4' | relative_url }}" type="video/mp4">
+      Twoja przeglądarka nie obsługuje odtwarzania wideo. <a href="{{ '/assets/projects/writing-assistant-android/demo.mp4' | relative_url }}">Pobierz nagranie</a>.
+    </video>
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">

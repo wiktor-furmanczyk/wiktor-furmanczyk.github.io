@@ -59,14 +59,12 @@ image_alt: AI Writing Assistant app visual on phones
     <div class="video-copy">
       <p class="section-kicker">Walkthrough</p>
       <h2 id="video-title">From dictation to a finished message</h2>
-      <p>I am preparing a walkthrough of dictation, correction, and returning to the conversation.</p>
+      <p>Watch the walkthrough of dictation, correction, and returning to the conversation.</p>
     </div>
-    <div class="video-device video-device--phone" data-video-slot="writing-assistant-android">
-      <div class="video-screen video-screen--pending">
-        <img src="{{ '/assets/images/writing-assistant-phone.svg' | relative_url }}" alt="Sample AI Writing Assistant screen without personal data" loading="lazy">
-        <span class="video-pending">Video coming soon</span>
-      </div>
-    </div>
+    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="en" poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="AI Writing Assistant walkthrough">
+      <source src="{{ '/assets/projects/writing-assistant-android/demo-en.mp4' | relative_url }}" type="video/mp4">
+      Your browser cannot play this video. <a href="{{ '/assets/projects/writing-assistant-android/demo-en.mp4' | relative_url }}">Download the recording</a>.
+    </video>
   </section>
 
   <section id="status" class="project-progress" aria-labelledby="status-title">
