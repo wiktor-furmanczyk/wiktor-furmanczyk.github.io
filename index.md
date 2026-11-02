@@ -34,26 +34,28 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
 </section>
 
 <section class="about-section section-shell" aria-labelledby="about-title">
-  <div class="section-heading">
+  <div class="about-intro">
     <div>
       <p class="section-kicker">Doświadczenie i sposób pracy</p>
-      <h2 id="about-title">Najpierw <span class="text-gradient">problem</span>, potem technologia</h2>
+      <h2 id="about-title">Najpierw problem,<br><span class="text-gradient">potem technologia</span></h2>
     </div>
+    <p>Od 2019 roku rozwiązuję problemy techniczne w e-commerce: od hostingu i konfiguracji sklepów po integracje API oraz dane produktowe. Łączę wsparcie klientów i wdrożenia z praktycznym tworzeniem narzędzi, które odpowiadają na realne potrzeby użytkowników.</p>
   </div>
-  <div class="about-grid">
-    <p>W home.pl, IdoSell i Base.com rozwiązywałem problemy techniczne sklepów i integracji. Współpracowałem z programistami, działami technicznymi i klientami. Dziś w Dealavo pracuję przy wdrożeniach i analizie danych produktowych. Prowadziłem własną sprzedaż i przedsięwzięcia online, więc rozumiem zarówno potrzeby użytkowników, jak i ograniczenia systemów.</p>
-    <p>Potrafię przejąć problem od rozpoznania przyczyny po wdrożenie usprawnienia: uporządkować proces, przeanalizować dane, zaproponować automatyzację lub stworzyć potrzebne narzędzie. Nie jestem zawodowym programistą. Własne aplikacje tworzę z pomocą AI, opierając decyzje o ich działaniu na znajomości systemów i realnych potrzeb użytkowników.</p>
+  <div class="about-strengths" aria-label="Moje obszary doświadczenia">
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="18" rx="3"/><path d="M11 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3M3 17h26M14 16v3h4v-3"/></svg><h3>Doświadczenie</h3><p>home.pl · IdoSell<br>Base.com · Dealavo</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="m16 3 13 7-13 7L3 10l13-7Zm-13 13 13 7 13-7M3 22l13 7 13-7"/></svg><h3>Analiza problemów</h3><p>Logi, dane i integracje.<br>Od objawu do przyczyny.</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M27 12a11 11 0 0 0-19-5L5 10m0-7v7h7M5 20a11 11 0 0 0 19 5l3-3m0 7v-7h-7"/></svg><h3>Usprawnienia</h3><p>Porządkowanie procesów<br>i praktyczne automatyzacje.</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 27V8a5 5 0 0 0-9-3 6 6 0 0 0-2 11 6 6 0 0 0 4 10c3 2 7 0 7-4m0 5V8a5 5 0 0 1 9-3 6 6 0 0 1 2 11 6 6 0 0 1-4 10c-3 2-7 0-7-4M9 11c2 0 3 1 3 3m11-3c-2 0-3 1-3 3M8 20c3 0 5 1 5 4m11-4c-3 0-5 1-5 4"/></svg><h3>AI w praktyce</h3><p>Własne narzędzia tworzone<br>z pomocą AI.</p></div>
   </div>
   <div class="about-actions">
     <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Skontaktuj się na LinkedIn <span aria-hidden="true">↗</span></a>
-    <a class="button button-secondary" href="#doswiadczenie">Moje doświadczenie <span aria-hidden="true">↓</span></a>
   </div>
 </section>
 
 <section id="doswiadczenie" class="experience-section section-shell" aria-labelledby="experience-title">
   <div class="section-heading">
     <div>
-      <p class="section-kicker">Ścieżka zawodowa</p>
+      <p class="section-kicker">Doświadczenie zawodowe</p>
       <h2 id="experience-title">Wsparcie, diagnoza, <span class="text-gradient">wdrożenia</span></h2>
       <p>Pracowałem z klientami i zespołami technicznymi nad problemami sklepów, integracji i danych. Każda rola poszerzała zakres spraw, które potrafię samodzielnie rozpoznać i doprowadzić do rozwiązania.</p>
     </div>
@@ -61,45 +63,45 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
   <ol class="experience-list">
     <li class="experience-card">
       <span class="experience-period">cze 2026 – obecnie</span>
-      <h3>Technical Implementation Specialist</h3>
-      <p class="experience-company">Dealavo</p>
-      <p>Konfiguruję konta klientów platformy do monitorowania cen. Analizuję feedy produktowe i dane XML/JSON, diagnozuję problemy z pobieraniem danych oraz matchingiem ofert.</p>
+      <span class="experience-mark" aria-hidden="true">D</span>
+      <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
+      <p class="experience-summary">Konfiguruję konta klientów platformy do monitorowania cen. Analizuję feedy produktowe i dane XML/JSON, diagnozuję problemy z pobieraniem danych oraz matchingiem ofert.</p>
     </li>
     <li class="experience-card">
       <span class="experience-period">lip 2025 – kwi 2026</span>
-      <h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3>
-      <p class="experience-company">Base.com</p>
-      <p>Diagnozowałem integracje e-commerce przez analizę logów oraz żądań i odpowiedzi API. Weryfikowałem synchronizację danych i przekazywałem złożone przypadki zespołom developerskim.</p>
+      <span class="experience-mark" aria-hidden="true">B</span>
+      <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
+      <p class="experience-summary">Diagnozowałem integracje e-commerce przez analizę logów oraz żądań i odpowiedzi API. Weryfikowałem synchronizację danych i przekazywałem złożone przypadki zespołom developerskim.</p>
     </li>
     <li class="experience-card">
       <span class="experience-period">sty 2023 – cze 2025</span>
-      <h3>Technical Support Specialist · IdoSell</h3>
-      <p class="experience-company">IAI</p>
-      <p>Wspierałem klientów platformy IdoSell w konfiguracji sklepów, zamówień, płatności, magazynu i integracji. Rozpoznawałem błędy danych i konfiguracji oraz współpracowałem z zespołami specjalistycznymi.</p>
+      <span class="experience-mark" aria-hidden="true">Ido</span>
+      <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
+      <p class="experience-summary">Wspierałem klientów platformy IdoSell w konfiguracji sklepów, zamówień, płatności, magazynu i integracji. Rozpoznawałem błędy danych i konfiguracji oraz współpracowałem z zespołami specjalistycznymi.</p>
     </li>
     <li class="experience-card">
       <span class="experience-period">paź 2019 – gru 2022</span>
-      <h3>IT Support Specialist · E-commerce &amp; Hosting</h3>
-      <p class="experience-company">home.pl</p>
-      <p>Pomagałem klientom rozwiązywać problemy ze stronami, sklepami, hostingiem, domenami, DNS i pocztą. Konfigurowałem usługi, SSL i podstawowe integracje.</p>
+      <span class="experience-mark" aria-hidden="true">hp</span>
+      <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
+      <p class="experience-summary">Pomagałem klientom rozwiązywać problemy ze stronami, sklepami, hostingiem, domenami, DNS i pocztą. Konfigurowałem usługi, SSL i podstawowe integracje.</p>
     </li>
     <li class="experience-card experience-card-secondary">
       <span class="experience-period">paź 2021 – sie 2022</span>
-      <h3>Własna sprzedaż internetowa</h3>
-      <p class="experience-company">Allegro &amp; Shoper</p>
-      <p>Prowadziłem sprzedaż, konfigurowałem sklep, płatności, dostawy i proces zamówień. Dzięki temu znam także perspektywę sprzedawcy.</p>
+      <span class="experience-mark" aria-hidden="true">a</span>
+      <div class="experience-role"><h3>Własna sprzedaż internetowa</h3><p class="experience-company">Allegro &amp; Shoper</p></div>
+      <p class="experience-summary">Prowadziłem sprzedaż, konfigurowałem sklep, płatności, dostawy i proces zamówień. Dzięki temu znam także perspektywę sprzedawcy.</p>
     </li>
     <li class="experience-card experience-card-secondary">
       <span class="experience-period">sie – lis 2024</span>
-      <h3>Praktyka · Magento</h3>
-      <p class="experience-company">E-commerce</p>
-      <p>Wprowadzałem poprawki wizualne w szablonach sklepów przy użyciu HTML i CSS, testowałem zmiany i współpracowałem z zespołem technicznym.</p>
+      <span class="experience-mark" aria-hidden="true">M</span>
+      <div class="experience-role"><h3>Praktyka · Magento</h3><p class="experience-company">E-commerce</p></div>
+      <p class="experience-summary">Wprowadzałem poprawki wizualne w szablonach sklepów przy użyciu HTML i CSS, testowałem zmiany i współpracowałem z zespołem technicznym.</p>
     </li>
     <li class="experience-card experience-card-secondary">
       <span class="experience-period">gru 2024 – obecnie</span>
-      <h3>Własne narzędzia i automatyzacje</h3>
-      <p class="experience-company">VeltoWeb</p>
-      <p>Projektuję aplikacje, rozszerzenia i workflow wspierające codzienną pracę. Przy ich tworzeniu i rozwijaniu korzystam z narzędzi AI.</p>
+      <span class="experience-mark" aria-hidden="true">V</span>
+      <div class="experience-role"><h3>Własne narzędzia i automatyzacje</h3><p class="experience-company">VeltoWeb</p></div>
+      <p class="experience-summary">Projektuję aplikacje, rozszerzenia i workflow wspierające codzienną pracę. Przy ich tworzeniu i rozwijaniu korzystam z narzędzi AI.</p>
     </li>
   </ol>
   <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
@@ -109,14 +111,14 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
   <div class="section-heading">
     <div>
       <p class="section-kicker">Realne projekty</p>
-      <h2 id="projects-title">Moje <span class="text-gradient">projekty</span></h2>
+      <h2 id="projects-title">Przykładowe <span class="text-gradient">projekty</span></h2>
       <p>Przykłady narzędzi, które tworzę, by rozwiązywać konkretne problemy i usprawniać codzienną pracę.</p>
     </div>
-    <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
+    <a class="text-link projects-desktop-link" href="{{ '/projects/' | relative_url }}">Zobacz więcej projektów <span aria-hidden="true">→</span></a>
   </div>
 
   <div class="project-carousel" data-project-carousel>
-    <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="karuzela" aria-label="Moje projekty" tabindex="0">
+    <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="karuzela" aria-label="Przykładowe projekty" tabindex="0">
     <article class="project-card project-card-featured project-card-hunter">
       <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" loading="lazy" width="1122" height="1402"></div>
       <div class="project-card-body">
@@ -184,7 +186,7 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
       <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="Następne projekty">→</button>
     </div>
   </div>
-  <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz wszystkie projekty <span aria-hidden="true">→</span></a>
+  <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz więcej projektów <span aria-hidden="true">→</span></a>
 </section>
 
 <section class="roadmap-banner section-shell" aria-labelledby="roadmap-banner-title">
