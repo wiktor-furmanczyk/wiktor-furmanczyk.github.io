@@ -72,13 +72,11 @@ image_alt: Wizualizacja aplikacji AI Writing Assistant na telefonach
       <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Aktualny etap</p><h3>Testowanie</h3></div></div>
       <p>31 października 2026 wdrożyłem poprawiony interfejs, tryby poprawy tekstu i odsłuch przygotowanych nagrań. Obecnie testuję te funkcje w aplikacji.</p>
     </div>
-    <ol class="milestone-list">
-      <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem i koncepcja</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">02</span><strong>Wersja do własnego użytku</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">03</span><strong>Poprawa interfejsu</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">04</span><strong>Tryby poprawy tekstu</strong><small>Zrobione</small></li>
-      <li class="milestone--done"><span class="milestone-number">05</span><strong>Odsłuch przygotowanych nagrań</strong><small>Zrobione</small></li>
-      <li class="milestone--current"><span class="milestone-number">06</span><strong>Testowanie nowych funkcji</strong><small>W trakcie</small></li>
+    <ol class="milestone-list milestone-list--four">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Koncepcja i działająca wersja</strong><small>Zrobione</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Poprawa interfejsu</strong><small>Zrobione</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>Tryby poprawy i odsłuch nagrań</strong><small>Zrobione</small></li>
+      <li class="milestone--current"><span class="milestone-number">04</span><strong>Testowanie nowych funkcji</strong><small>W trakcie</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/roadmap/#roadmap-writing' | relative_url }}">Zobacz plan na roadmapie <span aria-hidden="true">→</span></a>
   </section>

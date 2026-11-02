@@ -73,13 +73,11 @@ image_alt: 展示 AI Writing Assistant 手机应用的示意图
       <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">当前阶段</p><h3>测试中</h3></div></div>
       <p>2026 年 10 月 31 日，我完成了界面改进、新增文本修改模式及已准备录音的播放功能。目前正在测试这些功能。</p>
     </div>
-    <ol class="milestone-list">
-      <li class="milestone--done"><span class="milestone-number">01</span><strong>问题与构想</strong><small>已完成</small></li>
-      <li class="milestone--done"><span class="milestone-number">02</span><strong>个人使用版本</strong><small>已完成</small></li>
-      <li class="milestone--done"><span class="milestone-number">03</span><strong>改进界面</strong><small>已完成</small></li>
-      <li class="milestone--done"><span class="milestone-number">04</span><strong>文本修改模式</strong><small>已完成</small></li>
-      <li class="milestone--done"><span class="milestone-number">05</span><strong>播放已准备的录音</strong><small>已完成</small></li>
-      <li class="milestone--current"><span class="milestone-number">06</span><strong>测试新功能</strong><small>进行中</small></li>
+    <ol class="milestone-list milestone-list--four">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>构想与可运行版本</strong><small>已完成</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>界面改进</strong><small>已完成</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>文本修改模式与录音播放</strong><small>已完成</small></li>
+      <li class="milestone--current"><span class="milestone-number">04</span><strong>测试新功能</strong><small>进行中</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/zh/roadmap/#roadmap-writing' | relative_url }}">查看项目路线图 <span aria-hidden="true">→</span></a>
   </section>

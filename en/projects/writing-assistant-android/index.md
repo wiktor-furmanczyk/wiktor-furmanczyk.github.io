@@ -73,13 +73,11 @@ image_alt: AI Writing Assistant app visual on phones
       <div class="project-status-heading"><span class="project-status-indicator" aria-hidden="true"></span><div><p class="section-kicker">Current stage</p><h3>Testing</h3></div></div>
       <p>On 31 October 2026, I released an improved interface, text correction modes, and playback for prepared recordings. I am now testing these features in the app.</p>
     </div>
-    <ol class="milestone-list">
-      <li class="milestone--done"><span class="milestone-number">01</span><strong>Problem and concept</strong><small>Completed</small></li>
-      <li class="milestone--done"><span class="milestone-number">02</span><strong>Personal-use version</strong><small>Completed</small></li>
-      <li class="milestone--done"><span class="milestone-number">03</span><strong>Interface improvements</strong><small>Completed</small></li>
-      <li class="milestone--done"><span class="milestone-number">04</span><strong>Text correction modes</strong><small>Completed</small></li>
-      <li class="milestone--done"><span class="milestone-number">05</span><strong>Playback for prepared recordings</strong><small>Completed</small></li>
-      <li class="milestone--current"><span class="milestone-number">06</span><strong>Testing the new features</strong><small>In progress</small></li>
+    <ol class="milestone-list milestone-list--four">
+      <li class="milestone--done"><span class="milestone-number">01</span><strong>Concept and working version</strong><small>Completed</small></li>
+      <li class="milestone--done"><span class="milestone-number">02</span><strong>Interface improvements</strong><small>Completed</small></li>
+      <li class="milestone--done"><span class="milestone-number">03</span><strong>Correction modes and recording playback</strong><small>Completed</small></li>
+      <li class="milestone--current"><span class="milestone-number">04</span><strong>Testing the new features</strong><small>In progress</small></li>
     </ol>
     <a class="text-link milestone-link" href="{{ '/en/roadmap/#roadmap-writing' | relative_url }}">View the project roadmap <span aria-hidden="true">→</span></a>
   </section>
