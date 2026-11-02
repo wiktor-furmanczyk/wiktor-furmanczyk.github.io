@@ -109,9 +109,10 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       <h3>通过 LinkedIn 联系我</h3>
       <p>欢迎交流技术支持、系统实施和流程改进。</p>
       <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">打开个人资料 <span aria-hidden="true">↗</span></a>
+      <a class="text-link experience-source experience-source--mobile" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
     </aside>
   </div>
-  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
+  <a class="text-link experience-source experience-source--desktop" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">

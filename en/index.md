@@ -109,9 +109,10 @@ image_alt: VeltoWeb - solving technical problems and improving processes
       <h3>Connect on LinkedIn</h3>
       <p>Let's talk about technical support, implementations, and improving processes.</p>
       <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Open profile <span aria-hidden="true">↗</span></a>
+      <a class="text-link experience-source experience-source--mobile" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Full experience on LinkedIn <span aria-hidden="true">↗</span></a>
     </aside>
   </div>
-  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Full experience on LinkedIn <span aria-hidden="true">↗</span></a>
+  <a class="text-link experience-source experience-source--desktop" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Full experience on LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">

@@ -110,9 +110,10 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
       <h3>Skontaktuj się na LinkedIn</h3>
       <p>Porozmawiajmy o wsparciu technicznym, wdrożeniach i usprawnianiu procesów.</p>
       <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">Otwórz profil <span aria-hidden="true">↗</span></a>
+      <a class="text-link experience-source experience-source--mobile" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
     </aside>
   </div>
-  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
+  <a class="text-link experience-source experience-source--desktop" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">Pełny przebieg doświadczenia na LinkedIn <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projekty" class="projects-section section-shell" aria-labelledby="projects-title">
