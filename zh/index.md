@@ -38,72 +38,79 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
   <div class="about-intro">
     <div>
       <p class="section-kicker">经验与工作方式</p>
-      <h2 id="about-title">先了解问题，<br><span class="text-gradient">再选择技术</span></h2>
+      <h2 id="about-title">电商与系统集成中的<br><span class="text-gradient">实践经验</span></h2>
     </div>
-    <p>自 2019 年起，我一直解决电商领域的技术问题，涉及主机服务、网店配置、API 集成和商品数据。我将客户支持与实施经验用于设计实用工具，解决用户在实际工作中的问题。</p>
+    <p>自 2019 年起，我一直从事电商系统、集成和数据相关工作。我分析问题、实施解决方案并改进流程，也借助 AI 创建自己的实用工具。</p>
   </div>
   <div class="about-strengths" aria-label="我的经验领域">
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="18" rx="3"/><path d="M11 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3M3 17h26M14 16v3h4v-3"/></svg><h3>工作经验</h3><p>home.pl · IdoSell<br>Base.com · Dealavo</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="m16 3 13 7-13 7L3 10l13-7Zm-13 13 13 7 13-7M3 22l13 7 13-7"/></svg><h3>问题分析</h3><p>分析日志、数据与系统集成，<br>从现象找到原因。</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M27 12a11 11 0 0 0-19-5L5 10m0-7v7h7M5 20a11 11 0 0 0 19 5l3-3m0 7v-7h-7"/></svg><h3>流程改进</h3><p>梳理工作流程，<br>实施实用的自动化。</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 27V8a5 5 0 0 0-9-3 6 6 0 0 0-2 11 6 6 0 0 0 4 10c3 2 7 0 7-4m0 5V8a5 5 0 0 1 9-3 6 6 0 0 1 2 11 6 6 0 0 1-4 10c-3 2-7 0-7-4M9 11c2 0 3 1 3 3m11-3c-2 0-3 1-3 3M8 20c3 0 5 1 5 4m11-4c-3 0-5 1-5 4"/></svg><h3>AI 实践</h3><p>借助 AI 创建<br>自己的实用工具。</p></div>
-  </div>
-  <div class="about-actions">
-    <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">通过 LinkedIn 联系我 <span aria-hidden="true">↗</span></a>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="14" cy="14" r="9"/><path d="m21 21 7 7"/></svg><h3>分析与诊断</h3><p>通过日志、数据和系统集成定位问题。</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5 11h20l-4-4m4 4-4 4M27 21H7l4-4m-4 4 4 4"/></svg><h3>实施与配置</h3><p>网店、系统集成、支付及商品数据源。</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M27 12a11 11 0 0 0-19-5L5 10m0-7v7h7M5 20a11 11 0 0 0 19 5l3-3m0 7v-7h-7"/></svg><h3>流程自动化</h3><p>改进工作流程、减少错误并创建工具。</p></div>
+    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 27V8a5 5 0 0 0-9-3 6 6 0 0 0-2 11 6 6 0 0 0 4 10c3 2 7 0 7-4m0 5V8a5 5 0 0 1 9-3 6 6 0 0 1 2 11 6 6 0 0 1-4 10c-3 2-7 0-7-4M9 11c2 0 3 1 3 3m11-3c-2 0-3 1-3 3M8 20c3 0 5 1 5 4m11-4c-3 0-5 1-5 4"/></svg><h3>AI 实践</h3><p>借助 AI 创建自己的工具和解决方案。</p></div>
   </div>
 </section>
 
 <section id="experience" class="experience-section section-shell" aria-labelledby="experience-title">
   <div class="section-heading"><div>
     <p class="section-kicker">职业经历</p>
-    <h2 id="experience-title">技术支持、问题诊断与<span class="text-gradient">实施</span></h2>
+    <h2 id="experience-title">精选<span class="text-gradient">职业经历</span></h2>
     <p>我与客户和技术团队合作，处理网店、系统集成及数据问题。每段经历都让我能够更深入地分析问题并推动解决。</p>
   </div></div>
-  <ol class="experience-list">
-    <li class="experience-card">
-      <span class="experience-period">2026 年 6 月至今</span>
-      <span class="experience-mark" aria-hidden="true">D</span>
-      <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
-      <p class="experience-summary">配置价格监测平台的客户账户，分析商品数据源及 XML/JSON 数据，并排查数据获取和商品匹配问题。</p>
-    </li>
-    <li class="experience-card">
-      <span class="experience-period">2025 年 7 月至 2026 年 4 月</span>
-      <span class="experience-mark" aria-hidden="true">B</span>
-      <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
-      <p class="experience-summary">通过日志及 API 请求和响应诊断电商集成问题，检查数据同步，并将复杂问题提交给开发团队。</p>
-    </li>
-    <li class="experience-card">
-      <span class="experience-period">2023 年 1 月至 2025 年 6 月</span>
-      <span class="experience-mark" aria-hidden="true">Ido</span>
-      <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
-      <p class="experience-summary">协助客户配置网店、订单、支付、库存及系统集成；排查数据和配置错误，并与专业团队协作。</p>
-    </li>
-    <li class="experience-card">
-      <span class="experience-period">2019 年 10 月至 2022 年 12 月</span>
-      <span class="experience-mark" aria-hidden="true">hp</span>
-      <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
-      <p class="experience-summary">帮助客户解决网站、网店、主机、域名、DNS 和邮件问题，并配置服务、SSL 及基础集成。</p>
-    </li>
-    <li class="experience-card experience-card-secondary">
-      <span class="experience-period">2021 年 10 月至 2022 年 8 月</span>
-      <span class="experience-mark" aria-hidden="true">a</span>
-      <div class="experience-role"><h3>自主线上销售</h3><p class="experience-company">Allegro &amp; Shoper</p></div>
-      <p class="experience-summary">经营线上销售，配置网店、支付、配送及订单流程，也因此了解卖家的实际需求。</p>
-    </li>
-    <li class="experience-card experience-card-secondary">
-      <span class="experience-period">2024 年 8 月至 11 月</span>
-      <span class="experience-mark" aria-hidden="true">M</span>
-      <div class="experience-role"><h3>Magento 实习</h3><p class="experience-company">E-commerce</p></div>
-      <p class="experience-summary">使用 HTML 和 CSS 修改网店模板的视觉细节，测试变更并与技术团队合作。</p>
-    </li>
-    <li class="experience-card experience-card-secondary">
-      <span class="experience-period">2024 年 12 月至今</span>
-      <span class="experience-mark" aria-hidden="true">V</span>
-      <div class="experience-role"><h3>自主工具与自动化项目</h3><p class="experience-company">VeltoWeb</p></div>
-      <p class="experience-summary">设计辅助日常工作的应用、扩展程序与工作流程，并借助 AI 工具创建和改进它们。</p>
-    </li>
-  </ol>
-  <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
+  <div class="experience-layout">
+    <div class="experience-timeline">
+    <ol class="experience-list">
+      <li class="experience-card">
+        <span class="experience-period">2026 年 6 月至今</span>
+        <span class="experience-mark" aria-hidden="true">D</span>
+        <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
+        <p class="experience-summary">配置价格监测平台的客户账户，分析商品数据源及 XML/JSON 数据，并排查数据获取和商品匹配问题。</p>
+      </li>
+      <li class="experience-card">
+        <span class="experience-period">2025 年 7 月至 2026 年 4 月</span>
+        <span class="experience-mark" aria-hidden="true">B</span>
+        <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
+        <p class="experience-summary">通过日志及 API 请求和响应诊断电商集成问题，检查数据同步，并将复杂问题提交给开发团队。</p>
+      </li>
+      <li class="experience-card">
+        <span class="experience-period">2023 年 1 月至 2025 年 6 月</span>
+        <span class="experience-mark" aria-hidden="true">Ido</span>
+        <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
+        <p class="experience-summary">协助客户配置网店、订单、支付、库存及系统集成；排查数据和配置错误，并与专业团队协作。</p>
+      </li>
+      <li class="experience-card">
+        <span class="experience-period">2019 年 10 月至 2022 年 12 月</span>
+        <span class="experience-mark" aria-hidden="true">hp</span>
+        <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
+        <p class="experience-summary">帮助客户解决网站、网店、主机、域名、DNS 和邮件问题，并配置服务、SSL 及基础集成。</p>
+      </li>
+      <li class="experience-card experience-card-secondary">
+        <span class="experience-period">2021 年 10 月至 2022 年 8 月</span>
+        <span class="experience-mark" aria-hidden="true">a</span>
+        <div class="experience-role"><h3>自主线上销售</h3><p class="experience-company">Allegro &amp; Shoper</p></div>
+        <p class="experience-summary">经营线上销售，配置网店、支付、配送及订单流程，也因此了解卖家的实际需求。</p>
+      </li>
+      <li class="experience-card experience-card-secondary">
+        <span class="experience-period">2024 年 8 月至 11 月</span>
+        <span class="experience-mark" aria-hidden="true">M</span>
+        <div class="experience-role"><h3>Magento 实习</h3><p class="experience-company">E-commerce</p></div>
+        <p class="experience-summary">使用 HTML 和 CSS 修改网店模板的视觉细节，测试变更并与技术团队合作。</p>
+      </li>
+      <li class="experience-card experience-card-secondary">
+        <span class="experience-period">2024 年 12 月至今</span>
+        <span class="experience-mark" aria-hidden="true">V</span>
+        <div class="experience-role"><h3>自主工具与自动化项目</h3><p class="experience-company">VeltoWeb</p></div>
+        <p class="experience-summary">设计辅助日常工作的应用、扩展程序与工作流程，并借助 AI 工具创建和改进它们。</p>
+      </li>
+    </ol>
+    <a class="text-link experience-source" href="https://www.linkedin.com/in/wiktorfurmanczyk/details/experience/" target="_blank" rel="noopener noreferrer">在 LinkedIn 查看完整经历 <span aria-hidden="true">↗</span></a>
+    </div>
+    <aside class="experience-contact" aria-label="通过 LinkedIn 联系我">
+      <span class="experience-contact-icon" aria-hidden="true">in</span>
+      <h3>通过 LinkedIn 联系我</h3>
+      <p>查看完整工作经历和岗位介绍。</p>
+      <a class="button button-primary" href="https://www.linkedin.com/in/wiktorfurmanczyk/" target="_blank" rel="noopener noreferrer">打开个人资料 <span aria-hidden="true">↗</span></a>
+    </aside>
+  </div>
 </section>
 
 <section id="projects" class="projects-section section-shell" aria-labelledby="projects-title">
@@ -116,8 +123,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
     <a class="text-link projects-desktop-link" href="{{ '/zh/projects/' | relative_url }}">查看更多项目 <span aria-hidden="true">→</span></a>
   </div>
 
-  <div class="project-carousel" data-project-carousel>
-    <div id="project-carousel-track" class="project-grid project-carousel-track" role="region" aria-roledescription="轮播" aria-label="精选项目" tabindex="0">
+  <div class="project-grid">
     <article class="project-card project-card-featured project-card-hunter">
       <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="展示待评估视频列表的 YouTube Hunter 界面示意图" loading="lazy" width="1122" height="1402"></div>
       <div class="project-card-body">
@@ -142,30 +148,6 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       </div>
     </article>
 
-    <article class="project-card project-card-smoke-free">
-      <div class="project-card-visual"><img class="project-card-image" src="{{ '/assets/projects/dzisiaj-nie-pale/box.png' | relative_url }}" alt="展示激励阅读内容的 Dzisiaj nie palę 移动网站示意图" loading="lazy" width="1086" height="1448"></div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-violet">网站正在建设中</span></div>
-        <h3>Dzisiaj nie palę</h3>
-        <p>一个移动网站，提供在戒烟困难时可以阅读的材料，帮助你坚持不吸烟。</p>
-        <div class="tag-row" aria-label="项目类型"><span>移动网站</span></div>
-        <a class="card-link" href="{{ '/zh/projects/dzisiaj-nie-pale/' | relative_url }}">了解项目构想 <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/images/project-linguapilot.jpg' | relative_url }}" alt="用于制作学习卡片和学习词汇的 LinguaPilot 界面" loading="lazy" width="1200" height="900">
-      </div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">页面正在建设中</span></div>
-        <h3>LinguaPilot</h3>
-        <p>通过符合个人目标的学习卡片，在短时间内学习语言。</p>
-        <div class="tag-row" aria-label="项目类型"><span>移动应用</span></div>
-        <a class="card-link" href="{{ '/zh/projects/lingua-pilot/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
-
     <article class="project-card">
       <div class="project-card-visual">
         <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="展示余额、支出、预算和储蓄目标的 Finance Manager 仪表板" loading="lazy" width="724" height="543">
@@ -178,12 +160,6 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
         <a class="card-link" href="{{ '/zh/projects/finance-manager/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
       </div>
     </article>
-    </div>
-    <div class="project-carousel-controls">
-      <span class="project-carousel-count">第 1–3 个，共 5 个</span>
-      <button class="project-carousel-arrow" type="button" data-carousel-prev aria-controls="project-carousel-track" aria-label="上一组项目" disabled>←</button>
-      <button class="project-carousel-arrow" type="button" data-carousel-next aria-controls="project-carousel-track" aria-label="下一组项目">→</button>
-    </div>
   </div>
   <a class="text-link projects-mobile-link" href="{{ '/zh/projects/' | relative_url }}">查看更多项目 <span aria-hidden="true">→</span></a>
 </section>
