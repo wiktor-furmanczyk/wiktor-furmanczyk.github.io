@@ -120,6 +120,43 @@
       let headerHidden = false;
       let backToTopVisible = false;
       const backToTop = document.querySelector('.back-to-top');
+      const languageScrollKey = 'veltoweb-language-scroll';
+      const pageHeadings = () => [...document.querySelectorAll('main h1, main h2')]
+        .filter((heading) => heading.getClientRects().length && !heading.closest('[hidden]'));
+      document.querySelectorAll('.language-switch').forEach((link) => {
+        link.addEventListener('click', () => {
+          const destination = new URL(link.href, window.location.href);
+          if (destination.pathname === window.location.pathname) return;
+          const headings = pageHeadings();
+          const currentHeading = [...headings].reverse().find((heading) => heading.getBoundingClientRect().top <= 120);
+          const index = currentHeading ? headings.indexOf(currentHeading) : 0;
+          const offset = currentHeading ? window.scrollY - (currentHeading.getBoundingClientRect().top + window.scrollY) : 0;
+          const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+          try {
+            sessionStorage.setItem(languageScrollKey, JSON.stringify({ path: destination.pathname, index, offset, ratio: window.scrollY / maxScroll }));
+          } catch (_) { /* Navigation still works if storage is unavailable. */ }
+          if (document.querySelector('.roadmap-tabs') && (window.location.hash === '#roadmap' || window.location.hash === '#changelog')) {
+            destination.hash = window.location.hash;
+            link.href = destination.href;
+          }
+        });
+      });
+      window.addEventListener('load', () => {
+        let saved;
+        try {
+          saved = JSON.parse(sessionStorage.getItem(languageScrollKey));
+          sessionStorage.removeItem(languageScrollKey);
+        } catch (_) { return; }
+        if (!saved || saved.path !== window.location.pathname) return;
+        const headings = pageHeadings();
+        const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+        const heading = headings[saved.index];
+        const position = heading ? heading.getBoundingClientRect().top + window.scrollY + saved.offset : maxScroll * saved.ratio;
+        const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+        document.documentElement.style.scrollBehavior = 'auto';
+        window.scrollTo(0, Math.max(0, Math.min(maxScroll, position)));
+        requestAnimationFrame(() => { document.documentElement.style.scrollBehavior = previousScrollBehavior; });
+      });
       const roadmapTabs = [...document.querySelectorAll('.roadmap-tab')];
       const roadmapLayout = document.querySelector('.roadmap-layout');
       function updateRoadmapTabs() {

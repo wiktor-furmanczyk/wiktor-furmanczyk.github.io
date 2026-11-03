@@ -82,10 +82,5 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
     </figure>
   </article>
 
-  <aside class="projects-upcoming" aria-label="更多项目即将推出">
-    <span class="projects-upcoming-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.75 21.25 12 12 21.25 2.75 12 12 2.75Zm0 3.54L6.29 12 12 17.71 17.71 12 12 6.29Z"/></svg></span>
-    <div><h2>更多项目即将推出</h2><p>当更多应用和工具准备好公开展示时，我会继续添加。</p></div>
-    <span class="projects-question" aria-hidden="true">?</span>
-  </aside>
   {% include project-access-note.html %}
 </section>

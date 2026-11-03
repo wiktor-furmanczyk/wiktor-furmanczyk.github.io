@@ -81,10 +81,5 @@ image_alt: Logo VeltoWeb na granatowym, neonowym tle
     </figure>
   </article>
 
-  <aside class="projects-upcoming" aria-label="Więcej projektów wkrótce">
-    <span class="projects-upcoming-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.75 21.25 12 12 21.25 2.75 12 12 2.75Zm0 3.54L6.29 12 12 17.71 17.71 12 12 6.29Z"/></svg></span>
-    <div><h2>Więcej projektów wkrótce</h2><p>Kolejne aplikacje i narzędzia dodam, gdy będą gotowe do publicznej prezentacji.</p></div>
-    <span class="projects-question" aria-hidden="true">?</span>
-  </aside>
   {% include project-access-note.html %}
 </section>
