@@ -18,17 +18,17 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-workstation-rgb.png' | relative_url }}" alt="霓虹色工作台：主显示器上的皇冠图案、麦克风和座椅" width="1536" height="1024" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation-rgb.webp' | relative_url }}" alt="霓虹色工作台：主显示器上的皇冠图案、麦克风和座椅" width="1536" height="1024" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
 <section class="expertise-strip section-shell" aria-label="我的工作领域">
-  <div><img src="{{ '/assets/images/expertise-mobile.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">移动应用</div>
-  <div><img src="{{ '/assets/images/expertise-desktop.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">桌面应用</div>
-  <div><img src="{{ '/assets/images/expertise-extension.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Chrome 扩展程序</div>
-  <div><img src="{{ '/assets/images/expertise-web.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">网页工具</div>
-  <div><img src="{{ '/assets/images/expertise-automation.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">自动化</div>
-  <div><img src="{{ '/assets/images/expertise-ai.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI 集成</div>
+  <div><img src="{{ '/assets/images/expertise-mobile.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">移动应用</div>
+  <div><img src="{{ '/assets/images/expertise-desktop.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">桌面应用</div>
+  <div><img src="{{ '/assets/images/expertise-extension.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Chrome 扩展程序</div>
+  <div><img src="{{ '/assets/images/expertise-web.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">网页工具</div>
+  <div><img src="{{ '/assets/images/expertise-automation.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">自动化</div>
+  <div><img src="{{ '/assets/images/expertise-ai.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI 集成</div>
 </section>
 
 <section class="about-section section-shell" aria-labelledby="about-title">
@@ -124,7 +124,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
 
   <div class="project-grid">
     <article class="project-card project-card-featured project-card-hunter">
-      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="展示待评估视频列表的 YouTube Hunter 界面示意图" loading="lazy" width="1122" height="1402"></div>
+      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" decoding="async" src="{{ '/assets/projects/youtube-hunter/card.webp' | relative_url }}" alt="展示待评估视频列表的 YouTube Hunter 界面示意图" loading="lazy" width="1122" height="1402"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">测试中</span></div>
         <h3>YouTube Hunter</h3>
@@ -136,7 +136,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
 
     <article class="project-card project-card-writing">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1145" height="1374">
+        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/writing-assistant-android/box.webp' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">测试中</span></div>
@@ -149,7 +149,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
 
     <article class="project-card">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="展示余额、支出、预算和储蓄目标的 Finance Manager 仪表板" loading="lazy" width="724" height="543">
+        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="展示余额、支出、预算和储蓄目标的 Finance Manager 仪表板" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-muted">页面正在建设中</span></div>
@@ -179,7 +179,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
     </div>
   </div>
   <figure class="roadmap-banner-art">
-    <img src="{{ '/assets/images/roadmap-dashboard.png' | relative_url }}" alt="霓虹风格的项目五阶段插图：构思、规划、开发、测试和发布" width="1664" height="945" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/roadmap-dashboard.webp' | relative_url }}" alt="霓虹风格的项目五阶段插图：构思、规划、开发、测试和发布" width="1664" height="945" loading="lazy" decoding="async">
   </figure>
 </section>
 

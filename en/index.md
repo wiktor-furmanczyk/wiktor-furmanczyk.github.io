@@ -18,17 +18,17 @@ image_alt: VeltoWeb - solving technical problems and improving processes
   </div>
 
   <figure class="hero-art">
-    <img src="{{ '/assets/images/hero-workstation-rgb.png' | relative_url }}" alt="Neon desk setup with a crown on the main monitor, a microphone, and a chair" width="1536" height="1024" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/hero-workstation-rgb.webp' | relative_url }}" alt="Neon desk setup with a crown on the main monitor, a microphone, and a chair" width="1536" height="1024" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
 <section class="expertise-strip section-shell" aria-label="What I do">
-  <div><img src="{{ '/assets/images/expertise-mobile.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Mobile apps</div>
-  <div><img src="{{ '/assets/images/expertise-desktop.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Desktop apps</div>
-  <div><img src="{{ '/assets/images/expertise-extension.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Chrome extensions</div>
-  <div><img src="{{ '/assets/images/expertise-web.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Web tools</div>
-  <div><img src="{{ '/assets/images/expertise-automation.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Automation</div>
-  <div><img src="{{ '/assets/images/expertise-ai.png' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI integrations</div>
+  <div><img src="{{ '/assets/images/expertise-mobile.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Mobile apps</div>
+  <div><img src="{{ '/assets/images/expertise-desktop.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Desktop apps</div>
+  <div><img src="{{ '/assets/images/expertise-extension.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Chrome extensions</div>
+  <div><img src="{{ '/assets/images/expertise-web.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Web tools</div>
+  <div><img src="{{ '/assets/images/expertise-automation.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">Automation</div>
+  <div><img src="{{ '/assets/images/expertise-ai.webp' | relative_url }}" alt="" aria-hidden="true" width="256" height="256">AI integrations</div>
 </section>
 
 <section class="about-section section-shell" aria-labelledby="about-title">
@@ -124,7 +124,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
 
   <div class="project-grid">
     <article class="project-card project-card-featured project-card-hunter">
-      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" src="{{ '/assets/projects/youtube-hunter/card.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" loading="lazy" width="1122" height="1402"></div>
+      <div class="project-card-visual hunter-card-visual"><img class="project-card-image" decoding="async" src="{{ '/assets/projects/youtube-hunter/card.webp' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" loading="lazy" width="1122" height="1402"></div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">In testing</span></div>
         <h3>YouTube Hunter</h3>
@@ -136,7 +136,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
 
     <article class="project-card project-card-writing">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/writing-assistant-android/box.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1145" height="1374">
+        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/writing-assistant-android/box.webp' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1145" height="1374">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-violet">In testing</span></div>
@@ -149,7 +149,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
 
     <article class="project-card">
       <div class="project-card-visual">
-        <img class="project-card-image" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Finance Manager dashboard with balances, spending, budgets, and a savings goal" loading="lazy" width="724" height="543">
+        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Finance Manager dashboard with balances, spending, budgets, and a savings goal" loading="lazy" width="724" height="543">
       </div>
       <div class="project-card-body">
         <div class="card-meta-row"><span class="status-badge status-muted">Page under construction</span></div>
@@ -179,7 +179,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
     </div>
   </div>
   <figure class="roadmap-banner-art">
-    <img src="{{ '/assets/images/roadmap-dashboard.png' | relative_url }}" alt="Neon illustration of five project stages: idea, planning, creation, testing, and launch" width="1664" height="945" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/roadmap-dashboard.webp' | relative_url }}" alt="Neon illustration of five project stages: idea, planning, creation, testing, and launch" width="1664" height="945" loading="lazy" decoding="async">
   </figure>
 </section>
 

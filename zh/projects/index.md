@@ -25,7 +25,7 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
       <p class="showcase-status"><span aria-hidden="true"></span><strong>测试中</strong><small>视频分析方面的问题已修复，目前正在测试完整工作流程。</small></p>
       <a class="showcase-link" href="{{ '/zh/projects/youtube-hunter/' | relative_url }}">了解运作方式 <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.png' | relative_url }}" alt="展示待评估视频列表的 YouTube Hunter 界面示意图" width="1448" height="1086" fetchpriority="high" decoding="async"></figure>
+    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.webp' | relative_url }}" alt="展示待评估视频列表的 YouTube Hunter 界面示意图" width="1448" height="1086" fetchpriority="high" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-writing">
@@ -38,7 +38,7 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
       <a class="showcase-link" href="{{ '/zh/projects/writing-assistant-android/' | relative_url }}">了解项目 <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/projects/writing-assistant-android/list.png' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1448" height="1086" decoding="async">
+      <img src="{{ '/assets/projects/writing-assistant-android/list.webp' | relative_url }}" alt="展示文本编辑和翻译工具的 AI Writing Assistant 手机界面示意图" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 
@@ -51,7 +51,7 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
       <p class="showcase-status"><span aria-hidden="true"></span><strong>网站正在建设中</strong><small>我正在准备内容并完善项目介绍。</small></p>
       <a class="showcase-link" href="{{ '/zh/projects/dzisiaj-nie-pale/' | relative_url }}">了解项目构想 <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.png' | relative_url }}" alt="展示激励阅读内容的 Dzisiaj nie palę 移动网站示意图" loading="lazy" width="1448" height="1086" decoding="async"></figure>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.webp' | relative_url }}" alt="展示激励阅读内容的 Dzisiaj nie palę 移动网站示意图" loading="lazy" width="1448" height="1086" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-lingua">
@@ -78,7 +78,7 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
       <a class="showcase-link" href="{{ '/zh/projects/finance-manager/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="包含财务仪表板、月度预算和储蓄目标的 Finance Manager 概念图" loading="lazy" width="1000" height="1000" decoding="async">
+      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.webp' | relative_url }}" alt="包含财务仪表板、月度预算和储蓄目标的 Finance Manager 概念图" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
   </article>
 

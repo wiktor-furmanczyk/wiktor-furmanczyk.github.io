@@ -23,7 +23,7 @@ image_alt: Wizualizacja aplikacji AI Writing Assistant na telefonach
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}?v=20261024" alt="Wizualizacja AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}?v=20261024" alt="Wizualizacja AI Writing Assistant z korektą, zmianą stylu i tłumaczeniem wiadomości" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -60,7 +60,7 @@ image_alt: Wizualizacja aplikacji AI Writing Assistant na telefonach
       <h2 id="video-title">Od dyktowania do gotowej wiadomości</h2>
       <p>Zobacz nagranie pokazujące dyktowanie, poprawę tekstu i powrót do rozmowy.</p>
     </div>
-    <video class="hunter-demo-video" controls preload="metadata" playsinline poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="Prezentacja działania AI Writing Assistant">
+    <video class="hunter-demo-video" controls preload="metadata" playsinline poster="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}" aria-label="Prezentacja działania AI Writing Assistant">
       <source src="{{ '/assets/projects/writing-assistant-android/demo.mp4' | relative_url }}" type="video/mp4">
       Twoja przeglądarka nie obsługuje odtwarzania wideo. <a href="{{ '/assets/projects/writing-assistant-android/demo.mp4' | relative_url }}">Pobierz nagranie</a>.
     </video>

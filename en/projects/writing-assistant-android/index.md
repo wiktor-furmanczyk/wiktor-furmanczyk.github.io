@@ -24,7 +24,7 @@ image_alt: AI Writing Assistant app visual on phones
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}?v=20261024" alt="AI Writing Assistant concept for editing, rewriting, and translating messages" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}?v=20261024" alt="AI Writing Assistant concept for editing, rewriting, and translating messages" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -61,7 +61,7 @@ image_alt: AI Writing Assistant app visual on phones
       <h2 id="video-title">From dictation to a finished message</h2>
       <p>Watch the walkthrough of dictation, correction, and returning to the conversation.</p>
     </div>
-    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="en" poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="AI Writing Assistant walkthrough">
+    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="en" poster="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}" aria-label="AI Writing Assistant walkthrough">
       <source src="{{ '/assets/projects/writing-assistant-android/demo-en.mp4' | relative_url }}" type="video/mp4">
       Your browser cannot play this video. <a href="{{ '/assets/projects/writing-assistant-android/demo-en.mp4' | relative_url }}">Download the recording</a>.
     </video>

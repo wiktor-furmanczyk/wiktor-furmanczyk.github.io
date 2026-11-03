@@ -22,7 +22,7 @@ image_alt: Logo VeltoWeb na granatowym tle
     </div>
   </div>
   <figure class="hunter-hero-visual">
-    <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1586" height="992" fetchpriority="high" decoding="async">
+    <img class="hunter-hero-image" src="{{ '/assets/projects/youtube-hunter/hero.webp' | relative_url }}" alt="Wizualizacja interfejsu YouTube Hunter z listą filmów do oceny" width="1586" height="992" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -43,7 +43,7 @@ image_alt: Logo VeltoWeb na granatowym tle
 
   <section class="video-section" aria-labelledby="video-title">
     <div class="video-copy"><p class="section-kicker">Prezentacja działania</p><h2 id="video-title">Wyszukiwanie, przegląd, decyzja</h2><p>Zobacz nagranie pokazujące przebieg pracy w aplikacji.</p></div>
-    <video class="hunter-demo-video" controls preload="metadata" playsinline poster="{{ '/assets/projects/youtube-hunter/hero.png' | relative_url }}" aria-label="Prezentacja działania YouTube Hunter">
+    <video class="hunter-demo-video" controls preload="metadata" playsinline poster="{{ '/assets/projects/youtube-hunter/hero.webp' | relative_url }}" aria-label="Prezentacja działania YouTube Hunter">
       <source src="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}" type="video/mp4">
       Twoja przeglądarka nie obsługuje odtwarzania wideo. <a href="{{ '/assets/projects/youtube-hunter/demo.mp4' | relative_url }}">Pobierz nagranie</a>.
     </video>

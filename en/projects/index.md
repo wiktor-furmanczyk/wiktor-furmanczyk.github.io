@@ -25,7 +25,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <p class="showcase-status"><span aria-hidden="true"></span><strong>In testing</strong><small>Video analysis fixes are complete. I am testing the full workflow.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/youtube-hunter/' | relative_url }}">See how it works <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.png' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1448" height="1086" fetchpriority="high" decoding="async"></figure>
+    <figure class="showcase-art hunter-showcase-art"><img src="{{ '/assets/projects/youtube-hunter/list.webp' | relative_url }}" alt="YouTube Hunter interface concept with a list of videos to review" width="1448" height="1086" fetchpriority="high" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-writing">
@@ -38,7 +38,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="showcase-link" href="{{ '/en/projects/writing-assistant-android/' | relative_url }}">Explore the project <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/projects/writing-assistant-android/list.png' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1448" height="1086" decoding="async">
+      <img src="{{ '/assets/projects/writing-assistant-android/list.webp' | relative_url }}" alt="AI Writing Assistant phone concept with tools for editing and translating text" loading="lazy" width="1448" height="1086" decoding="async">
     </figure>
   </article>
 
@@ -51,7 +51,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <p class="showcase-status"><span aria-hidden="true"></span><strong>Site in progress</strong><small>I am preparing the materials and project presentation.</small></p>
       <a class="showcase-link" href="{{ '/en/projects/dzisiaj-nie-pale/' | relative_url }}">Explore the idea <span aria-hidden="true">→</span></a>
     </div>
-    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.png' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="1448" height="1086" decoding="async"></figure>
+    <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.webp' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="1448" height="1086" decoding="async"></figure>
   </article>
 
   <article class="showcase-project showcase-project-lingua">
@@ -78,7 +78,7 @@ image_alt: VeltoWeb logo on a dark blue background
       <a class="showcase-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
     </div>
     <figure class="showcase-art">
-      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.png' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
+      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.webp' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
     </figure>
   </article>
 

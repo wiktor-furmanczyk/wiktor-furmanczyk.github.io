@@ -24,7 +24,7 @@ image_alt: 展示 AI Writing Assistant 手机应用的示意图
   </div>
 
   <figure class="writing-hero-visual">
-    <img src="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}?v=20261024" alt="展示 AI Writing Assistant 修改、改写和翻译消息功能的示意图" width="1672" height="941" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}?v=20261024" alt="展示 AI Writing Assistant 修改、改写和翻译消息功能的示意图" width="1672" height="941" fetchpriority="high" decoding="async">
   </figure>
 </section>
 
@@ -61,7 +61,7 @@ image_alt: 展示 AI Writing Assistant 手机应用的示意图
       <h2 id="video-title">从听写到完整消息</h2>
       <p>观看听写、修改文本并返回对话的操作演示。</p>
     </div>
-    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="zh-CN" poster="{{ '/assets/projects/writing-assistant-android/hero.png' | relative_url }}" aria-label="AI Writing Assistant 操作演示">
+    <video class="hunter-demo-video" controls preload="metadata" playsinline lang="zh-CN" poster="{{ '/assets/projects/writing-assistant-android/hero.webp' | relative_url }}" aria-label="AI Writing Assistant 操作演示">
       <source src="{{ '/assets/projects/writing-assistant-android/demo-zh.mp4' | relative_url }}" type="video/mp4">
       你的浏览器无法播放此视频。<a href="{{ '/assets/projects/writing-assistant-android/demo-zh.mp4' | relative_url }}">下载录屏</a>。
     </video>
