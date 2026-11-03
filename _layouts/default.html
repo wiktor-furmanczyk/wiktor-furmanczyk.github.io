@@ -120,6 +120,7 @@
       let headerHidden = false;
       let backToTopVisible = false;
       let startupScrollPending = true;
+      let startupRequiresUserScroll = Boolean(window.location.hash);
       let startupScrollTimer = 0;
       const backToTop = document.querySelector('.back-to-top');
       function showHeaderAtCurrentScroll() {
@@ -135,6 +136,16 @@
           showHeaderAtCurrentScroll();
           startupScrollPending = false;
         }, 300);
+      }
+      function releaseStartupScroll() {
+        if (!startupScrollPending) return;
+        clearTimeout(startupScrollTimer);
+        showHeaderAtCurrentScroll();
+        startupScrollPending = false;
+      }
+      function scheduleStartupFallback() {
+        clearTimeout(startupScrollTimer);
+        startupScrollTimer = setTimeout(releaseStartupScroll, 3000);
       }
       const languageScrollKey = 'veltoweb-language-scroll';
       const pageHeadings = () => [...document.querySelectorAll('main h1, main h2')]
@@ -166,6 +177,7 @@
           sessionStorage.removeItem(languageScrollKey);
         } catch (_) { saved = null; }
         if (saved && saved.path === window.location.pathname) {
+          startupRequiresUserScroll = true;
           const headings = pageHeadings();
           const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
           const heading = headings[saved.index];
@@ -175,8 +187,9 @@
           window.scrollTo(0, Math.max(0, Math.min(maxScroll, position)));
           requestAnimationFrame(() => { document.documentElement.style.scrollBehavior = previousScrollBehavior; });
         }
-        // Wait until browser anchor jumps and language scroll restoration stop moving.
-        settleStartupScroll();
+        // Anchor jumps can continue after load; keep the header visible until the next user scroll.
+        if (startupRequiresUserScroll) scheduleStartupFallback();
+        else settleStartupScroll();
       });
       window.addEventListener('pageshow', (event) => {
         if (event.persisted) showHeaderAtCurrentScroll();
@@ -205,7 +218,8 @@
       function updateHeaderVisibility() {
         if (startupScrollPending) {
           showHeaderAtCurrentScroll();
-          settleStartupScroll();
+          if (startupRequiresUserScroll) scheduleStartupFallback();
+          else settleStartupScroll();
           return;
         }
         const scrollY = Math.max(0, window.scrollY);
@@ -246,6 +260,11 @@
           updateHeaderVisibility();
         });
       }, { passive: true });
+      window.addEventListener('wheel', releaseStartupScroll, { passive: true });
+      window.addEventListener('touchstart', releaseStartupScroll, { passive: true });
+      window.addEventListener('keydown', (event) => {
+        if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)) releaseStartupScroll();
+      });
       document.querySelector('.site-header').addEventListener('focusin', () => {
         headerHidden = false;
         document.body.classList.remove('header-hidden');
@@ -260,7 +279,13 @@
           behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
         });
       });
-      window.addEventListener('hashchange', updateRoadmapTabs);
+      window.addEventListener('hashchange', () => {
+        startupScrollPending = true;
+        startupRequiresUserScroll = true;
+        showHeaderAtCurrentScroll();
+        scheduleStartupFallback();
+        updateRoadmapTabs();
+      });
       updateRoadmapTabs();
       updateHeaderVisibility();
 
