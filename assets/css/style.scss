@@ -129,11 +129,10 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .projects-section .section-heading h2 { font-size: clamp(2.2rem, 4.2vw, 3.3rem); }
 .projects-section .text-link { min-height: 52px; padding-inline: 20px; background: rgba(4,20,43,.46); border-color: rgba(42,190,255,.58); box-shadow: inset 0 1px rgba(255,255,255,.04), 0 0 24px rgba(0,139,255,.08); font-size: .86rem; transition: color .22s ease, background .22s ease, border-color .22s ease, box-shadow .22s ease, transform .22s ease; }
 .projects-mobile-link { display: none; }
+.project-carousel-nav { display: none; }
 .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.project-card { position: relative; display: flex; min-height: 520px; overflow: hidden; flex-direction: column; background: radial-gradient(circle at 50% 15%, rgba(9,67,126,.2), transparent 42%), linear-gradient(155deg, rgba(7,28,59,.92), rgba(2,10,25,.97)); border: 1px solid rgba(52,150,221,.42); border-radius: 20px; box-shadow: 0 24px 58px rgba(0,0,0,.38), inset 0 1px rgba(255,255,255,.045), inset 0 -1px rgba(39,139,210,.08); isolation: isolate; transition: border-color .2s ease; }
-.project-card::before { position: absolute; z-index: 4; height: 1px; inset: 0 12% auto; content: ""; background: linear-gradient(90deg, transparent, rgba(115,226,255,.48), transparent); opacity: .72; pointer-events: none; }
-.project-card-featured { border-color: rgba(30,207,255,.72); box-shadow: 0 22px 58px rgba(0,0,0,.36), 0 0 30px rgba(0,169,255,.09), inset 0 1px rgba(255,255,255,.05); }
-.project-card-featured::before { background: linear-gradient(90deg, transparent, #67e8ff, transparent); opacity: 1; }
+.project-card { position: relative; display: flex; min-height: 520px; overflow: hidden; flex-direction: column; background: radial-gradient(ellipse at 8% 0%, rgba(20,125,206,.1), transparent 58%); border: 1px solid rgba(74,159,217,.23); border-radius: 20px; box-shadow: inset 0 1px rgba(255,255,255,.025), 0 0 42px rgba(9,95,169,.055); isolation: isolate; transition: border-color .22s ease, box-shadow .22s ease; }
+.project-card::before { position: absolute; z-index: 4; top: 0; left: 0; width: min(45%, 360px); height: 1px; content: ""; background: linear-gradient(90deg, transparent, rgba(39,203,255,.7) 32%, transparent); pointer-events: none; }
 .project-card-visual { position: relative; width: 100%; height: 360px; flex: 0 0 360px; overflow: hidden; background: transparent; }
 .project-card-image { position: absolute; display: block; width: 100%; height: 100%; inset: 0; object-fit: cover; object-position: center; -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 36%, rgba(0,0,0,.92) 48%, rgba(0,0,0,.68) 62%, rgba(0,0,0,.38) 74%, rgba(0,0,0,.14) 85%, transparent 96%); mask-image: linear-gradient(to bottom, #000 0%, #000 36%, rgba(0,0,0,.92) 48%, rgba(0,0,0,.68) 62%, rgba(0,0,0,.38) 74%, rgba(0,0,0,.14) 85%, transparent 96%); }
 .project-card-body { position: relative; z-index: 2; display: flex; flex: 1; flex-direction: column; margin-top: -129px; padding: 0 25px 24px; }
@@ -598,7 +597,8 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .change-type { min-height: 25px; flex: 0 0 auto; align-self: start; padding: 2px 9px; color: #47deff; border-color: rgba(25,175,243,.55); font-size: .68rem; }.change-type.is-muted { color: #b8c8d8; border-color: rgba(75,132,181,.38); }
 
 .project-footer-link { width: min(calc(100% - 40px), var(--content-width)); margin: 0 auto 70px; padding-top: 22px; }
-.project-access-note { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: clamp(24px, 3vw, 36px); background: linear-gradient(135deg, rgba(5,24,50,.8), rgba(2,12,29,.72)); border: 1px solid var(--border-soft); border-radius: var(--radius); }
+.project-access-note { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: clamp(24px, 3vw, 36px); background: radial-gradient(ellipse at 8% 0%, rgba(20,125,206,.1), transparent 58%); border: 1px solid rgba(74,159,217,.23); border-radius: 20px; box-shadow: inset 0 1px rgba(255,255,255,.025), 0 0 42px rgba(9,95,169,.055); }
+.project-access-note::before { position: absolute; top: -1px; left: 0; width: min(45%, 360px); height: 1px; content: ""; background: linear-gradient(90deg, transparent, rgba(39,203,255,.7) 32%, transparent); pointer-events: none; }
 .project-access-note > div { max-width: 760px; }
 .project-access-note .section-kicker { margin-bottom: 9px; }
 .project-access-note h2 { margin: 0 0 10px; font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.25; }
@@ -647,6 +647,14 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
   .expertise-strip div:nth-child(4) { border-bottom: 1px solid var(--grid-line); }
   .hero { display: block; min-height: 0; padding-block: 76px 30px; }.hero-copy { max-width: 620px; }.hero-description { font-size: 1rem; }.hero-art { min-height: 340px; overflow: hidden; overflow: clip; margin-top: 0; }.hero-art img { width: min(600px, 100%); transform: none; }
   .project-grid { grid-template-columns: 1fr; }.project-card { min-height: 0; }.project-card-upcoming { display: flex; grid-column: auto; }.project-card-upcoming .upcoming-visual { height: 220px; flex-basis: 220px; border-right: 0; border-bottom: 0; }.project-card-upcoming .project-card-body { margin-top: -72px; padding-top: 0; }.project-card-body > .tag-row { margin-top: 0; }.project-card-body > .card-link { margin-top: 24px; }.section-heading { align-items: flex-start; flex-direction: column; gap: 18px; }
+  .home-page .project-grid { display: flex; gap: 14px; overflow-x: auto; overscroll-behavior-inline: contain; margin-inline: -14px; padding: 2px 14px 16px; scroll-snap-type: x mandatory; scroll-padding-inline: 14px; scrollbar-width: none; }
+  .home-page .project-grid::-webkit-scrollbar { display: none; }
+  .home-page .project-card { flex: 0 0 calc(100% - 28px); scroll-snap-align: start; }
+  .project-carousel-nav { display: flex; justify-content: center; gap: 2px; margin-top: 2px; }
+  .project-carousel-nav button { position: relative; width: 44px; height: 44px; padding: 0; background: none; border: 0; cursor: pointer; }
+  .project-carousel-nav button::before { position: absolute; top: 50%; left: 50%; width: 9px; height: 9px; content: ""; background: rgba(99,170,209,.55); border-radius: 999px; transform: translate(-50%, -50%); transition: width .2s ease, background .2s ease, box-shadow .2s ease; }
+  .project-carousel-nav button[aria-pressed="true"]::before { width: 24px; background: #39d8ff; box-shadow: 0 0 14px rgba(32,217,255,.42); }
+  .project-carousel-nav button:focus-visible { outline: 2px solid #8bebff; outline-offset: -2px; border-radius: 10px; }
   .projects-desktop-link { display: none; }.projects-section .projects-mobile-link { display: flex; width: 100%; justify-content: center; margin-top: 24px; }
   .blog-section { grid-template-areas: "art" "heading" "details" "cta"; gap: 28px; margin-block: 0; padding-top: 32px; }
   .roadmap-banner { grid-template-columns: 1fr; gap: 14px; padding-block: 6px 16px; }.roadmap-banner-copy { max-width: 680px; }.roadmap-banner-art { display: none; }
@@ -701,11 +709,11 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 }
 
 /* Keep large artwork still so scrolling cannot trigger overlapping zoom effects. */
-.project-card:focus-within { border-color: #70e7ff; }
+.project-card:focus-within { border-color: rgba(74,159,217,.52); box-shadow: inset 0 1px rgba(255,255,255,.035), 0 0 42px rgba(9,95,169,.1); }
 .showcase-project:focus-within { border-color: rgba(74, 159, 217, .52); box-shadow: inset 0 1px rgba(255, 255, 255, .035), 0 0 42px rgba(9, 95, 169, .1); }
 @media (hover: hover) and (pointer: fine) {
   .back-to-top.is-visible:hover { color: #effcff; background: rgba(8,47,82,.62); border-color: rgba(99,220,255,.52); opacity: 1; transform: translateY(-1px) scale(1); }
-  .project-card:hover { border-color: #70e7ff; }
+  .project-card:hover { border-color: rgba(74,159,217,.52); box-shadow: inset 0 1px rgba(255,255,255,.035), 0 0 42px rgba(9,95,169,.1); }
   .showcase-project:hover { border-color: rgba(74, 159, 217, .52); box-shadow: inset 0 1px rgba(255, 255, 255, .035), 0 0 42px rgba(9, 95, 169, .1); }
 }
 @media (hover: none) { .button:hover { transform: none; } }

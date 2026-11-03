@@ -55,7 +55,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <li class="is-complete"><span>Tryby poprawy tekstu</span><em>Zrobione</em></li>
             <li class="is-complete"><span>Odsłuch przygotowanych nagrań</span><em>Zrobione</em></li>
             <li class="is-progress"><span>Testowanie nowych funkcji</span><em>W trakcie</em></li>
-            <li class="is-progress"><span>Więcej języków</span><em>W trakcie</em></li>
+            <li class="is-complete"><span>Więcej języków</span><em>Zrobione</em></li>
             <li class="is-progress"><span>Lepsza kompatybilność z aplikacjami</span><em>W trakcie</em></li>
           </ul>
         </article>

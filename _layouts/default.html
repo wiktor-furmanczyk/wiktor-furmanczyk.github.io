@@ -197,6 +197,35 @@
       window.addEventListener('hashchange', updateRoadmapTabs);
       updateRoadmapTabs();
       updateHeaderVisibility();
+
+      const projectGrid = document.querySelector('.home-page .project-grid');
+      const projectDots = [...document.querySelectorAll('.project-carousel-nav [data-project-slide]')];
+      if (projectGrid && projectDots.length) {
+        const cards = [...projectGrid.querySelectorAll('.project-card')];
+        const cardPositions = () => cards.map(card => card.offsetLeft - cards[0].offsetLeft);
+        const updateProjectDots = () => {
+          const positions = cardPositions();
+          const active = positions.reduce((best, position, index) =>
+            Math.abs(position - projectGrid.scrollLeft) < Math.abs(positions[best] - projectGrid.scrollLeft) ? index : best, 0);
+          projectDots.forEach((dot, index) => dot.setAttribute('aria-pressed', String(index === active)));
+        };
+        projectDots.forEach((dot, index) => dot.addEventListener('click', () => {
+          projectGrid.scrollTo({
+            left: cardPositions()[index],
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+          });
+        }));
+        let projectScrollFrame = 0;
+        projectGrid.addEventListener('scroll', () => {
+          if (projectScrollFrame) return;
+          projectScrollFrame = requestAnimationFrame(() => {
+            projectScrollFrame = 0;
+            updateProjectDots();
+          });
+        }, { passive: true });
+        window.addEventListener('resize', updateProjectDots);
+        updateProjectDots();
+      }
     </script>
   </body>
 </html>

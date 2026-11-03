@@ -13,11 +13,8 @@ image_alt: VeltoWeb - solving technical problems and improving processes
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Welcome to my portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">I solve technical problems and improve processes</p>
-    <p class="hero-description">Since 2019, I have worked across e-commerce, systems, integrations, and data. I draw on technical support, collaboration with IT teams, and my own online sales experience to find the causes of problems and build practical solutions.</p>
-    <div class="button-row">
-      <a class="button button-primary" href="{{ '/en/projects/' | relative_url }}">Explore projects <span aria-hidden="true">→</span></a>
-    </div>
+    <p class="hero-lead">E-commerce, AI, and practical solutions</p>
+    <p class="hero-description">This portfolio brings together my professional experience and the projects I develop as VeltoWeb. I am passionate about e-commerce and artificial intelligence. Explore my work and see what I am building.</p>
   </div>
 
   <figure class="hero-art">
@@ -163,6 +160,11 @@ image_alt: VeltoWeb - solving technical problems and improving processes
       </div>
     </article>
   </div>
+  <nav class="project-carousel-nav" aria-label="Choose a project">
+    <button type="button" data-project-slide="0" aria-label="YouTube Hunter" aria-pressed="true"></button>
+    <button type="button" data-project-slide="1" aria-label="AI Writing Assistant" aria-pressed="false"></button>
+    <button type="button" data-project-slide="2" aria-label="Finance Manager" aria-pressed="false"></button>
+  </nav>
   <a class="text-link projects-mobile-link" href="{{ '/en/projects/' | relative_url }}">Explore more projects <span aria-hidden="true">→</span></a>
 </section>
 

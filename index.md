@@ -12,11 +12,8 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
   <div class="hero-copy">
     <p class="eyebrow"><span></span> Witam w moim portfolio</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">Rozwiązuję problemy techniczne i usprawniam procesy</p>
-    <p class="hero-description">Od 2019 roku pracuję na styku e-commerce, systemów, integracji i danych. Łączę doświadczenie ze wsparcia technicznego, współpracy z zespołami IT oraz własnej sprzedaży online, by znajdować przyczyny problemów i tworzyć praktyczne rozwiązania.</p>
-    <div class="button-row">
-      <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Zobacz projekty <span aria-hidden="true">→</span></a>
-    </div>
+    <p class="hero-lead">E-commerce, AI i praktyczne rozwiązania</p>
+    <p class="hero-description">To moje portfolio, w którym pokazuję doświadczenie zawodowe i projekty rozwijane pod marką VeltoWeb. Pasjonuję się e-commerce i sztuczną inteligencją. Zapraszam do poznania mojej pracy.</p>
   </div>
 
   <figure class="hero-art">
@@ -164,6 +161,11 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
       </div>
     </article>
   </div>
+  <nav class="project-carousel-nav" aria-label="Wybierz projekt">
+    <button type="button" data-project-slide="0" aria-label="YouTube Hunter" aria-pressed="true"></button>
+    <button type="button" data-project-slide="1" aria-label="AI Writing Assistant" aria-pressed="false"></button>
+    <button type="button" data-project-slide="2" aria-label="Finance Manager" aria-pressed="false"></button>
+  </nav>
   <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz więcej projektów <span aria-hidden="true">→</span></a>
 </section>
 

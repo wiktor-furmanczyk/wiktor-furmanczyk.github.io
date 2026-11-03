@@ -13,11 +13,8 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
   <div class="hero-copy">
     <p class="eyebrow"><span></span> 欢迎来到我的作品集</p>
     <h1 id="hero-title">Wiktor <span class="text-gradient">Furmańczyk</span></h1>
-    <p class="hero-lead">我解决技术问题并改进工作流程</p>
-    <p class="hero-description">自 2019 年起，我一直从事电子商务、系统、集成与数据相关的工作。我结合技术支持、与 IT 团队合作以及自主线上销售的经验，查找问题根源并提出实用的解决方案。</p>
-    <div class="button-row">
-      <a class="button button-primary" href="{{ '/zh/projects/' | relative_url }}">查看项目 <span aria-hidden="true">→</span></a>
-    </div>
+    <p class="hero-lead">电子商务、AI 与实用解决方案</p>
+    <p class="hero-description">这是我的作品集，展示我的职业经历以及以 VeltoWeb 名义开发的项目。我热衷于电子商务和人工智能，欢迎了解我的工作与项目。</p>
   </div>
 
   <figure class="hero-art">
@@ -163,6 +160,11 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       </div>
     </article>
   </div>
+  <nav class="project-carousel-nav" aria-label="选择项目">
+    <button type="button" data-project-slide="0" aria-label="YouTube Hunter" aria-pressed="true"></button>
+    <button type="button" data-project-slide="1" aria-label="AI Writing Assistant" aria-pressed="false"></button>
+    <button type="button" data-project-slide="2" aria-label="Finance Manager" aria-pressed="false"></button>
+  </nav>
   <a class="text-link projects-mobile-link" href="{{ '/zh/projects/' | relative_url }}">查看更多项目 <span aria-hidden="true">→</span></a>
 </section>
 
