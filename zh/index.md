@@ -59,25 +59,25 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       <li class="experience-card">
         <span class="experience-period">2026 年 6 月至今</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/dealavo.webp' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
+        <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company"><a href="https://dealavo.com/" target="_blank" rel="noopener noreferrer">Dealavo</a></p></div>
         <p class="experience-summary">配置价格监测平台的客户账户，分析商品数据源及 XML/JSON 数据，并排查数据获取和商品匹配问题。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2025 年 7 月至 2026 年 4 月</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/base.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
+        <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company"><a href="https://base.com/" target="_blank" rel="noopener noreferrer">Base.com</a></p></div>
         <p class="experience-summary">通过日志及 API 请求和响应诊断电商集成问题，检查数据同步，并将复杂问题提交给开发团队。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2023 年 1 月至 2025 年 6 月</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/idosell.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
+        <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company"><a href="https://www.idosell.com/" target="_blank" rel="noopener noreferrer">IAI</a></p></div>
         <p class="experience-summary">协助客户配置网店、订单、支付、库存及系统集成；排查数据和配置错误，并与专业团队协作。</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">2019 年 10 月至 2022 年 12 月</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/home.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
+        <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company"><a href="https://home.pl/" target="_blank" rel="noopener noreferrer">home.pl</a></p></div>
         <p class="experience-summary">帮助客户解决网站、网店、主机、域名、DNS 和邮件问题，并配置服务、SSL 及基础集成。</p>
       </li>
       <li class="experience-card experience-card-secondary">
@@ -95,7 +95,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">2024 年 12 月至今</span>
         <span class="experience-mark experience-mark--velto" aria-hidden="true"><img src="{{ '/assets/images/favicon.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>自主工具与自动化项目</h3><p class="experience-company">VeltoWeb</p></div>
+        <div class="experience-role"><h3>自主工具与自动化项目</h3><p class="experience-company"><a href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer">VeltoWeb</a></p></div>
         <p class="experience-summary">设计辅助日常工作的应用、扩展程序与工作流程，并借助 AI 工具创建和改进它们。</p>
       </li>
     </ol>

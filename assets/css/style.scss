@@ -791,6 +791,8 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .experience-role { min-width: 0; }
 .experience-role h3 { color: #f2f8ff; font-size: .96rem; line-height: 1.3; }
 .experience-role .experience-company { margin: 4px 0 0; color: #84c9ef; font-size: .8rem; line-height: 1.3; }
+.experience-company a { display: inline-block; color: inherit; text-decoration: underline; text-decoration-color: rgba(132, 201, 239, .45); text-underline-offset: 3px; transition: color .2s ease, text-decoration-color .2s ease; }
+.experience-company a:hover, .experience-company a:focus-visible { color: #b6ecff; text-decoration-color: currentColor; }
 .experience-summary { min-width: 0; margin: 0; padding-left: 22px; color: #c2d1e1; border-left: 1px solid rgba(32, 217, 255, .22); font-size: .83rem; line-height: 1.5; }
 .experience-source { max-width: 100%; margin-top: 24px; white-space: normal; }
 .experience-source--mobile { display: none; }

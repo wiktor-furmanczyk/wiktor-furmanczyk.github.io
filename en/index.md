@@ -59,25 +59,25 @@ image_alt: VeltoWeb - solving technical problems and improving processes
       <li class="experience-card">
         <span class="experience-period">Jun 2026 – present</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/dealavo.webp' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company">Dealavo</p></div>
+        <div class="experience-role"><h3>Technical Implementation Specialist</h3><p class="experience-company"><a href="https://dealavo.com/" target="_blank" rel="noopener noreferrer">Dealavo</a></p></div>
         <p class="experience-summary">I configure customer accounts for a price monitoring platform, analyze product feeds and XML/JSON data, and investigate data collection and offer matching issues.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">Jul 2025 – Apr 2026</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/base.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company">Base.com</p></div>
+        <div class="experience-role"><h3>Technical Support Specialist (L2) · API &amp; E-commerce</h3><p class="experience-company"><a href="https://base.com/" target="_blank" rel="noopener noreferrer">Base.com</a></p></div>
         <p class="experience-summary">I diagnosed e-commerce integrations using logs and API requests and responses, checked data synchronization, and escalated complex cases to developers.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">Jan 2023 – Jun 2025</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/idosell.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company">IAI</p></div>
+        <div class="experience-role"><h3>Technical Support Specialist · IdoSell</h3><p class="experience-company"><a href="https://www.idosell.com/" target="_blank" rel="noopener noreferrer">IAI</a></p></div>
         <p class="experience-summary">I supported customers with store, order, payment, inventory, and integration settings. I traced data and configuration errors and worked with specialist teams.</p>
       </li>
       <li class="experience-card">
         <span class="experience-period">Oct 2019 – Dec 2022</span>
         <span class="experience-mark" aria-hidden="true"><img src="{{ '/assets/images/experience-logos/home.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company">home.pl</p></div>
+        <div class="experience-role"><h3>IT Support Specialist · E-commerce &amp; Hosting</h3><p class="experience-company"><a href="https://home.pl/" target="_blank" rel="noopener noreferrer">home.pl</a></p></div>
         <p class="experience-summary">I helped customers resolve issues with websites, stores, hosting, domains, DNS, and email. I configured services, SSL, and basic integrations.</p>
       </li>
       <li class="experience-card experience-card-secondary">
@@ -95,7 +95,7 @@ image_alt: VeltoWeb - solving technical problems and improving processes
       <li class="experience-card experience-card-secondary">
         <span class="experience-period">Dec 2024 – present</span>
         <span class="experience-mark experience-mark--velto" aria-hidden="true"><img src="{{ '/assets/images/favicon.svg' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
-        <div class="experience-role"><h3>Independent tools and automation</h3><p class="experience-company">VeltoWeb</p></div>
+        <div class="experience-role"><h3>Independent tools and automation</h3><p class="experience-company"><a href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer">VeltoWeb</a></p></div>
         <p class="experience-summary">I design apps, extensions, and workflows for everyday work, using AI tools to create and develop them.</p>
       </li>
     </ol>
