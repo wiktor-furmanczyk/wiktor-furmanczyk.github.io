@@ -771,11 +771,11 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .experience-section .section-heading p:last-child { max-width: 760px; }
 .experience-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(210px, 24%); align-items: start; gap: clamp(16px, 2vw, 28px); }
 .experience-timeline { min-width: 0; }
-.experience-contact { position: sticky; top: 92px; display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 13px; padding: 22px; background: radial-gradient(ellipse at 0 35%, rgba(16, 132, 207, .13), rgba(2, 12, 29, .24) 75%) padding-box, linear-gradient(135deg, rgba(107, 231, 255, .86), rgba(23, 126, 219, .24) 37%, rgba(45, 81, 167, .44) 69%, rgba(48, 200, 255, .73)) border-box; border: 1px solid transparent; border-radius: 17px; box-shadow: inset 0 1px rgba(255, 255, 255, .06), 0 0 28px rgba(16, 125, 216, .08); }
+.experience-contact { position: sticky; top: 92px; display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 13px; padding: 22px; background: radial-gradient(ellipse at 10% 0, rgba(27, 134, 202, .1), transparent 68%) padding-box, linear-gradient(145deg, rgba(3, 18, 40, .82), rgba(2, 11, 29, .89)) padding-box, linear-gradient(135deg, rgba(107, 231, 255, .72), rgba(23, 126, 219, .24) 37%, rgba(45, 81, 167, .35) 69%, rgba(48, 200, 255, .6)) border-box; border: 1px solid transparent; border-radius: 17px; box-shadow: inset 0 1px rgba(255, 255, 255, .06), 0 0 28px rgba(16, 125, 216, .05); }
 .experience-contact-icon { display: grid; width: 42px; height: 42px; place-items: center; color: #e7faff; background: rgba(10, 143, 231, .17); border: 1px solid rgba(45, 193, 241, .25); border-radius: 10px; font-size: 1.25rem; font-weight: 900; }
 .experience-contact-label { margin: 3px 0 -5px; color: #54d8ff; font-size: .67rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
 .experience-contact h3 { max-width: 240px; margin: 0; font-size: 1.35rem; line-height: 1.15; }
-.experience-contact p { max-width: 235px; margin: 0; color: #bfd0e2; font-size: .88rem; line-height: 1.6; }
+.experience-contact p { max-width: 235px; margin: 0; color: #d1dfed; font-size: .88rem; line-height: 1.6; }
 .experience-contact .button { width: 100%; min-height: 44px; justify-content: center; text-align: center; }
 .experience-list { position: relative; display: grid; gap: 8px; margin: 0 0 0 8px; padding: 0 0 0 26px; list-style: none; }
 .experience-list::before { position: absolute; top: 23px; bottom: 23px; left: 0; width: 1px; content: ''; background: linear-gradient(180deg, rgba(32, 217, 255, .16), rgba(32, 217, 255, .56) 12%, rgba(32, 217, 255, .56) 88%, rgba(32, 217, 255, .16)); }
@@ -795,6 +795,14 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .experience-source { max-width: 100%; margin-top: 24px; white-space: normal; }
 .experience-source--mobile { display: none; }
 .experience-card-secondary { background: linear-gradient(90deg, rgba(13, 73, 124, .065), transparent 72%); }
+
+.experience-card, .experience-card-secondary, .change-list li {
+  background: linear-gradient(90deg, transparent, rgba(65, 154, 219, .24) 50%, transparent) left bottom / 100% 1px no-repeat,
+              radial-gradient(ellipse at 0 0, rgba(16, 97, 155, .055), transparent 75%);
+  border-bottom: 0;
+  border-image: none;
+  border-top-left-radius: 14px;
+}
 
 @media (max-width: 1180px) {
   .experience-card { grid-template-columns: 130px 40px minmax(0, 1fr); }
@@ -838,7 +846,7 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 .project-progress-intro h2 { max-width: 470px; margin-bottom: 16px; color: #f5f9ff; font-size: clamp(1.65rem, 3vw, 2.35rem); }
 .project-progress-intro h2 .text-gradient { color: inherit; background: none; -webkit-text-fill-color: currentColor; }
 .project-progress-intro > p:last-child { max-width: 600px; margin: 0; color: #bdcde0; font-size: .94rem; line-height: 1.65; }
-.project-progress .project-status-bar { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 26px; padding: 25px 28px; background: linear-gradient(110deg, rgba(4,35,54,.82), rgba(3,13,30,.7)); border-color: rgba(32,190,234,.58); border-radius: 14px; }
+.project-progress .project-status-bar { min-height: 114px; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 26px; padding: 25px 28px; background: linear-gradient(110deg, rgba(4,35,54,.58), rgba(3,13,30,.5)); border-color: rgba(32,190,234,.38); border-radius: 14px; }
 .project-progress .project-status-heading { gap: 14px; }
 .project-progress .project-status-heading h3 { margin: 0; font-size: 1.12rem; line-height: 1.35; }
 .project-progress .project-status-heading .section-kicker { margin-bottom: 6px; color: var(--cyan); font-size: .68rem; }
@@ -896,7 +904,7 @@ html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spa
 @media (max-width: 600px) {
   .experience-list { margin-left: 5px; padding-left: 19px; }
   .experience-card { grid-template-columns: 40px minmax(0, 1fr); gap: 10px 12px; padding: 16px; }
-  .experience-card::before { left: -26px; }
+  .experience-card::before { left: -23px; }
   .experience-period { grid-column: 1 / -1; justify-self: start; padding-inline: 12px; }
   .experience-mark { grid-column: 1; }
   .experience-role { grid-column: 2; }
