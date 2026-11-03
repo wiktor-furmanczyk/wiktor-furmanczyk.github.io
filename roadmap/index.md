@@ -48,7 +48,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
 
         <article id="roadmap-writing" class="roadmap-project">
           <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/writing-assistant-android/' | relative_url }}">AI Writing Assistant</a></h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>AI</span><span>Produktywność</span></div></div>
+            <div><h3><a href="{{ '/projects/writing-assistant-android/' | relative_url }}">AI Writing <span>Assistant</span></a></h3><p>Narzędzie do pisania, poprawiania i tłumaczenia tekstów z wykorzystaniem AI.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>AI</span><span>Produktywność</span></div></div>
           </div>
           <ul class="roadmap-tasks">
             <li class="is-complete"><span>Poprawa interfejsu, 31 października 2026</span><em>Zrobione</em></li>
@@ -74,7 +74,7 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
 
         <article id="roadmap-finance" class="roadmap-project">
           <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance Manager</a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
+            <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance <span>Manager</span></a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
           </div>
           <ul class="roadmap-tasks">
             <li class="is-progress"><span>Analiza potrzeb i wymagań</span><em>W trakcie</em></li>
