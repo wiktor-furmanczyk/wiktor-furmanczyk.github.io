@@ -40,10 +40,10 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
     <p>自 2019 年起，我一直从事电商系统、集成和数据相关工作。我分析问题、实施解决方案并改进流程，也借助 AI 创建自己的实用工具。</p>
   </div>
   <div class="about-strengths" aria-label="我的经验领域">
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="14" cy="14" r="9"/><path d="m21 21 7 7"/></svg><h3>分析与诊断</h3><p>通过日志、数据和系统集成定位问题。</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5 11h20l-4-4m4 4-4 4M27 21H7l4-4m-4 4 4 4"/></svg><h3>实施与配置</h3><p>网店、系统集成、支付及商品数据源。</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M27 12a11 11 0 0 0-19-5L5 10m0-7v7h7M5 20a11 11 0 0 0 19 5l3-3m0 7v-7h-7"/></svg><h3>流程自动化</h3><p>改进工作流程、减少错误并创建工具。</p></div>
-    <div class="about-strength"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 27V8a5 5 0 0 0-9-3 6 6 0 0 0-2 11 6 6 0 0 0 4 10c3 2 7 0 7-4m0 5V8a5 5 0 0 1 9-3 6 6 0 0 1 2 11 6 6 0 0 1-4 10c-3 2-7 0-7-4M9 11c2 0 3 1 3 3m11-3c-2 0-3 1-3 3M8 20c3 0 5 1 5 4m11-4c-3 0-5 1-5 4"/></svg><h3>AI 实践</h3><p>借助 AI 创建自己的工具和解决方案。</p></div>
+    <div class="about-strength"><img src="{{ '/assets/images/work-analysis.svg' | relative_url }}" alt="" aria-hidden="true" width="64" height="64" loading="lazy" decoding="async"><h3>分析与诊断</h3><p>通过日志、数据和系统集成定位问题。</p></div>
+    <div class="about-strength"><img src="{{ '/assets/images/work-implementation.svg' | relative_url }}" alt="" aria-hidden="true" width="64" height="64" loading="lazy" decoding="async"><h3>实施与配置</h3><p>网店、系统集成、支付及商品数据源。</p></div>
+    <div class="about-strength"><img src="{{ '/assets/images/work-automation.svg' | relative_url }}" alt="" aria-hidden="true" width="64" height="64" loading="lazy" decoding="async"><h3>流程自动化</h3><p>改进工作流程、减少错误并创建工具。</p></div>
+    <div class="about-strength"><img src="{{ '/assets/images/work-ai.svg' | relative_url }}" alt="" aria-hidden="true" width="64" height="64" loading="lazy" decoding="async"><h3>AI 实践</h3><p>借助 AI 创建自己的工具和解决方案。</p></div>
   </div>
 </section>
 
