@@ -120,6 +120,7 @@
       let headerHidden = false;
       let backToTopVisible = false;
       let startupScrollPending = true;
+      let startupScrollTimer = 0;
       const backToTop = document.querySelector('.back-to-top');
       function showHeaderAtCurrentScroll() {
         lastScrollY = Math.max(0, window.scrollY);
@@ -127,6 +128,13 @@
         lastDirection = 0;
         headerHidden = false;
         document.body.classList.remove('header-hidden');
+      }
+      function settleStartupScroll() {
+        clearTimeout(startupScrollTimer);
+        startupScrollTimer = setTimeout(() => {
+          showHeaderAtCurrentScroll();
+          startupScrollPending = false;
+        }, 300);
       }
       const languageScrollKey = 'veltoweb-language-scroll';
       const pageHeadings = () => [...document.querySelectorAll('main h1, main h2')]
@@ -150,6 +158,8 @@
         });
       });
       window.addEventListener('load', () => {
+        startupScrollPending = true;
+        showHeaderAtCurrentScroll();
         let saved;
         try {
           saved = JSON.parse(sessionStorage.getItem(languageScrollKey));
@@ -165,11 +175,8 @@
           window.scrollTo(0, Math.max(0, Math.min(maxScroll, position)));
           requestAnimationFrame(() => { document.documentElement.style.scrollBehavior = previousScrollBehavior; });
         }
-        // Ignore browser anchor jumps and language scroll restoration during startup.
-        setTimeout(() => {
-          showHeaderAtCurrentScroll();
-          startupScrollPending = false;
-        }, 350);
+        // Wait until browser anchor jumps and language scroll restoration stop moving.
+        settleStartupScroll();
       });
       window.addEventListener('pageshow', (event) => {
         if (event.persisted) showHeaderAtCurrentScroll();
@@ -198,6 +205,7 @@
       function updateHeaderVisibility() {
         if (startupScrollPending) {
           showHeaderAtCurrentScroll();
+          settleStartupScroll();
           return;
         }
         const scrollY = Math.max(0, window.scrollY);
