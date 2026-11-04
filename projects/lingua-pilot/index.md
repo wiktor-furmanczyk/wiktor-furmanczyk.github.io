@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: LinguaPilot — trwają prace nad stroną
 description: Trwają prace nad stroną projektu LinguaPilot.

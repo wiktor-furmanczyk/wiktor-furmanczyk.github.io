@@ -148,23 +148,10 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
       </div>
     </article>
 
-    <article class="project-card">
-      <div class="project-card-visual">
-        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="Panel Finance Manager z podsumowaniem salda, wydatków, budżetów i celu oszczędnościowego" loading="lazy" width="724" height="543">
-      </div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">Strona w przygotowaniu</span></div>
-        <h3>Finance Manager</h3>
-        <p>Koncepcja narzędzia, które ma uporządkować finanse osobiste i dodatkowe źródła dochodu.</p>
-        <div class="tag-row" aria-label="Typ projektu"><span>Aplikacja Windows</span></div>
-        <a class="card-link" href="{{ '/projects/finance-manager/' | relative_url }}">Sprawdź status strony <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
   </div>
   <nav class="project-carousel-nav" aria-label="Wybierz projekt">
     <button type="button" data-project-slide="0" aria-label="YouTube Hunter" aria-pressed="true"></button>
     <button type="button" data-project-slide="1" aria-label="AI Writing Assistant" aria-pressed="false"></button>
-    <button type="button" data-project-slide="2" aria-label="Finance Manager" aria-pressed="false"></button>
   </nav>
   <a class="text-link projects-mobile-link" href="{{ '/projects/' | relative_url }}">Zobacz więcej projektów <span aria-hidden="true">→</span></a>
 </section>
@@ -186,7 +173,7 @@ image_alt: VeltoWeb - rozwiązuję problemy techniczne i usprawniam procesy
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź blog VeltoWeb na Facebooku (otwiera się w nowej karcie)">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o LinguaPilot, automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Wizualizacja bloga VeltoWeb z wpisami o automatyzacji z AI i rozwoju portfolio" loading="lazy" width="1448" height="1086" decoding="async">
   </a>
   <div class="blog-heading">
     <p class="section-kicker">Blog VeltoWeb</p>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: "VeltoWeb projects, including LinguaPilot, AI Writing Assistant, Finance Manager, YouTube Hunter, and Dzisiaj nie palę."
+description: VeltoWeb projects include YouTube Hunter, AI Writing Assistant, and Dzisiaj nie palę.
 permalink: /en/projects/
 lang: en-US
 body_class: projects-page
@@ -54,33 +54,7 @@ image_alt: VeltoWeb logo on a dark blue background
     <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.webp' | relative_url }}" alt="Dzisiaj nie palę mobile site concept with motivational reading" loading="lazy" width="1448" height="1086" decoding="async"></figure>
   </article>
 
-  <article class="showcase-project showcase-project-lingua">
-    <div class="showcase-copy">
-      <span class="showcase-type">Mobile app</span>
-      <h2>Lingua<span>Pilot</span></h2>
-      <p class="showcase-lead">AI flashcards for everyday situations</p>
-      <p>Create your own flashcard sets and learn languages in short sessions built around real situations.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Page under construction</strong><small>I am refining the project and its presentation.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/lingua-pilot/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="Three LinguaPilot screens for practice, the home screen, and creating flashcards" width="1448" height="1086" loading="lazy" decoding="async">
-    </figure>
-  </article>
 
-  <article class="showcase-project showcase-project-finance">
-    <div class="showcase-copy">
-      <span class="showcase-type">Windows app</span>
-      <h2>Finance <span>Manager</span></h2>
-      <p class="showcase-lead">Financial data that supports better decisions</p>
-      <p>One private place for tracking transactions, budgets, savings, and the real profitability of side projects.</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>Page under construction</strong><small>I am refining the project and its presentation.</small></p>
-      <a class="showcase-link" href="{{ '/en/projects/finance-manager/' | relative_url }}">Check page status <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art">
-      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.webp' | relative_url }}" alt="Finance Manager concept with a financial dashboard, monthly budget, and savings goal" loading="lazy" width="1000" height="1000" decoding="async">
-    </figure>
-  </article>
 
   {% include project-access-note.html %}
 </section>

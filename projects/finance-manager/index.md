@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Finance Manager — trwają prace nad stroną
 description: Trwają prace nad stroną projektu Finance Manager.

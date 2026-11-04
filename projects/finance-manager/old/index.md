@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: Finance Manager
 description: Desktopowa aplikacja do zarządzania finansami osobistymi, budżetami, oszczędnościami i opłacalnością dodatkowych zleceń.

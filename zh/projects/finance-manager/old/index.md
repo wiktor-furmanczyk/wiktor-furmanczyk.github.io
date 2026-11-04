@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: Finance Manager
 description: 一款管理个人财务、预算、储蓄目标和副业项目收益的桌面应用。

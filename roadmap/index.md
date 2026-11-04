@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plany, postępy i zmiany
-description: Roadmapa projektów VeltoWeb oraz historia najważniejszych zmian w LinguaPilot, AI Writing Assistant i rozwijanych narzędziach.
+description: Roadmapa projektów VeltoWeb oraz historia najważniejszych zmian w YouTube Hunter i AI Writing Assistant.
 permalink: /roadmap/
 body_class: roadmap-page
 image: /assets/images/portfolio-og.png
@@ -59,31 +59,6 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
             <li class="is-progress"><span>Lepsza kompatybilność z aplikacjami</span><em>W trakcie</em></li>
           </ul>
         </article>
-
-        <article id="roadmap-lingua" class="roadmap-project">
-          <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/lingua-pilot/' | relative_url }}">Lingua<span>Pilot</span></a></h3><p>Nauka języków w krótkich sesjach dopasowanych do bieżących potrzeb.</p><div class="roadmap-tags"><span>Aplikacja mobilna</span><span>Android</span><span>Kotlin</span></div></div>
-          </div>
-          <ul class="roadmap-tasks">
-            <li class="is-progress"><span>Optymalizacja kosztów generowania fiszek dla wielu użytkowników</span><em>W trakcie</em></li>
-            <li><span>Tworzenie minigierek i łamigłówek językowych</span><em>Planowane</em></li>
-            <li><span>System nagród i ranking</span><em>Planowane</em></li>
-            <li><span>Nowe tryby nauki</span><em>Planowane</em></li>
-          </ul>
-        </article>
-
-        <article id="roadmap-finance" class="roadmap-project">
-          <div class="roadmap-project-intro">
-            <div><h3><a href="{{ '/projects/finance-manager/' | relative_url }}">Finance <span>Manager</span></a></h3><p>Narzędzie do zarządzania finansami i analizy wydatków.</p><div class="roadmap-tags"><span>Aplikacja desktopowa</span><span>Finanse</span><span>Automatyzacje</span></div></div>
-          </div>
-          <ul class="roadmap-tasks">
-            <li class="is-progress"><span>Analiza potrzeb i wymagań</span><em>W trakcie</em></li>
-            <li><span>Dobór technologii</span><em>Planowane</em></li>
-            <li><span>Projekt architektury systemu</span><em>Planowane</em></li>
-            <li><span>Import transakcji</span><em>Planowane</em></li>
-            <li><span>Automatyczna kategoryzacja</span><em>Planowane</em></li>
-          </ul>
-        </article>
       </div>
     </section>
 
@@ -99,7 +74,6 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
           <li class="is-current"><time datetime="2026-10-31">31.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Testy</span></div><h4>Nowy interfejs i funkcje gotowe do testów</h4><p>Wdrożyłem poprawę interfejsu, tryby poprawy tekstu i odsłuch przygotowanych nagrań. Obecnie testuję nowe funkcje.</p></div></li>
           <li><time datetime="2026-10-24">24.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Testy</span></div><h4>Poprawki analizy filmów zakończone</h4><p>Usunąłem błędy analizy filmów. Obecnie testuję pełny przebieg pracy w aplikacji.</p></div></li>
           <li><time datetime="2026-10-16">16.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">YouTube Hunter</span><span class="change-type">Pierwsza wersja</span></div><h4>Pierwsza działająca wersja aplikacji</h4><p>Powstała działająca wersja YouTube Hunter. Zaplanowałem testy, poprawki analizy filmów i sprawdzenie innych sposobów zbierania danych z YouTube.</p></div></li>
-          <li><time datetime="2026-10-04">04.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Security</span></div><h4>Zabezpieczenie kluczy API</h4><p>Dodano dodatkowe zabezpieczenia przechowywania kluczy API oraz poprawiono sposób ich obsługi w aplikacji.</p></div></li>
           <li><time datetime="2026-10-02">02.10.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Improvement</span></div><h4>Poprawa działania w różnych aplikacjach</h4><p>Usprawniono działanie narzędzia w różnych polach tekstowych oraz poprawiono kompatybilność z popularnymi aplikacjami.</p></div></li>
         </ol>
       </div>
@@ -107,8 +81,6 @@ image_alt: VeltoWeb - roadmapa projektów i historia zmian
       <div id="zmiany-wrzesien" class="change-month">
         <h3>Wrzesień 2026</h3>
         <ol class="change-list">
-          <li><time datetime="2026-09-23">23.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">LinguaPilot</span><span class="change-type">Rozwój</span></div><h4>Dodanie większej liczby języków</h4><p>Rozszerzono plany projektu o kolejne, również mniej popularne języki, aby ułatwić naukę przed podróżą, na przykład do Włoch lub Rumunii.</p></div></li>
-          <li><time datetime="2026-09-17">17.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project">Finance Manager</span><span class="change-type">Analiza</span></div><h4>Rozpoczęcie analizy potrzeb</h4><p>Rozpoczęto zbieranie i porządkowanie wymagań. Kolejnym etapem będzie dobór technologii i przygotowanie architektury systemu.</p></div></li>
           <li><time datetime="2026-09-12">12.09.2026</time><div class="change-content"><div class="change-meta"><span class="change-project change-project-violet">AI Writing Assistant</span><span class="change-type">Kompatybilność</span></div><h4>Rozwiązanie problemu z aplikacjami bankowymi</h4><p>Usunięto problem, przez który włączony AI Writing Assistant blokował przejście do aplikacji bankowej. Poprawiono współpracę narzędzia z bankowością mobilną.</p></div></li>
         </ol>
       </div>

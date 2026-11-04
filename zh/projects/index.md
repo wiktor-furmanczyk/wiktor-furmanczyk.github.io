@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 项目
-description: "VeltoWeb 项目：LinguaPilot、AI Writing Assistant、Finance Manager、YouTube Hunter 和 Dzisiaj nie palę。"
+description: VeltoWeb 项目：YouTube Hunter、AI Writing Assistant 和 Dzisiaj nie palę。
 permalink: /zh/projects/
 lang: zh-CN
 body_class: projects-page
@@ -54,33 +54,7 @@ image_alt: 深蓝色背景上的 VeltoWeb 标志
     <figure class="showcase-art showcase-art-smoke-free"><img src="{{ '/assets/projects/dzisiaj-nie-pale/list.webp' | relative_url }}" alt="展示激励阅读内容的 Dzisiaj nie palę 移动网站示意图" loading="lazy" width="1448" height="1086" decoding="async"></figure>
   </article>
 
-  <article class="showcase-project showcase-project-lingua">
-    <div class="showcase-copy">
-      <span class="showcase-type">移动应用</span>
-      <h2>Lingua<span>Pilot</span></h2>
-      <p class="showcase-lead">面向日常情境的 AI 学习卡片</p>
-      <p>创建自己的学习卡片，围绕真实情境进行短时语言练习。</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>页面正在建设中</strong><small>我正在完善项目及其介绍。</small></p>
-      <a class="showcase-link" href="{{ '/zh/projects/lingua-pilot/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art">
-      <img src="{{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/projects-linguapilot-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/projects-linguapilot-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="展示练习、首页和创建学习卡片的三个 LinguaPilot 界面" width="1448" height="1086" loading="lazy" decoding="async">
-    </figure>
-  </article>
 
-  <article class="showcase-project showcase-project-finance">
-    <div class="showcase-copy">
-      <span class="showcase-type">Windows 应用</span>
-      <h2>Finance <span>Manager</span></h2>
-      <p class="showcase-lead">用财务数据支持更好的决策</p>
-      <p>在一个私密空间中追踪交易、预算、储蓄，以及副业项目的实际收益。</p>
-      <p class="showcase-status"><span aria-hidden="true"></span><strong>页面正在建设中</strong><small>我正在完善项目及其介绍。</small></p>
-      <a class="showcase-link" href="{{ '/zh/projects/finance-manager/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
-    </div>
-    <figure class="showcase-art">
-      <img src="{{ '/assets/projects/finance-manager/finance-manager-list.webp' | relative_url }}" alt="包含财务仪表板、月度预算和储蓄目标的 Finance Manager 概念图" loading="lazy" width="1000" height="1000" decoding="async">
-    </figure>
-  </article>
 
   {% include project-access-note.html %}
 </section>

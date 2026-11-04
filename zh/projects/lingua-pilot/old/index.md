@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: LinguaPilot
 description: 一款围绕当前需求开展短时语言学习的移动应用。

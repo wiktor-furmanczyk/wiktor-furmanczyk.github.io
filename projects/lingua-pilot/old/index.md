@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: LinguaPilot
 description: Mobilna aplikacja wspierająca naukę języków w krótkich sesjach dopasowanych do bieżących potrzeb.

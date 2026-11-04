@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: LinguaPilot
 description: A mobile app for short language learning sessions built around what you need right now.

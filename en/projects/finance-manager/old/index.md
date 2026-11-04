@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: Finance Manager
 description: A desktop app for managing personal finances, budgets, savings goals, and the profitability of side projects.

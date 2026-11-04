@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: LinguaPilot — 页面建设中
 description: LinguaPilot 项目页面正在建设中。

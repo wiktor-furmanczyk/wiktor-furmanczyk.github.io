@@ -147,23 +147,10 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
       </div>
     </article>
 
-    <article class="project-card">
-      <div class="project-card-visual">
-        <img class="project-card-image" decoding="async" src="{{ '/assets/projects/finance-manager/finance-manager-home.png' | relative_url }}" alt="展示余额、支出、预算和储蓄目标的 Finance Manager 仪表板" loading="lazy" width="724" height="543">
-      </div>
-      <div class="project-card-body">
-        <div class="card-meta-row"><span class="status-badge status-muted">页面正在建设中</span></div>
-        <h3>Finance Manager</h3>
-        <p>一款用于整理个人财务和副业收入的本地桌面工具构想。</p>
-        <div class="tag-row" aria-label="项目类型"><span>Windows 应用</span></div>
-        <a class="card-link" href="{{ '/zh/projects/finance-manager/' | relative_url }}">查看页面状态 <span aria-hidden="true">→</span></a>
-      </div>
-    </article>
   </div>
   <nav class="project-carousel-nav" aria-label="选择项目">
     <button type="button" data-project-slide="0" aria-label="YouTube Hunter" aria-pressed="true"></button>
     <button type="button" data-project-slide="1" aria-label="AI Writing Assistant" aria-pressed="false"></button>
-    <button type="button" data-project-slide="2" aria-label="Finance Manager" aria-pressed="false"></button>
   </nav>
   <a class="text-link projects-mobile-link" href="{{ '/zh/projects/' | relative_url }}">查看更多项目 <span aria-hidden="true">→</span></a>
 </section>
@@ -185,7 +172,7 @@ image_alt: VeltoWeb：解决技术问题并改进工作流程
 
 <section id="blog" class="blog-section section-shell" aria-labelledby="blog-title">
   <a class="blog-art" href="https://www.facebook.com/VeltoWeb" target="_blank" rel="noopener noreferrer" aria-label="在新标签页打开 Facebook 上的 VeltoWeb 博客">
-    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="介绍 LinguaPilot、AI 自动化和项目开发的 VeltoWeb 博客" loading="lazy" width="1448" height="1086" decoding="async">
+    <img src="{{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }}" srcset="{{ '/assets/images/veltoweb-blog-showcase-724.webp' | relative_url }} 724w, {{ '/assets/images/veltoweb-blog-showcase.webp' | relative_url }} 1448w" sizes="(max-width: 760px) 100vw, 720px" alt="介绍 AI 自动化和项目开发的 VeltoWeb 博客" loading="lazy" width="1448" height="1086" decoding="async">
   </a>
   <div class="blog-heading">
     <p class="section-kicker">VeltoWeb 博客</p>
